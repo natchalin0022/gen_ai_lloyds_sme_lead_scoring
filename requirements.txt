@@ -1,6 +1,9 @@
 # Lloyds SME lead-scoring — Python dependencies
 # Derived from the imports actually used across notebooks 1-5 and paths.py.
 # Versions are those this build was developed and tested against.
+#
+# Python >= 3.12. xgboost >= 3.4.1 and shap >= 0.52 have dropped 3.11; everything else
+# still supports it. Developed on 3.13. See README for the .venv setup.
 
 # --- core ---
 pandas>=3.0.1
@@ -25,3 +28,17 @@ matplotlib>=3.10.8
 google-cloud-bigquery>=3.42.1
 db-dtypes>=1.7.0              # BigQuery -> pandas type mapping
 pyarrow>=23.0.1               # Parquet caches under API/GDELT/BigQuery Cache files/
+
+# --- gen-AI layer (LLM agent / RAG / eval on top of the scored leads) ---
+anthropic>=1.5.0              # Claude API (SDK 1.x)
+langchain>=1.4.0
+langchain-anthropic>=1.7.2    # lets LangChain / LangGraph / ragas call Claude
+langgraph>=1.2.11
+langsmith>=0.12.4             # tracing; swap for langfuse if preferred
+mcp>=2.2.0                    # 2.x: FastMCP was renamed MCPServer (mcp.server.mcpserver)
+ragas>=0.4.3                  # RAG evaluation
+# PINNED BELOW 0.4: ragas 0.4.3 still imports langchain_community.chat_models.vertexai,
+# which langchain-community 0.4 removed. 0.3.x works with langchain-core 1.x. Lift
+# the cap once ragas stops importing it.
+langchain-community<0.4
+ipykernel>=7.3.0              # so .venv shows up as a Jupyter kernel

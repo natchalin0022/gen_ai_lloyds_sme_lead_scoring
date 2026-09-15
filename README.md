@@ -83,8 +83,22 @@ label). Notebook 5 builds the *scoring* table (today, no label) using identical 
 
 ## Setup
 
+Python 3.12+ (developed on 3.13). Use a dedicated environment so the notebooks and the
+`pip` you install with are the same interpreter — a mismatch is the usual cause of
+`InconsistentVersionWarning` / `AttributeError` when `5_score.ipynb` loads `model.joblib`.
+
 ```bash
-pip install -r requirements.txt
+conda create -y -p ./.venv -c conda-forge python=3.13 pip llvm-openmp
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m ipykernel install --user --name lloyds-genai --display-name "Python 3.13 (Lloyds .venv)"
+```
+
+`llvm-openmp` is the OpenMP runtime xgboost needs on macOS (`brew install libomp` is the
+system-wide alternative). Then pick the **Python 3.13 (Lloyds .venv)** kernel in Jupyter /
+VS Code. To confirm the notebook is on the right interpreter, run this in a cell:
+
+```python
+import sys, sklearn; print(sys.executable, sklearn.__version__)   # expect .venv/... and 1.8.0
 ```
 
 Create `.env` in this folder with your Companies House API keys (one per line, no quotes).
