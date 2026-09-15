@@ -25,3 +25,7 @@ Data Preprocess/OCR/pages_llyods.zip
 
 *.db
 *.pdf
+
+# local virtual env
+.venv/
+__pycache__/
