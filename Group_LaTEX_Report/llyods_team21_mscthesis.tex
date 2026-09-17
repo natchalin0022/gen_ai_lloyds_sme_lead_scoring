@@ -1,0 +1,1677 @@
+% The document class supplies options to control rendering of some standard
+% features in the result.  The goal is for uniform style, so some attention 
+% to detail is *vital* with all fields.  Each field (i.e., text inside the
+% curly braces below, so the MEng text inside {MEng} for instance) should 
+% take into account the following:
+%
+% - author name       should be formatted as "FirstName LastName"
+%   (not "Initial LastName" for example),
+% - supervisor name   should be formatted as "Title FirstName LastName"
+%   (where Title is "Dr." or "Prof." for example),
+% - degree programme  should be "BSc", "MEng", "MSci", "MSc" or "PhD",
+% - dissertation title should be correctly capitalised (plus you can have
+%   an optional sub-title if appropriate, or leave this field blank),
+% - dissertation type should be formatted as one of the following:
+%   * for the MEng degree programme either "enterprise" or "research" to
+%     reflect the stream,
+%   * for the MSc  degree programme "$X/Y/Z$" for a project deemed to be
+%     X%, Y% and Z% of type I, II and III.
+% - year              should be formatted as a 4-digit year of submission
+%   (so 2014 rather than the academic year, say 2013/14 say).
+\PassOptionsToClass{openany}{book}
+\documentclass[ % the name of the author
+                    author={Natchalin Iwsakul \\[0.4em] Inkaphol Siriwongwattana \\[0.4em] Tanaphan Kummaraphat \\[0.6em] Patorn Srisupap},,
+                % the name of the supervisor
+                supervisor={Fernando Moreno-Pino},
+                % the degree programme
+                    degree={MSc},
+                % the dissertation    title (which cannot be blank)
+                     title={Propensity Modelling for SME Commercial Lending Using Open Public Data
+},
+                % the dissertation subtitle (which can    be blank)
+                  subtitle={Companies House and GDELT as predictors of first-time borrowing},
+                % the dissertation     type
+                      type={},
+                % the year of submission
+                      year={2026}]{dissertation}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{minted}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\raggedbottom
+\begin{document}
+
+% =============================================================================
+
+% This section simply introduces the structural guidelines.  It can clearly
+% be deleted (or commented out) if you use the file as a template for your
+% own dissertation: everything following it is in the correct order to use 
+% as is.
+
+% =============================================================================
+
+% This macro creates the standard UoB title page by using information drawn
+% from the document class (meaning it is vital you select the correct degree 
+% title and so on).
+
+
+\maketitle
+
+% After the title page (which is a special case in that it is not numbered)
+% comes the front matter or preliminaries; this macro signals the start of
+% such content, meaning the pages are numbered with Roman numerals.
+
+\frontmatter
+
+% This macro creates the standard UoB declaration; on the printed hard-copy,
+% this must be physically signed by the author in the space indicated.
+
+\makedecl
+
+% LaTeX automatically generates a table of contents, plus associated lists 
+% of figures, tables and algorithms.  The former is a compulsory part of the
+% dissertation, but if you do not require the latter they can be suppressed
+% by simply commenting out the associated macro.
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+% The following sections are part of the front matter, but are not generated
+% automatically by LaTeX; the use of \chapter* means they are not numbered.
+
+% -----------------------------------------------------------------------------
+
+\chapter*{Abstract}
+
+{\bf A compulsory section, of at most $1$ page} 
+\vspace{1cm} 
+
+\noindent
+This section should summarise the project context, aims and objectives,
+and main contributions (e.g., deliverables) and achievements.  The goal is to ensure that the 
+reader is clear about what the topic is, what you have done within this 
+topic, {\em and}\/ {\bf what your view of the outcome is.}
+
+Essentially 
+this section is a (very) short version of what is typically covered in more depth in the first 
+chapter.  If appropriate, you should include here  
+a clear statement of your research hypothesis.  This will obviously differ significantly
+for each project, but an example might be as follows:
+
+\begin{quote}
+My research hypothesis is that a suitable genetic algorithm will yield
+more accurate results (when applied to the standard ACME data set) than 
+the algorithm proposed by Jones and Smith, while also executing in less
+time.
+\end{quote}
+
+\noindent
+The latter aspects should (ideally) be presented as a concise, factual 
+list of the main points of achievement.  Again the points will differ for each project, but 
+an might be as follows:
+
+\begin{quote}
+\noindent
+\begin{itemize}
+\item I spent $120$ hours collecting material on and learning about the 
+      Java garbage-collection sub-system. 
+\item I wrote a total of $5000$ lines of {\em Python} source code, and associated orchestration scripts. 
+\item I designed a new algorithm for computing the non-linear mapping 
+      from A-space to B-space using a genetic algorithm.
+\item I implemented a version of the algorithm proposed by Jones and 
+      Smith (2010), corrected a mistake in it, and 
+      compared the results with several alternatives.
+\end{itemize}
+\end{quote}
+
+% -----------------------------------------------------------------------------
+
+
+
+\chapter*{Supporting Technologies}
+
+{\bf A compulsory section, of at most $1$ page}
+\vspace{1cm} 
+
+\noindent
+This section should present a detailed summary, in bullet point form, 
+of any third-party resources (e.g., hardware and software components) 
+used during the project.  Use of such resources is always perfectly 
+acceptable: the goal of this section is simply to be clear about how
+and where they are used, so that a clear assessment of your work can
+result.  The content can focus on the project topic itself (rather,
+for example, than including ``I used \mbox{\LaTeX} to prepare my 
+dissertation''); an example is as follows:
+
+\begin{quote}
+\noindent
+\begin{itemize}
+\item Data Sources:
+\begin{itemize}
+    \item Companies House: API, Bulk Resources
+    \item GDELT
+\end{itemize}
+\item Python Libraries:
+\begin{itemize}
+    \item unsloth - for loading in huggingface models
+    \item peft - for usage of LoRA adaptors
+    \item apted - access to the TEDS scoring metric
+    \item lxml, regex - financial feature extraction
+    \item Other Libraries: json, path, pandas, matplotlib.subplot, pymupdf, dotenv, and os
+    
+\end{itemize}
+\item Google Colab was used for their GPU resources, specifically their L4 NVIDIA Tensor GPU
+\item I used \LaTeX\ to format my thesis, via the online service {\em Overleaf}. 
+\end{itemize}
+\end{quote}
+
+% =============================================================================
+
+% After the front matter comes a number of chapters; under each chapter,
+% sections, subsections and even subsubsections are permissible.  The
+% pages in this part are numbered with Arabic numerals.  Note that:
+%
+% - A reference point can be marked using \label{XXX}, and then later
+%   referred to via \ref{XXX}; for example Chapter\ref{chap:context}.
+% - The chapters are presented here in one file; this can become hard
+%   to manage.  An alternative is to save the content in seprate files
+%   the use \input{XXX} to import it, which acts like the #include
+%   directive in C.
+
+\mainmatter
+
+% -----------------------------------------------------------------------------
+
+\chapter{Introduction}
+\label{chap:introduction}
+
+\vspace{1cm} 
+
+% putting a \noindent before the first para in each chapter looks nicer.
+\noindent
+
+Commercial bank is a form of financial institution that takes deposits from the public and provides loans to their clients in order for the clients to invest and expand their businesses. The clients of the commercial bank can be small, medium businesses as well as corporate and institutional clients. For Lloyds Banking Group, a commercial bank acts as a division of a larger entity that provides lending, transactional banking, working capital management, debt financing and risk management.
+
+Lending is the most important service for commercial banks for two reasons. First, lending is how the bank makes the most of its profit. The bank pays interest to the depositors, later lends out the deposited money and charges a higher rate to the borrowers. The difference between the two rates are, therefore, the main source of income.
+
+Second, a loan also creates a stronger relationship between lender and borrower. When a business borrows, other financial services of the business are usually move to the lender bank: its current account, payments and deposits. Furthermore, a lending agreement often runs for numbers of years. Therefore, winning in a lending deal means a wider and longer relationship, and losing one means the bank will lose it for a long time.
+
+This leads the importance of timing. Businesses do not need funds all the time. They need them at special moments, such as buying equipment or premises, taking on a large order, or covering a gap in cash flow. At those moments,  they will seek funds from many lenders. And the bank that is able to recognise the needs and reach the client first will have a higher chance of securing a long term bond with the client.
+
+Therefore, in order for Lloyds Banking Group to capture their clients base in time and able to look for new opportunities in the current market. The project was proposed with the problem statement as follows:
+
+\begin{displayquote}
+Can external public data (company filings and media coverage) be used to predict business needs and inform commercial banking strategies?
+\end{displayquote}
+
+From the problem statement, our team chose to pursue a lending opportunities lead list for Relationship Managers or RM through a propensity model. The aim is to focus on RM's limited contact capacity on only the firms that most likely need it and to reach those firms at the time of need rather than waiting for them to contact.
+
+There are mainly two sources of data sources that are used in this project: CompaniesHouse and the Global Database of Events, Language and Tone (GDELT)
+
+CompaniesHouse is the official government agency that creates, tracks, and closes limited companies in the United Kingdom and makes their business information public. It stores legal documents and information of a company, such as company name, registration number, address, filling history, Person in Significant Control (PSC), Standard Industrial Classification of economic activities (SIC), etc. 
+ 
+One important feature pulled from CompaniesHouse is \textbf{registered charges} that are public, dated, and name the lender. A charge is a security that is registered against a company when it borrows. CompaniesHouse has those information with the lender name registered, which means that it can tell whether a company has ever been or still is a Lloyds' customer or not. We aim to use it as a label to train our propensity model along with other features to learn about the characteristics of being a Lloyds' customer.
+
+GDELT or the Global Database of Events, Language and Tone is a gigantic open-access project that monitors global prints, broadcast, and web news in over 100 languages. It has an event database which tracks over 300 categories of physical actions and events, such as protest, diplomatic talks, or conflicts, and also map them with dates and geographic locations dated back to the year 1979. Another important tool from GDELT is the Global Knowledge Graph (GKG) which contains theme, locations and tone of a news article. GKG is the main tool from GDELT that is used throughout our project.
+
+The model pipeline combines the use of structured data (CompaniesHouse) and unstructured data (GDELT) together to capture both the structure of a company that looks like Lloyds' customers -- from CompaniesHouse -- and the right time to contact -- from GDELT.
+
+The model uses public Companies House data for a pull covering 690,837 UK companies, of which 467,363 met the SME filter, reduced to 102,748 firms in the modelling table. Firms are labelled by whether a registered charge names under one of the Lloyds-group lenders, which marks them as a Lloyds' lending customer. A simple propensity model, then, scores every firm, existing customers are dropped, and the highest-scoring non-customers become the lead list. The result is then re-ordered by a weekly GDELT media index so that relationship managers work the most media-active sectors first.
+
+The GDELT media index -- used for weekly re-ordering -- is the GKG part where it concludes out weekly articles volumes of 21 specified sectors in United Kingdom only. The weekly volume of each sector is then compared to its own 52 previous weeks. Then, the few most media-active sectors are used to softly re-rank the list. This shows the most talked about sectors of the week compared to their own yearly benchmark and hence the right timing for RMs to make contact.
+
+There are several challenges that are needed to be stated for this project. Firstly, the Companies House data do not clearly identify every type of loan that a company borrows. It only shows record of a registered charge which is the security a company grants when it borrows. The record of charge appears only after the borrowing has happened, and the loan is secured against the assets. Therefore, unsecured loans, overdrafts or credit cards have no record in the data. Some companies that are shown as non-customers may therefore already borrow from Lloyds. As there is no internal data given from Lloyds, this is the limitation of the model that learns from an incomplete data of who the bank's customers really are.
+
+Secondly, even with a hundred thousand rows of data, conversions are rare. Out of the 356,047 companies for the modelling table, there are only 1,315 companies that are labelled positives -- took their first Lloyds charge inside the given prediction window -- at a rate of 0.37\%. This causes the use of ordinary accuracy to be meaningless as a model that answers 'will not convert' for every firm would be correct at the rate of 99.6\%. Therefore, the model needs to be judged on the top of a ranked list -- Precision@k --, not how often it is correct. The results are reported as lift over the base rate so it is comparable throughout the designs.
+
+Thirdly, regarding the unstructured data, many news API have been tested on the project to find related use of the news to the structured data. However, with the nature of small to medium size companies, their prevalences are very close to zero even with their local news providers. Therefore, GDELT data on sector coverage is our best bet on the use of unstructured data for this project. Furthermore, with the use of a whole sector plus region, every company that shares the same sector and region receives the same score. This limits the ability of news data to distinguish the difference in each company.
+
+Published work regarding business-to-business prediction typically ranks firms by their similarity to a company's existing customers, using firm data acquired from commercial vendors \cite{dhaen_model}. This project instead asks whether the same can also be done purely from free public data, and whether open news data would have added any significance to the model.
+
+Objectives are listed as follow:
+\begin{itemize}
+  \item Shaped the problem statement into a testable model: ranking
+        UK SMEs that are not currently Lloyds borrowers by their likelihood of
+        taking a first Lloyds secured charge, using only
+        public data.
+  \item Built an automated Companies House pipeline covering 839,295 UK
+        companies, of which 567,835 met the SME filter, together with a
+        charge-level history of 399,700 registered charges.
+  \item Curated a Lloyds Banking Group lender list and used it to derive the
+        label, producing a point-in-time modelling table of 356,047 prospects
+        with 1,315 forward conversions (0.37\%).
+  \item Constructed a weekly media index from the GDELT Global Knowledge Graph
+        across 21 SIC sections and twelve UK regions, normalised against each
+        cell's own 52-week baseline.
+  \item Tested whether the media index improves firm-level ranking over
+        Companies House data alone, and found that it does not.
+  \item Delivered a ranked lead list of high-scoring non-customers, with score
+        bands mapped to observed conversion rates so that relationship
+        managers can interpret a score directly.
+\end{itemize}
+
+The structure of this paper is organised as follows. Chapter 2 talks about technical background, including the UK SME lending market and the role of the relationship manager, related work on business-to-business prediction model, and the two main data sources: the Companies House and the GDELT GKG with their limitation. Chapter 3 then explains the design and implementation of the pipeline, such as the data collection pipeline, the selection of the label from the registered charges, the point-in-time feature table, the sector-by-region media index, and the main model. Chapter 4 continues onto the evaluation of the results: the performance of the reported ranking compared to the base rate, and the comparison between Companies House data alone and Companies House combined with media data which turns out to be insignificant. Additionally, the chapter also reviews the main design choices against other options, such as the use of panel data and flat data. Chapter 5 then summarises the project, states other possibilities of the result given different data and sets out further work.
+
+% -----------------------------------------------------------------------------
+
+\chapter{Background}
+\label{ch:background}
+
+% ============================================================
+\section{Contextual Background}
+\label{sec:context}
+
+\subsection{SMEs and the UK lending market}
+\label{sec:smes}
+
+Small and medium-sized enterprises or SMEs can be classified by several definitions. Therefore, it is necessary to state the main definition that is followed by this project.
+
+In UK company law, the Companies Act 2006 categorises companies by their sizes and, with that, each category specifies the extent of financial detail a company must publish. A company is considered belonging to a category if at least two out of three conditions are met: annual turnover, total value of the assets, and the average number of employees.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Category & Turnover & Balance sheet total & Employees \\
+\midrule
+\multicolumn{4}{l}{\itshape Accounting periods beginning before 6 April 2025} \\
+Micro-entity & \pounds632,000 & \pounds316,000 & 10 \\
+Small        & \pounds10.2m   & \pounds5.1m    & 50 \\
+Medium       & \pounds36m     & \pounds18m     & 250 \\
+\addlinespace
+\multicolumn{4}{l}{\itshape Accounting periods beginning on or after 6 April 2025} \\
+Micro-entity & \pounds1m      & \pounds500,000 & 10 \\
+Small        & \pounds15m     & \pounds7.5m    & 50 \\
+Medium       & \pounds54m     & \pounds27m     & 250 \\
+\bottomrule
+\end{tabular}
+\caption[Companies Act 2006 size thresholds]{Company size thresholds under the
+Companies Act 2006 (ss.~384A, 382, 465). A company falls into a category if it
+meets at least two of the three conditions.}
+\label{tab:thresholds}
+\end{table}
+
+This information needs to be elaborated on for a reason. Companies House does not publish turnover and employee numbers for smaller companies as they are not required to file them by law. Therefore, what is left to identify the size is the \textbf{filing category}. This project uses the filing category as the main definition of an SME. Micro-entity, small and medium account types are considered as SMEs, full or group accounts represent large and therefore are excluded from the project.
+
+Another limitation from Companies House data is that Companies House only contains incorporated companies. Sole traders and other partnerships are not registered in Companies House. Therefore, the population studied in this project is only \textbf{incorporated SMEs} and not UK small businesses in general. This might limit how far the results can be generalised as the large majority of UK businesses are not included.
+
+Lending is considered the most valuable action these companies could do to fund themselves. Unlike large firms, SMEs cannot raise money through issuing bonds or selling shares to the public. Having the credit from bank is therefore their most reliable source of external finance to fund growth, equipment and day-to-day operations.
+
+After understanding what SMEs are and how important bank credit is to them, \ref{sec:borrowing} continues to explain how they actually borrow the fund.
+
+
+\subsection{How SMEs borrow: products and security}
+\label{sec:borrowing}
+
+As stated in the introduction, small companies have numerous ways of borrowing funds. The problem worth noting is that only some of them leave a public record that we are able to utilise in the project.
+
+There are a few common forms of SMEs borrowing: \textit{Overdraft, term loan, commercial mortgage, and invoice finance.} Other than these forms of borrowing, there are credit cards and other government lending schemes that are also considered as main sources of SMEs borrowing.
+
+Security is what lenders are taking from borrowers to reduce their risks. It is a legal claim of an asset that lenders can only call if the borrower fails to repay. A lending that is backed in this manner is called \textit{secured}. Thus, the lending with no such claim is \textit{unsecured}. With this, lenders are able to reduce their potential loss, and therefore, it is cheaper, more common and available in larger amounts. From above forms of lending, commercial mortgages, larger term laons, asset finance and invoice finance are normally backed by the company's assets, but small overdraft, credit cards and the government schemes may not.
+
+Security backed lending must be registered publicly when a company is granted one. And this is where this project revolves around as is described in \ref{sec:charges}. To sum up, it is simply that the model from this project applies only to secured borrowing and not to unsecured borrowing.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lll}
+\toprule
+Product & Typical security & Public record? \\
+\midrule
+\multicolumn{3}{l}{\itshape Normally secured} \\
+Commercial mortgage            & the property         & yes \\
+Term loan                      & company assets       & yes, when secured \\
+Invoice finance                & book debts           & usually \\
+Asset finance / hire purchase  & the asset financed   & often \\
+\addlinespace
+\multicolumn{3}{l}{\itshape Normally unsecured} \\
+Overdraft (small facility)     & usually none              & rarely \\
+Business credit card           & none                      & no \\
+Pandemic guaranteed loans      & government guarantee      & no \\
+Director's personal guarantee  & the director's own assets & no \\
+\bottomrule
+\end{tabular}
+\caption[SME borrowing products and the public record]{Common SME borrowing
+products grouped by the security taken and publicly recorded. Each practice varies depend on agreements, but these are what commonly occurs.}
+\label{tab:products}
+\end{table}
+
+One limitation worth noting is that a company may borrow majorly through overdraft, credit card or government schemes and leave no public traces at all. Thus, the public record cannot be concluded as a complete picture of total SMEs borrowing. However, secured lending is of the larger, longer and more deliberate kind and it is exactly what large banks, like Lloyds, want to be involved in. Therefore, the limitation is acceptable given the aims of this project.
+
+\subsection{Registered charges and the public record}
+\label{sec:charges}
+
+When a company grants security over the assets, the legal claim is then called \textbf{charge.} It matches a specific debt to a specific property or asset. Then, if the company fails to repay the debt, the lender named under the charge can legally take what it is owed from the assets.
+
+Those \textbf{charges} need to be publicly stated. The charge record contains the date of creation, the date it reached Companies House, the lender name, the type of security, and the status of the charge whether it is outstanding or satisfied. However, there is some missing and abnormal information. The borrowing amount and purpose are not published and the lender names are recorded in free text, which means the same lender might be recorded differently. Therefore, it is important to note that the size and purpose of the secured borrowing are not included in the analysis.
+
+\subsection{Relationship banking and the role of the RM}
+\label{sec:rm}
+
+Banks have a different kind of relationship with small firms than larger ones. They build a continuous relationship with the small customer and lend funds depending on the strength of their relationship over time, known as \textit{relationship banking} \cite{boot2000relationship}.
+
+Furthermore, there are two kinds of information that RM holds against the company: Hard and Soft information. \textbf{Hard} information is solid, verifiable information that can be passed on such as filed accounts, credit scores, payment records, etc. However, \textbf{soft} information is rather personal feeling and judgement from repeated personal contact with the client, such as the strength of the owner, the current state of the business and economy, and the expansion plans which are hard to write down and pass on to a colleague \cite{berger2006complete}. Small companies barely publish hard information, so lending for them appears to rely heavily on the soft kind.
+
+The relationship manager or RM is the person who carries those information and use those as judgement to look after portfolio of business customers. They are responsible for maintaining relationship and also find new business opportunities by winning new ones.
+
+By winning new opportunities, RM is able to hold only so many meetings in a week. The capacity problem is therefore a limitation that cannot be easily expanded. The better solution is not trying to expand the capacity only but also making better approaches \cite{dhaen_model}.
+
+\subsection{Related work: prospect prediction and lead scoring}
+\label{sec:relatedwork}
+
+There are several papers that rank potential customers by their likelihood of buying. Most of the works address consumers (B2C) rather than business (B2B) and also utilise quite rich internal data, such as past purchases, responses from each marketing campaign, or company's account behaviors.
+
+Moro et al. (2014) analyses a bank's own records of customers that it has contacted to predict the success of bank's telemarketing outbound calls. However, it is not quite transferable to this project as they are selling term deposits which is a saving product and not lending.
+
+D'Haen and Van den Poel (2013) is the closest published paper with the project as it addresses B2B perspective directly. They start with a look-alike model where the prospects are ranked by their similarity to the company's current customers through nearest-neighbour matching of the firm characteristics. Sales staff then verify some of the prospects and give out feedback. The feedback plus the prospect are used to train a supervised model. The method actually raised the conversion rate from prospect to significant lead from ten to roughly sixteen percent.
+
+The differences between this project and D'Haen and Van den Poel (2013) are that: 1) their work utilises the firm data that was bought from a commercial vendor -- a database of sixteen million US companies, 2) the model is static as it ranks from the similarity of each company without the use of timing mechanism of when a firm might buy, and 3) the use of unstructured data is non-existence.
+
+This project therefore differs on all of the three points. It uses free public data. It includes a future-looking prospect label where it asks which firms convert after a fixed period of time, not just the static resemblance of the companies. Lastly, the project uses unstructured news data directly and reports the result of it. 
+
+% ============================================================
+\section{Technical Background}
+\label{sec:technical}
+
+\subsection{Data sources}
+\label{sec:datasources}
+
+\subsubsection{Companies House --- the REST API}
+\label{sec:ch-api}
+
+Companies House publishes the information through a free REST API which can be accessed through a registered API key. Each API request gives out JSON files describing a specified resource for one company.
+
+The resources from the API use the company number as the primary key for the whole register. A \textit{profile} request returns company's name, incorporation date, status, registered address, SIC codes and accounts' categories it last filed. Some other necessary requests return the filing history, the offices, the persons with significant control, and the charges. These requests are considered as the main resources for this project.
+
+In the usual case, the API is designed to pull companies data individually, not in bulk. Therefore, there is a rate-limit which is a single key permits only 600 requests per five-minute window. This constraint is one of the main challenges that is faced during the data preparation stage. Retrieving one profile request for several hundred thousands of companies would take several days with the use of a single key and each of the other requests require its own request on top of that.
+
+However, these processes are inescapable as it returns the current data and it is the only way to retrieve per-company detail especially the charges data which the bulk product does not contain. Therefore, the main approach for data retrieving is the combination of two sources: REST API and bulk data.
+
+\subsubsection{Companies House --- bulk data}
+\label{sec:ch-bulk}
+
+In addition to their API, Companies House also provides a bulk download option updated monthly for a number of their data categories: company profiles, accounts and filings, and people with significant control. This currently serves as the most practical method to quickly retrieve all 5.7 million companies listed on the register. Although the site's API service does have an advanced search function which returns a similar list of companies, there exists an undocumented limit to the number of returnable results and its offset. Testing on 19/08/2026 found that only the first 10,000 entries of any query are retrievable, with any further indexes returning an internal server error code; this limit being calculated as the sum of the number of wanted results and the offset. The information fields returned by this process also lack the accounts and filing information present in the bulk version \cite{CH_advanced_company_search_example}, as shown in Table \ref{tab:advanced_search_example_schema} and \ref{tab:bulk_profile_example_schema} meaning an additional call must be made for each company within the corpus.
+
+While serving as the main source of information for company profiles, it cannot be used as a resource for filings as it only includes accounts with the extension XBRL and iXBRL, mandated machine-readable formats for digital accounts. As Companies House reports \cite{CH_bulk_filings}, this only covers 75\% of the accounts filed each year, meaning that a significant portion of accounts are lost if the bulk filings are used as the sole source of data. As such, the API service is used to retrieve these documents, which are mostly scanned documents or PDFs.
+
+\begin{table}[h]
+    \centering
+
+    \begin{tabular}{lrl}
+        \toprule
+        Field family & Cols	& Example \\
+        \midrule
+        Identity & 2 & company\_number \\
+        Registered address & 4 & reg\_address.post\_town \\
+        Classification status & 4 & company\_status \\
+        Lifecycle dates & 2 & date\_of\_creation \\
+        SIC codes & 1 & sic\_codes:list \\
+        \bottomrule
+    \end{tabular}
+    \caption{Example result schema for advanced company profile searching}
+    \label{tab:advanced_search_example_schema}
+\end{table}
+
+\begin{table}[h]
+    \centering
+
+    \begin{tabular}{lrl}
+        \toprule
+        Field family & Cols	& Example \\
+        \midrule
+        Identity & 2 & CompanyNumber \\
+        Registered address & 8 & RegAddress.PostTown \\
+        Classification status & 4 & CompanyStatus \\
+        Lifecycle dates & 2 & IncorporationDate \\
+        Accounts metadata & 5 & Accounts.AccountCategory \\
+        Charges & 4 & Mortgages.NumMortOutstanding \\
+        SIC codes & 4 & SICCode.SicText\_1 \\
+        Previous names & 20 & PreviousName\_1.CompanyName \\
+        \bottomrule
+    \end{tabular}
+    \caption{Example result schema for bulk company profile downloads}
+    \label{tab:bulk_profile_example_schema}
+\end{table}
+\subsubsection{GDELT and the Global Knowledge Graph}
+\label{sec:gdelt}
+
+The Global Database of Events, Language and Tone (GDELT) monitors news worldwide and publishes the news in a machine-readable way which is updated every fifteen minutes and free to access \cite{leetaru2013gdelt}. GDELT offers two products: The Event Database codes, and the Global Knowledge Graph (GKG). The GKG takes a look at individual news articles rather than the Event Database codes that translates the news data into actions between actors.
+
+A single GKG record focuses on one article. For each of the record, GKG dissects the topics of the article into themes they are in, the places the news mentioned, the people and organisations named, and a set of tone scores that are derived from dictionaries of positively and negatively charged words created by GDELT. The project focuses on the three fields: \textit{themes}, \textit{locations}, and the \textit{average tone} of the article.
+
+An important feature of GKG is that it does not contain company identifiers, like companies numbers. Firms or organisations appear only by names which are extracted from article texts. Therefore, there is no exact key to join a news record to a company number. The absent of the exact match combines with the zero appearance of small firms from news coverage disregards the use of media attention on individual SMEs. The project goes on with aggregated media signals such as an industry or a region.
+
+GDELT can be pulled from both API for individual news pull or Google BigQuery for bulk data pull. The BigQuery is chosen for this project as this project requires 52 weeks worth of each sector news tone and volume and also need to store those data for later analysed. Therefore, bulk pull on Google BigQuery with a storage option is a better choice. The BigQuery bills by the volume of data scanned, not the number of queries issued. However, the GKG text fields are quite large, and the cost of a query depends solely by how many days of history it retrieves. The free- tier of BigQuery has the maximum storage of 1 TB per month and this project stays roughly at the monthly free-tier threshold level.
+
+The relevance of news and economic signal is supported through literatures. For example, media tone has been proved to carry information about market movement \cite{tetlock2007giving}, and the volume of news have been used to show economic conditions \cite{baker2016measuring}.
+
+\subsubsection{NewsAPI: NewsAPI.org and The Guardian}
+\label{sec:newsapi}
+
+As part of media data, two NewsAPIs, NewsAPI.org \cite{newsapi.org} and The Guardian \cite{theguardian}, were explored. Both provide headlines, content, and details such as date and source, which can be searched using keywords and filters. News data then goes through the sentiment analysis process, using vaderSentiment \cite{hutto_cjhuttovadersentiment_2026}. Table \ref{newsapisentiment} shows an example of sentiment analysis of news data.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{cccccc}
+    \toprule
+    company\_name & article\_count & avg\_compound\_score & pct\_positive & pct\_negative & pct\_neutral\\
+    \midrule
+    Lidl & 92 & 0.344 & 0.511 & 0.065 & 0.424 \\
+    ... & ... & ... & ...& ... & ... \\
+    \bottomrule
+    \end{tabular}
+    \caption{NewsAPI Sentiment Analysis}
+    \label{newsapisentiment}
+\end{table}
+
+% CITE:  https://vadersentiment.readthedocs.io/en/latest/index.html --> Cite GitHub instead
+VADER (Valence Aware Dictionary and sEntiment Reasoner) \cite{hutto_cjhuttovadersentiment_2026} is an open-source sentiment analysis tool, and it was chosen due to its focus on social media sentiment. As shown in Table \ref{newsapisentiment}, avg\_compound\_score is the main score deciding the tone, with -1 being most negative and +1 being most positive. The thresholds suggested in the documentation \cite{} are that $score \geq 0.5$ is positive sentiment, $score \leq -0.5$ is negative sentiment, and $-0.5 < score < 0.5$ is neutral sentiment. The columns pct\_positive, pct\_negative, and pct\_neutral are the ratios that sum to 1. They are included in the table for completeness in case they could be used during the model training stage.
+
+The APIs themselves are straightforward, but they need to be handled properly, from the searching to storing the data. Their limitations are concerning. Starting from NewsAPI.org, the content provided is always truncated to 200 characters, losing a lot of details from the news. NewsAPI.org \cite{newsapi.org} on the free tier also only allows news up to one month old and a maximum of 100 requests per day. This results in difficulty gathering news data. To avoid this limitation, an alternative API, The Guardian \cite{theguardian}, provides more freedom and details, focusing on the UK since the source is The Guardian itself. However, the most concerning limitation is gathering news for specific companies, and since our focus is SMEs, it is almost impossible to do so. This inevitable limitation makes it impractical to include news data in the training data. The searching strategy could be changed to use broader keywords, like sector levels, rather than individual companies, though it is not very beneficial given our use of GDELT. Therefore, the team agreed to abandon NewsAPI.org and The Guardian, and instead focus on GDELT.
+
+
+\subsection{Techniques}
+\label{sec:techniques}
+
+\subsubsection{Extracting structured data from filing documents}
+\label{sec:extraction}
+As discussed in the last section filings made on Companies House fall under two categories: iXBRL and PDF based. The former is machine-readable format, with figures usually tagged with standardized taxonomies, making it possible to extract out features by using a tree structure to traverse the format's tables. While these are the majority of filings filed on the platform, the rest are paper-based submissions which are then later scanned and stored as PDFs. This section will be mainly focusing on the methods available to process and extract information from the later, along with why certain methods were chosen.
+
+Optical Character Recoginition (OCR) is a general term for the extraction of text from images and, classically, was a sequential task: pre-processing, test segmentation, feature extraction, text recognition, and post processing. Traditional OCR pipelines such as ones using OpenCV and Tesseract\cite{tesseract_ocr}\cite{open_cv_and_tesseract} follow this architecture, with individual specialized steps that find table lines, adjust for skew, and group word clusters. The main issue is that accuracy in text recognition and table extraction are completely separate. Classical approaches to table structure mapping relies on line detection, struggling immensely when tables are frameless\cite{open_cv_and_tesseract}. A generation of models that used a convolutional network(CNN) in combination with long short term memory and later transformer-based architecture to detect table structures. Tableformer is one model that uses this pipeline and is able to achieve 96.75\% TEDS on PubTabNet and 96.8\% on FinTabNet which are benchmark sets for table comprehension and extraction~\cite{}.
+
+Vision-language models(VLMs) replaces the CNN backbone with a ViT(vision transformer)\cite{dosovitskiy2021vit}, which divides each image into a grid of patches, flattening them, and processes them into an embedding vector and positional encoding; this is then passed together with the desired prompt. Success with table extraction has been documented with models like Qwen3-VL with the introduction of DeepStack that passes features from early layers of the ViT to downstream language model blocks, giving them access to finer detail which leads well to our financial tables use case. On FinCriticalED, Qwen3-VL-8B-Instruct scores 96.88\% field-level fidelity, close to Claude Sonnet 4.6 at 97.23\%~\cite{he2025fincriticaled}. Furthermore, weights and decoding settings can all be fixed to provide reproducibility, due to its open source status.
+
+\subsubsection{Adapting pre-trained models to a specific task}
+While there are multiple approaches to adapting a model for a narrower use-case, the two most commonly used methods are prompting and transfer learning. Prompting involves specifying the desired behaviour and output format in the prompt itself without any modifications to the model's weights. In contrast, fine-tuning updates the weights through further training on annotated samples from a corpus similar to the target task. The prior method is usually sufficient if the desired output can be well-explained and defined, but this process starts to become unreliable as the number of specified instruction and edge cases increase. As such, any significant changes to the model's behaviour should be handled by the fine-tuning process instead.
+
+However, fine-tuning a full model such as Qwen3-VL on a single device would be impractical, even on their lower parameter count versions, as current gradients and optimizer states must be held for every parameter. Parameter-efficient methods such as Low Rank Adaptors (LoRA)\cite{hu2021} help mitigate this issue by freezing the pre-trained weights while inserting low-rank matrix into each of the transformer layers; this means that only a small portion of parameters are updated, meaning memory savings for gradient and optimizer operations when compared to the fine-tuning a model. A report by Biderman et al. \cite{biderman2024lora} does mention that reducing LoRA ranks too drastically can negatively affect model performance, especially for tasks that require learning material not within the original model's scope. However, a more recent finding by Schulman \cite{schulman2025lora} argues that performance can be made to track closely with fully fine tuned models if LoRA adaptors are attached to all layers. 
+
+Additionally, Quantized Low-Rank Adaptation (QLoRA) \cite{dettmers2023} can further reduce the remaining memory costs by quantizing the frozen weight parameters to 4-bits. While there is evidence that compression to lower quantizations have a negative efect on inference accuracy, this only holds when the model itself is finetuned using a more fine-grained format such as fp16 and later reduced to a smaller format and not when the model already uses the smaller format in the fine tuning process\cite{dettmers2022}.
+
+
+\subsection{Machine Learning Models}
+\label{sec:mlmodels}
+Three machine learning models used in this project consist of logistic regression, XGBoost, and Neural Network (Multi-layer Perceptron or MLP). This set of models was selected due to their differences in explainability and expected performance. 
+
+\subsubsection{Logistic Regression}
+\label{sec:logisticregression}
+
+Hosmer and Lemeshow \cite{hosmer_applied_2013} explain that the aim of regression models is to identify a simple and interpretable model that best fits the data, describing the relationship between a dependent outcome and independent variables, often referred to as covariates. The concept of logistic regression is similar to linear regression, but it differs from linear regression because the outcome is binary rather than continuous, shaping the model's structure and assumptions.
+
+As explained by James et al. in \cite{james_introduction_2013}, while linear regression can handle continuous numerical tasks, it would fail in classification tasks where a linear line is no longer capable. This is where logistic regression performs well. It uses the logistic function \(p(X) = \frac{e^{\beta_0 + \beta_1 X}}{1 + e^{\beta_0 +\beta_1 X}}\), which gives outputs between 0 and 1, regardless of the input values. This function produces an S-shaped curve, lying close to 0 and 1, but never going beyond that. James et al. \cite{james_introduction_2013} describe odds as \( \frac{p(X)}{1-p(X)}\), varying from 0 to infinity. Higher values indicate a higher probability. By applying a logarithm to the equation: \( log(\frac{p(X)}{1-p(X)}) = \beta_0 + \beta_1X\), the left side of the equation is the logit or log-odds, where \(\beta_0\) and \(\beta_1\) are unknown coefficients. They are generally estimated using maximum likelihood. Once both coefficients \(\beta_0\) and \(\beta_1\) are calculated, the model can then predict the probability.
+
+% Sperandei \cite{sperandei_understanding_2014} describes that ....
+
+
+
+
+
+%==========================================================
+\subsection{XGBoost and SHAP}
+%==========================================================
+
+A decision tree is a machine learning algorithm that
+produces predictions by applying a sequence of binary
+questions to the input data. For example, it might ask
+whether a company age is more than ten years old, then
+whether it has any outstanding charges, splitting the
+data at each step until it reaches a final prediction.
+Decision trees are straightforward to understand 
+any prediction can be traced back through the sequence
+of binary questions that produced it. However, when
+grown too deep, a single tree tends to memorise the
+specific patterns in its training data rather than
+learning rules that apply more broadly to new data.
+This is known as overfitting, which means the model
+will perform poorly when presented with new unseen
+companies. Gradient Boosting addresses this limitation
+by increasing the robustness of the model. Trees are
+trained one at a time, and each new tree is built
+specifically to correct the mistakes made by the trees
+that came before it. This sequential error-correction
+process is the defining feature of gradient boosting,
+which forms the foundation of XGBoost.
+
+XGBoost was introduced by Chen \cite{chen_xgboost_2016} as an
+improved and more efficient version of the gradient
+boosting method. It is a scalable machine learning
+algorithm that builds a series of decision trees, with
+each new tree helping to correct the errors made by
+the previous ones.
+
+Tree ensemble models such as XGBoost are recommended
+for classification problems involving structured tabular
+data Guliyev \citep{guliyev_customer_2021} and have practically
+demonstrated strong performance on banking-specific
+classification tasks.
+
+To improve the interpretability of the model, this
+project uses SHAP (SHapley Additive exPlanations).
+SHAP is a method used to explain how individual
+features influence a model's prediction. The core
+foundation of the method is Shapley values from
+cooperative game theory, which provide an efficient
+way of distributing the contribution of different
+factors to an overall outcome. In machine learning,
+each feature is treated as a contributing factor to
+the model's prediction. A SHAP value shows how much
+each feature increases or decreases the predicted
+outcome.
+
+The importance of model interpretability in financial
+services has been recognised at the corporate level.
+Bracke \cite{bracke_machine_2019}, in a Bank of England working paper,
+demonstrate how machine learning explainability methods
+can be applied to financial risk analysis. The authors
+argue that the interpretability of the model is
+essential for effective supervision and accountability
+in banking, especially when models are used to support
+important financial decisions.
+
+\subsubsection{Multi-layer Perceptron}
+\label{sec:neuralnetwork}
+
+Murtagh \cite{murtagh_multilayer_1991} explains that the perceptron algorithm was implemented in the 1950s. It started as a single perceptron before being developed into a multilayer perceptron. The perceptron learns by first creating arbitrary weight values. The equation \(o = \Sigma_j w_j x_j\) is then calculated and compared to a threshold, \(\theta\). The variables \(o\), \(w\), and \(x\) are the output, weights, and input values, respectively. The weights and the thresholds are adjusted according to the difference between the ground truth and the prediction. \(\Delta\theta = -(t_p - o_p) = -\delta_p\) is the threshold change, and \(\Delta w_i = (t_p - o_p)x_{pi} = \delta_px_{pi}\) is the weight change.
+
+Murtagh \cite{murtagh_multilayer_1991} gives a counter-example: an exclusive-or (XOR) problem, showing that a simple perceptron fails in this situation, and that a multilayer perceptron is required for this nonlinear classification problem. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.35\linewidth]{Group_LaTEX_Report/figures/multilayer network.png}
+    \caption{Multilayer Network}
+    \label{fig:mlp}
+\end{figure}
+
+Figure \ref{fig:mlp} illustrates a multilayer network.
+Every node in one layer is connected to every node in the next layer, from the input layer to the hidden layer, and from the hidden layer to the output layer. Each node follows the same concept as the simple perceptron explained above, but a nonlinear transfer function is applied, allowing the model to handle more complex data.
+
+The multilayer network can effectively handle classification tasks. As discussed in \cite{murtagh_multilayer_1991}, a 3-layer architecture is often considered sufficient. However, every problem requires a different configuration, and there is no one-size-fits-all configuration. Murtagh \cite{murtagh_multilayer_1991} also suggests that a higher number of nodes provides more sensitivity, though it might cause overfitting. 
+
+
+\subsubsection{Evaluation Metrics}
+\label{sec:evaluation_ranked_list}
+The deliverable of this project is not an assessment of each individual company, but rather an \textbf{ordering} of them. As relationship managers have limited capacity, numbers of prospects that can be contacted is therefore limited. The main purpose is to rank the companies by the likelihood to convert from top down. However, given some limitations of number of positives we encountered, this shapes the choice of evaluation metrics used: Precision@K and Lift, not accuracy or ROC-AUC -- to some extent.
+
+Why \textbf{Precision@K}? Precision@K is the measure of the proportion of positives among the first \textit{K} entries. This is used as the main metric for the project as it answers the operational question directly: from \textit{K} companies that RM is going to call, how many were worth calling. The choice of \textit{K} is therefore more toward a business parameter than a statistical parameter. It should reflect the real RM capacity.
+
+Why \textbf{Lift} over base rate? Precision@K alone does not have any benchmark to it. 3\% of Precision@100 may look extremely low. However, when compared with base rate of 0.33\%, that is a 9.0x lift which means it is 9 times better than picking randomly.
+
+Why not \textbf{accuracy}? Due to the severe class imbalance that the data has provided, accuracy is therefore dominated by the negatives and interpreting accuracy is close to nonsense. A classifier that predicts 'no conversion' for every company gets an accuracy of 99.6\% given that there is only 0.4\% positives in the dataset. Reporting such accuracy with such result can mislead the ability of the model. The same manner also applies to other metrics in the confusion matrix, precision and recall at a fixed cut-off. 
+
+Why \textbf{ROC-AUC} can be misleading? ROC-AUC shows the probability of a randomly chosen positive is ranked above a randomly chosen negative which sounds valid. However, the false positive rate on the horizontal axis is calculated from the population of negative class which falls under the severe imbalance of positives and negatives. For this reason, ROC-AUC is used as a secondary summary with average precision.
+
+To summarise, the evaluation of the ranked list represents the population through the use of Precision@K as the main figure, and lift over the base rate to evaluate. Accuracy is not reported.
+
+
+% -----------------------------------------------------------------------------
+
+\chapter{Execution}
+\label{chap:execution}
+
+\noindent
+\section{Pipeline overview}                    
+\label{sec:pipeline}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/pipeline.pdf}
+\caption[Data pipeline overview]{End-to-end pipeline. Companies House supplies
+both the point-in-time features and, through the matched lender names, the
+label. The GDELT media index does not enter the model: according to Section~\ref{sec:eval-media}, it is applied only as a re-rank of
+the already-scored list.}
+\label{fig:pipeline}
+\end{figure}
+
+The chapter explains mainly on what was created. Briefly, the pipeline produces two separate objects. The first one is a \textit{modelling table}, one company per row, built from the Companies House register in combination with the \textit{postcodes.io} API to identify the region of the companies given the postcodes from Companies House. A model then fitted to the modelling table that scores every company that is not currently identified as Lloyds customers. The second is a \textit{media index} retrieved from GDELT, having one row per industry, region and week. Those two objects are not combined into a single table. They only meet at the final step where the media index re-orders the scored list from the model. The output then is a ranked list of companies that RM has not yet contacted as shown in Figure 3.1.
+
+Companies House is split into two routes: bulk file and the REST API. The bulk register product is necessary as it retrieves population quite cheaply while the REST API then carries on to supply what was missing from the bulk data -- charges essentially. Both are essential as the bulk product does not contain charges, and the API's rate limit makes pulling the whole register impractical, reasons elaborated further in Section 2.2.1.
+
+Two important caveats regarding the design that explains most of the choices decided later in the chapter.
+
+The first is that Companies House data -- charges essentially -- is responsible for two different tasks: the charges record is used both as a feature and the label. As a feature, charges from other lenders are vital information as they show which characteristics of a company that borrows. For the label, charges from Lloyds are the thing being predicted. These two are separated by design which is the reason the figure shows them on two different routes. Section 3.3.1 continues to elaborate on the method used to split them.
+
+The second is that these two routes look in opposite directions in time. For the sake of point-in-time (PIT) snapshot, everything on the feature side stops at a fixed cutoff date, and can only contain and see what was on the register until the date. However, on the label side, it is allowed to extend beyond the date as the question is which companies borrowed from Lloyds after the cutoff date. If it is not of this manner, the model simply learns to spot the companies that have already borrowed instead of predicting which ones will. Section 3.4.1 explains further on this topic.
+
+There are two reasons the GDELT media index is excluded from the modelling table. Firstly, it is because of the results. Section 4.X shows that the media index does not contribute significantly to the ranking of individual companies. The second reason is regarding how the data is shaped. The two tables regard different objectives: one has a row for each company (unique), and the other has a row for each industry, region and week (not unique). Either a left or right join of both tables would ruin the companies uniqueness and therefore disregard the detail of individual firms that are necessary for the model. The alternative is to use the index after scoring as a soft re-ordering. The link between the two depends on the postcodes.io where it gives each company a region from its postcode. The region is also used as a feature in the model.
+
+The rest of the chapter then follows the figure path step-by-step. \ref{sec:collection} talks on collecting the data, \ref{sec:label} building the label, \ref{sec:features} the point-in-time feature table, \ref{sec:mediaindex} the GDELT media index. \ref{sec:extracting_data} regards extracting data from filing documents, \ref{sec:model} touches on the model, and \ref{sec:leadlist} concludes how the lead list is produced. Lastly, the implementation is executed as a set of Jupyter notebooks. Appendix A maps each stage of the Figure 3.1 with its source file.
+
+
+\section{Collecting the company population}    
+\label{sec:collection}
+  \subsection{Bulk data}
+  \label{chap:CH_bulk_data}
+    The bulk data used as the baseline was pulled from Companies House \cite{CH_bulk_profiles} as the snapshot for August 2026; this file contains all companies live on the register, and therefore contains both currently active,  dormant, liquidated, and other entities which will have to be later removed. Initially, the file contains 5,698,274 companies, spanning over 55 fields as seen in Table \ref{tab:bulk_profile_example_schema}; this is trimmed down to 4,390,812 million after removal of dormant account categories and selecting for only companies labelled as limited or limited liability partnership. As there are still millions of companies still fitting our description, a temporary SQLite database was set up to store them for downstream tasks. As a majority of the fields remained unused, only a portion of them were stored, with the SIC codes separated out to comply with fourth form normalization.
+    
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\linewidth]{Group_LaTEX_Report/figures/bulk_data_table_schema.png}
+  \caption{Table schema for bulk Companies House accounts data}
+  \end{figure}
+  \subsection{The API client}
+  \label{chap:CH_API_client}
+  The rate limit stated in Section 2.2.1 shapes the design this section is built upon. A single key allows two requests per second, and each company needs a few requests across different stages. Therefore, a straightforward single pull would have taken weeks to finish given hundreds of thousands of companies data. To solve such problem, the system is built with three things in mind: using more than one key at once, handling errors, and continuation.
+
+  \textbf{Using several keys at once}. As there are four contributors to the project, it is decided that four API keys are registered from each of the contributor and the client (code) treats each one as a separate \textit{lane}. A \textit{lane} is a python class created with the purpose for the four keys to safely pull as efficiently as possible. Each lane has its own connection to the server and its own timer that sets at 0.6 seconds between two request on the key. This keeps every key at around 1.7 requests per second which is safely below the limit of 2 requests per second. Requests then are handed to the lanes consecutively, and together they are able to pull roughly 6.7 requests per second without any close call on the limit.
+
+  \textbf{Handling errors}. Each request can try up to five times. If there is a rate limit reached, the client then waits for the given length of time from the server and then continues the try. If there is a server fail or drop in connection, the client waits with increasing time step before each of the new attempts. An unsuccessful request is noted as a fail and does not stop the run. Therefore, unreachable companies cannot end a whole download.
+
+  \textbf{Restarting after a stop}. The results table is set to save to the disk in every two hundred successful requests. Each stage is set to look for empty rows and fetches only those. Therefore, if a run stops -- due to various reasons --, the client can simply start again and continue on without repeating what has been done. The same design is also applied on the new raw companies files: when new companies are added to the list, only those rows are fetched.
+
+  \textbf{Working in stages}. The pull is arranged into six stages to minimise the expensive calls. The first stage pulls one profile for each company. The second then applies the SME filter using the data from the pulled profile, and therefore no API calls at this stage. The SME filter reduces the amount of companies for the next stage pull. The later stages collect charges, persons with significant control, and filing history. The raw pulls from the server are saved to disk as they arrive. Therefore, it can be freely used by the final table if ever needed again without re-downloading. In total the pull retrieved profiles for 839,295 companies, of which 567,835 met the SME filter, together with 399,703 charge records.
+  
+  \subsection{Defining the SME population}
+  \label{chap:defining_sme_pop}
+The register from Companies House cover millions of records which leads to the importance of this filter to the project. As elaborated in Section 2.1.1, Companies House does not publish turnover and number of employee for small companies as they are not required to file them. However, category of accounts is provided for each company, and that category is used mainly as the definition of an SME for this project.
+
+There are only five account categories that fall under SMEs type. Table 3.2 shows them along with the amount of companies in each. The categories that are excluded fall into three groups: full or group accounts, dormant companies, and companies that have not yet filed any accounts at all.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lr}
+\toprule
+Account category & Companies \\
+\midrule
+\multicolumn{2}{l}{\itshape Kept} \\
+Micro-entity             & 327,457 \\
+Total exemption full     & 227,889 \\
+Small                    &  11,055 \\
+Medium                   &   1,185 \\
+Total exemption small    &     249 \\
+\addlinespace
+\textbf{Total kept}      & \textbf{567,835} \\
+\midrule
+\multicolumn{2}{l}{\itshape Excluded} \\
+No accounts filed        & 208,583 \\
+Unaudited abridged       &  28,647 \\
+Full                     &  12,268 \\
+Dormant                  &  11,358 \\
+Audit-exempt subsidiary  &   6,084 \\
+Group                    &   4,097 \\
+Other                    &     423 \\
+\addlinespace
+\textbf{Total excluded}  & \textbf{271,460} \\
+\bottomrule
+\end{tabular}
+\caption[The SME filter]{Account categories kept and excluded by the SME
+filter, with company counts. ``Other'' covers eight further categories, none
+with more than 176 companies.}
+\label{tab:acctypes}
+\end{table}
+
+The filter reduces the 839,295 companies collected to 567,835. Though, companies outside the filter are not deleted from the table. They are kept separately and marked as non-SMEs which acts as checked companies for further runs to not redundantly fetch the same companies.
+
+There are two consequences worth noting regarding the definition. First, as shown under the excluded column, 'No accounts filed' type is the largest excluded group with 208,583 companies. They are mostly companies established too recently for their first accounts to be due. With this nature, the population tends to lean away from very new firms. Second, the filter is applied to the account category only, and does not consider the trading status of the company. A small number of companies in the population -- 753 companies -- are in liquidation, receivership or administration. Therefore, these companies would not be our lending prospects.
+
+\section{Constructing the label}               \label{sec:label}
+  \subsection{Identifying Lloyds-group lenders}
+  The only way to label positives or negatives onto each firm is to use the \textit{person\_entitled} field. The problem is that the field is free text which means it is typed by whoever filed the form. From the 399,703 charges retrieved, there are 33,822 distinct lender strings. The challenge here is to match the lender names with a list of known institutions.
+
+  There are two main challenges faced in this section. The first is that one lender is written in various ways. For example, Lloyds Bank Commercial Finance can be appeared as "Lloyds Bank Commercial Finance Limited", "Lloyds Bank Commercial Finance LTD", "Lloyds Tsb Commercial Finance Limited", and many more. The second is that Lloyds Banking Group has other financial institutions running under it. They can be traded as Lloyds Bank, Bank of Scotland, Halifax, Black Horse, Birmingham Midshires, Cheltenham \& Gloucester, Scottish Widows, MBNA and the Agricultural Mortgage Corporation, and others \citep{lbg_annual_report}. Therefore, a charge granted to any of these is considered as a charge granted to Lloyds.
+
+  The approach done for this section mainly focus on a set of case-insensitive regular expressions, one for each brand, applied to the lender string. Two interesting points worth noting:
+
+  \textbf{"Lloyd's" is not Lloyds.} Lloyd's of London is an insurance market that has no connection to Lloyds Banking Group. The pattern therefore needs to match the token \textit{lloyds} without an apostrophe.
+
+  \textbf{"Bank of Scotland" is not always Bank of Scotland.} By using regular expression to find the phrase "Bank of Scotland" alone, it also matches the "The Royal Bank of Scotland" which belongs to NatWest Group. It was a well hidden mistake that caused quite a large amount of positives out of the population: 14,305 charges, over a quarter of all matches, were the mistakes. The pattern was later corrected by excluding the preceding phrase of the word "royal".
+  
+                        \begin{lstlisting}
+                        r"(?<!royal )bank of scotland"
+                        \end{lstlisting}
+
+  After the correction, around 40,000 charges are attributed to the Lloyds group, pulled from 470 distinct lender strings which are held by 14,860 companies.
+  
+  \subsection{Defining conversion}
+    A company is considered a conversion only if:
+
+\begin{itemize}
+    \item \textbf{Company takes its first Lloyds charge inside a specified time window after the cutoff date}. The cutoff used for the report is 1 January 2021, and the window spans to 1 January 2026 which gives five years for the conversion to occur.
+\end{itemize}
+
+Before a company converts, it has to be a prospect and there are two conditions deciding that:
+
+\begin{itemize}
+  \item \textbf{Company must have existed at the cutoff.} A company incorporated after
+        1 January 2021 could not have been scored on that date. Including it would be against what the project is asking. This deletes 194,618 companies --- 
+        reflecting how many UK companies are rather new.
+
+  \item \textbf{Company must not already have been a Lloyds borrower.} A company holding
+        a Lloyds charge \textbf{at} the cutoff is a customer, not a lead. This removes another 12,614 companies.
+\end{itemize}
+
+A small number are then deleted as their SIC code cannot be mapped to a sector, leaving 360,600 companies, of which 1,203 converted during the window: a rate of 0.33 percent conversion rate.
+
+\textbf{Length of the window.} There are some trades off on the window length which depends solely on how useful the result is against how much there is to learn from. The conversions are lower as the window length is shorter. However, with shorter window length, it gives a sharper claim on the problem statement. Table 3.3 shows the three best options measured on the data. 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Cutoff & Window & Prospects & Conversions \\
+\midrule
+1 Jan 2019          & 7 years          & 290,089          & 1,810 (0.62\%) \\
+\textbf{1 Jan 2021} & \textbf{5 years} & \textbf{360,600} & \textbf{1,203 (0.33\%)} \\
+1 Jan 2023          & 3 years          & 444,998          &   786 (0.18\%) \\
+\bottomrule
+\end{tabular}
+\caption[Prediction window options]{The effect of the prediction window on the
+number of prospects and conversions.}
+\label{tab:windows}
+\end{table}
+
+After weighing between the trades off, five years sit at a good balance as the conversions are spread evenly across with a median of 1.8 years and half of all conversions falling between 0.7 and 3.6 years. 
+
+\textbf{Former customers.} Any company holding a Lloyds charge at or before the cutoff is removed which follows directly what model is built for: a company the bank already lends to is not a lead. It is arguable that a company that has repaid its debt might be approached again. However, after inspected and found that only 75 cases recovers of such case. Therefore, to smoothen the operation, the rule is kept as is.
+
+\section{Point-in-time feature construction}   \label{sec:features}
+  \subsection{The as-of cut}
+  Every feature in the modelling table is able to see the data up to 1 January 2021, and nothing recorded after the date. But, the label is drawn from the full charge history since the question being asked is which companies borrowed \textit{after} the cutoff.
+
+  It is designed to prevent time leakage that, even though scores well, fails in an actual use case from misinterpreting the problem statement, because the model has learned to recognise borrowing that has already happened rather than to predict borrowing that has not \cite{kaufman2012leakage}. 
+
+  The feature side utilises only charges created on or before the cutoff, and only those with lenders other than Lloyds. These kind of information shows a characteristic of how a company borrows and repays its debts without the leakage of Lloyds charges at all.
+
+  The earlier design with a positive label as whether a company has \textit{ever} held a Lloyds charge shows that the majority of the positive companies are quite old (15 to 30 years). By the nature of the data, age appears to be an extremely strong predictor. However, the forward-looking design removes the effect entirely because every company in the population now faces with the same five-year window.
+
+  \subsection{Features derived from charges}
+  Charges granted from lenders other than Lloyds are the vital source of information. It shows that companies are willing to borrow against its assets, and at least one lender was also willing to lend to them.
+
+  There are a total of eight features derived from the charge history which can be separated into two distinct groups:
+
+  The first group regards whether and how much a company has borrowed, such as the number of non-Lloyds charges held, a boolean of holding any charge, and the number of distinct lenders borrowed from.
+
+  The second group regards when and which direction. Years since the most recent charge shows the activeness of the company. The number of charges created in the past 24 months capture the recent momentum of a company. Charges outstanding and charges satisfied are in separate columns since they tell a different story. Charges outstanding may show a limit of what a company's assets can be borrowed against while charges satisfied shows that a company has, to some extent, the ability to repay what they have borrowed.
+
+  There are two features that need a default value for companies that have never borrowed which are 'years since last charge' and 'years since last satisfaction'. Both columns use a default rate of fifty years to place the never-borrowed companies at the end of the same scale. Putting zero for these is not a choice since zero would mean zero years since last charge or last satisfaction which affects a lot in term of the column meaning.
+
+  Majority of these features touches on recency rather than lifetime totals. A recency measure describes what a company is currently doing. Since the aim is to predict which companies are going to borrow, not which ones resemble existing customers, recent activity therefore is considered more relevant evidence.
+  
+  \subsection{Sector and region}
+  These are the two features that explains what a company does and where it is located. Both of these come from the profile request on Companies House, and they are also the keys on which the media index attaches to a company.
+
+  \textbf{Sector}. Companies House records economic activity which is called 'Standard Industrial Classification code' or SIC code. The SME population uses 803 distinct SIC codes which are quite gigantic to use one-hot encoding. By doing that, there would be more parameters than the positive cases. Therefore, they are collapsed down to 21 top-level SIC sections, based on the standard Companies House grouping. The media index is also built on the same taxonomy. Both sides can therefore joining with identical labels and no company is left unmatched.
+
+  One thing worth noting. SIC 98 which is residents/ property management does not have a defined grouping from Companies House which will be left unmapped if not dealt properly. Therefore, for the project, it is assigned under 'Real Estate'.
+
+  \textbf{Region}. The Companies House data does contain both postcodes, region, and town. However, many of region and towns are missing, but postcodes are filled for almost all companies. Postcode.io is then used to pull the regions based on the postcodes and later rewrote the region from postcode.io instead. There are 346 companies with no usable postcode which is under 0.01 percent of total population and they are removed from the modelling table.
+
+  The limitation found from these two features is that the features are not measured at the cutoff. Both are current values taken right from the register. This is discussed further in Section 3.4.4.
+  
+  \subsection{Limitations of the cut}
+  To begin with, the charges related features -- built from charges filling history -- are the only ones from the register that lets us reconstruct historically. 
+
+  Structural features used are current values. Sector, region, account category and filing status are taken straight from the current register. Companies House does not contain past structure features to be pulled from, and this is one of the limitations regarding the point-in-time cut.
+
+  For sector and region, the changes are quite rare as companies barely change industry and the place registered. However, for the account category, it is not. Most company grows. They might filed as small in 2021 and have grown to be medium size today which would record as medium. This feature could therefore carry some sense of the prediction. The filling status follows the same sense.
+
+  These structural features are considered one of the main limitations found for this project which has the ability to significantly affect the result of the model. This is noted for further study.
+
+\section{The sector-by-region media index}     \label{sec:mediaindex}
+    The media index is one of the two objects produced from the pipeline. It contains one row for each industry, region and week, and it records how much funding-related news of the industry and the region in that week compared to its own recent history through z-score. It is built from GDELT and, as explained in Section 3.1, is applied only as a soft re-ranking after the model has scored the population.
+  \subsection{Articles Criteria}
+    There is a set of criteria for filtering the correct article. As the focus of this project is the lending opportunities, the articles would have to be regarding 'funding' which is also captured in several terms. Other than regarding money, the article needs to contain a particular industry, depends on the specified SIC grouping, and lastly mention a place in the United Kingdom.
+
+    \textbf{Money/Funding}. GDELT already tags each article with a controlled vocabulary of themes. Articles are then set to be kept only if their themes match a funding vocabulary: funding, investment, finance, lending, loans, subsidies, grands, or capital. Without this filter, the index would measure how the industries are doing in general which has nothing to do with credit.
+
+    \textbf{Industry}. Each of the 21 SIC sections is given a set of words that describe it. Construction terms are construction, infrastructure and building. Accommodation and Food terms are hospitality, tourism, restaurant, hotel and catering. An article that matches with the section's terms is counted for the section. However, one article can be counted for more than one section.
+
+    \textbf{Place}. GDELT geocodes the place names that it finds in an article. Only United Kingdom country code are kept. The city is then mapped to one of the twelve regions used on the company side.
+
+    One limitation found from this is the \textbf{Yorkshire gap}. The names listed for Yorkshire cannot match the spellings GDELT uses in its location field. Therefore, there is no region for these cells at all. This leaves 22,526 companies which is roughly 6.2 percent of the population with no media cell to join to.
+  \subsection{Query design and cost control}
+    GDELT, in this case, is queried uging Google BigQuery which prices on the bytes a query reads, not the amount of queries issued or return. The GKG text fields are quite large with roughly 3.3 gigabytes for each week of history. Therefore, the cost mainly relies on how many days of data it touches.
+
+    The usual way of bulding a table of 21 sectors by 12 regions is to loop, which is to run a query for each combination and collect the results. For such pricing model, this is really inefficient as the queries would scan weekly history over and over again for different combination. The way out is to use a single aggregared query that groups by section, region and week to produce the index.
+
+    \textbf{Checking the bill before run}. BigQuery has the ability to report the cose of whole scan without running it, and this dry run does not cost anything. Therefore, every query in the pipeline has both a dry run and a real run. The dry run is to check whether the volume exceeds a stated cap or not, and then a real run continues only when threshold is not exceeded.
+    
+    \textbf{Saving file.} The query is designed to query the data to the current date and also save a parquet file for subsqeunt runs. This is necessary as the analysis after pull is quite redundant, such as normalisation explained in \ref{chap:normalisation}.
+
+    At 52 weeks of history, the two pulls together have spent close to 700 gigabytes, still under the monthly free tier cap.
+        
+  \subsection{Normalisation}
+  \label{chap:normalisation}
+
+    A raw article count alone cannot be compared directly across cells. Ranking cells by volume would then also return the same result every week since high volume sector would always stay on top which carries no information about the present. Therefore, the index needs to be compared differently. Comparing itself is the answer. Each week's value is shown as a z-score against the cell's own history. This makes a small cell comparable with a large one.
+
+    Volume is measured by articles per day, not per week. It is because if one is pulling mid-week, the current week count would be artificially low for every cell. Dividing by the number of days observed eliminates the stated bias.
+
+    For a cell defined by sector \textit{s} and region \textit{r}, with volume \textit{v} in week \textit{t}:
+
+    \begin{equation}
+      z_{s,r,t} \;=\; \frac{v_{s,r,t} - \mu_{s,r,t}}{\sigma_{s,r,t}} ,
+      \label{eq:zscore}
+    \end{equation}
+
+    where $\mu$ and $\sigma$ are the mean and standard deviation of the same cell's volume over the prior weeks. This also goes the same for sentiment (or tone), using average article tone instead of volume.
+
+    There are two important properties of the set baseline:
+
+    \textbf{The baseline covers 52 weeks} which is the shortest window that covers a full seasonal cycle. It is important as many industries are seasonal. For example, construction might attract more attention in spring where weather is proper for construction, or retail might do good before Christmas. A shorter baseline would misreport those seasonal rises as abnormality.
+
+    \textbf{The baseline ends a week before }the scoring week as this is also the same point-in-time  discipline applied in Section 3.4.1, but on the other side of the pipeline.
+
+    The second property explains why more days are pulled than what the baseline actually uses. It is because a cell is scored with at least twelve trailing weeks. However, to make sure that the score is valid, 104 weeks have been pulled to use only 52 weeks that are scored with each 1 year trailing date.
+
+    One limitation from this is that splitting by region divides each sector's articles into twelve different ways which results in very abnormal size, spanning from as low as a cell with 10 articles a week to a cell with 10,000 a week. Even with normalisation, z-score produced swings extremely with noise. Therefore, if a cell falls below a minimum article count or contains too little history to create a baseline, a fallback to the sector-level score is triggered and there is a column that records which is used.
+
+\section{Extracting data from filing documents}
+\label{sec:extracting_data}
+  \begin{figure}[H]
+  \centering
+  \includegraphics[width = 0.5\textwidth]{Group_LaTEX_Report/figures/filings_pipeline.png}
+  \caption{Transformation from raw filings to cleaned features}
+  \end{figure}
+  This section uses the company set defined as SMEs by \ref{chap:defining_sme_pop} and separates the filings based on their formatting. In the case where filings in the iXBRL and PDF versions both exist, iXBRL files will always be given priority as the ground truth. iXBRL files are stripped for features through the use of the \textit{etree} library, returning a csv file containing each of the features at the found time period; this is possible as iXBRL files provide a tag and time period for all value cells which correspond to standardized taxonomies prescribed by Companies House\cite{CH_xbrl_standard_taxonomy}.
+  
+  In contrast, filings that are image-based PDFs first have to separated into individual pages and adjusted to 200 dpi before being passed through a fine-tuned Qwen3-VL-8B model to extract any tables from within the document. Keyword mapping is then used to select tables which contain certain financial keywords in their \textit{table\_name} for subsequent feature extraction using \textit{regex}. Unlike iXBRL files which naturally map time periods to all numeric cells, images lack this detail, meaning they have to be manually pulled from the extracted OCR result.
+
+\subsection{iXBRL Feature Selection}
+  While all numerical cells in iXBRL files are tagged using a standardized format, enabling traversal the document without the need to hold onto the indexing for rows and columns, dates have to be handled separately; this is because all cells containing numbers are provided only the reference keyword \textbf{\textit{(contextRef)}} in place of the actual period \textbf{\textit{(context)}}. Therefore, a mapping of the time period and their reference must be done before traversing the main tables. Each value within the table is then mapped to their field name and added to a dictionary where the key is the de-referenced time period. Negative values are checked through the \textbf{\textit{sign}} field, which is only present when the cell is negative. 
+
+\subsection{Sample Set Creation}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.65\linewidth]{Group_LaTEX_Report/figures/annotation_file_structure.png}
+      \caption{File structure used for the annotation process}
+      \label{fig:annotation_folders}
+  \end{figure}
+  As a sample set is needed to fine-tune the baseline Qwen-VL-8B model, 60 companies were selected from the filtered set defined previously in Section \ref{chap:defining_sme_pop}. Their newest account posted to Companies House are then collected and separated into individual pages and grouped by their companies. These are then passed to an unrelated Qwen model for an initial OCR step to assist with later hand labelling steps; this is mainly done to obtain the general JSON structure for each page and not its contents, which can be modified in annotation. Figure \ref{fig:annotation_folders} shows the file structure within for the annotation process, with \textbf{\textit{raw\_ocr}} and \textbf{\textit{company\_filing\_pages}} representing the unmodified OCR results stored as JSON files and the source filing pages. Lastly, the \textbf{\textit{annotations}} folder contains the cleaned and annotated samples for the selected companies.
+
+  After correcting malformed JSON and value errors, a folder is created for the company using their company number which stores the annotation status of the page, any notes, and the JSON payload; this structure, as displayed Listing \ref{fig:placeholder}, ensures that tables can be traced back up to the page and company of origin, and allows for indexing of the raw image file associated with the JSON payload.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.70.\linewidth]{Group_LaTEX_Report/figures/annotation_example.png}
+    \caption{Example JSON Structure for Annotated Files}
+    \label{fig:placeholder}
+\end{figure}
+
+\subsection{Model Fine-Tuning}
+  Initial versions of the model only implemented prompt engineering, which contained rudimentary rule-set and instructions on the desired JSON output format. However, even after several modifications were made to the instruction set, several issues persisted; this being the merging of several tables with unequal table dimensions, frequent mis-classification of rows containing dates as header columns, and interchanged use of \textbf{\textit{null}} and \textbf{\textit{"-"}} in the same table. Additional rules created to clarify these errors further degraded the response which indicated that prompting alone was no longer effective, necessitating the fine-tuning process. The previously annotated companies are used as the corpus, with the default split of 80\% training and 20\% testing used, resulting in a set of 212 and 52 examples for training and testing respectively. Furthermore, the split is made by company and not by page; this is done to prevent the model from indirectly peeking into the evaluation set through factors like document formatting or general tabular structure. 
+  
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{ll}
+    \toprule
+    Configuration & Value \\
+    \midrule
+    Base model      & 	Qwen3-VL-8B-Instruct \\
+    Quantization    &   4-bits (4nf)    \\
+    Rank & 8    \\
+    Target Modules & attention, MLP projections, and language layers \\
+    Trainable parameters    &   21,823,488 of 8,788,947,184 (0.25\%) \\
+    Optimiser	& adamw\_8bit  \\
+    Number of Epochs / Steps    & 3/45 \\
+    Learning rate	& $2 \times 10^{-4}$ \\
+    Batching    &  2 x 4 gradient accumulation steps = 8 \\
+    Max sequence length &   2048 \\
+    \bottomrule
+    \end{tabular}
+    \caption[]{Configuration of QLoRA fine-tuning}
+    \label{tab:windows}
+    \end{table}
+  
+    A rank of 8 was chosen as the desired behaviour only pertains to the output format and no new knowledge was introduced to the model, satisfying the conditions set by Biderman et al. \cite{biderman2024lora}. Furthermore, QLoRA adaptor were attached to all layers, except vision, as prior experiments with prompting showed that issues only extented to the model's choice to omit certain data and it's choice in table structure and not the ability to accurately extract cell content. 
+
+    % \begin{figure}[H]
+    %     \centering
+    
+    %     \begin{minipage}{0.48\textwidth}
+    %         \centering
+    %         \includegraphics[
+    %             width=\linewidth,
+    %             height=6cm
+    %         ]{Group_LaTEX_Report/figures/ocr_train_eval_loss.png}
+    %         \caption{Training and validation loss}
+    %         \label{fig:ocr_loss}
+    %     \end{minipage}
+    %     \hfill
+    %     \begin{minipage}{0.48\textwidth}
+    %         \begin{tabular}{l|l|l}
+    %         Step & Training Loss & Eval. Loss\\
+    %         \toprule
+    %         1	&3.917313	&3.766742\\
+    %         2	&3.772986	&3.721930\\
+    %         $\cdots$ & $\cdots$ & $\cdots$\\
+    %         17	&0.898874	&0.713336\\
+    %         18	&0.727182	&0.558418\\
+    %         19	&0.487946	&0.420944\\
+    %         20	&0.440717	&0.301250\\
+    %         21	&0.278751	&0.212975\\
+    %         22	&0.204927	&0.140743\\
+    %         23	&0.146923	&0.092230\\
+    %         $\cdots$ & $\cdots$ & $\cdots$\\
+    %         83	&0.001853	&0.003615\\
+    %         84	&0.000113	&0.003615\\
+    %         \end{tabular}
+    %         \centering
+    %         \caption{Loss per Training Step}
+    %         \label{tab:training_results}
+    %     \end{minipage}
+    % \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \begin{minipage}{0.48\textwidth}
+        \centering
+            \includegraphics[
+                width=\linewidth,
+                height=7cm
+            ]{Group_LaTEX_Report/figures/untrained_qwen_teds_histogram.png}
+            \caption{TEDS Scores of Qwen3 Pre-training}
+            \label{fig:pre_training_qwen3_teds}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.48\textwidth}
+        \centering
+            \includegraphics[
+                width=\linewidth,
+                height=7cm
+            ]{Group_LaTEX_Report/figures/trained_qwen_teds_histogram.png}
+            \caption{TEDS Scores of Qwen3 Post-training}
+            \label{fig:post_training_qwen3_teds}
+        \end{minipage}
+    \end{figure}
+
+    As \cref{fig:pre_training_qwen3_teds,fig:post_training_qwen3_teds} shows, the model produced provides substantially better results and distributions, with the average TEDS score increasing from \textbf{0.803} to \textbf{0.904}. Furthermore, the prior issues of certain header rows being misclassified and merged headers have been markedly reduced. These problems are shown as the secondary peaks within the pre-training histogram, initially consisting of 10 pages were reduced to 2 through training. However, the cases where tables are excessively split into sub-tables at times still remain as a persisting issue which negatively impact the score; this is caused, in part, by the evaluation framework which attempts to match up tables using indexing and dropping trailing tables.
+    While no malformed JSONs were recorded in the evaluation test results, this is likely to the tables in the micro-entities accounts used for the test being relatively simple in structure. Testing using filings with denser than average tables, including larger companies such as Lloyds and Tesco PLC, yielded roughly 2-3 malformed JSONs per 100 pages. 
+
+
+
+    
+\subsection{PDF-based Image Feature Selection}
+Unlike iXBRL cells which are tagged, the JSON structure resulting from the OCR process does not intrinsically contain any dates or taxonomical identifiers, meaning they must be pulled from the tables directly. As such, the process iterates through every table, standardizes the field name to Companies House taxonomy, and retrieves the date through its column index. The resulting file is then deposited in the same folder as extracted features from iXBRL.
+
+\section{Modelling}                            
+\label{sec:model}
+
+  \subsection{Model choice}
+
+% Should we mention our expectation from each moodel?
+
+% Logistic: we expect logistic regression to be adequate, achieving an acceptable performance.
+% XGBoost: it is expected to achieve the best performance among these three models.
+% MLP: We believe this model may be too complex for the task, though it is chosen for comparison purpose.
+  
+  Logistic Regression, XGBoost, and Neural Network (MLP) have different explainability and capability. While simple models like logistic regression provide transparency, they might not handle complex tasks as well as the other two. However, given the required task and data used in this project, as well as the focus on explainability, we expect logistic regression to achieve adequate and acceptable performance. XGBoost is a well-known tree-based model, providing high classification performance with some interpretability trade-off compared to logistic regression. We expect XGBoost to achieve the best performance. MLP, or Multi-layer Perceptron, on the other hand, is the most complicated of the three models and can perform well in complex tasks, although it is often called a black-box model.
+
+  \subsection{EDA and Cleaning}
+  The data first goes through the EDA (Exploratory Data Analysis) process. There are 360,600 companies and 17 columns with no missing values. It is clear that the data has an extreme class imbalance at 0.33\%. This is real-world data, and it is understandable to have a small proportion of companies being Lloyds customers given the total number of companies. This extreme class imbalance inevitably affects the models' performance. However, forcing the dataset to have a balanced class would manipulate the model in an undesired way and fail to reflect the true population. Therefore, the team proceeded to train the models with this actual data, acknowledging its impact. Since the data does not contain any missing values, only one unused column, readmitted, is removed. Among the remaining 16 columns, 2 columns, \textit{com\_num} and \textit{name}, are identifiers, and the remaining columns are the features used for training the models.
+
+  \subsection{Preprocessing}
+  
+  \begin{table}[h]
+      \centering
+      \begin{tabular}{ll}
+      \toprule
+          Column Name & Type \\
+      \midrule
+          com\_num & identifier \\
+          name & identifier \\
+          sector & category \\
+          region & category \\
+          account\_type & category \\
+          accounts\_overdue & boolean \\
+          nonlloyds\_charges & numerical \\
+          has\_nonlloyds\_charge & boolean \\
+          yrs\_since\_nonlloyds\_chg & numerical \\
+          n\_distinct\_lenders & numerical \\
+          n\_charges\_last\_24m & numerical \\
+          n\_outstanding & numerical \\
+          n\_satisfied & numerical \\
+          yrs\_since\_satisfaction & numerical \\
+          age\_years & numerical \\
+          label & target \\
+      \bottomrule
+      \end{tabular}
+      \caption{Columns/Features Management}
+      \label{columnsmanagement}
+  \end{table}
+  
+  All columns are assigned to different types, as shown in Table \ref{columnsmanagement}. The data is then split into 80\% training set and 20\% testing set using \textit{train\_test\_split()} from \textit{scikit-learn} \cite{Pedregosa_Scikit-learn_Machine_Learning_2011}. The parameter is set as \textit{stratify=y} to ensure both sets have the same proportion of labels. Categorical columns are processed with one-hot encoding, and numerical columns are scaled to ensure the features are in the same range.
+    
+  \subsection{Model Training}
+  Each model setup is added to the pipeline along with the preprocessing step mentioned earlier, resulting in 3 different pipelines: \textit{pipe\_lr}, \textit{pipe\_xgb}, and \textit{pipe\_nn}. Each model goes through 5-fold cross-validation and grid search with various hyperparameter settings.
+
+  Cross-validation is used here to evaluate the models before testing them with the real test set. It works by setting the k value, which defines the number of folds. Then, the model is trained on k-1 folds and validated on the rest. This process repeats k times so that every fold is used for validation. This approach helps prevent leakage and bias toward the test set. If the model were tuned based on how well it performs on the test set, the data in that set would manipulate the model, and the evaluation would fail to reflect the model's actual performance. On the other hand, cross-validation happens only on the training set, leaving the test set untouched. Therefore, the testing data is truly unseen, and the evaluation metrics reflect the actual performance.
+
+  Grid search is the process of trying every hyperparameter value combination. Each combination is evaluated with cross-validation, and the one achieving the highest score on the selected evaluation metric, which in this case is average precision, is chosen. Since the number of folds is set to 5, every combination will be run 5 times. This process is time-consuming, and it gets longer as the number of combinations is increased. However, a balanced configuration of hyperparameters is crucial to train a proper model.
+
+ 
+  For logistic regression, the only hyperparameter tested is C, which is the inverse of regularization strength according to scikit-learn \cite{Pedregosa_Scikit-learn_Machine_Learning_2011}, meaning a smaller C value results in stronger regularization. It is tested for 4 different values: 0.01, 0.1, 1 (default), and 10. As a result, the best configuration is \textit{C} = 0.1, achieving an average precision of 0.010115. The comparison of performance between each configuration is shown in Table \ref{gridsearchlogistic}. 
+
+  \begin{table}[h]
+      \centering
+      \begin{tabular}{ll}
+      \toprule
+          Hyperparameter C & Average Precision \\
+      \midrule
+          0.1 & 0.010115 \\
+          0.01 & 0.010114\\
+          10 & 0.010108\\
+          1 & 0.010108\\
+      \bottomrule
+      \end{tabular}
+      \caption{Grid Search | Logistic Regression}
+      \label{gridsearchlogistic}
+  \end{table}
+  
+  For XGBoost, three different hyperparameters are tested: \textit{learning\_rate}, \textit{max\_depth}, and \textit{n\_estimators}. According to the XGBoost documentation \cite{noauthor_xgboost_nodate}, the number of estimators is the number of gradient-boosted trees to be created. Learning rate, or eta, controls how fast the model learns. A high learning rate means the model fits quickly but might cause overfitting, while a low learning rate requires more steps, or a higher number of estimators, to learn properly, meaning it takes longer to overfit, but the model might also underfit if the number of estimators is too low. Maximum depth is the maximum tree depth, controlling the complexity of each tree. Since the data has a class imbalance, the value of \textit{scale\_pos\_weight} is sum(negative instances) / sum(positive instances), as suggested in the XGBoost documentation \cite{noauthor_xgboost_nodate}. Table \ref{gridsearchxgboost} shows the top 5 configurations achieving the highest average precision score. The best configuration is \textit{learning\_rate} at 0.01, \textit{max\_depth} at 6, and \textit{n\_estimators} at 200, achieving an average precision of 0.011957.
+
+  \begin{table}[h]
+      \centering
+      \begin{tabular}{llll}
+      \toprule
+          learning\_rate & max\_depth & n\_estimators & Average Precision \\
+      \midrule
+          0.01 & 6 & 200 & 0.011957 \\
+          0.1 & 4 & 50 & 0.011713 \\
+          0.01 & 4 & 200 & 0.011699 \\
+          0.01 & 6 & 100 & 0.011134 \\
+          0.01 & 8 & 100 & 0.011126 \\
+      \bottomrule
+      \end{tabular}
+      \caption{Grid Search | XGBoost}
+      \label{gridsearchxgboost}
+  \end{table}
+
+  MLP is the most complicated model compared to logistic regression and XGBoost. There are a lot of hyperparameters to configure, and understanding them requires a deep understanding of neural networks. Therefore, the team explored a several hyperparameters to see how they impact the model. The scikit-learn documentation \cite{Pedregosa_Scikit-learn_Machine_Learning_2011} provides an explanation for each hyperparameter. The hyperparameters \textit{learning\_rate\_init} and \textit{max\_iter} are similar to \textit{learning\_rate} and \textit{n\_estimators} in XGBoost, in the sense that they control the rate of learning and the number of steps allowed. Another hyperparameter configured in MLP is Alpha, the L2 regularization strength. It controls how the model should penalise large weights, helping reduce the chance of overfitting. The best configuration is \textit{alpha} at 0.00001, \textit{learning\_rate\_init} at 0.0001, and \textit{max\_iter} at 100, achieving an average precision of 0.010506, as shown in Table \ref{gridsearchmlp}.
+
+  \begin{table}[h]
+      \centering
+      \begin{tabular}{llll}
+      \toprule
+          alpha & learning\_rate\_init & max\_iter & Average Precision \\
+      \midrule
+          0.00001 & 0.0001 & 100 & 0.010506 \\
+          0.00001 & 0.0001 & 300 & 0.010506 \\
+          0.00001 & 0.0001 & 200 & 0.010506 \\
+          0.0001 & 0.0001 & 300 & 0.010426 \\
+          0.0001 & 0.0001 & 100 & 0.010426 \\
+      \bottomrule
+      \end{tabular}
+      \caption{Grid Search | MLP}
+      \label{gridsearchmlp}
+  \end{table}
+
+  The evaluation of these models is discussed in Chapter \ref{chap:evaluation}.
+
+
+% \subsection{Model Assessment (???)}
+% Explain only the methods used + code? --> real evaluation is in Chapter 4 
+% OR JUST DELETE THIS SUBSECTION AND SAY THAT EVALUATION WILL BE EXPLAINED IN CHAPTER 4?
+
+  
+
+\section{Producing the lead list}              \label{sec:leadlist}
+The model returns a score for each company. An ordered list of the scored companies is the deliverable for relationship manager. Those scores can be traced back with high explainability thanks to the simple models and statistical calculations. The section describes how the file is produced.
+
+\textbf{Eligibility and exclusion}
+Not every company on a client list will be scored, and there are four criteria that determine whether a company gets score or not.
+
+\begin{itemize}
+    \item \textbf{No existing customers} are included in the scoring list. 
+    \item \textbf{Companies outside the population} are not scored. The model focuses solely on SMEs. Therefore, scoring a large company with the model would not yield a great result, but a misleading one.
+    \item \textbf{Companies where charge history has not been retrieved} are not scored. This is a limitation worth noting as we are unable to recheck every company whether every charge is pulled succesfully. Therefore, if there is no charge history on the disk, the company is not score.
+    \item \textbf{Companies without matched SIC code or no incorporation date} are not scored because the features are necessary for the model to score.
+\end{itemize}
+
+Every company that fails any of the four criteria is listed in a separate file with the reason for the failure. The notebook checks the validity of the list by combining the final leads with the excluded ones and compared with the unique number of companies received.
+
+\textbf{Client input.} Client sends one CSV with 'company\_number', and 'relationship' column. The 'relationship' column has two possibilities which are 'prospect' and 'customer'. If it is marked as 'customer', the company is not scored, only 'prospect' does. 
+
+\textbf{Client output.} Client output is a ranked lead list with the columns stated below.
+
+\textbf{Columns of the lead list}. 
+To fully present companies in the lead, the columns can be separated into 3 different types: Companies identities, charges info, and scoring data. 
+
+Companies identities contain company number, name, sector, region, account type, and age. These are included to let the client see the general information of the ranked companies in a single glance without having to research further.
+
+Charges information contains only important charges data: Non-Lloyds charges, number of outstanding charges, and number of satisfied charges. Outstanding and satisfied charges are included to simply show the current and general state of the ranked companies. However, non-Lloyds charges are selected out of other engineered features because this is one of the most affected coefficients and also the clearest picture of the company.
+
+Lastly, the most complicated part of the list is the scoring data which contains the score from model (score), score ranking (r\_score), z-score of the news volume (vol\_z), media ranking (r\_media), gated score (gated), ranking from model scoring (rank\_model\_only) and movement of the rank caused by the news (move).
+
+Each columns are introduced sequentially as followed:
+\textbf{Score} column explains the direct score calculated from the model for the company.
+\textbf{Vol\_z} is the z-score of the news volume given its sector and region. This column is left blank if the cell uses 'sector-fallback' data. 'Sector-fallback' happens when a region is missing or under the specific threshold. The reason of not using 'sector-fallback' data is that it carries zero regional variation and there are many of them. With no regional variation, it would quietly turn the 'gate' into a sector re-rank.
+\textbf{R\_media} and \textbf{r\_score} are the \textit{percentile} rank of vol\_z and score respectively. They are important as score and vol\_z cannot be combined directly. Using a percentile method lets them rank using their own baselines of the companies: full lead list for r\_score and only the real vol\_z for r\_media. This is accommodated by pandas.rank(pct=True). One thing to note is that, for rows with blank vol\_z, r\_media is set at 0.5 to neutralise the effect of missing vol\_z.
+\textbf{Gate} is the final score that is used for ranking the lead list. It combines using 0.85 weight of \textit{r\_score} plus 0.15 weight of \textit{r\_media}. The weight of the gated score can be adjusted through 'GATE\_WEIGHT' parameter in the scoring notebook. 
+\textbf{Move} column shows the amount of place that the company is moved from its media coverage effect.
+
+
+
+% -----------------------------------------------------------------------------
+
+\chapter{Critical Evaluation}
+\label{chap:evaluation}
+% -------------------------------------------------
+
+% NOTE 
+%------------------------
+% [DONE] - MLP : at Threshold = 0.5 --> predict NO positive classes  ---> Fix????? 
+%------------------------
+
+% [DONE] - What is Cross-Validation & GridSearch + why (Explain in Chapter 2 or 3?) (SUM)
+% [DONE] - Fine-tuning impact (mention overfitting) (Chapter 3 SUM)
+% [DONE] - Mention scale_pos_weight in XGBoost (explain in Chapter 3 , SUM)
+% [DONE] - Explain main hyperparameters briefly (explain in Chapter 3, SUM)
+% [DONE | Need Review ] - What is ROC-AUC, AP, Precision at K + How they are calculated (Chapter 4, ohm)
+% [DONE | Need Review ] - Why ROC-AUC fails to reflect model's performance even the models achieve high scores (Chapter 4, done)
+% [DONE | Need Review ] - Why APs are extremely low + Fail to represent model's Performace (Chapter 4, ohm)
+% [DONE | Need Review ] - Why Precision @ K (Chapter 4, Ohm)
+% [DONE] - Lift (Chapter 4)
+% [DONE] - Explain Confusion Matrix --> TP, TN, FP, FN (Chapter 4, SUM)
+% [DONE]- Focus mainly on AP when fine-tuning rather than ROC-AUC, P@K --> explain why (Chapter 4)
+% [DONE] - How each model performs (Chapter 4)
+
+% - Coefficient, Feature Importance / SHAP ---> Explain what each one indicates + how it should be interpreted(Chapter 4)
+
+% - Add Our Expextation of each model + how they actually performs ????
+
+% [DONE | Need Review | is it enough? --> very short]- Which model is chosen + why (Chapter 4)
+
+
+% [Should we?]- Mention Panel data (?) (Very breifly)
+% [Should we?] Mention Future development/Challenge
+% Comment:
+% Further avenues for this may be 1,2, and 3 which are interesting but has yet to be implemented into our current project
+
+% -----------------------------------------------------------------------------
+
+
+
+\section{Model Evaluation}
+
+%==========================================================
+\subsection{Evaluation Metrics}
+%==========================================================
+
+%----------------------------------------------------------
+\subsubsection{Confusion Matrix}
+%----------------------------------------------------------
+A confusion matrix is an important foundation of most evaluation metrics, and it is important to understand the concepts of true positive, false positive, true negative, and false negative. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.2\linewidth]{Group_LaTEX_Report/figures/confusion matrix.drawio.png}
+    \caption{Confusion Matrix}
+    \label{fig:confusionmatrix}
+\end{figure}
+
+As shown in Figure \ref{fig:confusionmatrix}, TP (True Positive) is when the model predicts positive and the actual class is positive, TN (True Negative) is when the model predicts negative and the actual class is negative, FP (False Positive) is when the model predicts positive but the actual class is negative, and FN (False Negative) is when the model predicts negative but the actual class is positive. 
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+     & 0 & 1 \\
+    \hline
+     0 & 47892 & 23987 \\
+    \hline
+     1 & 71 & 170 \\
+    \hline
+    \end{tabular}
+    \hspace{1cm}
+    \begin{tabular}{|c|c|c|}
+    \hline
+     & 0 & 1 \\
+    \hline
+     0 & 45905 & 25974 \\
+    \hline
+     1 & 61 & 180 \\
+    \hline
+    \end{tabular}
+    \hspace{1cm}
+    \begin{tabular}{|c|c|c|}
+    \hline
+     & 0 & 1 \\
+    \hline
+     0 & 61965 & 9914 \\
+    \hline
+     1 & 142 & 99 \\
+    \hline
+    \end{tabular}
+    \caption{Confusion Matrix - Logistic Regression (left), XGBoost (middle), MLP (right)}
+    \label{tab:confusionmatrix}
+\end{table}
+
+Table \ref{tab:confusionmatrix} shows the confusion matrices for Logistic Regression, XGBoost, and MLP. XGBoost has the highest number of true positives at 180, followed by logistic regression at 170 and MLP at 99. It also has the highest number of false positives at 25,974. These TP, TN, FP, and FN values are used to calculate most evaluation metrics. The main metrics are precision, recall, accuracy, F1 score, and ROC-AUC. However, these metrics do not suit every case and could be misleading.
+
+%----------------------------------------------------------
+\subsubsection{Why Not ROC-AUC}
+%----------------------------------------------------------
+
+ROC-AUC measures the probability that a randomly selected
+positive example receives a higher predicted score than a
+randomly selected negative example. While this is a
+theoretically sound and widely used metric, it is unsuitable
+as the primary evaluation metric for this project for the
+following reason.
+
+ROC-AUC evaluates the model's ability to rank positive cases
+above negative cases across the \emph{entire} dataset,
+treating every positive-negative pair equally. In a
+commercial lead scoring system, however, the more important
+question is whether the model can concentrate potential
+customers at the \emph{top} of the ranked list. In this
+project, the test set contains 71,210 companies with a
+conversion rate of 0.33\%, meaning approximately 241
+companies are expected to be genuine first-time Lloyds
+borrowers. Even a model that achieves a high AUC score may
+still distribute these 241 companies throughout the full
+ranking rather than concentrating them at the top making
+the model commercially less useful for a relationship
+management team that can only contact a limited number of
+companies each month. This motivates Precision@$K$ as the
+primary commercial evaluation metric.
+
+%----------------------------------------------------------
+\subsubsection{Why Precision@$K$}
+%----------------------------------------------------------
+
+Precision@$K$ directly answers the commercial question a
+relationship manager would ask: of the top $K$ companies
+the model recommends, how many are genuine first-time
+Lloyds borrowers? It is defined as:
+
+\begin{equation}
+    \text{Precision@}K =
+    \frac{\text{number of genuine positives in top } K}{K}
+    \label{eq:pak}
+\end{equation}
+
+\noindent
+A relationship manager cannot contact all companies in the
+dataset. Instead, they can only contact a limited number
+each month. Precision@$K$ addresses this directly by
+evaluating only the top $K$ companies ranked by the model.
+
+The overall positive rate in the test set serves as the
+baseline for comparison representing the fraction of
+genuine Lloyds customers that would be found by random
+outreach without using any model. Lift is then used to
+measure how much better the model performs relative to this
+baseline. For example, if the baseline conversion rate is
+0.33\% and the model achieves Precision@100 of 3.3\%, the
+lift is 10  meaning the top 100 companies selected by the
+model contain genuine Lloyds customers at a rate ten times
+higher than expected under random selection. This makes
+Precision@$K$ and Lift particularly useful for communicating
+the commercial value of the model to relationship managers
+and business stakeholders.
+
+
+%==========================================================
+\subsection{Choice of GridSearch Scoring Metric}
+%==========================================================
+
+GridSearch requires a single scoring metric to evaluate
+every hyperparameter combination during cross-validation.
+The choice of this metric directly determines which
+hyperparameters are selected a model tuned to maximise
+ROC-AUC will learn different hyperparameters than one tuned
+to maximise Average Precision or Precision@$K$, even on
+identical data. Three candidate metrics were considered:
+ROC-AUC, Precision@$K$, and Average Precision.
+Average Precision was selected as the GridSearch scoring
+metric for reasons specific to this project's data
+characteristics and commercial requirements.
+
+%----------------------------------------------------------
+
+\paragraph{Why not
+           Precision@$K$ Directly.}
+
+Precision@$K$ evaluates model performance
+at a single fixed list size $K$, while Average
+Precision integrates across all possible values of
+$K$. Since the lead list may be used
+at different scales depending on the relationship
+management team's monthly outreach capacity,
+optimising for one specific $K$ would bias the model
+toward that particular operational scenario at the
+potential expense of all others. Average Precision
+selects hyperparameters that produce good ranking
+quality throughout the full precision-recall curve,
+generalising across the full range of commercially
+relevant list sizes.
+
+%----------------------------------------------------------
+\subsubsection{Why Average Precision}
+%----------------------------------------------------------
+
+Average Precision was selected because it addresses all of
+the above limitations simultaneously. It is computed as
+the weighted mean of precision values at every recall
+threshold, where the weight at each step is the incremental
+increase in recall:
+
+\begin{equation}
+    \text{AP} =
+    \sum_{n} \bigl(\text{Recall}_{n} - \text{Recall}_{n-1}
+    \bigr) \times \text{Precision}_{n}
+    \label{eq:ap_gridsearch}
+\end{equation}
+
+\noindent
+This formulation gives Average Precision three properties
+that make it the appropriate GridSearch scoring metric for
+this project.
+
+\textbf{Property 1 --- Focuses entirely on the positive
+class.}
+Unlike ROC-AUC, which evaluates ranking quality
+symmetrically across both classes and is influenced by the
+large number of true negatives, Average Precision involves
+only precision and recall both computed entirely from
+positive-class performance. In a dataset where 99.67\% of
+companies are not genuine Lloyd's customer, a
+model can achieve a high ROC-AUC partly by correctly
+ranking the large majority of irrelevant companies, without
+necessarily placing genuine borrowers at the top of the
+list. Average Precision rewards only the latter.
+
+\textbf{Property 2 --- Evaluates all recall levels
+simultaneously.}
+Unlike Precision@$K$, which evaluates ranking quality at
+one specific threshold, Average Precision integrates
+across all possible thresholds. A model with high Average
+Precision tends to produce high Precision@$K$ across a
+range of $K$ values simultaneously, rather than being
+optimised for one specific $K$ at the expense of others.
+
+\textbf{Property 3 --- Smooth and stable for
+cross-validation.}
+Because Average Precision integrates across all thresholds
+rather than depending on a single count at a fixed $K$,
+it produces continuous scores that vary gradually between
+hyperparameter combinations. Small genuine differences in
+model quality produce small consistent differences in
+Average Precision, allowing GridSearch to identify the
+better configuration reliably without the $\pm$0.01
+noise that makes Precision@$K$ scoring unreliable at the
+0.33\% positive rate observed in this project.
+
+
+%==========================================================
+\subsection{Model Comparison}
+%==========================================================
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lllllll}
+    \toprule
+        Model & ROC-AUC & AP & P@100 & P@200 & P@500 & P@1000 \\
+        \midrule
+         Logistic Regression & 0.753612 & 0.010038 & 0.03 & 0.03 & 0.03 & 0.019 \\
+         XGBoost & 0.757248 & 0.009873 & 0.02 & 0.025 & 0.016 & 0.018 \\
+         MLP & 0.762443 & 0.010987 & 0.05 & 0.030 & 0.016 & 0.017 \\
+         \bottomrule
+    \end{tabular}
+    \caption{Model Comparison}
+    \label{tab:modelcompare}
+\end{table}
+
+As shown in Table \ref{tab:modelcompare}, the performance between each model is not significantly different. Every model achieves a ROC-AUC close to 0.75 and an AP close to 0.01. In terms of precision at K, for K = 100, MLP has the highest score at 0.05, while for K = 500, logistic regression achieve the highest score at 0.03. 
+
+
+%==========================================================
+\subsection{Model Interpretation}
+%==========================================================
+\subsubsection{Coefficients}
+According to Section \ref{sec:logisticregression}, coefficients are estimated using maximum likelihood. These coefficients indicate how each feature influences the outcome. This transparency of the model is the main advantage of logistic regression. The top 5 and bottom 5 of our model's coefficients are shown in Table \ref{tab:coefficients}. The feature \textit{account\_type\_medium} has the strongest effect on the prediction being the positive class (Lloyds customer), followed by \textit{sector\_Q:Health/Social} and \textit{account\_type\_small}. On the other hand, the feature \textit{region\_Northern Ireland} has the strongest influence on the prediction being the negative class (not a Lloyds customer), followed by \textit{sector\_B:Mining} and \textit{account\_type\_micro-entity}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ll}
+    \toprule
+        Feature & Coefficient \\
+        \midrule
+        cat\_\_account\_type\_medium & 1.423336 \\
+        cat\_\_sector\_Q: Health/Social & 1.277122 \\
+        cat\_\_account\_type\_small & 0.782259 \\
+        cat\_\_region\_North East & 0.743250 \\
+        cat\_\_region\_unknown & 0.730390 \\
+        ... & ... \\
+        cat\_\_account\_type\_total-exemption-small & -1.026308 \\
+        cat\_\_sector\_J: Information/Comms & -1.101164 \\
+        cat\_\_account\_type\_micro-entity & -1.234151 \\
+        cat\_\_sector\_B: Mining & -2.212720 \\
+        cat\_\_region\_Northern Ireland & -2.653556 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Coefficients: Top 5 and Bottom 5}
+    \label{tab:coefficients}
+\end{table}
+
+\subsubsection{Feature Importance}
+Since XGBoost is a tree-based model, the feature importance in XGBoost is different from coefficients in logistic regression. According to the documentation \cite{noauthor_xgboost_nodate}, the feature importance depends on the importance type: gain, weight, cover, total gain, and total cover. The default type is gain, which is the average loss reduction that a feature makes across all splits where it is used. Thus, feature importance in XGBoost does not indicate how each feature influences the class prediction, but rather how each feature contributes to the loss reduction. It seems like \textit{.feature\_importances\_} normalises the gain values, so that the importance from all features sums up to 1. The feature importance of our XGBoost model is shown in Table \ref{tab:featureimportance}. The feature \textit{cat\_\_account\_type\_micro-entity} has the highest value at about 0.426, much higher than the second highest, \textit{cat\_\_sector\_L: Real Estate} at 0.048.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ll}
+    \toprule
+        Feature & Importance \\
+        \midrule
+        cat\_\_account\_type\_micro-entity & 0.425852 \\
+        cat\_\_sector\_L: Real Estate & 0.048498 \\
+        num\_\_yrs\_since\_nonlloyds\_chg & 0.034578 \\
+        cat\_\_sector\_J: Information/Comms & 0.032855 \\
+        cat\_\_sector\_Q: Health/Social & 0.029273 \\
+        cat\_\_sector\_M: Professional/Scientific	 & 0.021844 \\
+        cat\_\_sector\_I: Accommodation/Food & 0.020203 \\
+        cat\_\_sector\_R: Arts/Recreation & 0.019340 \\
+        cat\_\_sector\_G: Retail/Wholesale & 0.017627 \\
+        cat\_\_region\_North East & 0.017579 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Feature Importance: Top 10}
+    \label{tab:featureimportance}
+\end{table}
+
+
+\subsubsection{SHAP}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{Group_LaTEX_Report/figures/SHAPoutput.png}
+    \caption{SHAP plot}
+    \label{fig:shapoutput}
+\end{figure}
+
+% MOVE SHAP FROM CHAPTER 2 to HERE ???
+
+Since feature importance only indicates how each feature contributes to the loss reduction, SHAP is used to get more detail on each feature's impact.
+As shown in Figure \ref{fig:shapoutput}, it is clear that \textit{account\_type\_micro-entity} companies are likely to push the prediction toward the negative class (not a Lloyds customer), while companies that are not \textit{account\_type\_micro-entity} are likely to push the prediction toward the positive class (Lloyds customer). Another obvious pattern is that high \textit{age\_years} values result in a negative SHAP value, while low \textit{age\_years} values result in a positive SHAP value. These patterns can be useful to understand what could drive a company to become a Lloyds customer. 
+
+It may be interpreted that relatively small companies might not need lending services from Lloyds Bank, or they may not be a target for Lloyds. Similarly, young companies might be a target Lloyds wants to focus on, or Lloyds' lending services may suit younger companies better. However, these are assumptions made purely from the patterns obtained from SHAP, and they might not precisely reflect the actual cause. Although additional information is needed to support the interpretation, the patterns open up possibilities for further exploration.
+
+
+% Explain how to interpret SHAP beeswarm plot --> values, color, etc? 
+
+
+
+%==========================================================
+\subsection{Model Selection}
+%==========================================================
+
+% Mention EU AI Act and UK GDPR ---> OK ???
+Since the overall performance between each model is extremely close, interpretability becomes the main focus. This is crucial in the banking and financial services domain, especially under the EU AI Act and UK GDPR (General Data Protection Regulation). 
+
+Considering both performance and interpretability, logistic regression is selected, as it provides transparency and achieves the highest scores on precision@200, precision@500, and precision@1000.
+
+
+
+
+
+
+\section{OCR Evaluation}
+
+\subsubsection{Table Extraction}
+\label{sec:evaluation_table_extraction}
+Evaluating extracted tables adds a layer of complexity, as it requires measuring both the model's ability to reproduce the layout of the table as well as its content. Zhong et al. \cite{zhong_2020} introduced the Tree-Edit-Distance-based Similarity (TEDS) metric which attempts to accomplish this by representing a table as a tree of rows and cells.
+
+$$ TEDS(T_a,T_b)= 1-\frac{EditDist(T_a,T_b)}{max(|T_a,T_b|)}$$
+
+Any insertions or deletion of a cell has a cost of 1. Furthermore, any alterations where cell substitution is necessary, such as the case where cells are placed in the wrong row or column incurs an additional cost of 1. For content differences, normalized Liechtenstein distance $(\in[0,1])$ \cite{levenshtein_1966} is used to calculate the difference between strings. The final TEDS score, calculated between 0 and 1 where 1 is the highest, is found by dividing the Edit-Distance between two tables by the highest number of nodes between the two tables. However, as the metric is based on the assumption that the entities compared are HTML-based tables, tables produced by our different models must be first standardized to match this format. This was chosen over other documented metrics, such as F1, as TEDS penalises structural aberrations more heavily, which is extremely important for densely packed tables like those found in financial accounts where mis-aligned rows and columns can heavily impact the feature extraction steps down stream.
+
+% explain about the different models used
+\subsubsection{Other Considered Approaches}
+
+\textbf{Rule-based PDF parsing.}
+Tools such as pdfplumber were considered for the OCR pipeline due to its low implementation cost. However, since it can only work on documents with an already existing text layer which our corpus lacks, it was not considered for the final pipeline. Additionally, documents that pdfplumber are able to parse, such as the XBRL and iXBRL files, are already tabular and considered to be the ground truths.
+
+\textbf{Modular recognition}
+An approach using Table Transformer(TATR) \cite{smock2023aligning} to crop tables through their bounding boxes then extract for features using Tesseract was also considered, roughly based on the approach presented by Guilherme N. \cite{benchmarking_LLM_vs_trad}. The method produced mixed results which caused it to be discarded for the LLM-based method used in the final pipeline. Unlike the results found in the original paper where TATR exceed at table detection, even exceeding LLM-based approaches in structural accuracy, testing on accounts showed the model struggling to achieve high enough confidence on filing tables. Table sparseness is likely the issue, as training and evaluation of the TATR model uses datasets such as FinTabNet \cite{smock2023aligning}, PubTabNet \cite{zhong_2020}, and TableBank \cite{li2019tablebank}, which either provide tables with lined borders or are quite dense content-wise.
+
+\subsubsection{Comparison Process and Results}
+As previously stated, the TEDS metric assumes that both the ground truth and comparison tables are both HTML tables, as most of our models produce some form of JSON, these must first be standardized to comply with the assumption. For this, a Python script was made which map JSON tables, rows, and values into corresponding HTML \textless table\textgreater , \textless tr\textgreater, and \textless td\textgreater  entities. As the untrained and trained versions of the LLM-based qpproach using returns separate headers and rows, they are first appended to each other before undergoing HTML mapping. Table matching between truth and comparison tables are done through index matching, where TEDS is set to zero in cases when truth tables exists but there are no comparison tables and vice-versa. However, it should be noted that the TEDS score should be treated as a lower bound, as index matching can overly chastise models for splitting tables.
+
+\begin{figure}[htp]
+
+\centering
+\includegraphics[width=.32\textwidth]{Group_LaTEX_Report/figures/tesseract_teds_histogram.png}\hfill
+\includegraphics[width=.32\textwidth]{Group_LaTEX_Report/figures/untrained_qwen_teds_histogram.png}\hfill
+\includegraphics[width=.32\textwidth]{Group_LaTEX_Report/figures/trained_qwen_teds_histogram.png}
+
+\caption{TEDS Score Distribution for Tesseract, Qwen3-8B(untrained), and Qwen3-8B(trained)}
+\label{fig:teds_dist_for_all_models}
+
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l|r|r|r|r}
+         Model Name & Mean & Median & \textless 0.5 & =1 \\
+         \toprule
+         TATR \& Tesseract & 0.438 & 0.338 & 24 & 15\\
+         Qwen3-VL-8B (untrained) & 0.804 & 0.945 & 6 & 19\\
+         Qwen3-VL-8B (trained) & 0.904 & 1 & 3 & 25
+    \end{tabular}
+    \caption{Model Scoring Summary}
+    \label{tab:placeholder}
+\end{table}
+
+Using the evaluation sample set created, Figure \ref{fig:teds_dist_for_all_models} shows a summary of the TEDS scores achieved when comparing model outputs to our ground truth. Comparing against just the untrained version of Qwen3, the Table Transformer and Tesseract approach heavily under preform, completely missing tables in 19 of the page tested. This stems from both the model's modular design and previously mentioned issues with TATR's detection of sparsely populated tables. As a two step approach, Tesseract only interacts with what TATR is able to extract, meaning faults in table extraction cascades to Tesseract with no ability to course correct. Furthermore, TATR's rate of error is unexpectedly high, with 5 of the 12 of the table's bounding boxes being cropped too aggressively. Figure \ref{fig:example_of_TATR_error} shows an example of this, where certain parts of the tables are excluded from the output.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.30\linewidth]{Group_LaTEX_Report/figures/tesseract_error_example.png}
+    \caption{Example of TATR's Agressive Bounding Box}
+    \label{fig:example_of_TATR_error}
+\end{figure}
+
+
+
+\section{GDELT media index evaluation}
+\label{sec:eval-media}
+
+Given the problem statement of combining structured and unstructured data, the main hypothesis of this project is that the news coverage of a sector actually carries information regarding the borrowing demand. Tone\_z, vol\_z with sector only, and vol\_z with sector x region were assessed; Table~\ref{tab:media-eval} summarises the outcome.
+
+\begin{table}[h]
+\centering\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Quantity} & \textbf{Test} & \textbf{Result} & \textbf{Verdict} \\
+\midrule
+\texttt{tone\_z} & lift, loud vs.\ quiet weeks & $1.00\times$ & no signal \\
+\texttt{vol\_z}, sector only & association, deseasonalised & $p = 0.86$ & no signal \\
+\texttt{vol\_z}, sector $\times$ region & association, real cells & $z = +6.77$ & not monotone \\
+\quad --- hottest quintile & conversion vs.\ baseline & $0.97\times$ & below chance \\
+Both, as features & Precision@K ablation & gap $\approx 0$ & no contribution \\
+\bottomrule
+\end{tabular}
+\caption{Evaluation of the GDELT media pillar.}
+% SOURCE: every figure in this table needs its computation cited or regenerated.
+% NOTE: 2_GDELT.ipynb reports z = 1.67 ("not significant") for a related test —
+% reconcile with z = +6.77 before submission.
+\label{tab:media-eval}
+\end{table}
+
+Only one quantity, vol\_z with sector x region, shows a detectable association. However, it still fails the main purpose of the hypothesis. The result shows that if it is ranked into quintiles by volume, the hottest quintile converts at $0.97\times$ the baseline rate which is still marginally \textit{below chance}. However, a non-monotone association does not totally mean that more coverage means more borrowing demand. Therefore, even though there is something there, it still does not fall under our hypothesis.
+
+By using both as features, there is no contribution. The gap in Precision@K is
+approximately zero at every $K$. Furthermore, the modelling table holds
+one row per company, the index one row per sector, region and week; joining them
+would multiply company rows and destroy the uniqueness the model analyses on. Therefore, the
+media index is not included from the model and applied afterwards as a
+soft re-ordering of the scored list, with $\texttt{GATE\_WEIGHT} = 0.15$, on real cells only.
+The summary is that the media index was tested and did not worth a place in the model. However, that negative result can be counted a contribution. It is shown that open-source news volume, with the depth of GDELT, is too sparse to differentiate individual SMEs.
+
+%---------------------------------------------------------------
+
+\chapter{Conclusion}
+\label{chap:conclusion}
+
+\noindent
+
+The project mainly asked whether the combination of public 'structured' and 'unstructured' data can be used to predict business needs and inform commercial banking strategies. The answer to the question is a partial yes. Company general data and filings are able to rank the probability of UK SMEs to take a first Lloyds charge within a 5-year time frame with several times better than picking randomly. However, for the news coverage, the current depth of the open sources cannot significantly help answering the problem.
+
+
+\textbf{The data}. A Companies House pipeline collected a total of 839,295 UK companies, of which 567,835 are filtered as SMEs from the stated filter which contain 399,703 registered historical charges. The bulk product for company profiles is combined with the REST API for charges data, as the bulk does not contain any charge records. Therefore, the API is necessary with multiple API keys combined, designed to work simultaneously to maximise the workload and handle errors to efficiently pull the left out data from bulk. The label was then matched from 
+\textbf{persons\_entitled} field which is a free text, containing 33,822 distinct lender strings. It is matched with a regular expression for each of the Lloyds Banking Group entities. With a cutoff date of 1 January 2021 and a five-year window, the modelling table contains 360,600 prospects and 1,203 label as positives (converted), showing a rate of 0.33 percent.
+
+\textbf{The model}. The models used are Logistic regression, XGBoost and MLP. They are chosen not from the accuracy, but the difference in explainability of each model. Each was also tuned with five-fold cross-validation and grid search. The class imbalance problem was intendedly kept because forcing the dataset to be balance would be considered manipulating the model and therefore fail to represent the true population.
+
+\textbf{The metrics}. Accuracy is not in used for this particular project because a model answering 'no conversion' for every company would already have 99.76 percent accuracy rate -- severe class imbalance. Therefore, precision@K and lift over the base rate are mainly reported. Average precision is also utilised as the grid search metric. Three grid searches were run on the same seeds. The model that directly tuned for Precision@100 produced the worst Precision@K at every K. Therefore, optimising for one list size does not mean it would reliably produce the best result at that size.
+
+\textbf{The filings}. More than a quarter of accounts are filed with scanned documents, which means that they are not stored in a machine-readable way. A Qwen3-VL-8B model was fine-tuned with QLoRA to retrieve tables from them which reaches a mean TEDS of 0.904 against 0.438 for the Table Transformer and Tesseract approach. 
+
+\textbf{The media index}. The project has tested using news for each company and then abandoned, as SMEs news are rarely appeared with no reliable key to join an article to a company number. Therefore, instead of per news company, the project utilised a weekly index of 21 SIC industries by 12 UK regions, having each cell compared to its own 52-week trailing baseline. The index was pulled with BigQuery instead of REST API. 
+
+\textbf{What works and what does not}. The pipeline, the label and the ranking seem to work fine with the final model reaches Precision@100 at 3 percent against a base rate of 0.33 percent with a lift of nine times. The main model used is Logistic regression as the results from the three model are not separable, and therefore explainability is what decided. The media index however does not contribute to the model with its insignificant result. The index is therefore kept as a soft re-ordering with the weight of 0.15 on true cells only.
+
+% =============================================================================
+
+% Finally, after the main matter, the back matter is specified.  This is
+% typically populated with just the bibliography.  LaTeX deals with these
+% in one of two ways, namely
+%
+% - inline, which roughly means the author specifies entries using the 
+%   \bibitem macro and typesets them manually, or
+% - using BiBTeX, which means entries are contained in a separate file
+%   (which is essentially a database) then imported; this is the 
+%   approach used below, with the databased being dissertation.bib.
+%
+% Either way, the each entry has a key (or identifier) which can be used
+% in the main matter to cite it, e.g., \cite{X}, \cite[Chapter 2}{Y}.
+
+\backmatter
+
+\bibliography{references.bib}
+
+% -----------------------------------------------------------------------------
+
+% The dissertation concludes with a set of (optional) appendices; these are 
+% the same as chapters in a sense, but once signalled as being appendices via
+% the associated macro, LaTeX manages them appropriately.
+
+\appendix
+
+% \chapter{An Example Appendix}
+% \label{appx:example}
+
+% Content which is not central to, but may enhance the dissertation can be 
+% included in one or more appendices; examples include, but are not limited
+% to
+
+% \begin{itemize}
+% \item lengthy mathematical proofs, numerical or graphical results which 
+%       are summarised in the main body,
+% \item sample or example calculations, 
+%       and
+% \item results of user studies or questionnaires.
+% \end{itemize}
+
+% \noindent
+% Note that in line with most research conferences, the examiners are not
+% obliged to read such appendices.
+
+% =============================================================================
+
+\end{document}

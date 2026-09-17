@@ -1,0 +1,32 @@
+.env
+.venv/
+.DS_Store
+
+# --- data -------------------------------------------------------------------
+# Plain CSVs are ignored. The three tables the pipeline needs ship GZIPPED, so they
+# fit inside GitHub's 100 MB per-file limit (149 MB -> 27 MB for companies).
+# paths.py points at the .gz; pandas reads and writes them transparently.
+*.csv
+*.csv.gz
+!API/flat_pot.csv.gz
+!API/CompaniesHouse/company_data/charges_history.csv.gz
+!API/CompaniesHouse/company_data/companies.csv.gz
+
+# the client-input template ships; real client lists never do
+!client/input/Template/client_companies_TEMPLATE.csv
+
+# --- rebuildable caches / superseded ----------------------------------------
+# The per-company JSON cache. The charge JSONs already in the repo predate this rule
+# and are kept deliberately: Stage 4b rebuilds charges_history.csv from them.
+API/CompaniesHouse/company_info_json/
+# Legacy two-file company layout, superseded by companies.csv (see paths.py).
+API/CompaniesHouse/company_data/Archive/
+# Duplicate of the tracked OCR pages/ folder.
+Data Preprocess/OCR/pages_llyods.zip
+
+*.db
+*.pdf
+
+# local virtual env
+.venv/
+__pycache__/

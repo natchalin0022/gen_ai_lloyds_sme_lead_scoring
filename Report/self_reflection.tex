@@ -1,0 +1,123 @@
+\documentclass[11pt, a4paper]{article}
+
+% --- Page Setup & Margins ---
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{lipsum}
+
+% --- Font Selection (Times New Roman) ---
+\usepackage{newtxtext,newtxmath} % Standard Times New Roman for pdfLaTeX
+
+% --- Formatting & Utilities ---
+\usepackage{microtype}      % Fine-tuning typography
+\usepackage{setspace}        % Line spacing
+\usepackage{xcolor}          % Colors
+\usepackage{titlesec}        % Section heading styling
+\usepackage{enumitem}        % Bullet formatting
+\usepackage{hyperref}        % Hyperlinks
+
+% Line spacing set to 1.15 for optimum readability and layout fit
+\setstretch{1.15}
+
+% Clean Heading Styles
+\titleformat{\section}{\large\bfseries\rmfamily}{\thesection}{1em}{}[\vspace{-0.5em}\rule{\textwidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+\titleformat{\subsection}{\bfseries\rmfamily}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{6pt}{3pt}
+
+% Itemize Spacing
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em}
+
+% Suppress Page Numbering for single-page layout (optional)
+\pagestyle{empty}
+
+\begin{document}
+
+% --- Header / Title Block ---
+\begin{center}
+    {\Large \bfseries Individual Reflection on Group Project} \\[0.3em]
+    {\small \textbf{Project Title:} Lead Scoring for SME Lending} \\[0.2em]
+    \rule{\textwidth}{1pt}
+\end{center}
+
+\vspace{-0.5em}
+\noindent
+\begin{tabular}{@{}ll p{0.5em} ll@{}}
+    \textbf{Student Name:} & Natchalin Iwsakul & & \textbf{Student ID:} & xxxxxxx \\
+    \textbf{Team / Group:} & Group 21 & & \textbf{Supervisor:} & xxxxxxxx \\
+\end{tabular}
+
+\vspace{0.2em}
+
+% --- Section 1: Team Dissertation Experience ---
+\section*{1. Your views on the completing the project as a team}
+
+Building a lead-scoring system for SME lending divided cleanly into four strands --- the
+Companies House population and charge histories, the GDELT media index, document extraction
+from filed accounts, and the written evaluation --- so a team of four was an advantage rather
+than an overhead. Because each strand failed in a different way, we could each go deep
+without blocking one another. I took the Companies House and GDELT pipelines and the
+modelling and scoring notebooks; that breadth meant I saw the joins between components, which
+is where most of the real problems lived. What made the collaboration work was agreeing the
+\emph{interfaces} early rather than the internals: once the shape of the company table and
+the charge history were fixed, each of us could rebuild our own half without breaking anyone
+else's. I would work with this group again.
+
+% --- Section 2: Project Management & Execution Processes ---
+\section*{2. Your views on project management and execution of your team}
+
+We ran a branch-per-person Git workflow with a regular meeting cadence, which suited a project
+where four people touched the same data assets: individual experimentation stayed cheap and
+merges were deliberate. Our weakest period was the middle. For roughly two months the
+repository was organised by \emph{person} rather than by \emph{stage}, notebooks carried
+hardcoded paths, and several of us had near-duplicate feature code. Nothing was broken, but
+handovers were expensive and it was hard to tell which version of a table was current.
+Restructuring into a numbered pipeline, with a single module owning every file location, was
+the highest-value non-modelling change we made, and it was worth doing in week three rather
+than week eleven. The cost of poor structure on a data project is not bugs but ambiguity ---
+and ambiguity only becomes visible once someone else has to use your output.
+
+% --- Section 3: Critical Reflections: What Worked, What Did Not, and Adaptations ---
+\section*{3. Reflections on Successes, Failures, and Retrospective Changes}
+\begin{itemize}
+    \item \textbf{What Worked Well:} Committing to point-in-time discipline before writing any
+    modelling code. The label is derived from registered charges, so any charge-derived feature
+    is a potential leak; quarantining those fields from the outset meant we never had to unpick
+    a result that was too good to be true. Equally valuable was refusing to judge the model on
+    accuracy or ROC-AUC, both of which are actively misleading below one percent prevalence.
+    Precision@K and lift kept the evaluation tied to the only question the client actually has:
+    who should a relationship manager call first.
+
+    \item \textbf{What Did Not Work Well:} My first modelling design was a temporal panel ---
+    one row per company per quarterly cutoff, with a forward-looking label. It was the
+    principled choice and I still think the reasoning was sound. It was also unusable: tiling
+    the label windows left barely a hundred positive events across almost half a million rows,
+    which supports about a dozen features and no meaningful variance estimate. I had built the
+    machinery without ever measuring its binding constraint. Rebuilding it as a single as-of
+    table over a far larger population produced an order of magnitude more positives from the
+    same idea. The unstructured pillar also under-delivered: the sector-level media signal
+    proved indistinguishable from seasonality.
+
+    \item \textbf{What I Would Do Differently:} Count the positives before building anything.
+    A ten-minute query over the charge history would have shown the panel design was infeasible
+    weeks before the code did, and that habit --- establish the ceiling on what the data can
+    support, then design to it --- is the most transferable thing I take from this project. I
+    would also fix the repository structure early, and force an earlier decision on the media
+    pillar by measuring its contribution as soon as a baseline existed, rather than assuming a
+    component earns its place because the brief calls for it.
+\end{itemize}
+
+% --- Section 4: Concluding Personal Reflections ---
+\section*{4. Any other reflections}
+
+The part of this project I am most pleased with is not the model but the willingness to report
+a negative result properly. It would have been easy to present the media index as a working
+second pillar; instead we measured it, found it weak, and kept it only as a small tie-breaker
+that can never remove a company from the list. Being able to say precisely how much a
+component contributes --- including when the answer is ``very little'' --- is where the work
+stopped feeling like a student exercise. The related discipline was being clear about what the
+output is not: it ranks who to approach, it does not assess creditworthiness. Holding that
+line under pressure to make results sound stronger is probably the habit that matters most
+outside university.
+
+\end{document}
