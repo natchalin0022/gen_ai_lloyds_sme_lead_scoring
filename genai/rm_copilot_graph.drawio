@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="drafted-for-rm-copilot">
+  <diagram name="research graph" id="rm-copilot-research-graph">
+    <mxGraphModel dx="900" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ============ the spine: what actually executes ============ -->
+        <mxCell id="start" value="START"
+          style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=13;fontStyle=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="fetch" value="fetch"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=14;fontStyle=1;arcSize=12;"
+          vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="summarise" value="summarise"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0f5d52;strokeWidth=2;fontSize=14;fontStyle=1;arcSize=12;"
+          vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="end" value="END"
+          style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=13;fontStyle=1;"
+          vertex="1" parent="1">
+          <mxGeometry x="300" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- ============ edges, labelled with the state ============ -->
+        <mxCell id="e1" value="{ company_number }"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=11;fontFamily=Courier New;labelBackgroundColor=#ffffff;verticalAlign=middle;"
+          edge="1" parent="1" source="start" target="fetch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e2" value="+ filings&#10;+ charges"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=11;fontFamily=Courier New;labelBackgroundColor=#ffffff;verticalAlign=middle;"
+          edge="1" parent="1" source="fetch" target="summarise">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e3" value="+ summary"
+          style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=11;fontFamily=Courier New;labelBackgroundColor=#ffffff;verticalAlign=middle;"
+          edge="1" parent="1" source="summarise" target="end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ============ annotations: things that do NOT execute ============ -->
+        <mxCell id="note_fetch" value="&lt;b&gt;pure Python&lt;/b&gt;&lt;br&gt;ch_fh.get_filing_history()&lt;br&gt;ch_ch.get_charges()&lt;br&gt;&lt;i&gt;no model in this node&lt;/i&gt;"
+          style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#888888;fontSize=11;align=left;spacingLeft=8;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="530" y="185" width="240" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note_sum" value="&lt;b&gt;Claude Sonnet 5&lt;/b&gt; (temperature 0)&lt;br&gt;.with_structured_output(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;FilingSummary)&lt;br&gt;&lt;i&gt;the model shapes the result&lt;/i&gt;"
+          style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#0f5d52;fontSize=11;align=left;spacingLeft=8;verticalAlign=middle;"
+          vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="240" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a1"
+          style="edgeStyle=none;dashed=1;html=1;endArrow=none;startArrow=none;strokeColor=#888888;"
+          edge="1" parent="1" source="note_fetch" target="fetch">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="a2"
+          style="edgeStyle=none;dashed=1;html=1;endArrow=none;startArrow=none;strokeColor=#0f5d52;"
+          edge="1" parent="1" source="note_sum" target="summarise">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ============ legend: the state is the medium, not a node ============ -->
+        <mxCell id="legend" value="&lt;b&gt;ResearchState is not a node.&lt;/b&gt;&lt;br&gt;It is what travels along every edge above.&lt;br&gt;&lt;br&gt;Channels:&lt;br&gt;&amp;nbsp;&amp;nbsp;company_number : str&lt;br&gt;&amp;nbsp;&amp;nbsp;filings&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;: list[dict]&lt;br&gt;&amp;nbsp;&amp;nbsp;charges&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;: list[dict]&lt;br&gt;&amp;nbsp;&amp;nbsp;summary&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;: FilingSummary | None&lt;br&gt;&lt;br&gt;&lt;i&gt;Edge labels show what each node adds.&lt;/i&gt;"
+          style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f6f4ee;strokeColor=#cccccc;fontSize=11;align=left;spacingLeft=10;verticalAlign=top;spacingTop=8;"
+          vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="220" height="180" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
