@@ -35,7 +35,7 @@ langchain>=1.4.0
 langchain-anthropic>=1.7.2    # lets LangChain / LangGraph / ragas call Claude
 langgraph>=1.2.11
 langsmith>=0.12.4             # tracing; swap for langfuse if preferred
-mcp>=2.2.0                    # 2.x: FastMCP was renamed MCPServer (mcp.server.mcpserver)
+mcp>=1.30                     # pinned <2 by langchain-mcp-adapters; server.py supports both APIs
 ragas>=0.4.3                  # RAG evaluation
 # PINNED BELOW 0.4: ragas 0.4.3 still imports langchain_community.chat_models.vertexai,
 # which langchain-community 0.4 removed. 0.3.x works with langchain-core 1.x. Lift

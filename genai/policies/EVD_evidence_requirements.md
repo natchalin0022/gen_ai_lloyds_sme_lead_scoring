@@ -1,6 +1,6 @@
 # EVD — Evidence Requirements and Referral Triggers
 
-**Northgate Commercial Bank · SME Lending Policy · v1.0 · effective 2026-01-01**
+**Lloyds Bank (Demo) · SME Lending Policy · v1.0 · effective 2026-01-01**
 
 Scope: the minimum evidence required before a recommendation may be made, the rules
 governing what a brief may assert, and the conditions under which an assessment must
@@ -13,7 +13,7 @@ be returned for further research rather than concluded.
 
 No recommendation may be made unless all of the following are held: the date of
 incorporation, at least one accounts filing or confirmation that none exists, and a
-complete charge position including the status of every charge.
+complete charge position including the status and `lender_group` of every charge.
 
 *Applies when:* any of the above is absent from the retrieved record.
 

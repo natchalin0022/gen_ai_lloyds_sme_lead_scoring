@@ -11,6 +11,8 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
+from lender_groups import lender_group
+
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 BASE = "https://api.company-information.service.gov.uk"
@@ -53,6 +55,8 @@ def summarise(charge: dict) -> dict:
         "status":          charge.get("status"),                 # outstanding / fully-satisfied / part-satisfied
         "classification":  charge.get("classification", {}).get("description"),
         "persons_entitled": [p.get("name") for p in charge.get("persons_entitled", [])],  # the LENDER(s)
+        # resolved in code, not by the model — see lender_groups.py
+        "lender_group":    lender_group([p.get("name") for p in charge.get("persons_entitled", [])]),
         "charge_id":       charge.get("links", {}).get("self", "").rsplit("/", 1)[-1],
     }
 
@@ -63,7 +67,7 @@ if __name__ == "__main__":
     print(f"company {number}: {len(charges)} charge(s)\n")
     for c in charges:
         s = summarise(c)
-        print(f"  {s['created_on']}  {s['status']:16s}  lender: {', '.join(s['persons_entitled']) or '-'}")
+        print(f"  {s['created_on']}  {s['status']:16s}  {s['lender_group']:12s}  lender: {', '.join(s['persons_entitled']) or '-'}")
     if charges:
         one = get_charge(number, summarise(charges[0])["charge_id"])
         print(f"\nfull record for the most recent charge ({one.get('charge_code')}):")

@@ -1,6 +1,6 @@
 # CON — Filing Conduct and Information Quality
 
-**Northgate Commercial Bank · SME Lending Policy · v1.0 · effective 2026-01-01**
+**Lloyds Bank (Demo) · SME Lending Policy · v1.0 · effective 2026-01-01**
 
 Scope: what a company's Companies House filing record indicates about its
 administrative conduct, and whether enough current financial information exists

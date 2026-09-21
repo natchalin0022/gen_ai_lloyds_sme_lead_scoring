@@ -1,6 +1,6 @@
 # SEC — Security and Existing Charges
 
-**Northgate Commercial Bank · SME Lending Policy · v1.0 · effective 2026-01-01**
+**Lloyds Bank (Demo) · SME Lending Policy · v1.0 · effective 2026-01-01**
 
 Scope: how existing registered charges affect a company's suitability for a new
 secured facility. Applies to all UK limited companies assessed for first-charge
@@ -12,10 +12,11 @@ commercial lending.
 **Outcome: REFER**
 
 A company with one or more charges recorded as `outstanding` in favour of a lender
-other than Northgate Commercial may not be offered a first-charge facility. Any new
-facility ranks as a second charge unless the existing charge is redeemed at completion.
+outside the group (`lender_group == "third_party"`) may not be offered a
+first-charge facility. Any new facility ranks as a second charge unless the existing
+charge is redeemed at completion.
 
-*Applies when:* any `charges[].status == "outstanding"`.
+*Applies when:* any `charges[].status == "outstanding" and charges[].lender_group == "third_party"`.
 
 ---
 
@@ -23,8 +24,8 @@ facility ranks as a second charge unless the existing charge is redeemed at comp
 **Outcome: PROCEED**
 
 A company with no charges registered at any time, or whose charges are all recorded as
-`fully-satisfied`, holds a clean security position. A first-charge facility may be offered
-subject to the remaining policies.
+`fully-satisfied`, holds a clean security position regardless of who the lenders were.
+A first-charge facility may be offered subject to the remaining policies.
 
 *Applies when:* `charges` is empty, or every `charges[].status == "fully-satisfied"`.
 
@@ -54,11 +55,12 @@ as outstanding for all ranking purposes until full redemption is evidenced.
 ### SEC-05 — Recently banked elsewhere
 **Outcome: DECLINE**
 
-Where a company has registered a charge in favour of a third-party lender within the
-last 6 months, it is presumed to have satisfied its current funding requirement.
-Deprioritise for outbound contact.
+Where a company has registered a charge in favour of a lender outside the group
+(`lender_group == "third_party"`) within the last 6 months, it is presumed to have
+satisfied its current funding requirement. Deprioritise for outbound contact.
 
-*Applies when:* any `charges[].created_on` within 180 days of assessment date.
+*Applies when:* any `charges[].lender_group == "third_party"` with `created_on` within
+180 days of assessment date.
 
 ---
 
