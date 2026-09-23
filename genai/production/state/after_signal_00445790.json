@@ -1,0 +1,738 @@
+{
+ "company_number": "00445790",
+ "as_of": "2026-09-23",
+ "profile": {
+  "company_number": "00445790",
+  "company_name": "TESCO PLC",
+  "company_status": "active",
+  "type": "plc",
+  "date_of_creation": "1947-11-27",
+  "sic_codes": [
+   "47110"
+  ],
+  "registered_office": "Tesco House, Shire Park, Kestrel Way, Welwyn Garden City, AL7 1GA",
+  "accounts_type": "group",
+  "last_accounts_made_up_to": "2026-02-28",
+  "next_accounts_due": "2027-08-26",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 8372,
+  "kept": 8162,
+  "items": [
+   {
+    "date": "2026-09-16",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-26",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-07-07; capital: [{'currency': 'GBP', 'figure': '397,007,409.26'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-26",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-06-30; capital: [{'currency': 'GBP', 'figure': '398,210,742.59'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-26",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-08-04; capital: [{'currency': 'GBP', 'figure': '396,791,247.15'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-26",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-06-22; capital: [{'currency': 'GBP', 'figure': '399,540,742.59'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-07-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type group (made up date: 2026-02-28)",
+    "days_late": -126
+   },
+   {
+    "date": "2026-07-03",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-06-16; capital: [{'currency': 'GBP', 'figure': '400,046,210.30'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-07-03",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-06-09; capital: [{'currency': 'GBP', 'figure': '400,671,081.92'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-07-03",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-06-02; capital: [{'currency': 'GBP', 'figure': '401,325,776.63'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-06-10",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-05-06; capital: [{'currency': 'GBP', 'figure': '404,185,504.25'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-06-10",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-04-28; capital: [{'currency': 'GBP', 'figure': '404,317,063.74'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-06-10",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-05-27; capital: [{'currency': 'GBP', 'figure': '401,968,993.64'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-06-10",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-05-19; capital: [{'currency': 'GBP', 'figure': '403,323,340.87'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-06-10",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-05-12; capital: [{'currency': 'GBP', 'figure': '404,078,137.79'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-05-07",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Thierry Dominique Gerard Garnier; termination date: 2026-05-06)",
+    "days_late": null
+   },
+   {
+    "date": "2026-03-09",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-03-09",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-02-11",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-02-11",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-02-11",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-02-05",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-01-21; capital: [{'currency': 'GBP', 'figure': '404,394,910.41'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-02-05",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-02-05",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-22",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-01-13; capital: [{'currency': 'GBP', 'figure': '404,572,278.32'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-08",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2026-01-06; capital: [{'currency': 'GBP', 'figure': '404,717,544.22'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-08",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-12-30; capital: [{'currency': 'GBP', 'figure': '404,838,442.36'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-08",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-12-23; capital: [{'currency': 'GBP', 'figure': '404,946,729.56'}])",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-06",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-24",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-12-16; capital: [{'currency': 'GBP', 'figure': '405,335,304.01'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-12",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-12-09; capital: [{'currency': 'GBP', 'figure': '406,176,403.74'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-11-25; capital: [{'currency': 'GBP', 'figure': '408,609,025.16'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-12-02; capital: [{'currency': 'GBP', 'figure': '407,229,753.35'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-11-07; capital: [{'currency': 'GBP', 'figure': '409,347,129.44'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-11-04; capital: [{'currency': 'GBP', 'figure': '409,613,548.77'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-03",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-11-10",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-11-10",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-31",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-10-21; capital: [{'currency': 'GBP', 'figure': '410,866,700.35'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-31",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-10-28; capital: [{'currency': 'GBP', 'figure': '410,077,404.25'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-20",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-20",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-17",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-10-14; capital: [{'currency': 'GBP', 'figure': '411,814,750.38'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-13",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2025-10-07; capital: [{'currency': 'GBP', 'figure': '412,183,490.54'}])",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 9,
+  "outstanding": 2,
+  "items": [
+   {
+    "charge_code": null,
+    "created_on": "2009-11-04",
+    "delivered_on": "2009-11-06",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Tesco Trustee Company of Ireland Limited as Trustee of the Tesco Ireland Limited Senior Executive Pension Scheme"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Right title benefit and interest in and to the account being the euro designated account in the name of the company with sort code 40-05-15 account number 67851117, and the deposit. See image for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2009-11-04",
+    "delivered_on": "2009-11-06",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Tesco Ireland Pension Trustees Limited as Trustee of the Tesco Ireland Limited Pension Plan"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Right title benefit and interest in and to the account being the euro designated account in the name of the company with sort code 40-05-15 account number 67851125, and the deposit. See image for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2009-03-27",
+    "delivered_on": "2009-03-27",
+    "satisfied_on": "2009-11-25",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Tesco Ireland Pension Trustees Limited as Trustee of the Tesco Ireland Limited Executive Scheme"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "All present and future right title benefit and interest in and to the account and the deposit see image for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2009-03-27",
+    "delivered_on": "2009-03-27",
+    "satisfied_on": "2009-11-25",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Tesco Trustee Company of Ireland Limited as Trustee of the Tesco Ireland Limited Staff Scheme (The \"Trustee\")"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "All present and future right title benefit and interest in and to the account and the deposit see image for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2005-05-13",
+    "delivered_on": "2005-05-31",
+    "satisfied_on": "2009-10-09",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Rbs Aerospace Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "By way of first fixed charge in favour of the chargee all of the chargors right title and interest in to and over the shares. See the mortgage charge document for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2001-07-31",
+    "delivered_on": "2001-08-16",
+    "satisfied_on": "2009-10-09",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Deutsche International Finance (Ireland) Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "All tesco UK's right,title and interest in and to the obligation of dbag nz to pay the aggregate of the amounts and the proceeds thereof. See the mortgage charge document for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2000-12-08",
+    "delivered_on": "2000-12-20",
+    "satisfied_on": "2009-10-09",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Deutsche Bank Ag"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "All of the company's right title and interest to the obligation of dbag nz to pay the amount which dbag nz agrees subject to its terms to transfer the spv share capital to the company and any proceeds of the obligation."
+   },
+   {
+    "charge_code": null,
+    "created_on": "1994-04-05",
+    "delivered_on": "1994-04-15",
+    "satisfied_on": "2000-09-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Cobroad Investments"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "All right title and interest in the sterling deposit account from time to time and all interest if any. See the mortgage charge document for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "1991-12-17",
+    "delivered_on": "1992-01-03",
+    "satisfied_on": "1995-08-01",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Cobroad Investments"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "All right title and interest in the account opened with natwest investment bank limited pursuant to the sterling deposit agreement and charge and the debt being represented thereby."
+   }
+  ]
+ },
+ "officers": {
+  "total": 74,
+  "active": 11,
+  "items": [
+   {
+    "name": "TAYLOR, Christopher Jon",
+    "role": "secretary",
+    "appointed_on": "2025-04-14",
+    "resigned_on": null
+   },
+   {
+    "name": "BETHELL, Melissa",
+    "role": "director",
+    "appointed_on": "2018-09-24",
+    "resigned_on": null
+   },
+   {
+    "name": "BODSON, Bertrand Jean Francois",
+    "role": "director",
+    "appointed_on": "2021-06-01",
+    "resigned_on": null
+   },
+   {
+    "name": "FAIRBAIRN, Carolyn Julie",
+    "role": "director",
+    "appointed_on": "2023-09-01",
+    "resigned_on": null
+   },
+   {
+    "name": "GILLILAND, Stewart Charles",
+    "role": "director",
+    "appointed_on": "2018-03-05",
+    "resigned_on": null
+   },
+   {
+    "name": "KENNEDY, Christopher John",
+    "role": "director",
+    "appointed_on": "2025-02-20",
+    "resigned_on": null
+   },
+   {
+    "name": "MURPHY, Gerard Martin",
+    "role": "director",
+    "appointed_on": "2023-09-01",
+    "resigned_on": null
+   },
+   {
+    "name": "MURPHY, Ken",
+    "role": "director",
+    "appointed_on": "2020-10-01",
+    "resigned_on": null
+   },
+   {
+    "name": "NAWAZ, Imran",
+    "role": "director",
+    "appointed_on": "2021-05-01",
+    "resigned_on": null
+   },
+   {
+    "name": "SILVER, Caroline Louise",
+    "role": "director",
+    "appointed_on": "2022-10-01",
+    "resigned_on": null
+   },
+   {
+    "name": "WHITWORTH, Karen Tracy",
+    "role": "director",
+    "appointed_on": "2021-06-18",
+    "resigned_on": null
+   }
+  ]
+ },
+ "signals": {
+  "as_of": "2026-09-23",
+  "company": {
+   "status": "active",
+   "accounts_type": "group",
+   "next_accounts_due": "2027-08-26",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 9,
+   "live": [
+    "created 2009-11-04 \u00b7 Tesco Trustee Company of Ir\u2026",
+    "created 2009-11-04 \u00b7 Tesco Ireland Pension Trust\u2026"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "created 2009-03-27 \u00b7 Tesco Ireland Pension Trust\u2026",
+    "created 2009-03-27 \u00b7 Tesco Trustee Company of Ir\u2026",
+    "created 2005-05-13 \u00b7 Rbs Aerospace Limited",
+    "created 2001-07-31 \u00b7 Deutsche International Fina\u2026",
+    "created 2000-12-08 \u00b7 Deutsche Bank Ag",
+    "created 1994-04-05 \u00b7 Cobroad Investments",
+    "created 1991-12-17 \u00b7 Cobroad Investments"
+   ],
+   "outstanding_third_party": [
+    "created 2009-11-04 \u00b7 Tesco Trustee Company of Ir\u2026",
+    "created 2009-11-04 \u00b7 Tesco Ireland Pension Trust\u2026"
+   ],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [
+    "created 2009-11-04 \u00b7 Tesco Trustee Company of Ir\u2026",
+    "created 2009-11-04 \u00b7 Tesco Ireland Pension Trust\u2026"
+   ],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 1,
+   "latest_accounts": {
+    "ref": "AA filed 2026-07-25",
+    "days_late": -126,
+    "description": "accounts with accounts type group (made up date: 2026-02-28)"
+   },
+   "latest_micro_or_exempt": false,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2026-07-25",
+    "days_late": -126
+   },
+   "late_3y": [],
+   "months_since_incorporation": 945.8,
+   "last_made_up_to": "2026-02-28",
+   "months_since_made_up": 6.8,
+   "insolvency_filings": [],
+   "window_truncated": true
+  },
+  "officers": {
+   "active": 11,
+   "total_ever": 74,
+   "appointed_last_12m": []
+  },
+  "collateral": {
+   "created 2009-11-04 \u00b7 Tesco Trustee Company of Ir\u2026": {
+    "collateral": "cash_deposit",
+    "quote": "the account being the euro designated account in the name of the company with sort code 40-05-15 account number 67851117, and the deposit",
+    "verified": true
+   },
+   "created 2009-11-04 \u00b7 Tesco Ireland Pension Trust\u2026": {
+    "collateral": "cash_deposit",
+    "quote": "the account being the euro designated account in the name of the company with sort code 40-05-15 account number 67851125, and the deposit",
+    "verified": true
+   }
+  },
+  "missing": []
+ }
+}

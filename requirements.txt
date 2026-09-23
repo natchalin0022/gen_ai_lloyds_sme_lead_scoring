@@ -42,3 +42,4 @@ ragas>=0.4.3                  # RAG evaluation
 # the cap once ragas stops importing it.
 langchain-community<0.4
 ipykernel>=7.3.0              # so .venv shows up as a Jupyter kernel
+grandalf>=0.8                 # graph.get_graph().draw_ascii() in the production notebooks

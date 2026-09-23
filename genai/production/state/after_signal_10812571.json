@@ -1,0 +1,307 @@
+{
+ "company_number": "10812571",
+ "as_of": "2026-09-23",
+ "profile": {
+  "company_number": "10812571",
+  "company_name": "36EL LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2017-06-09",
+  "sic_codes": [
+   "68100",
+   "68209"
+  ],
+  "registered_office": "Level 5a Maple House, 149 Tottenham Court Road, London, W1T 7NF",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2024-06-30",
+  "next_accounts_due": "2026-06-30",
+  "accounts_overdue": true,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 35,
+  "kept": 21,
+  "items": [
+   {
+    "date": "2026-09-22",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-06-30)",
+    "days_late": 264
+   },
+   {
+    "date": "2024-06-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-06-30)",
+    "days_late": 91
+   },
+   {
+    "date": "2023-09-02",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2023-08-29",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2023-06-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-06-30)",
+    "days_late": 94
+   },
+   {
+    "date": "2022-11-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-06-30)",
+    "days_late": 225
+   },
+   {
+    "date": "2022-07-04",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2022-07-04; officer name: Mr Kon Michael Asimacopoulos)",
+    "days_late": null
+   },
+   {
+    "date": "2021-07-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-06-30)",
+    "days_late": 98
+   },
+   {
+    "date": "2020-12-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-06-30)",
+    "days_late": 268
+   },
+   {
+    "date": "2020-12-10",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2020-11-17",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2019-06-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-06-30)",
+    "days_late": 78
+   },
+   {
+    "date": "2019-05-11",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2019-05-07",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2018-09-25",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2018-09-22",
+    "category": "dissolution",
+    "type": "DISS16(SOAS)",
+    "description": "dissolved compulsory strike off suspended",
+    "days_late": null
+   },
+   {
+    "date": "2018-08-28",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2017-07-20",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 108125710001; charge creation date: 2017-07-10)",
+    "days_late": null
+   },
+   {
+    "date": "2017-07-20",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 108125710002; charge creation date: 2017-07-10)",
+    "days_late": null
+   },
+   {
+    "date": "2017-06-09",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 2,
+  "outstanding": 2,
+  "items": [
+   {
+    "charge_code": "108125710002",
+    "created_on": "2017-07-10",
+    "delivered_on": "2017-07-20",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Interbay Funding Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "All that freehold interest in the land and property known as 36 englands lane, london NW3 4UE and registered at the land registry with title absolute under title number NGL426586."
+   },
+   {
+    "charge_code": "108125710001",
+    "created_on": "2017-07-10",
+    "delivered_on": "2017-07-20",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Interbay Funding Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "All that freehold interest in the land and property known as 36 englands lane, london NW3 4UE and registered at the land registry with title absolute under title number NGL426586."
+   }
+  ]
+ },
+ "officers": {
+  "total": 1,
+  "active": 1,
+  "items": [
+   {
+    "name": "ASIMACOPOULOS, Kon Michael",
+    "role": "director",
+    "appointed_on": "2017-06-09",
+    "resigned_on": null
+   }
+  ]
+ },
+ "signals": {
+  "as_of": "2026-09-23",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2026-06-30",
+   "accounts_overdue": true,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 2,
+   "live": [
+    "108125710002",
+    "108125710001"
+   ],
+   "clean_position": false,
+   "satisfied": [],
+   "outstanding_third_party": [
+    "108125710002",
+    "108125710001"
+   ],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "interbay funding limited",
+     "charges": [
+      "108125710001",
+      "108125710002"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "108125710002",
+    "108125710001"
+   ],
+   "floating_live": [
+    "108125710002",
+    "108125710001"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 7,
+   "latest_accounts": {
+    "ref": "AA filed 2025-12-17",
+    "days_late": 264,
+    "description": "accounts with accounts type micro entity (made up date: 2024-06-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-12-17",
+    "days_late": 264
+   },
+   "late_3y": [
+    "AA filed 2025-12-17",
+    "AA filed 2024-06-27"
+   ],
+   "months_since_incorporation": 111.5,
+   "last_made_up_to": "2024-06-30",
+   "months_since_made_up": 26.8,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 1,
+   "appointed_last_12m": []
+  },
+  "collateral": {
+   "108125710002": {
+    "collateral": "property",
+    "quote": "All that freehold interest in the land and property known as 36 englands lane, london NW3 4UE",
+    "verified": true
+   },
+   "108125710001": {
+    "collateral": "property",
+    "quote": "All that freehold interest in the land and property known as 36 englands lane, london NW3 4UE",
+    "verified": true
+   }
+  },
+  "missing": []
+ }
+}
