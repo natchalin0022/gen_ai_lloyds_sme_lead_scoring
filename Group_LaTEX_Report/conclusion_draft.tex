@@ -1,0 +1,73 @@
+\chapter{Conclusion}
+\label{chap:conclusion}
+
+This project asked whether external public data can be used to predict business needs and inform
+commercial banking strategies. The answer found is a partial yes. Company filings can order UK
+SMEs by their likelihood of taking a first Lloyds charge at nine times better than picking at
+random. News coverage, at the depth that open sources are able to give, cannot.
+
+\textbf{The data}. A Companies House pipeline was built on two routes, since the bulk product
+carries the population cheaply but holds no charges, and the rate limit makes pulling the whole
+register through the API impractical. Together they collected 839,295 companies, of which 567,835
+passed the SME filter, with a history of 399,703 registered charges. The label was then matched
+from the \textit{persons\_entitled} field, which is free text and holds 33,822 distinct lender
+strings, using one regular expression for each Lloyds Banking Group brand. However, one mistake
+found here is worth noting again. Matching ``bank of scotland'' alone also matches ``The Royal
+Bank of Scotland'', which belongs to NatWest Group, and this quietly produced 14,305 wrong
+charges, over a quarter of all matches, before it was corrected. With a cutoff of 1 January 2021
+and a five-year window, the modelling table holds 360,600 prospects of which 1,203 converted, a
+rate of 0.33 percent.
+
+\textbf{The models}. Logistic regression, XGBoost and MLP were chosen for their difference in
+explainability rather than for expected accuracy alone, and each was tuned with five-fold
+cross-validation and grid search. The class imbalance was deliberately kept rather than
+rebalanced, since forcing the dataset into balance would manipulate the model in an undesired way
+and fail to reflect the real population.
+
+\textbf{The metrics}. Precision@K and lift over the base rate are reported, and accuracy is not,
+because a classifier answering ``no conversion'' for every company would already be correct
+99.67 percent of the time. Average precision was used as the grid search metric, and this choice
+was tested rather than assumed. Three grid searches were run on identical data and seeds, and the
+model tuned directly on Precision@100 produced the worst Precision@K at every K, including
+K = 100 itself, at 1.0 percent against 4.0 percent. Therefore, optimising for one list size does
+not reliably produce the best result at that size.
+
+\textbf{The filings}. Roughly a quarter of accounts are filed as scanned documents with no text
+layer, which places them outside the machine-readable route entirely. A Qwen3-VL-8B model was
+fine-tuned with QLoRA to read tables out of them, reaching a mean TEDS of 0.904 against 0.438 for
+the Table Transformer and Tesseract approach, which struggled on the sparse and frameless tables
+that financial accounts are made of.
+
+\textbf{The media index}. Per-company news was tested first and abandoned, as SMEs almost never
+appear in coverage and there is no reliable key to join an article to a company number. Therefore,
+the signal was moved up to a weekly index of 21 SIC sections by twelve UK regions, each cell
+z-scored against its own 52-week baseline. It was pulled with a single aggregated query rather
+than a loop over cells, and every query is dry-run against a cost cap first, which kept the whole
+pull inside the monthly free tier.
+
+\textbf{What works and what does not}. The pipeline, the label and the ranking all work. The
+shipped model reaches Precision@100 of 3 percent against a base rate of 0.33 percent, a lift of
+nine times, and the same lift is held through K = 500. Since K is a business parameter and not a
+statistical one, holding the lift as the list grows matters more than the very top of it alone.
+Logistic regression is the model shipped, as the three sit inside the noise at this number of
+positives, and explainability therefore decided it, because the coefficients are what let a lead
+be justified to a relationship manager. The media index does not contribute. Tone gives a lift of
+$1.00\times$, sector-only volume gives $p = 0.86$ once deseasonalised, and adding both as
+features moves Precision@K by approximately zero at every K. Objective five was to test exactly
+this, and it is therefore completed, only with a negative answer. The index is kept as a soft
+re-ordering at a weight of 0.15 on real cells only, and it never removes a company from the list.
+The structural features, however, remain current values taken from the register rather than
+values reconstructed at the cutoff, and this is the main limitation carried into the result.
+
+\textbf{Further work}. The filing history is already pulled and sits unused. Rebuilding the
+account category as it stood at the cutoff would remove the largest remaining leakage in the
+feature table, and it needs no new data collection. The features read out of the filings are
+extracted but not yet joined into the modelling table, so the model still runs with no measure of
+financial size, and tangible fixed assets are the closest thing the public record has to a
+collateral base. Lastly, the most interesting outcome of this project was not expected. Volume at
+sector by region level shows a strong association of $z = +6.77$ on real cells, and yet the
+hottest quintile converts at $0.97\times$ the baseline rate, which is marginally below chance.
+Something is being detected. However, it does not point the way the hypothesis assumed. One
+explanation worth testing is that funding coverage of a sector rises when that sector is under
+stress, which would mix distress and expansion together inside the same count, and separating
+them would form a useful study on its own.

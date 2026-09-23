@@ -1,0 +1,13 @@
+run date        : 2026-08-23
+ASOF            : 2026-08-23
+client files    : 30k_sme_for_mock_up.csv
+rows received   : 99   unique: 92
+model           : logreg  trained 2026-08-23T16:43:42
+model source    : /Users/natchalin_/Projects/final_project/Lloyds/API/flat_pot.csv (sha 9c1daa03ba2e745b)
+companies.csv   : 839,344 rows
+coverage        : 92 of 92 companies held
+gate            : on, weight 0.15
+scored          : 90
+excluded (cust) : 0
+leads written   : 90 of 90
+not scored      : 2

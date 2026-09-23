@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pipeline" id="pipeline">
+    <mxGraphModel dx="990" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Companies House bulk register" vertex="1">
+          <mxGeometry height="50" width="220" x="702.8571428571429" y="620.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="REST API pull profile · charges · filings" vertex="1">
+          <mxGeometry height="50" width="220" x="702.8571428571429" y="700.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Lloyds lender matching 399,703 charges" vertex="1">
+          <mxGeometry height="50" width="220" x="442.8571428571429" y="700.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Label: first Lloyds charge in (2021, 2026]" vertex="1">
+          <mxGeometry height="50" width="220" x="442.8571428571429" y="780.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="SME filter 567,835 companies" vertex="1">
+          <mxGeometry height="50" width="220" x="702.8571428571429" y="780.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Point-in-time cut features as of 2021-01-01" vertex="1">
+          <mxGeometry height="50" width="220" x="702.8571428571429" y="860.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="GDELT GKG via BigQuery funding themes · UK locations" vertex="1">
+          <mxGeometry height="50" width="220" x="1022.8571428571429" y="620.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Aggregate sector × region × week" vertex="1">
+          <mxGeometry height="50" width="220" x="1022.8571428571429" y="700.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Trailing 52-week z-score" vertex="1">
+          <mxGeometry height="50" width="220" x="1022.8571428571429" y="780.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Modelling table (flat_pot.csv) 356,047 firms · 1,315 positives (0.37%)" vertex="1">
+          <mxGeometry height="50" width="340" x="642.8571428571429" y="960.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Logistic regression (balanced)" vertex="1">
+          <mxGeometry height="50" width="340" x="642.8571428571429" y="1040.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Scored non-customers" vertex="1">
+          <mxGeometry height="50" width="340" x="642.8571428571429" y="1120.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Media re-rank by sector" vertex="1">
+          <mxGeometry height="50" width="340" x="642.8571428571429" y="1200.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Media index (vol_z)" vertex="1">
+          <mxGeometry height="50" width="180" x="1042.857142857143" y="1200.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6e6e6;strokeColor=#333333;fontSize=11;align=center;verticalAlign=middle;" value="Ranked lead list for RMs" vertex="1">
+          <mxGeometry height="50" width="340" x="642.8571428571429" y="1280.4285714285716" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-104" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-89" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-105" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-90" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-106" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-93" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-107" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-94" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-108" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-90" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-109" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-91" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-110" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-92" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552.86" y="930" />
+              <mxPoint x="812.86" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-111" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-98" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-112" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-99" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-113" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-100" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-114" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-101" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-115" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-95" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-116" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-96" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-117" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-97" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5VxkzOc-rIXcubb7HoX-118" edge="1" parent="1" source="_5VxkzOc-rIXcubb7HoX-102" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;endArrow=block;endFill=1;strokeColor=#333333;fontSize=10;" target="_5VxkzOc-rIXcubb7HoX-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
