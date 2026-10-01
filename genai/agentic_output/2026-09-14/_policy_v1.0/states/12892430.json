@@ -1,0 +1,255 @@
+{
+ "company_number": "12892430",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "12892430",
+  "company_name": "GOOD GOVERNANCE CAPITAL LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2020-09-21",
+  "sic_codes": [
+   "66190"
+  ],
+  "registered_office": "First Floor, One Chancery Lane, London, WC2A 1LF",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-09-30",
+  "next_accounts_due": "2027-06-30",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 18,
+  "kept": 9,
+  "items": [
+   {
+    "date": "2026-08-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-09-30)",
+    "days_late": 36
+   },
+   {
+    "date": "2025-05-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-09-30)",
+    "days_late": -40
+   },
+   {
+    "date": "2024-05-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-09-30)",
+    "days_late": -51
+   },
+   {
+    "date": "2023-05-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-09-30)",
+    "days_late": -35
+   },
+   {
+    "date": "2023-01-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2021-09-30)",
+    "days_late": 205
+   },
+   {
+    "date": "2022-11-01",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2022-08-23",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2020-09-28",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Alexander White; termination date: 2020-09-21)",
+    "days_late": null
+   },
+   {
+    "date": "2020-09-21",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 2,
+  "active": 1,
+  "items": [
+   {
+    "name": "PURCELL, John",
+    "role": "director",
+    "appointed_on": "2020-09-21",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-06-30",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 5,
+   "latest_accounts": {
+    "ref": "AA filed 2026-08-03",
+    "days_late": 36,
+    "description": "accounts with accounts type micro entity (made up date: 2025-09-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2026-08-03",
+    "days_late": 36
+   },
+   "late_3y": [
+    "AA filed 2026-08-03"
+   ],
+   "months_since_incorporation": 72.3,
+   "last_made_up_to": "2025-09-30",
+   "months_since_made_up": 12.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-08-03 \u2014 36 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-08-03 \u2014 accounts with accounts type micro entity (made up date: 2025-09-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 GOOD GOVERNANCE CAPITAL LIMITED (12892430)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-01 \u2014 Late filing of annual accounts; CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- Good Governance Capital Limited (company number 12892430) is an active private limited company incorporated on 21 September 2020, some six years ago, operating under SIC code 66190 (other activities auxiliary to financial services). It has one active officer, with two people having served in total. `[profile; officers; computed]`\n- There are no charges registered against the company at any time, so the security position is clean and a first-charge facility could be offered subject to the remaining policies. `[SEC-02]`\n- The most recent accounts were made up to 30 September 2025 and filed on 3 August 2026, 36 days after the statutory deadline; the next accounts are not due until 30 June 2027 and nothing is currently overdue. `[AA filed 2026-08-03; profile]`\n- Because that filing was more than 30 days late, CON-01 requires a referral on the grounds of weak administrative control, with the 36-day delay stated. `[CON-01; AA filed 2026-08-03]`\n- Prior conduct was better: the 2022, 2023 and 2024 year-end accounts were all filed early (between 35 and 51 days ahead of deadline), although the dormant accounts to 30 September 2021 were filed 205 days late. `[AA filed 2025-05-19; AA filed 2024-05-08; AA filed 2023-05-24; AA filed 2023-01-19]`\n- The company files micro-entity accounts, which disclose neither turnover nor profit, so under CON-04 they cannot support a serviceability assessment on their own. `[CON-04; profile]`\n- Before any decision, obtain management accounts covering the most recent 12 months and an explanation for the late 2025 filing; the accounts made up date is now 12 months old as at 30 September 2026. `[CON-04; CON-01; computed]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-01 \u2014 Late filing of annual accounts | REFER | AA filed 2026-08-03 \u2014 36 days late |\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2026-08-03 \u2014 accounts with accounts type micro entity (made up date: 2025-09-30) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2023-01-19",
+  "AA filed 2023-05-24",
+  "AA filed 2024-05-08",
+  "AA filed 2025-05-19",
+  "AA filed 2026-08-03",
+  "CON-01",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 8.9,
+  "usage": [
+   {
+    "company": "12892430",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2109,
+    "output_tokens": 648
+   }
+  ]
+ }
+}

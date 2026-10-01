@@ -1,0 +1,582 @@
+{
+ "company_number": "06584055",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "06584055",
+  "company_name": "ARKINSTALL GALVANIZING LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2008-05-02",
+  "sic_codes": [
+   "25610"
+  ],
+  "registered_office": "13 Barn Street, Birmingham, B5 5QD",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2024-09-30",
+  "next_accounts_due": "2026-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 72,
+  "kept": 45,
+  "items": [
+   {
+    "date": "2026-08-22",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-18",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2026-04-10",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous extended (made up date: 2025-09-30; new date: 2026-03-31)",
+    "days_late": -79
+   },
+   {
+    "date": "2025-06-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-09-30)",
+    "days_late": 2
+   },
+   {
+    "date": "2025-01-22",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 065840550003; charge creation date: 2025-01-15)",
+    "days_late": null
+   },
+   {
+    "date": "2024-12-10",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 1)",
+    "days_late": null
+   },
+   {
+    "date": "2024-12-10",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 2)",
+    "days_late": null
+   },
+   {
+    "date": "2024-06-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-09-30)",
+    "days_late": -1
+   },
+   {
+    "date": "2023-06-16",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-09-30)",
+    "days_late": -12
+   },
+   {
+    "date": "2022-02-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-09-30)",
+    "days_late": -124
+   },
+   {
+    "date": "2021-03-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-09-30)",
+    "days_late": -110
+   },
+   {
+    "date": "2020-01-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-09-30)",
+    "days_late": -171
+   },
+   {
+    "date": "2019-06-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-09-30)",
+    "days_late": -1
+   },
+   {
+    "date": "2018-06-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2017-09-30)",
+    "days_late": -10
+   },
+   {
+    "date": "2017-06-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-09-30)",
+    "days_late": -2
+   },
+   {
+    "date": "2015-12-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-09-30)",
+    "days_late": -207
+   },
+   {
+    "date": "2014-11-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-09-30)",
+    "days_late": -230
+   },
+   {
+    "date": "2014-07-14",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Michele Straker; termination date: 2014-05-31)",
+    "days_late": null
+   },
+   {
+    "date": "2014-07-14",
+    "category": "officers",
+    "type": "AP03",
+    "description": "appoint person secretary company with name date (officer name: Mrs Michele Straker; appointment date: 2014-05-31)",
+    "days_late": null
+   },
+   {
+    "date": "2014-07-14",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mrs Michele Straker; appointment date: 2014-05-31)",
+    "days_late": null
+   },
+   {
+    "date": "2014-07-14",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Michael John Hoare; termination date: 2014-05-31)",
+    "days_late": null
+   },
+   {
+    "date": "2014-07-14",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Michael John Hoare; termination date: 2014-05-31)",
+    "days_late": null
+   },
+   {
+    "date": "2014-06-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-09-30)",
+    "days_late": -23
+   },
+   {
+    "date": "2013-04-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-09-30)",
+    "days_late": -65
+   },
+   {
+    "date": "2012-01-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2011-09-30)",
+    "days_late": -155
+   },
+   {
+    "date": "2011-10-25",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Mr Paul Harrison)",
+    "days_late": null
+   },
+   {
+    "date": "2011-10-25",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Ian Carter-Smith)",
+    "days_late": null
+   },
+   {
+    "date": "2011-06-20",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2010-09-30)",
+    "days_late": -8
+   },
+   {
+    "date": "2011-05-03",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2010-05-03; officer name: Michael John Hoare)",
+    "days_late": null
+   },
+   {
+    "date": "2010-05-04",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2010-05-02; officer name: Ian Edward Smith)",
+    "days_late": null
+   },
+   {
+    "date": "2010-05-04",
+    "category": "officers",
+    "type": "CH03",
+    "description": "change person secretary company with change date (change date: 2010-05-02; officer name: Michael John Hoare)",
+    "days_late": null
+   },
+   {
+    "date": "2010-05-04",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2010-05-02; officer name: Timothy Straker)",
+    "days_late": null
+   },
+   {
+    "date": "2010-04-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2009-09-30)",
+    "days_late": -61
+   },
+   {
+    "date": "2009-12-23",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous extended (made up date: 2009-05-31; new date: 2009-09-30)",
+    "days_late": -67
+   },
+   {
+    "date": "2009-03-11",
+    "category": "mortgage",
+    "type": "395",
+    "description": "Particulars of a mortgage or charge / charge no: 2",
+    "days_late": null
+   },
+   {
+    "date": "2009-03-11",
+    "category": "mortgage",
+    "type": "395",
+    "description": "Particulars of a mortgage or charge / charge no: 1",
+    "days_late": null
+   },
+   {
+    "date": "2008-09-15",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed ian edward carter smith",
+    "days_late": null
+   },
+   {
+    "date": "2008-09-15",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director and secretary appointed michael john hoare",
+    "days_late": null
+   },
+   {
+    "date": "2008-09-10",
+    "category": "officers",
+    "type": "288b",
+    "description": "Appointment terminated secretary michele straker",
+    "days_late": null
+   },
+   {
+    "date": "2008-07-28",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed timothy straker",
+    "days_late": null
+   },
+   {
+    "date": "2008-07-28",
+    "category": "officers",
+    "type": "288a",
+    "description": "Secretary appointed michele straker",
+    "days_late": null
+   },
+   {
+    "date": "2008-07-28",
+    "category": "officers",
+    "type": "288b",
+    "description": "Appointment terminated secretary twp (company secretary LIMITED",
+    "days_late": null
+   },
+   {
+    "date": "2008-07-28",
+    "category": "officers",
+    "type": "288b",
+    "description": "Appointment terminated director twp (directors)LIMITED",
+    "days_late": null
+   },
+   {
+    "date": "2008-07-24",
+    "category": "incorporation",
+    "type": "MEM/ARTS",
+    "description": "memorandum articles",
+    "days_late": null
+   },
+   {
+    "date": "2008-05-02",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 3,
+  "outstanding": 1,
+  "items": [
+   {
+    "charge_code": "065840550003",
+    "created_on": "2025-01-15",
+    "delivered_on": "2025-01-22",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank Commercial Finance Limited"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": null,
+    "created_on": "2009-03-09",
+    "delivered_on": "2009-03-11",
+    "satisfied_on": "2024-12-10",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Hsbc Invoice Finance (UK) LTD"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "All debts purchased or purported to be purchased pursuant to an agreement see image for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2009-03-09",
+    "delivered_on": "2009-03-11",
+    "satisfied_on": "2024-12-10",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Hsbc Invoice Finance (UK) LTD"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "By way of floating charge all the undertaking of the company and the assets whatsoever and wheresoever all the stock in trade and its uncalled capital see image for full details."
+   }
+  ]
+ },
+ "officers": {
+  "total": 10,
+  "active": 3,
+  "items": [
+   {
+    "name": "STRAKER, Michele",
+    "role": "secretary",
+    "appointed_on": "2014-05-31",
+    "resigned_on": null
+   },
+   {
+    "name": "HARRISON, Paul",
+    "role": "director",
+    "appointed_on": "2011-09-30",
+    "resigned_on": null
+   },
+   {
+    "name": "STRAKER, Timothy",
+    "role": "director",
+    "appointed_on": "2008-06-27",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2026-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 3,
+   "live": [
+    "065840550003"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026",
+    "created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026 #2"
+   ],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "hsbc invoice finance (uk) ltd",
+     "charges": [
+      "created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026",
+      "created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026 #2"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "065840550003"
+   ],
+   "floating_live": [
+    "065840550003"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "065840550003"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 18,
+   "latest_accounts": {
+    "ref": "AA01 filed 2026-04-10",
+    "days_late": -79,
+    "description": "change account reference date company previous extended (made up date: 2025-09-30; new date: 2026-03-31)"
+   },
+   "latest_micro_or_exempt": false,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-06-30",
+    "days_late": 2
+   },
+   "late_3y": [
+    "AA filed 2025-06-30"
+   ],
+   "months_since_incorporation": 220.9,
+   "last_made_up_to": "2024-09-30",
+   "months_since_made_up": 24.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 3,
+   "total_ever": 10,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-06",
+   "title": "CON-06 \u2014 Stale financial information",
+   "outcome": "REFER",
+   "evidence": [
+    "accounts made up to 2024-09-30 \u2014 24.0 months before as_of"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026",
+    "created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026 #2"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026, created 2009-03-09 \u00b7 Hsbc Invoice Finance (UK) L\u2026 #2 (hsbc invoice finance (uk) ltd)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "065840550003"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "065840550003"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-06",
+   "SEC-06",
+   "SEC-07",
+   "SEC-08"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "not_applicable \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "applies \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 065840550003) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 0.4,
+  "usage": []
+ }
+}

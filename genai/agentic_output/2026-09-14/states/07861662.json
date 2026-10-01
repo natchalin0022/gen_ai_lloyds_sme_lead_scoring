@@ -1,0 +1,486 @@
+{
+ "company_number": "07861662",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "07861662",
+  "company_name": "A P TRANSPORT & HIRE LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2011-11-25",
+  "sic_codes": [
+   "49410"
+  ],
+  "registered_office": "1 Sandhills Road, Barnt Green, Birmingham, B45 8NP",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-11-30",
+  "next_accounts_due": "2027-08-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 52,
+  "kept": 27,
+  "items": [
+   {
+    "date": "2026-08-27",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Natalie Rothero; termination date: 2026-08-27)",
+    "days_late": null
+   },
+   {
+    "date": "2026-08-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-11-30)",
+    "days_late": -18
+   },
+   {
+    "date": "2025-08-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-11-30)",
+    "days_late": -16
+   },
+   {
+    "date": "2025-07-09",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 078616620003)",
+    "days_late": null
+   },
+   {
+    "date": "2024-07-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-11-30)",
+    "days_late": -35
+   },
+   {
+    "date": "2023-09-12",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2023-09-12; officer name: Mr Tom Hatcher)",
+    "days_late": null
+   },
+   {
+    "date": "2023-04-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-11-30)",
+    "days_late": -143
+   },
+   {
+    "date": "2022-12-02",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2022-12-02; officer name: Mrs Natalie Rothero)",
+    "days_late": null
+   },
+   {
+    "date": "2022-05-12",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 078616620004; charge creation date: 2022-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2021-12-16",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 078616620002)",
+    "days_late": null
+   },
+   {
+    "date": "2021-12-16",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 078616620001)",
+    "days_late": null
+   },
+   {
+    "date": "2021-12-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-11-30)",
+    "days_late": -261
+   },
+   {
+    "date": "2021-03-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-11-30)",
+    "days_late": -176
+   },
+   {
+    "date": "2020-08-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-11-30)",
+    "days_late": -16
+   },
+   {
+    "date": "2020-05-11",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 078616620003; charge creation date: 2020-05-06)",
+    "days_late": null
+   },
+   {
+    "date": "2019-08-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-11-30)",
+    "days_late": -22
+   },
+   {
+    "date": "2019-04-24",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 078616620002; charge creation date: 2019-04-18)",
+    "days_late": null
+   },
+   {
+    "date": "2019-04-24",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 078616620001; charge creation date: 2019-04-18)",
+    "days_late": null
+   },
+   {
+    "date": "2018-10-24",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Tom Hatcher; appointment date: 2018-10-24)",
+    "days_late": null
+   },
+   {
+    "date": "2018-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2017-11-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2017-08-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-11-30)",
+    "days_late": -3
+   },
+   {
+    "date": "2016-08-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-11-30)",
+    "days_late": 2
+   },
+   {
+    "date": "2015-12-21",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2015-11-02; officer name: Mrs Natalie Rothero)",
+    "days_late": null
+   },
+   {
+    "date": "2015-08-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-11-30)",
+    "days_late": -1
+   },
+   {
+    "date": "2014-08-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-11-30)",
+    "days_late": 1
+   },
+   {
+    "date": "2013-09-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2012-11-30)",
+    "days_late": 14
+   },
+   {
+    "date": "2011-11-25",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 4,
+  "outstanding": 1,
+  "items": [
+   {
+    "charge_code": "078616620004",
+    "created_on": "2022-05-03",
+    "delivered_on": "2022-05-12",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "N/A."
+   },
+   {
+    "charge_code": "078616620003",
+    "created_on": "2020-05-06",
+    "delivered_on": "2020-05-11",
+    "satisfied_on": "2025-07-09",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Bcrs Cief Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "078616620002",
+    "created_on": "2019-04-18",
+    "delivered_on": "2019-04-24",
+    "satisfied_on": "2021-12-16",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Genesis Asset Finance Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "All the freehold and leasehold property of the company; all patent, trademarks, patent applications, brand names, copyrights, rights in the nature of copyright, registered designs and other intellectual property rights and agreements relating to the use by the company of patents and trademarks to which the company is now or may subsequently become entitled - for more details please refer to the instrument."
+   },
+   {
+    "charge_code": "078616620001",
+    "created_on": "2019-04-18",
+    "delivered_on": "2019-04-24",
+    "satisfied_on": "2021-12-16",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Genesis Asset Finance Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "Chattels mortgage."
+   }
+  ]
+ },
+ "officers": {
+  "total": 2,
+  "active": 1,
+  "items": [
+   {
+    "name": "HATCHER, Tom",
+    "role": "director",
+    "appointed_on": "2018-10-24",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2027-08-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 4,
+   "live": [
+    "078616620004"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "078616620003",
+    "078616620002",
+    "078616620001"
+   ],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "genesis asset finance limited",
+     "charges": [
+      "078616620001",
+      "078616620002"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "078616620004",
+    "078616620003",
+    "078616620002",
+    "078616620001"
+   ],
+   "floating_live": [
+    "078616620004"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "078616620004"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 14,
+   "latest_accounts": {
+    "ref": "AA filed 2026-08-10",
+    "days_late": -18,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-11-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-08-12",
+    "days_late": -16
+   },
+   "late_3y": [],
+   "months_since_incorporation": 178.2,
+   "last_made_up_to": "2025-11-30",
+   "months_since_made_up": 10.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {
+   "078616620004": {
+    "collateral": "not_stated",
+    "quote": "",
+    "verified": true
+   }
+  }
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2026-08-10 \u2014 accounts with accounts type total exemption full (made up date: 2025-11-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "078616620003",
+    "078616620002",
+    "078616620001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "078616620001, 078616620002 (genesis asset finance limited)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "078616620004",
+    "078616620003",
+    "078616620002",
+    "078616620001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "078616620004"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "SEC-06",
+   "SEC-07",
+   "SEC-08"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 078616620004) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 2.9,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "usage": [
+   {
+    "company": "07861662",
+    "node": "signal/collateral",
+    "model": "claude-opus-5",
+    "input_tokens": 675,
+    "output_tokens": 33
+   }
+  ]
+ }
+}

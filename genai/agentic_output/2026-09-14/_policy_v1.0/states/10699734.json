@@ -1,0 +1,676 @@
+{
+ "company_number": "10699734",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "10699734",
+  "company_name": "ALNIRE LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2017-03-30",
+  "sic_codes": [
+   "68209"
+  ],
+  "registered_office": "14 London Street, Andover, SP10 2PA",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-03-31",
+  "next_accounts_due": "2026-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 33,
+  "kept": 23,
+  "items": [
+   {
+    "date": "2026-09-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 106997340007)",
+    "days_late": null
+   },
+   {
+    "date": "2026-09-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 106997340006)",
+    "days_late": null
+   },
+   {
+    "date": "2026-09-03",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 106997340001)",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-29",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340011; charge creation date: 2026-01-29)",
+    "days_late": null
+   },
+   {
+    "date": "2026-01-29",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340010; charge creation date: 2026-01-29)",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-03-31)",
+    "days_late": -62
+   },
+   {
+    "date": "2024-10-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-03-31)",
+    "days_late": -74
+   },
+   {
+    "date": "2023-11-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-03-31)",
+    "days_late": -29
+   },
+   {
+    "date": "2022-10-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-03-31)",
+    "days_late": -83
+   },
+   {
+    "date": "2022-09-22",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340009; charge creation date: 2022-09-16)",
+    "days_late": null
+   },
+   {
+    "date": "2021-12-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-03-31)",
+    "days_late": -21
+   },
+   {
+    "date": "2021-02-01",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340008; charge creation date: 2021-01-28)",
+    "days_late": null
+   },
+   {
+    "date": "2021-01-28",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340007; charge creation date: 2021-01-28)",
+    "days_late": null
+   },
+   {
+    "date": "2021-01-28",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340006; charge creation date: 2021-01-28)",
+    "days_late": null
+   },
+   {
+    "date": "2021-01-28",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340005; charge creation date: 2021-01-28)",
+    "days_late": null
+   },
+   {
+    "date": "2021-01-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-03-31)",
+    "days_late": 9
+   },
+   {
+    "date": "2020-08-25",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340004; charge creation date: 2020-08-24)",
+    "days_late": null
+   },
+   {
+    "date": "2019-12-03",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340003; charge creation date: 2019-11-29)",
+    "days_late": null
+   },
+   {
+    "date": "2019-09-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-03-31)",
+    "days_late": -96
+   },
+   {
+    "date": "2019-06-14",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340002; charge creation date: 2019-06-14)",
+    "days_late": null
+   },
+   {
+    "date": "2019-06-14",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 106997340001; charge creation date: 2019-06-14)",
+    "days_late": null
+   },
+   {
+    "date": "2018-09-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-03-31)",
+    "days_late": -106
+   },
+   {
+    "date": "2017-03-30",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 11,
+  "outstanding": 8,
+  "items": [
+   {
+    "charge_code": "106997340011",
+    "created_on": "2026-01-29",
+    "delivered_on": "2026-01-29",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Paragon Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "All that freehold property known as 14 greenhill close, winchester, hampshire, SO22 5DZ and as registered at hm land registry under title number HP96342."
+   },
+   {
+    "charge_code": "106997340010",
+    "created_on": "2026-01-29",
+    "delivered_on": "2026-01-29",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Paragon Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "All that freehold property known as 14A greenhill close, winchester, hampshire, SO22 5DZ and as registered at land registry under title number HP657470."
+   },
+   {
+    "charge_code": "106997340009",
+    "created_on": "2022-09-16",
+    "delivered_on": "2022-09-22",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Charter Court Financial Services Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "23 andover road winchester SO23 7BT."
+   },
+   {
+    "charge_code": "106997340008",
+    "created_on": "2021-01-28",
+    "delivered_on": "2021-02-01",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Charter Court Financial Services Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "9 montgomery close, winchester SO22 4EN."
+   },
+   {
+    "charge_code": "106997340007",
+    "created_on": "2021-01-28",
+    "delivered_on": "2021-01-28",
+    "satisfied_on": "2026-09-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Charter Court Financial Services Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "14A greenhill close, winchester SO22 5DZ."
+   },
+   {
+    "charge_code": "106997340006",
+    "created_on": "2021-01-28",
+    "delivered_on": "2021-01-28",
+    "satisfied_on": "2026-09-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Charter Court Financial Services Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "14 greenhill close, winchester SO22 5DZ."
+   },
+   {
+    "charge_code": "106997340005",
+    "created_on": "2021-01-28",
+    "delivered_on": "2021-01-28",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Charter Court Financial Services Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "8 montgomery close, winchester SO22 4EN."
+   },
+   {
+    "charge_code": "106997340004",
+    "created_on": "2020-08-24",
+    "delivered_on": "2020-08-25",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Paragon Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "50 romsey road, winchester SO22 5DL."
+   },
+   {
+    "charge_code": "106997340003",
+    "created_on": "2019-11-29",
+    "delivered_on": "2019-12-03",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Paragon Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "25 west hill park, winchester SO22 5DY."
+   },
+   {
+    "charge_code": "106997340002",
+    "created_on": "2019-06-14",
+    "delivered_on": "2019-06-14",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Paragon Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": false,
+    "particulars": "46 honeysuckle close, winchester, SO22 4QQ."
+   },
+   {
+    "charge_code": "106997340001",
+    "created_on": "2019-06-14",
+    "delivered_on": "2019-06-14",
+    "satisfied_on": "2026-09-03",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Paragon Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": false,
+    "particulars": "8 imber road, winchester, SO23 0NQ."
+   }
+  ]
+ },
+ "officers": {
+  "total": 1,
+  "active": 1,
+  "items": [
+   {
+    "name": "TROLLOPE, Nicholas Mark",
+    "role": "director",
+    "appointed_on": "2017-03-30",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2026-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 11,
+   "live": [
+    "106997340011",
+    "106997340010",
+    "106997340009",
+    "106997340008",
+    "106997340005",
+    "106997340004",
+    "106997340003",
+    "106997340002"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "106997340007",
+    "106997340006",
+    "106997340001"
+   ],
+   "outstanding_third_party": [
+    "106997340011",
+    "106997340010",
+    "106997340009",
+    "106997340008",
+    "106997340005",
+    "106997340004",
+    "106997340003",
+    "106997340002"
+   ],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "charter court financial services limited",
+     "charges": [
+      "106997340005",
+      "106997340006",
+      "106997340007",
+      "106997340008"
+     ]
+    },
+    {
+     "lender": "paragon bank plc",
+     "charges": [
+      "106997340001",
+      "106997340002"
+     ]
+    },
+    {
+     "lender": "paragon bank plc",
+     "charges": [
+      "106997340010",
+      "106997340011"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "106997340011",
+    "106997340010",
+    "106997340009",
+    "106997340008",
+    "106997340007",
+    "106997340006",
+    "106997340005",
+    "106997340004",
+    "106997340003"
+   ],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 8,
+   "latest_accounts": {
+    "ref": "AA filed 2025-10-27",
+    "days_late": -62,
+    "description": "accounts with accounts type micro entity (made up date: 2025-03-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2023-11-29",
+    "days_late": -29
+   },
+   "late_3y": [],
+   "months_since_incorporation": 114.0,
+   "last_made_up_to": "2025-03-31",
+   "months_since_made_up": 18.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 1,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {
+   "106997340011": {
+    "collateral": "property",
+    "quote": "All that freehold property known as 14 greenhill close, winchester, hampshire, SO22 5DZ",
+    "verified": true
+   },
+   "106997340010": {
+    "collateral": "property",
+    "quote": "All that freehold property known as 14A greenhill close, winchester, hampshire, SO22 5DZ",
+    "verified": true
+   },
+   "106997340009": {
+    "collateral": "property",
+    "quote": "23 andover road winchester SO23 7BT",
+    "verified": true
+   },
+   "106997340008": {
+    "collateral": "property",
+    "quote": "9 montgomery close, winchester SO22 4EN",
+    "verified": true
+   },
+   "106997340005": {
+    "collateral": "property",
+    "quote": "8 montgomery close, winchester SO22 4EN",
+    "verified": true
+   },
+   "106997340004": {
+    "collateral": "property",
+    "quote": "50 romsey road, winchester SO22 5DL",
+    "verified": true
+   },
+   "106997340003": {
+    "collateral": "property",
+    "quote": "25 west hill park, winchester SO22 5DY",
+    "verified": true
+   },
+   "106997340002": {
+    "collateral": "property",
+    "quote": "46 honeysuckle close, winchester, SO22 4QQ",
+    "verified": true
+   }
+  }
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-10-27 \u2014 accounts with accounts type micro entity (made up date: 2025-03-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-01",
+   "title": "SEC-01 \u2014 Outstanding third-party charge",
+   "outcome": "REFER",
+   "evidence": [
+    "106997340011",
+    "106997340010",
+    "106997340009",
+    "106997340008",
+    "106997340005",
+    "106997340004",
+    "106997340003",
+    "106997340002"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "106997340007",
+    "106997340006",
+    "106997340001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "106997340005, 106997340006, 106997340007, 106997340008 (charter court financial services limited)",
+    "106997340001, 106997340002 (paragon bank plc)",
+    "106997340010, 106997340011 (paragon bank plc)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "106997340011",
+    "106997340010",
+    "106997340009",
+    "106997340008",
+    "106997340007",
+    "106997340006",
+    "106997340005",
+    "106997340004",
+    "106997340003"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-04",
+   "SEC-01",
+   "SEC-06",
+   "SEC-07"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "applies \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 ALNIRE LIMITED (10699734)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-04 \u2014 Micro-entity accounts; SEC-01 \u2014 Outstanding third-party charge; SEC-06 \u2014 Multiple simultaneous charges to one lender; SEC-07 \u2014 Negative pledge  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- ALNIRE LIMITED (company number 10699734) is an active private limited company incorporated on 30 March 2017, around 114 months ago, filing micro-entity accounts under SIC code 68209. It has a single active officer, who is the only officer ever appointed. `[profile; officers; computed]`\n- The company carries eight outstanding charges, all to third-party lenders: four to Paragon Bank PLC secured on 14 Greenhill Close, 14A Greenhill Close, 50 Romsey Road, 25 West Hill Park and 46 Honeysuckle Close, and four to Charter Court Financial Services Limited secured on 23 Andover Road, 9 Montgomery Close and 8 Montgomery Close, all in Winchester. Under SEC-01 no first-charge facility can be offered; any new lending ranks second unless existing charges are redeemed at completion. `[106997340011; 106997340010; 106997340009; 106997340008; 106997340005; 106997340004; 106997340003; 106997340002; SEC-01]`\n- Three further charges (two to Charter Court dated 28 January 2021 and one to Paragon dated 14 June 2019) are fully satisfied and are disregarded for ranking purposes under SEC-03, though they evidence prior borrowing capacity. `[106997340007; 106997340006; 106997340001; SEC-03]`\n- Several charges were created on the same day to the same lender \u2014 four to Charter Court on 28 January 2021, two to Paragon on 14 June 2019 and two to Paragon on 29 January 2026 \u2014 which SEC-06 treats as structured or tranched facilities. Full redemption figures for all of these must be obtained before any refinance is quoted. `[SEC-06; 106997340005; 106997340006; 106997340007; 106997340008; 106997340001; 106997340002; 106997340010; 106997340011]`\n- Nine of the eleven charges contain a negative pledge, including every outstanding charge except the June 2019 Paragon charge over 46 Honeysuckle Close. Per SEC-07, written consent from the existing lenders must be evidenced before any further security is taken. `[SEC-07; 106997340011; 106997340010; 106997340009; 106997340008; 106997340007; 106997340006; 106997340005; 106997340004; 106997340003; 106997340002]`\n- Filing conduct is strong: accounts have been filed ahead of deadline in seven of eight years, the only exception being the 2020 year end filed nine days late on 6 January 2021. The latest accounts, to 31 March 2025, were filed 62 days early and the next set is not due until 31 December 2026, so nothing is overdue. `[AA filed 2025-10-27; AA filed 2024-10-15; AA filed 2023-11-29; AA filed 2022-10-06; AA filed 2021-12-07; AA filed 2021-01-06; AA filed 2019-09-23; AA filed 2018-09-14; profile]`\n- Because the accounts are micro-entity and show no turnover or profit, CON-04 requires management accounts for the most recent 12 months before a decision; note the last accounts are made up to a date 18 months before the review date. In practice, approach the client for management accounts, redemption figures for all Paragon and Charter Court charges, and written lender consents, on the basis that any facility will be a second charge. `[CON-04; profile; AA filed 2025-10-27; computed; SEC-01; SEC-06; SEC-07]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-10-27 \u2014 accounts with accounts type micro entity (made up date: 2025-03-31) |\n| SEC-01 \u2014 Outstanding third-party charge | REFER | 106997340011; 106997340010; 106997340009; 106997340008; 106997340005; 106997340004; 106997340003; 106997340002 |\n| SEC-03 \u2014 Satisfied charges disregarded | PROCEED | 106997340007; 106997340006; 106997340001 |\n| SEC-06 \u2014 Multiple simultaneous charges to one lender | REFER | 106997340005, 106997340006, 106997340007, 106997340008 (charter court financial services limited); 106997340001, 106997340002 (paragon bank plc); 106997340010, 106997340011 (paragon bank plc) |\n| SEC-07 \u2014 Negative pledge | REFER | 106997340011; 106997340010; 106997340009; 106997340008; 106997340007; 106997340006; 106997340005; 106997340004; 106997340003 |",
+ "citations": [
+  "106997340001",
+  "106997340002",
+  "106997340003",
+  "106997340004",
+  "106997340005",
+  "106997340006",
+  "106997340007",
+  "106997340008",
+  "106997340009",
+  "106997340010",
+  "106997340011",
+  "AA filed 2018-09-14",
+  "AA filed 2019-09-23",
+  "AA filed 2021-01-06",
+  "AA filed 2021-12-07",
+  "AA filed 2022-10-06",
+  "AA filed 2023-11-29",
+  "AA filed 2024-10-15",
+  "AA filed 2025-10-27",
+  "CON-04",
+  "SEC-01",
+  "SEC-03",
+  "SEC-06",
+  "SEC-07",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 31.1,
+  "usage": [
+   {
+    "company": "10699734",
+    "node": "signal/collateral",
+    "model": "claude-opus-5",
+    "input_tokens": 1033,
+    "output_tokens": 353
+   },
+   {
+    "company": "10699734",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 4831,
+    "output_tokens": 1882
+   }
+  ]
+ }
+}

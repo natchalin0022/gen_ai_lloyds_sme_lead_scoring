@@ -1,0 +1,816 @@
+{
+ "company_number": "01786187",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "01786187",
+  "company_name": "AUTO-4 LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "1984-01-26",
+  "sic_codes": [
+   "46900"
+  ],
+  "registered_office": "Rema Tip Top Holdings Uk Limited, Westland Square, Leeds, LS11 5XS, West Yorkshire",
+  "accounts_type": "small",
+  "last_accounts_made_up_to": "2025-12-31",
+  "next_accounts_due": "2027-09-30",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 157,
+  "kept": 90,
+  "items": [
+   {
+    "date": "2026-09-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2025-12-31)",
+    "days_late": -14
+   },
+   {
+    "date": "2026-06-30",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Mark Brian Insley; termination date: 2026-06-30)",
+    "days_late": null
+   },
+   {
+    "date": "2026-06-29",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Miss Victoria Rayment; appointment date: 2026-06-29)",
+    "days_late": null
+   },
+   {
+    "date": "2025-09-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2024-12-31)",
+    "days_late": -13
+   },
+   {
+    "date": "2025-03-11",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 6)",
+    "days_late": null
+   },
+   {
+    "date": "2025-01-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2023-12-31)",
+    "days_late": 100
+   },
+   {
+    "date": "2024-09-28",
+    "category": "incorporation",
+    "type": "MA",
+    "description": "memorandum articles",
+    "days_late": null
+   },
+   {
+    "date": "2024-02-02",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Adam Quincey; termination date: 2024-02-01)",
+    "days_late": null
+   },
+   {
+    "date": "2024-02-02",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Regina Christine Steward; termination date: 2024-02-01)",
+    "days_late": null
+   },
+   {
+    "date": "2024-02-02",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Jonathan Alan Formon; termination date: 2024-02-01)",
+    "days_late": null
+   },
+   {
+    "date": "2024-02-02",
+    "category": "officers",
+    "type": "AP03",
+    "description": "appoint person secretary company with name date (officer name: Victoria Rayment; appointment date: 2024-02-01)",
+    "days_late": null
+   },
+   {
+    "date": "2024-02-02",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mark Brian Insley; appointment date: 2024-02-01)",
+    "days_late": null
+   },
+   {
+    "date": "2023-12-04",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 4)",
+    "days_late": null
+   },
+   {
+    "date": "2023-08-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2022-12-31)",
+    "days_late": -36
+   },
+   {
+    "date": "2023-01-26",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Regina Christine Steward; termination date: 2023-01-26)",
+    "days_late": null
+   },
+   {
+    "date": "2023-01-26",
+    "category": "officers",
+    "type": "AP03",
+    "description": "appoint person secretary company with name date (officer name: Mr Jonathan Alan Formon; appointment date: 2023-01-26)",
+    "days_late": null
+   },
+   {
+    "date": "2022-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2021-12-31)",
+    "days_late": -28
+   },
+   {
+    "date": "2021-09-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2020-12-31)",
+    "days_late": 1
+   },
+   {
+    "date": "2020-10-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2019-12-31)",
+    "days_late": 32
+   },
+   {
+    "date": "2019-08-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2018-12-31)",
+    "days_late": -31
+   },
+   {
+    "date": "2018-09-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2017-12-31)",
+    "days_late": -1
+   },
+   {
+    "date": "2017-10-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2016-12-31)",
+    "days_late": 11
+   },
+   {
+    "date": "2016-10-27",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2016-04-06; officer name: Ms Regina Christine Steward)",
+    "days_late": null
+   },
+   {
+    "date": "2016-05-19",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company current extended (made up date: 2016-06-30; new date: 2016-12-31)",
+    "days_late": -313
+   },
+   {
+    "date": "2016-03-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2015-06-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2015-03-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-06-30)",
+    "days_late": 2
+   },
+   {
+    "date": "2014-12-15",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2014-09-19; officer name: Mr Adam Quincey)",
+    "days_late": null
+   },
+   {
+    "date": "2014-12-15",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2014-09-19; officer name: Jonathan Alan Formon)",
+    "days_late": null
+   },
+   {
+    "date": "2014-12-15",
+    "category": "officers",
+    "type": "CH03",
+    "description": "change person secretary company with change date (change date: 2014-09-19; officer name: Regina Christine Steward)",
+    "days_late": null
+   },
+   {
+    "date": "2014-05-23",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company current extended (made up date: 2014-05-31; new date: 2014-06-30)",
+    "days_late": -281
+   },
+   {
+    "date": "2014-02-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-05-31)",
+    "days_late": 0
+   },
+   {
+    "date": "2013-12-04",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number (charge number: 017861870007)",
+    "days_late": null
+   },
+   {
+    "date": "2013-03-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-05-31)",
+    "days_late": 4
+   },
+   {
+    "date": "2012-03-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2011-05-31)",
+    "days_late": 22
+   },
+   {
+    "date": "2011-01-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2010-05-31)",
+    "days_late": -38
+   },
+   {
+    "date": "2010-03-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2009-05-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2009-10-08",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2009-10-01; officer name: Mr Adam Quincey)",
+    "days_late": null
+   },
+   {
+    "date": "2009-10-08",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2009-10-01; officer name: Jonathan Alan Formon)",
+    "days_late": null
+   },
+   {
+    "date": "2009-10-08",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2009-10-01; officer name: Mr Adam Quincey)",
+    "days_late": null
+   },
+   {
+    "date": "2009-10-08",
+    "category": "officers",
+    "type": "CH03",
+    "description": "change person secretary company with change date (change date: 2009-10-01; officer name: Regina Christine Steward)",
+    "days_late": null
+   },
+   {
+    "date": "2009-04-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2008-05-31)",
+    "days_late": 34
+   },
+   {
+    "date": "2009-02-09",
+    "category": "officers",
+    "type": "288c",
+    "description": "Director's change of particulars / adam quincey / 01/06/2007",
+    "days_late": null
+   },
+   {
+    "date": "2008-04-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2007-05-31)",
+    "days_late": 34
+   },
+   {
+    "date": "2007-06-18",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2007-06-16",
+    "category": "capital",
+    "type": "155(6)a",
+    "description": "Declaration of assistance for shares acquisition",
+    "days_late": null
+   },
+   {
+    "date": "2007-02-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2006-05-31)",
+    "days_late": -14
+   },
+   {
+    "date": "2006-01-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2005-05-31)",
+    "days_late": -40
+   },
+   {
+    "date": "2005-04-09",
+    "category": "capital",
+    "type": "155(6)a",
+    "description": "Declaration of assistance for shares acquisition",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-09",
+    "category": "incorporation",
+    "type": "MEM/ARTS",
+    "description": "memorandum articles",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-09",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-09",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-09",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-09",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-09",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned;director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-09",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-07",
+    "category": "mortgage",
+    "type": "395",
+    "description": "Particulars of mortgage/charge",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-07",
+    "category": "mortgage",
+    "type": "395",
+    "description": "Particulars of mortgage/charge",
+    "days_late": null
+   },
+   {
+    "date": "2005-04-02",
+    "category": "mortgage",
+    "type": "395",
+    "description": "Particulars of mortgage/charge",
+    "days_late": null
+   },
+   {
+    "date": "2004-12-23",
+    "category": "mortgage",
+    "type": "403a",
+    "description": "Declaration of satisfaction of mortgage/charge",
+    "days_late": null
+   },
+   {
+    "date": "2004-09-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2004-05-31)",
+    "days_late": -159
+   }
+  ]
+ },
+ "charges": {
+  "total": 7,
+  "outstanding": 2,
+  "items": [
+   {
+    "charge_code": "017861870007",
+    "created_on": "2013-11-15",
+    "delivered_on": "2013-12-04",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": false,
+    "particulars": "Unit 4A park lane business park, bentinck colliery, kirkby in ashfield, notts being part of title number NT421588. Notification of addition to or amendment of charge."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2005-03-25",
+    "delivered_on": "2005-04-07",
+    "satisfied_on": "2025-03-11",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "The Royal Bank of Scotland Commercial Services Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Fixed and floating charges over the undertaking and all property and assets present and future including goodwill bookdebts uncalled capital buildings fixtures fixed plant and machinery. See the mortgage charge document for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2005-03-25",
+    "delivered_on": "2005-04-07",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Fixed and floating charges over the undertaking and all property and assets present and future including goodwill bookdebts uncalled capital buildings fixtures fixed plant and machinery. See the mortgage charge document for full details."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2005-03-25",
+    "delivered_on": "2005-04-02",
+    "satisfied_on": "2023-12-04",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Unit 8 park avenue industrial estate southall. By way of fixed charge the benefit of all covenants and rights concerning the property and plant machinery fixtures fittings furniture equipment implements and utensils the goodwill of any business carried on at the property and the proceeds of any insurance affecting the property or assets."
+   },
+   {
+    "charge_code": null,
+    "created_on": "1987-01-30",
+    "delivered_on": "1987-02-11",
+    "satisfied_on": "2004-12-23",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Unit 8 park avenue industrial estate park avenue southall l/b of ealing and/or the proceeds of sale thereof.. Floating charge over all moveable plant machinery implements utensils furniture and equipment."
+   },
+   {
+    "charge_code": null,
+    "created_on": "1987-01-30",
+    "delivered_on": "1987-02-02",
+    "satisfied_on": "1990-11-29",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "D. Wager",
+     "B.W. Hewson",
+     "M.J. Harris",
+     "D.W.J. Puzey"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Unit 8 boratt industrial park park avenue southall middlesex UB1 3AF."
+   },
+   {
+    "charge_code": null,
+    "created_on": "1984-02-22",
+    "delivered_on": "1984-03-02",
+    "satisfied_on": "1986-12-03",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Midland Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "First fixed charge on all book debts and other debts. Floating charge on undertaking and all property and assets present and future including bookdebts (excluding those mentioned above) uncalled capital."
+   }
+  ]
+ },
+ "officers": {
+  "total": 12,
+  "active": 3,
+  "items": [
+   {
+    "name": "RAYMENT, Victoria",
+    "role": "secretary",
+    "appointed_on": "2024-02-01",
+    "resigned_on": null
+   },
+   {
+    "name": "FORMON, Jonathan Alan",
+    "role": "director",
+    "appointed_on": "2005-03-25",
+    "resigned_on": null
+   },
+   {
+    "name": "RAYMENT, Victoria",
+    "role": "director",
+    "appointed_on": "2026-06-29",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "small",
+   "next_accounts_due": "2027-09-30",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 7,
+   "live": [
+    "017861870007",
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "created 2005-03-25 \u00b7 The Royal Bank of Scotland\u2026",
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026",
+    "created 1987-01-30 \u00b7 National Westminster Bank P\u2026",
+    "created 1987-01-30 \u00b7 D. Wager",
+    "created 1984-02-22 \u00b7 Midland Bank PLC"
+   ],
+   "outstanding_third_party": [
+    "017861870007",
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2"
+   ],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "national westminster bank plc",
+     "charges": [
+      "created 2005-03-25 \u00b7 National Westminster Bank P\u2026",
+      "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2"
+     ]
+    }
+   ],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2"
+   ],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 24,
+   "latest_accounts": {
+    "ref": "AA filed 2026-09-14",
+    "days_late": -14,
+    "description": "accounts with accounts type small (made up date: 2025-12-31)"
+   },
+   "latest_micro_or_exempt": false,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-01-06",
+    "days_late": 100
+   },
+   "late_3y": [
+    "AA filed 2025-01-06"
+   ],
+   "months_since_incorporation": 512.1,
+   "last_made_up_to": "2025-12-31",
+   "months_since_made_up": 9.0,
+   "insolvency_filings": [],
+   "window_truncated": true
+  },
+  "officers": {
+   "active": 3,
+   "total_ever": 12,
+   "appointed_last_12m": [
+    "director appointed 2026-06-29"
+   ]
+  },
+  "missing": [],
+  "collateral": {
+   "017861870007": {
+    "collateral": "property",
+    "quote": "Unit 4A park lane business park, bentinck colliery, kirkby in ashfield, notts being part of title number NT421588",
+    "verified": true
+   },
+   "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2": {
+    "collateral": "all_assets",
+    "quote": "the undertaking and all property and assets present and future including goodwill bookdebts uncalled capital buildings fixtures fixed plant and machinery",
+    "verified": true
+   }
+  }
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-01-06 \u2014 100 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-01",
+   "title": "SEC-01 \u2014 Outstanding third-party charge",
+   "outcome": "REFER",
+   "evidence": [
+    "017861870007",
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "created 2005-03-25 \u00b7 The Royal Bank of Scotland\u2026",
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026",
+    "created 1987-01-30 \u00b7 National Westminster Bank P\u2026",
+    "created 1987-01-30 \u00b7 D. Wager",
+    "created 1984-02-22 \u00b7 Midland Bank PLC"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026, created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2 (national westminster bank plc)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2: \u00abFixed and floating charges over the undertaking and all property and assets present and future including goodwill bookdebts uncalled capital buildings fixtures fixed plant and machinery.\u00bb + \u00aboutstanding\u00bb"
+   ],
+   "decided_by": "model"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "SEC-01",
+   "SEC-06",
+   "SEC-08"
+  ]
+ },
+ "qualifies": null,
+ "evidence_gap": [
+  "CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved",
+  "SEC-07 (REFER) not determinable \u2014 created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2: The negative pledge flag is null and the particulars describe only fixed and floating charges while directing to an unavailable document for full details, so nothing in the record shows whether a negative pledge exists."
+ ],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_determinable \u00b7 code",
+  "CON-04": "not_applicable \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "applies \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "not_determinable \u00b7 model",
+  "SEC-08": "applies \u00b7 model"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    2 gap(s), none from a failed fetch \u2014 a retry would return the same record"
+ ],
+ "brief": "# RM brief \u2014 AUTO-4 LIMITED (01786187)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n## \u26a0 Thin evidence \u2014 RM verification required\n\n- CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved\n- SEC-07 (REFER) not determinable \u2014 created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2: The negative pledge flag is null and the particulars describe only fixed and floating charges while directing to an unavailable document for full details, so nothing in the record shows whether a negative pledge exists.\n\n**Decision: REFER** \u2014 set by CON-01 \u2014 Late filing of annual accounts; SEC-01 \u2014 Outstanding third-party charge; SEC-06 \u2014 Multiple simultaneous charges to one lender; SEC-08 \u2014 Floating charge over the whole undertaking  \n**Qualifies as a lead:** not until the gaps are closed\n\n## Summary\n\n- AUTO-4 LIMITED (company number 01786187) is an active private limited company incorporated on 26 January 1984, filing small accounts under SIC 46900 (non-specialised wholesale trade). `[profile]`\n- The board has three active officers out of twelve ever appointed, with one director appointed on 29 June 2026. `[officers]`\n- Two third-party charges remain outstanding, both in favour of National Westminster Bank PLC: one created 15 November 2013 containing a fixed charge and secured on Unit 4A Park Lane Business Park, Bentinck Colliery, Kirkby in Ashfield, Notts (part of title NT421588), and one created 25 March 2005 secured on the undertaking and all property and assets present and future, including goodwill, book debts, uncalled capital, buildings, fixtures and fixed plant and machinery. Under SEC-01 no first-charge facility can be offered unless those charges are redeemed at completion. `[017861870007; created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2; SEC-01]`\n- SEC-08 applies because the subsisting 2005 all-assets charge carries a floating element over the whole undertaking, so we must assess what unencumbered assets, if any, remain available as security. `[created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2; SEC-08]`\n- Two charges to National Westminster Bank PLC were created on the same day, 25 March 2005, which SEC-06 treats as a structured or tranched facility; obtain full redemption figures for all charges before quoting any refinance. `[created 2005-03-25 \u00b7 National Westminster Bank P\u2026; created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2; SEC-06]`\n- Five older charges, to Midland Bank PLC (1984), National Westminster Bank PLC and individual chargees (1987), and The Royal Bank of Scotland Commercial Services Limited and National Westminster Bank PLC (2005), are fully satisfied and are disregarded for ranking purposes. `[created 1984-02-22 \u00b7 Midland Bank PLC; created 1987-01-30 \u00b7 National Westminster Bank P\u2026; created 1987-01-30 \u00b7 D. Wager; created 2005-03-25 \u00b7 The Royal Bank of Scotland\u2026; created 2005-03-25 \u00b7 National Westminster Bank P\u2026; SEC-03]`\n- Filing conduct is mixed: the accounts to 31 December 2023 were filed on 6 January 2025, 100 days late, which triggers CON-01, although the two most recent filings (September 2025 and September 2026) were early and no accounts are currently overdue. `[AA filed 2025-01-06; AA filed 2025-09-15; AA filed 2026-09-14; profile; CON-01]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-01 \u2014 Late filing of annual accounts | REFER | AA filed 2025-01-06 \u2014 100 days late |\n| SEC-01 \u2014 Outstanding third-party charge | REFER | 017861870007; created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2 |\n| SEC-03 \u2014 Satisfied charges disregarded | PROCEED | created 2005-03-25 \u00b7 The Royal Bank of Scotland\u2026; created 2005-03-25 \u00b7 National Westminster Bank P\u2026; created 1987-01-30 \u00b7 National Westminster Bank P\u2026; created 1987-01-30 \u00b7 D. Wager; created 1984-02-22 \u00b7 Midland Bank PLC |\n| SEC-06 \u2014 Multiple simultaneous charges to one lender | REFER | created 2005-03-25 \u00b7 National Westminster Bank P\u2026, created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2 (national westminster bank plc) |\n| SEC-08 \u2014 Floating charge over the whole undertaking | REFER | created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2: \u00abFixed and floating charges over the undertaking and all property and assets present and future including goodwill bookdebts uncalled capital buildings fixtures fixed plant and machinery.\u00bb + \u00aboutstanding\u00bb |",
+ "citations": [
+  "017861870007",
+  "AA filed 2025-01-06",
+  "AA filed 2025-09-15",
+  "AA filed 2026-09-14",
+  "CON-01",
+  "SEC-01",
+  "SEC-03",
+  "SEC-06",
+  "SEC-08",
+  "created 1984-02-22 \u00b7 Midland Bank PLC",
+  "created 1987-01-30 \u00b7 D. Wager",
+  "created 1987-01-30 \u00b7 National Westminster Bank P\u2026",
+  "created 2005-03-25 \u00b7 National Westminster Bank P\u2026",
+  "created 2005-03-25 \u00b7 National Westminster Bank P\u2026 #2",
+  "created 2005-03-25 \u00b7 The Royal Bank of Scotland\u2026",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 31.3,
+  "usage": [
+   {
+    "company": "01786187",
+    "node": "signal/collateral",
+    "model": "claude-opus-5",
+    "input_tokens": 819,
+    "output_tokens": 142
+   },
+   {
+    "company": "01786187",
+    "node": "policy",
+    "model": "claude-opus-5",
+    "input_tokens": 1566,
+    "output_tokens": 540
+   },
+   {
+    "company": "01786187",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 5664,
+    "output_tokens": 1304
+   }
+  ]
+ }
+}

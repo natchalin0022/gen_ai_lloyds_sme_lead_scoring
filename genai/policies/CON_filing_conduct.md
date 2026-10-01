@@ -1,6 +1,11 @@
 # CON — Filing Conduct and Information Quality
 
-**Lloyds Bank (Demo) · SME Lending Policy · v1.0 · effective 2026-01-01**
+**Lloyds Bank (Demo) · SME Lending Policy · v1.1 · effective 2026-09-30**
+
+*Changes in v1.1:* CON-04 now attaches a condition instead of referring. Screening the
+2026-09-14 lead list showed it applied to 77 of 80 SME prospects, so as a REFER it no
+longer separated one lead from another. Missing earnings figures are a document to
+collect, not an adverse indicator.
 
 Scope: what a company's Companies House filing record indicates about its
 administrative conduct, and whether enough current financial information exists
@@ -42,12 +47,18 @@ than an isolated lapse, irrespective of the size of each delay.
 
 ---
 
-### CON-04 — Micro-entity accounts
-**Outcome: REFER**
+### CON-04 — Earnings not disclosed
+**Outcome: PROCEED WITH CONDITION**
 
-Micro-entity accounts do not disclose turnover or profit. They are insufficient on their
-own to assess serviceability. Management accounts covering the most recent 12 months
-must be obtained before a decision.
+Micro-entity and total-exemption accounts do not disclose turnover or profit, so the
+public record cannot show whether the company can service new borrowing. This is
+missing information, not an adverse indicator, and it does not by itself change the
+outcome: it ranks as PROCEED under EVD-07, and its condition stands whatever the overall
+outcome. A PROCEED under this clause means the public record shows no adverse indicator;
+it is not an assessment of affordability.
+
+*Condition:* management accounts covering the most recent 12 months must be obtained
+before a facility is offered.
 
 *Applies when:* most recent accounts filing `description` contains `micro-entity` or
 `total-exemption`.

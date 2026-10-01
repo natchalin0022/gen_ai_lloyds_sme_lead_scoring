@@ -1,0 +1,445 @@
+{
+ "company_number": "11723501",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "11723501",
+  "company_name": "LIVERPOOL EDGE (COPPERAS HILL) LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2018-12-12",
+  "sic_codes": [
+   "42990",
+   "68209"
+  ],
+  "registered_office": "Seymour Chambers, 92 London Road, Liverpool, L3 5NW, Merseyside",
+  "accounts_type": "small",
+  "last_accounts_made_up_to": "2025-08-31",
+  "next_accounts_due": "2027-05-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 25,
+  "kept": 17,
+  "items": [
+   {
+    "date": "2026-08-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2025-08-31)",
+    "days_late": 91
+   },
+   {
+    "date": "2026-06-06",
+    "category": "incorporation",
+    "type": "MA",
+    "description": "memorandum articles",
+    "days_late": null
+   },
+   {
+    "date": "2026-05-19",
+    "category": "incorporation",
+    "type": "MA",
+    "description": "memorandum articles",
+    "days_late": null
+   },
+   {
+    "date": "2026-04-29",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 117235010004; charge creation date: 2026-04-28)",
+    "days_late": null
+   },
+   {
+    "date": "2025-05-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2024-08-31)",
+    "days_late": 1
+   },
+   {
+    "date": "2024-05-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2023-08-31)",
+    "days_late": 3
+   },
+   {
+    "date": "2023-05-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type unaudited abridged (made up date: 2022-08-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2022-05-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type unaudited abridged (made up date: 2021-08-31)",
+    "days_late": -5
+   },
+   {
+    "date": "2022-01-24",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 117235010003; charge creation date: 2022-01-14)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-19",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 117235010002)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-19",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 117235010001)",
+    "days_late": null
+   },
+   {
+    "date": "2021-05-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type unaudited abridged (made up date: 2020-08-31)",
+    "days_late": -1
+   },
+   {
+    "date": "2020-09-15",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 117235010002; charge creation date: 2020-09-11)",
+    "days_late": null
+   },
+   {
+    "date": "2020-09-15",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 117235010001; charge creation date: 2020-09-11)",
+    "days_late": null
+   },
+   {
+    "date": "2020-05-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type unaudited abridged (made up date: 2019-08-31)",
+    "days_late": -105
+   },
+   {
+    "date": "2020-01-07",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous shortened (made up date: 2019-12-31; new date: 2019-08-31)",
+    "days_late": -265
+   },
+   {
+    "date": "2018-12-12",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 4,
+  "outstanding": 2,
+  "items": [
+   {
+    "charge_code": "117235010004",
+    "created_on": "2026-04-28",
+    "delivered_on": "2026-04-29",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC as Security Agent"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "Freehold land and buildings known as police station, copperas hill, liverpool L3 5LD registered at the land registry with title number MS551245 (freehold title absolute) and title number MS635180 (possessory)."
+   },
+   {
+    "charge_code": "117235010003",
+    "created_on": "2022-01-14",
+    "delivered_on": "2022-01-24",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "Freehold land and buildings known as police station, copperas hill, liverpool L3 5LD registered at the land registry with title number MS551245 (freehold title absolute) and title number MS635180 (possessory)."
+   },
+   {
+    "charge_code": "117235010002",
+    "created_on": "2020-09-11",
+    "delivered_on": "2020-09-15",
+    "satisfied_on": "2022-01-19",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Close Brothers Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "Police station, copperas hill, liverpool L3 5LD. Title numbers: MS551245 and MS635180."
+   },
+   {
+    "charge_code": "117235010001",
+    "created_on": "2020-09-11",
+    "delivered_on": "2020-09-15",
+    "satisfied_on": "2022-01-19",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Close Brothers Limited"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "Police station, copperas hill, liverpool L3 5LD. Title numbers: MS551245 and MS635180."
+   }
+  ]
+ },
+ "officers": {
+  "total": 2,
+  "active": 2,
+  "items": [
+   {
+    "name": "BEER, Alan James",
+    "role": "director",
+    "appointed_on": "2018-12-12",
+    "resigned_on": null
+   },
+   {
+    "name": "BREWITT, David Charles",
+    "role": "director",
+    "appointed_on": "2018-12-12",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "small",
+   "next_accounts_due": "2027-05-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 4,
+   "live": [
+    "117235010004",
+    "117235010003"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "117235010002",
+    "117235010001"
+   ],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "close brothers limited",
+     "charges": [
+      "117235010001",
+      "117235010002"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "117235010004",
+    "117235010003",
+    "117235010002",
+    "117235010001"
+   ],
+   "floating_live": [
+    "117235010004",
+    "117235010003"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "117235010004",
+    "117235010003"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 8,
+   "latest_accounts": {
+    "ref": "AA filed 2026-08-27",
+    "days_late": 91,
+    "description": "accounts with accounts type small (made up date: 2025-08-31)"
+   },
+   "latest_micro_or_exempt": false,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2026-08-27",
+    "days_late": 91
+   },
+   "late_3y": [
+    "AA filed 2026-08-27",
+    "AA filed 2025-05-29",
+    "AA filed 2024-05-31"
+   ],
+   "months_since_incorporation": 93.6,
+   "last_made_up_to": "2025-08-31",
+   "months_since_made_up": 13.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {
+   "117235010004": {
+    "collateral": "property",
+    "quote": "Freehold land and buildings known as police station, copperas hill, liverpool L3 5LD",
+    "verified": true
+   },
+   "117235010003": {
+    "collateral": "property",
+    "quote": "Freehold land and buildings known as police station, copperas hill, liverpool L3 5LD",
+    "verified": true
+   }
+  }
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-08-27 \u2014 91 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-08-27",
+    "AA filed 2025-05-29",
+    "AA filed 2024-05-31"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "117235010002",
+    "117235010001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "117235010001, 117235010002 (close brothers limited)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "117235010004",
+    "117235010003",
+    "117235010002",
+    "117235010001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "117235010004",
+    "117235010003"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-03",
+   "SEC-06",
+   "SEC-07",
+   "SEC-08"
+  ],
+  "conditions": []
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "not_applicable \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 117235010003, 117235010004) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 4.6,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "usage": [
+   {
+    "company": "11723501",
+    "node": "signal/collateral",
+    "model": "claude-opus-5",
+    "input_tokens": 739,
+    "output_tokens": 61
+   }
+  ]
+ }
+}

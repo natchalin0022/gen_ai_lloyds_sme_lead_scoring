@@ -1,0 +1,261 @@
+{
+ "company_number": "13082701",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "13082701",
+  "company_name": "EB CRITICAL ENGINEERING SERVICES LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2020-12-15",
+  "sic_codes": [
+   "71122",
+   "71129",
+   "85590"
+  ],
+  "registered_office": "Unit 6 Leon Park, Heath Road, Whitchurch, SY13 2AA, Shropshire",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2024-12-31",
+  "next_accounts_due": "2026-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 13,
+  "kept": 6,
+  "items": [
+   {
+    "date": "2025-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2024-09-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-12-31)",
+    "days_late": -2
+   },
+   {
+    "date": "2024-07-24",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 130827010001; charge creation date: 2024-07-18)",
+    "days_late": null
+   },
+   {
+    "date": "2023-07-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-12-31)",
+    "days_late": -63
+   },
+   {
+    "date": "2022-02-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-12-31)",
+    "days_late": -225
+   },
+   {
+    "date": "2020-12-15",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 1,
+  "outstanding": 1,
+  "items": [
+   {
+    "charge_code": "130827010001",
+    "created_on": "2024-07-18",
+    "delivered_on": "2024-07-24",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Bank of Scotland PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   }
+  ]
+ },
+ "officers": {
+  "total": 2,
+  "active": 2,
+  "items": [
+   {
+    "name": "ELKINGTON-BARLOW, Beth",
+    "role": "director",
+    "appointed_on": "2020-12-15",
+    "resigned_on": null
+   },
+   {
+    "name": "ELKINGTON-BARLOW, Daniel Richard",
+    "role": "director",
+    "appointed_on": "2020-12-15",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2026-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 1,
+   "live": [
+    "130827010001"
+   ],
+   "clean_position": false,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [
+    "130827010001"
+   ],
+   "floating_live": [
+    "130827010001"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "130827010001"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 4,
+   "latest_accounts": {
+    "ref": "AA filed 2025-09-30",
+    "days_late": 2,
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-09-30",
+    "days_late": 2
+   },
+   "late_3y": [
+    "AA filed 2025-09-30"
+   ],
+   "months_since_incorporation": 69.5,
+   "last_made_up_to": "2024-12-31",
+   "months_since_made_up": 21.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2025-09-30 \u2014 accounts with accounts type micro entity (made up date: 2024-12-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-06",
+   "title": "CON-06 \u2014 Stale financial information",
+   "outcome": "REFER",
+   "evidence": [
+    "accounts made up to 2024-12-31 \u2014 21.0 months before as_of"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "130827010001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "130827010001"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-06",
+   "SEC-07",
+   "SEC-08"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "applies \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 130827010001) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 1.0,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "usage": []
+ }
+}

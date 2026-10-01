@@ -30,3 +30,9 @@ Data Preprocess/OCR/pages_llyods.zip
 # local virtual env
 .venv/
 __pycache__/
+
+# --- web app (webapp/) -------------------------------------------------------
+# its working copy of the company tables, and one folder per web run: local state, never shipped
+client/live_data/
+client/output/web_*/
+client/output/.web_run.lock

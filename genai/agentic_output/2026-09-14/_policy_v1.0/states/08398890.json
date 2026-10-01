@@ -1,0 +1,360 @@
+{
+ "company_number": "08398890",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "08398890",
+  "company_name": "ANANTH & JS LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2013-02-12",
+  "sic_codes": [
+   "62012"
+  ],
+  "registered_office": "32 Shaftesbury Road, Maidenbower, Crawley, RH10 7HD, West Sussex",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-02-28",
+  "next_accounts_due": "2026-11-30",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 37,
+  "kept": 21,
+  "items": [
+   {
+    "date": "2025-12-27",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2025-12-23; officer name: Mrs Arch Victor Anita Bindhu)",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-23",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2025-12-23; officer name: Mr Prem Ananth Masilamani)",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-23",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2025-12-23; officer name: Mr Prem Masilamani)",
+    "days_late": null
+   },
+   {
+    "date": "2025-11-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-02-28)",
+    "days_late": -1
+   },
+   {
+    "date": "2024-11-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-02-29)",
+    "days_late": 1
+   },
+   {
+    "date": "2023-11-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-02-28)",
+    "days_late": 1
+   },
+   {
+    "date": "2022-11-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-02-28)",
+    "days_late": 2
+   },
+   {
+    "date": "2021-11-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-02-28)",
+    "days_late": 2
+   },
+   {
+    "date": "2020-12-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-02-29)",
+    "days_late": 5
+   },
+   {
+    "date": "2019-11-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-02-28)",
+    "days_late": 2
+   },
+   {
+    "date": "2019-05-23",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2019-05-23; officer name: Mr Prem Masilamani)",
+    "days_late": null
+   },
+   {
+    "date": "2018-11-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-02-28)",
+    "days_late": 2
+   },
+   {
+    "date": "2018-01-17",
+    "category": "accounts",
+    "type": "AAMD",
+    "description": "accounts amended with accounts type total exemption full (made up date: 2017-02-28)",
+    "days_late": 50
+   },
+   {
+    "date": "2017-11-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2017-02-28)",
+    "days_late": 2
+   },
+   {
+    "date": "2016-11-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-02-28)",
+    "days_late": 2
+   },
+   {
+    "date": "2016-10-26",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mrs Arch Victor Anita Bindhu; appointment date: 2016-03-01)",
+    "days_late": null
+   },
+   {
+    "date": "2015-10-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-02-28)",
+    "days_late": -52
+   },
+   {
+    "date": "2015-07-14",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2015-07-14; officer name: Mr Prem Masilamani)",
+    "days_late": null
+   },
+   {
+    "date": "2014-11-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-02-28)",
+    "days_late": -17
+   },
+   {
+    "date": "2013-02-20",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Anita Arch Victor)",
+    "days_late": null
+   },
+   {
+    "date": "2013-02-12",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 3,
+  "active": 2,
+  "items": [
+   {
+    "name": "ARCH VICTOR, Anita Bindhu",
+    "role": "director",
+    "appointed_on": "2016-03-01",
+    "resigned_on": null
+   },
+   {
+    "name": "MASILAMANI, Prem Ananth",
+    "role": "director",
+    "appointed_on": "2013-02-12",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2026-11-30",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 13,
+   "latest_accounts": {
+    "ref": "AA filed 2025-11-27",
+    "days_late": -1,
+    "description": "accounts with accounts type micro entity (made up date: 2025-02-28)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2024-11-29",
+    "days_late": 1
+   },
+   "late_3y": [
+    "AA filed 2024-11-29",
+    "AA filed 2023-11-29"
+   ],
+   "months_since_incorporation": 163.5,
+   "last_made_up_to": "2025-02-28",
+   "months_since_made_up": 19.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 3,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2024-11-29",
+    "AA filed 2023-11-29"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-11-27 \u2014 accounts with accounts type micro entity (made up date: 2025-02-28)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-06",
+   "title": "CON-06 \u2014 Stale financial information",
+   "outcome": "REFER",
+   "evidence": [
+    "accounts made up to 2025-02-28 \u2014 19.0 months before as_of"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-03",
+   "CON-04",
+   "CON-06"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "applies \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 ANANTH & JS LTD (08398890)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-03 \u2014 Pattern of late filing; CON-04 \u2014 Micro-entity accounts; CON-06 \u2014 Stale financial information  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- ANANTH & JS LTD (company number 08398890) is an active private limited company incorporated on 12 February 2013, trading under SIC code 62012, and has two active officers out of three ever appointed, with no new appointments in the last 12 months. `[profile; officers]`\n- The company has no charges registered at any time, so the security position is clean and a first-charge facility could be offered subject to the remaining policies. `[SEC-02]`\n- Filing conduct shows a persistent pattern of small delays: accounts were filed late in 2018 through 2024 (1 to 5 days late), plus an amended set for the 2017 year filed 50 days late; the most recent accounts to 28 February 2025 were filed one day early on 27 November 2025. `[AA filed 2024-11-29; AA filed 2023-11-29; AA filed 2022-11-30; AA filed 2021-11-30; AA filed 2020-12-03; AAMD filed 2018-01-17; AA filed 2025-11-27]`\n- Two or more late accounts filings in the last three years trigger a REFER under CON-03, as this counts as a pattern rather than an isolated lapse regardless of how short each delay was. `[CON-03; AA filed 2024-11-29; AA filed 2023-11-29]`\n- The latest accounts are micro-entity, which disclose neither turnover nor profit, so under CON-04 management accounts covering the most recent 12 months must be obtained before any decision. `[CON-04; profile]`\n- The most recent accounts are made up to 28 February 2025, some 19 months before the 30 September 2026 assessment date, so under CON-06 the financial position on record is stale; nothing is currently overdue, with the next accounts due 30 November 2026. `[CON-06; computed; profile]`\n- Overall the file is a REFER on conduct and information quality rather than security: approach the customer for up-to-date management accounts and an explanation of the repeated filing delays before progressing. `[CON-03; CON-04; CON-06; SEC-02]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-03 \u2014 Pattern of late filing | REFER | AA filed 2024-11-29; AA filed 2023-11-29 |\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-11-27 \u2014 accounts with accounts type micro entity (made up date: 2025-02-28) |\n| CON-06 \u2014 Stale financial information | REFER | accounts made up to 2025-02-28 \u2014 19.0 months before as_of |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2020-12-03",
+  "AA filed 2021-11-30",
+  "AA filed 2022-11-30",
+  "AA filed 2023-11-29",
+  "AA filed 2024-11-29",
+  "AA filed 2025-11-27",
+  "AAMD filed 2018-01-17",
+  "CON-03",
+  "CON-04",
+  "CON-06",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 11.5,
+  "usage": [
+   {
+    "company": "08398890",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2977,
+    "output_tokens": 930
+   }
+  ]
+ }
+}

@@ -1,0 +1,416 @@
+{
+ "company_number": "09916122",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "09916122",
+  "company_name": "4 CORNWALL GARDENS LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2015-12-15",
+  "sic_codes": [
+   "98000"
+  ],
+  "registered_office": "123 Cuckmere Way, Brighton, BN1 8GH",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2024-12-31",
+  "next_accounts_due": "2026-09-30",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 42,
+  "kept": 29,
+  "items": [
+   {
+    "date": "2025-09-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)",
+    "days_late": -4
+   },
+   {
+    "date": "2024-10-23",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2024-10-22",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2024-08-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-12-31)",
+    "days_late": -47
+   },
+   {
+    "date": "2023-12-12",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2023-12-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-12-31)",
+    "days_late": 74
+   },
+   {
+    "date": "2023-11-28",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2023-02-09",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Ian Martin Fellingham; termination date: 2023-02-06)",
+    "days_late": null
+   },
+   {
+    "date": "2022-11-25",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Jonathon Leigh Condous; appointment date: 2022-11-25)",
+    "days_late": null
+   },
+   {
+    "date": "2022-09-30",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Colleen Thomson; termination date: 2022-09-30)",
+    "days_late": null
+   },
+   {
+    "date": "2022-09-30",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Sophie Griffin; termination date: 2022-09-30)",
+    "days_late": null
+   },
+   {
+    "date": "2022-09-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-12-31)",
+    "days_late": -2
+   },
+   {
+    "date": "2021-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2021-09-30",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Ms Colleen Thomson; appointment date: 2021-09-29)",
+    "days_late": null
+   },
+   {
+    "date": "2021-01-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-12-31)",
+    "days_late": 111
+   },
+   {
+    "date": "2019-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2018-10-10",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Christopher Thomson; termination date: 2018-10-09)",
+    "days_late": null
+   },
+   {
+    "date": "2018-09-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type unaudited abridged (made up date: 2017-12-31)",
+    "days_late": 0
+   },
+   {
+    "date": "2018-06-01",
+    "category": "officers",
+    "type": "AP03",
+    "description": "appoint person secretary company with name date (officer name: Mr Christopher Thomson; appointment date: 2018-05-25)",
+    "days_late": null
+   },
+   {
+    "date": "2018-06-01",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Christopher Thomson; termination date: 2018-05-25)",
+    "days_late": null
+   },
+   {
+    "date": "2017-09-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-12-31)",
+    "days_late": -14
+   },
+   {
+    "date": "2016-12-23",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Ian Martin Fellingham; appointment date: 2016-12-23)",
+    "days_late": null
+   },
+   {
+    "date": "2016-05-20",
+    "category": "capital",
+    "type": "SH01",
+    "description": "capital allotment shares (date: 2016-04-18; capital: [{'currency': 'GBP', 'figure': '5'}])",
+    "days_late": null
+   },
+   {
+    "date": "2016-03-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Sophie Griffin; appointment date: 2016-02-29)",
+    "days_late": null
+   },
+   {
+    "date": "2016-03-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Christopher Thomson; appointment date: 2016-02-29)",
+    "days_late": null
+   },
+   {
+    "date": "2016-03-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Teejay Pope; appointment date: 2016-02-29)",
+    "days_late": null
+   },
+   {
+    "date": "2016-03-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Katharyn Kate Butler; appointment date: 2016-02-29)",
+    "days_late": null
+   },
+   {
+    "date": "2015-12-16",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Graham Robertson Stephens; termination date: 2015-12-15)",
+    "days_late": null
+   },
+   {
+    "date": "2015-12-15",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 9,
+  "active": 3,
+  "items": [
+   {
+    "name": "BUTLER, Katharyn Kate",
+    "role": "director",
+    "appointed_on": "2016-02-29",
+    "resigned_on": null
+   },
+   {
+    "name": "CONDOUS, Jonathon Leigh",
+    "role": "director",
+    "appointed_on": "2022-11-25",
+    "resigned_on": null
+   },
+   {
+    "name": "POPE, Teejay",
+    "role": "director",
+    "appointed_on": "2016-02-29",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2026-09-30",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 9,
+   "latest_accounts": {
+    "ref": "AA filed 2025-09-24",
+    "days_late": -4,
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2023-12-11",
+    "days_late": 74
+   },
+   "late_3y": [
+    "AA filed 2023-12-11"
+   ],
+   "months_since_incorporation": 129.5,
+   "last_made_up_to": "2024-12-31",
+   "months_since_made_up": 21.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 3,
+   "total_ever": 9,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2023-12-11 \u2014 74 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-09-24 \u2014 accounts with accounts type micro entity (made up date: 2024-12-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-06",
+   "title": "CON-06 \u2014 Stale financial information",
+   "outcome": "REFER",
+   "evidence": [
+    "accounts made up to 2024-12-31 \u2014 21.0 months before as_of"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-04",
+   "CON-06"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "applies \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 4 CORNWALL GARDENS LIMITED (09916122)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-01 \u2014 Late filing of annual accounts; CON-04 \u2014 Micro-entity accounts; CON-06 \u2014 Stale financial information  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- 4 CORNWALL GARDENS LIMITED (company number 09916122) is an active private limited company incorporated on 15 December 2015, roughly 10 years and 9 months ago, with a SIC code of 98000 and three active officers out of nine ever appointed, none appointed in the last 12 months. `[profile; officers; computed]`\n- No charges are registered against the company at any time, so it holds a clean security position and a first-charge facility could in principle be offered subject to the remaining policies. `[SEC-02]`\n- Filing conduct is mostly timely, but accounts for the year to 31 December 2022 were filed on 11 December 2023, 74 days after the statutory deadline; the most recent filing on 24 September 2025 was four days early. `[AA filed 2023-12-11; AA filed 2025-09-24; AA filed 2021-01-17]`\n- That 74-day delay falls under CON-01, which treats accounts filed more than 30 days late in the past three years as a sign of weak administrative control and requires a referral with the delay stated. `[CON-01; AA filed 2023-12-11]`\n- The latest accounts are micro-entity accounts, which under CON-04 do not disclose turnover or profit and are insufficient on their own to assess serviceability \u2014 management accounts covering the most recent 12 months must be obtained before any decision. `[CON-04; AA filed 2025-09-24; profile]`\n- Under CON-06, the most recent accounts are made up to 31 December 2024, 21 months before the assessment date of 30 September 2026, so the financial position on record is no longer current. `[CON-06; computed; profile]`\n- On approach, the security position is clean and accounts are not overdue (next accounts due 30 September 2026), so the referral turns on obtaining up-to-date management information and explaining the 2023 late filing. `[profile; SEC-02; CON-01; CON-04; CON-06]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-01 \u2014 Late filing of annual accounts | REFER | AA filed 2023-12-11 \u2014 74 days late |\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-09-24 \u2014 accounts with accounts type micro entity (made up date: 2024-12-31) |\n| CON-06 \u2014 Stale financial information | REFER | accounts made up to 2024-12-31 \u2014 21.0 months before as_of |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2021-01-17",
+  "AA filed 2023-12-11",
+  "AA filed 2025-09-24",
+  "CON-01",
+  "CON-04",
+  "CON-06",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 9.3,
+  "usage": [
+   {
+    "company": "09916122",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2636,
+    "output_tokens": 693
+   }
+  ]
+ }
+}

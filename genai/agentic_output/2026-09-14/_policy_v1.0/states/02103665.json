@@ -1,0 +1,526 @@
+{
+ "company_number": "02103665",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "02103665",
+  "company_name": "MARCELLINO LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "1987-02-25",
+  "sic_codes": [
+   "74909"
+  ],
+  "registered_office": "26 Brookland Drive, Sandbach, Cheshire, CW11 2LX",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2026-04-30",
+  "next_accounts_due": "2028-01-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 90,
+  "kept": 48,
+  "items": [
+   {
+    "date": "2026-06-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2026-04-30)",
+    "days_late": -223
+   },
+   {
+    "date": "2026-04-07",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Cheryl Ann Madden; termination date: 2026-04-07)",
+    "days_late": null
+   },
+   {
+    "date": "2025-08-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-04-30)",
+    "days_late": -174
+   },
+   {
+    "date": "2024-10-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-04-30)",
+    "days_late": -112
+   },
+   {
+    "date": "2023-07-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-04-30)",
+    "days_late": -191
+   },
+   {
+    "date": "2022-12-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-04-30)",
+    "days_late": -40
+   },
+   {
+    "date": "2022-02-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-04-30)",
+    "days_late": 31
+   },
+   {
+    "date": "2020-07-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-04-30)",
+    "days_late": -190
+   },
+   {
+    "date": "2019-07-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-04-30)",
+    "days_late": -206
+   },
+   {
+    "date": "2018-06-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-04-30)",
+    "days_late": -216
+   },
+   {
+    "date": "2017-08-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2017-04-30)",
+    "days_late": -157
+   },
+   {
+    "date": "2016-10-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2016-04-30)",
+    "days_late": -112
+   },
+   {
+    "date": "2015-12-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2015-04-30)",
+    "days_late": -41
+   },
+   {
+    "date": "2014-12-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-04-30)",
+    "days_late": -57
+   },
+   {
+    "date": "2014-01-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2013-04-30)",
+    "days_late": -23
+   },
+   {
+    "date": "2013-02-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-04-30)",
+    "days_late": 17
+   },
+   {
+    "date": "2011-12-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2011-04-30)",
+    "days_late": -40
+   },
+   {
+    "date": "2011-01-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2010-04-30)",
+    "days_late": -14
+   },
+   {
+    "date": "2010-04-01",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2010-03-31; officer name: Peter Anthony Madden)",
+    "days_late": null
+   },
+   {
+    "date": "2010-04-01",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2010-03-31; officer name: Cheryl Ann Madden)",
+    "days_late": null
+   },
+   {
+    "date": "2010-01-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2009-04-30)",
+    "days_late": -6
+   },
+   {
+    "date": "2008-10-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2008-04-30)",
+    "days_late": -93
+   },
+   {
+    "date": "2007-12-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2007-04-30)",
+    "days_late": -37
+   },
+   {
+    "date": "2007-01-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2006-04-30)",
+    "days_late": -7
+   },
+   {
+    "date": "2006-02-01",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2005-04-30)",
+    "days_late": 4
+   },
+   {
+    "date": "2005-01-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2004-04-30)",
+    "days_late": -9
+   },
+   {
+    "date": "2004-02-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2003-04-30)",
+    "days_late": 12
+   },
+   {
+    "date": "2003-01-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2002-04-30)",
+    "days_late": -14
+   },
+   {
+    "date": "2002-01-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2001-04-30)",
+    "days_late": -17
+   },
+   {
+    "date": "2001-02-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 2000-04-30)",
+    "days_late": 24
+   },
+   {
+    "date": "2000-02-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1999-04-30)",
+    "days_late": 27
+   },
+   {
+    "date": "1999-10-12",
+    "category": "officers",
+    "type": "288c",
+    "description": "Secretary's particulars changed;director's particulars changed",
+    "days_late": null
+   },
+   {
+    "date": "1999-10-12",
+    "category": "officers",
+    "type": "288c",
+    "description": "Director's particulars changed",
+    "days_late": null
+   },
+   {
+    "date": "1999-03-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1998-04-30)",
+    "days_late": 54
+   },
+   {
+    "date": "1998-09-11",
+    "category": "accounts",
+    "type": "AAMD",
+    "description": "accounts amended with accounts type full (made up date: 1997-04-30)",
+    "days_late": 226
+   },
+   {
+    "date": "1998-02-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1997-04-30)",
+    "days_late": 13
+   },
+   {
+    "date": "1997-02-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1996-04-30)",
+    "days_late": 30
+   },
+   {
+    "date": "1995-12-20",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1995-04-30)",
+    "days_late": -39
+   },
+   {
+    "date": "1995-02-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 1994-04-30)",
+    "days_late": 17
+   },
+   {
+    "date": "1994-01-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 1993-04-30)",
+    "days_late": -9
+   },
+   {
+    "date": "1993-04-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 1992-04-30)",
+    "days_late": 68
+   },
+   {
+    "date": "1992-09-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1991-04-30)",
+    "days_late": 239
+   },
+   {
+    "date": "1991-04-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1990-04-30)",
+    "days_late": 85
+   },
+   {
+    "date": "1990-03-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1989-04-30)",
+    "days_late": 52
+   },
+   {
+    "date": "1988-12-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1988-04-30)",
+    "days_late": -51
+   },
+   {
+    "date": "1987-06-23",
+    "category": "accounts",
+    "type": "224",
+    "description": "Accounting reference date notified as 30/04",
+    "days_late": null
+   },
+   {
+    "date": "1987-05-27",
+    "category": "officers",
+    "type": "288",
+    "description": "Secretary resigned;new secretary appointed;director resigned;new director appointed",
+    "days_late": null
+   },
+   {
+    "date": "1987-02-25",
+    "category": "incorporation",
+    "type": "CERTINC",
+    "description": "certificate incorporation",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 3,
+  "active": 2,
+  "items": [
+   {
+    "name": "MADDEN, Cheryl Ann",
+    "role": "director",
+    "appointed_on": null,
+    "resigned_on": null
+   },
+   {
+    "name": "MADDEN, Peter Anthony",
+    "role": "director",
+    "appointed_on": null,
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2028-01-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 41,
+   "latest_accounts": {
+    "ref": "AA filed 2026-06-19",
+    "days_late": -223,
+    "description": "accounts with accounts type micro entity (made up date: 2026-04-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2024-10-08",
+    "days_late": -112
+   },
+   "late_3y": [],
+   "months_since_incorporation": 475.1,
+   "last_made_up_to": "2026-04-30",
+   "months_since_made_up": 5.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 3,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-06-19 \u2014 accounts with accounts type micro entity (made up date: 2026-04-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 MARCELLINO LIMITED (02103665)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- MARCELLINO LIMITED (company number 02103665) is an active private limited company incorporated on 25 February 1987, making it around 39 years old, and trades under SIC 74909 (other professional, scientific and technical activities not elsewhere classified). `[profile; computed]`\n- The board is small and stable: two active officers out of three ever appointed, with no new appointments in the last 12 months. `[officers]`\n- No charges are registered against the company at any time, so it holds a clean security position and a first-charge facility could be offered subject to the remaining policies. `[SEC-02]`\n- Filing conduct is currently strong: the latest accounts to 30 April 2026 were filed on 19 June 2026, some 223 days ahead of deadline, and the last several years of accounts were all filed early. Nothing is overdue, with the next accounts not due until 31 January 2028. `[AA filed 2026-06-19; AA filed 2025-08-07; AA filed 2024-10-08; AA filed 2023-07-21; profile]`\n- There is a history of late filing further back, including accounts for 1991 filed 239 days late and an amended 1997 set filed 226 days late, plus smaller overruns in 2002, 2004, 2006 and 2013 \u2014 worth noting as context but not recent behaviour. `[AA filed 1992-09-23; AAMD filed 1998-09-11; AA filed 2022-02-28; AA filed 2013-02-14; AA filed 2006-02-01; AA filed 2004-02-09]`\n- The case is a REFER under CON-04 because the most recent accounts are micro-entity, which do not disclose turnover or profit and cannot support a serviceability assessment on their own. `[CON-04; profile]`\n- Before any approach can progress, obtain management accounts covering the most recent 12 months; the accounting reference date is 30 April, so figures to that date or later would be most useful. `[CON-04; profile; computed]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2026-06-19 \u2014 accounts with accounts type micro entity (made up date: 2026-04-30) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 1992-09-23",
+  "AA filed 2004-02-09",
+  "AA filed 2006-02-01",
+  "AA filed 2013-02-14",
+  "AA filed 2022-02-28",
+  "AA filed 2023-07-21",
+  "AA filed 2024-10-08",
+  "AA filed 2025-08-07",
+  "AA filed 2026-06-19",
+  "AAMD filed 1998-09-11",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 9.1,
+  "usage": [
+   {
+    "company": "02103665",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 4859,
+    "output_tokens": 704
+   }
+  ]
+ }
+}

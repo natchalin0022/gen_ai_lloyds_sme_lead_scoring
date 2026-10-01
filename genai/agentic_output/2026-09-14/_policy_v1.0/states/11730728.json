@@ -1,0 +1,336 @@
+{
+ "company_number": "11730728",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "11730728",
+  "company_name": "BLUE LILY HOME CARE LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2018-12-17",
+  "sic_codes": [
+   "87100",
+   "87300"
+  ],
+  "registered_office": "32 The Squirrels, Pinner, HA5 3BD, Middlesex",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2024-12-31",
+  "next_accounts_due": "2026-09-30",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 20,
+  "kept": 13,
+  "items": [
+   {
+    "date": "2025-09-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)",
+    "days_late": -2
+   },
+   {
+    "date": "2024-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2024-07-31",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 117307280002; charge creation date: 2024-07-22)",
+    "days_late": null
+   },
+   {
+    "date": "2024-02-16",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 117307280001)",
+    "days_late": null
+   },
+   {
+    "date": "2023-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2022-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2022-05-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 117307280001; charge creation date: 2022-05-17)",
+    "days_late": null
+   },
+   {
+    "date": "2021-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2021-03-09",
+    "category": "accounts",
+    "type": "AAMD",
+    "description": "accounts amended with accounts type micro entity (made up date: 2019-12-31)",
+    "days_late": 162
+   },
+   {
+    "date": "2020-12-16",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-12-31)",
+    "days_late": 79
+   },
+   {
+    "date": "2020-09-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Riaz Haq; termination date: 2018-12-17)",
+    "days_late": null
+   },
+   {
+    "date": "2020-09-09",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mrs Zeba Farha Haq; appointment date: 2020-09-01)",
+    "days_late": null
+   },
+   {
+    "date": "2018-12-17",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 2,
+  "outstanding": 1,
+  "items": [
+   {
+    "charge_code": "117307280002",
+    "created_on": "2024-07-22",
+    "delivered_on": "2024-07-31",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank Commercial Finance Limited"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "117307280001",
+    "created_on": "2022-05-17",
+    "delivered_on": "2022-05-18",
+    "satisfied_on": "2024-02-16",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "National Westminster Bank Public Limited Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   }
+  ]
+ },
+ "officers": {
+  "total": 2,
+  "active": 1,
+  "items": [
+   {
+    "name": "HAQ, Zeba Farha",
+    "role": "director",
+    "appointed_on": "2020-09-01",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2026-09-30",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 2,
+   "live": [
+    "117307280002"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "117307280001"
+   ],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [
+    "117307280002",
+    "117307280001"
+   ],
+   "floating_live": [
+    "117307280002"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "117307280002"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 7,
+   "latest_accounts": {
+    "ref": "AA filed 2025-09-26",
+    "days_late": -2,
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2024-09-30",
+    "days_late": 2
+   },
+   "late_3y": [
+    "AA filed 2024-09-30",
+    "AA filed 2023-09-30"
+   ],
+   "months_since_incorporation": 93.4,
+   "last_made_up_to": "2024-12-31",
+   "months_since_made_up": 21.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2024-09-30",
+    "AA filed 2023-09-30"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-09-26 \u2014 accounts with accounts type micro entity (made up date: 2024-12-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-06",
+   "title": "CON-06 \u2014 Stale financial information",
+   "outcome": "REFER",
+   "evidence": [
+    "accounts made up to 2024-12-31 \u2014 21.0 months before as_of"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "117307280001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "117307280002",
+    "117307280001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "117307280002"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-03",
+   "CON-04",
+   "CON-06",
+   "SEC-07",
+   "SEC-08"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "applies \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 117307280002) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 0.4,
+  "usage": []
+ }
+}

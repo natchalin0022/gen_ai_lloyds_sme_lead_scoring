@@ -1,0 +1,771 @@
+{
+ "company_number": "10220386",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "10220386",
+  "company_name": "JUNIOR PROPERTY LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2016-06-08",
+  "sic_codes": [
+   "68209"
+  ],
+  "registered_office": "128a Evington Road, Leicester, LE2 1HL, Leicestershire",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-06-30",
+  "next_accounts_due": "2027-03-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 46,
+  "kept": 36,
+  "items": [
+   {
+    "date": "2026-06-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-06-30)",
+    "days_late": 93
+   },
+   {
+    "date": "2025-09-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-06-30)",
+    "days_late": 161
+   },
+   {
+    "date": "2025-07-02",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860010)",
+    "days_late": null
+   },
+   {
+    "date": "2025-07-02",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860007)",
+    "days_late": null
+   },
+   {
+    "date": "2025-07-02",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860009)",
+    "days_late": null
+   },
+   {
+    "date": "2025-07-02",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860011)",
+    "days_late": null
+   },
+   {
+    "date": "2025-07-02",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860008)",
+    "days_late": null
+   },
+   {
+    "date": "2025-06-30",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860013; charge creation date: 2025-06-30)",
+    "days_late": null
+   },
+   {
+    "date": "2025-06-30",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860012; charge creation date: 2025-06-30)",
+    "days_late": null
+   },
+   {
+    "date": "2024-06-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-06-30)",
+    "days_late": 92
+   },
+   {
+    "date": "2023-07-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-06-30)",
+    "days_late": 125
+   },
+   {
+    "date": "2022-11-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-06-30)",
+    "days_late": 240
+   },
+   {
+    "date": "2022-01-25",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860011; charge creation date: 2022-01-12)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-20",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860002)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-20",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860001)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-20",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860003)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-20",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860005)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-20",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860006)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-20",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 102203860004)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860007; charge creation date: 2022-01-12)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860008; charge creation date: 2022-01-12)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860009; charge creation date: 2022-01-12)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860010; charge creation date: 2022-01-12)",
+    "days_late": null
+   },
+   {
+    "date": "2021-06-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-06-30)",
+    "days_late": 85
+   },
+   {
+    "date": "2020-04-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-06-30)",
+    "days_late": 27
+   },
+   {
+    "date": "2019-03-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-06-30)",
+    "days_late": -2
+   },
+   {
+    "date": "2018-03-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2017-06-30)",
+    "days_late": -26
+   },
+   {
+    "date": "2018-02-06",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860005; charge creation date: 2018-02-02)",
+    "days_late": null
+   },
+   {
+    "date": "2018-02-06",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860006; charge creation date: 2018-02-02)",
+    "days_late": null
+   },
+   {
+    "date": "2017-03-06",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860004; charge creation date: 2017-03-03)",
+    "days_late": null
+   },
+   {
+    "date": "2017-03-06",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860003; charge creation date: 2017-03-03)",
+    "days_late": null
+   },
+   {
+    "date": "2016-10-28",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860002; charge creation date: 2016-10-07)",
+    "days_late": null
+   },
+   {
+    "date": "2016-10-20",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 102203860001; charge creation date: 2016-09-30)",
+    "days_late": null
+   },
+   {
+    "date": "2016-06-24",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Jaspal Singh Kullar; appointment date: 2016-06-08)",
+    "days_late": null
+   },
+   {
+    "date": "2016-06-09",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Barbara Kahan; termination date: 2016-06-08)",
+    "days_late": null
+   },
+   {
+    "date": "2016-06-08",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 13,
+  "outstanding": 2,
+  "items": [
+   {
+    "charge_code": "102203860013",
+    "created_on": "2025-06-30",
+    "delivered_on": "2025-06-30",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "Legal charge relating to 2 windermere street, leicester, LE2 7GT. For further details please refer to the deed."
+   },
+   {
+    "charge_code": "102203860012",
+    "created_on": "2025-06-30",
+    "delivered_on": "2025-06-30",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "None."
+   },
+   {
+    "charge_code": "102203860011",
+    "created_on": "2022-01-12",
+    "delivered_on": "2022-01-25",
+    "satisfied_on": "2025-07-02",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "The Co-Operative Bank P.L.C."
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "29 welford road leicester LE2 7AD."
+   },
+   {
+    "charge_code": "102203860010",
+    "created_on": "2022-01-12",
+    "delivered_on": "2022-01-18",
+    "satisfied_on": "2025-07-02",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "The Co-Operative Bank P.L.C."
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "99 western road leicester LE3 0GF as more particularly described in the instrument attached."
+   },
+   {
+    "charge_code": "102203860009",
+    "created_on": "2022-01-12",
+    "delivered_on": "2022-01-18",
+    "satisfied_on": "2025-07-02",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "The Co-Operative Bank P.L.C."
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "2 windermere street leicester LE2 7GT as more particularly described in the instrument attached."
+   },
+   {
+    "charge_code": "102203860008",
+    "created_on": "2022-01-12",
+    "delivered_on": "2022-01-18",
+    "satisfied_on": "2025-07-02",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "The Co-Operative Bank P.L.C."
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "102203860007",
+    "created_on": "2022-01-12",
+    "delivered_on": "2022-01-18",
+    "satisfied_on": "2025-07-02",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "The Co-Operative Bank P.L.C."
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "41 lancaster place leicester LE1 7HB as more particularly described in the instrument attached."
+   },
+   {
+    "charge_code": "102203860006",
+    "created_on": "2018-02-02",
+    "delivered_on": "2018-02-06",
+    "satisfied_on": "2022-01-20",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Svenska Handelsbanken Ab (Publ)"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "99 western road leicester LE3 0GF."
+   },
+   {
+    "charge_code": "102203860005",
+    "created_on": "2018-02-02",
+    "delivered_on": "2018-02-06",
+    "satisfied_on": "2022-01-20",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Svenska Handelsbanken Ab (Publ)"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "29 welford rd leicester LE2 7AD."
+   },
+   {
+    "charge_code": "102203860004",
+    "created_on": "2017-03-03",
+    "delivered_on": "2017-03-06",
+    "satisfied_on": "2022-01-20",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Svenska Handelsbanken Ab (Publ)"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "102203860003",
+    "created_on": "2017-03-03",
+    "delivered_on": "2017-03-06",
+    "satisfied_on": "2022-01-20",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Svenska Handelsbanken Ab (Publ)"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "2 windermere street, leicester, LE2 7GT."
+   },
+   {
+    "charge_code": "102203860002",
+    "created_on": "2016-10-07",
+    "delivered_on": "2016-10-28",
+    "satisfied_on": "2022-01-20",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Svenska Hadelsbanken Ab (Publ)"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "41 lancaster place, leicester LE1 7HB."
+   },
+   {
+    "charge_code": "102203860001",
+    "created_on": "2016-09-30",
+    "delivered_on": "2016-10-20",
+    "satisfied_on": "2022-01-20",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Svenska Handelsbanken Ab (Publ)"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": false,
+    "particulars": "41 lancaster place leicester."
+   }
+  ]
+ },
+ "officers": {
+  "total": 2,
+  "active": 1,
+  "items": [
+   {
+    "name": "KULLAR, Jaspal Singh",
+    "role": "director",
+    "appointed_on": "2016-06-08",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2027-03-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 13,
+   "live": [
+    "102203860013",
+    "102203860012"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "102203860011",
+    "102203860010",
+    "102203860009",
+    "102203860008",
+    "102203860007",
+    "102203860006",
+    "102203860005",
+    "102203860004",
+    "102203860003",
+    "102203860002",
+    "102203860001"
+   ],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "lloyds bank plc",
+     "charges": [
+      "102203860012",
+      "102203860013"
+     ]
+    },
+    {
+     "lender": "svenska handelsbanken ab (publ)",
+     "charges": [
+      "102203860003",
+      "102203860004"
+     ]
+    },
+    {
+     "lender": "svenska handelsbanken ab (publ)",
+     "charges": [
+      "102203860005",
+      "102203860006"
+     ]
+    },
+    {
+     "lender": "the co-operative bank p.l.c.",
+     "charges": [
+      "102203860007",
+      "102203860008",
+      "102203860009",
+      "102203860010",
+      "102203860011"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "102203860013",
+    "102203860012",
+    "102203860011",
+    "102203860010",
+    "102203860009",
+    "102203860008",
+    "102203860007",
+    "102203860006",
+    "102203860005",
+    "102203860004",
+    "102203860003",
+    "102203860002"
+   ],
+   "floating_live": [
+    "102203860013",
+    "102203860012"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "102203860013",
+    "102203860012"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 9,
+   "latest_accounts": {
+    "ref": "AA filed 2026-06-29",
+    "days_late": 93,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-06-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-09-05",
+    "days_late": 161
+   },
+   "late_3y": [
+    "AA filed 2026-06-29",
+    "AA filed 2025-09-05",
+    "AA filed 2024-06-28"
+   ],
+   "months_since_incorporation": 123.7,
+   "last_made_up_to": "2025-06-30",
+   "months_since_made_up": 15.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {
+   "102203860013": {
+    "collateral": "property",
+    "quote": "2 windermere street, leicester, LE2 7GT",
+    "verified": true
+   },
+   "102203860012": {
+    "collateral": "not_stated",
+    "quote": "",
+    "verified": true
+   }
+  }
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-09-05 \u2014 161 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-06-29",
+    "AA filed 2025-09-05",
+    "AA filed 2024-06-28"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-06-29 \u2014 accounts with accounts type total exemption full (made up date: 2025-06-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "102203860011",
+    "102203860010",
+    "102203860009",
+    "102203860008",
+    "102203860007",
+    "102203860006",
+    "102203860005",
+    "102203860004",
+    "102203860003",
+    "102203860002",
+    "102203860001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "102203860012, 102203860013 (lloyds bank plc)",
+    "102203860003, 102203860004 (svenska handelsbanken ab (publ))",
+    "102203860005, 102203860006 (svenska handelsbanken ab (publ))",
+    "102203860007, 102203860008, 102203860009, 102203860010, 102203860011 (the co-operative bank p.l.c.)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "102203860013",
+    "102203860012",
+    "102203860011",
+    "102203860010",
+    "102203860009",
+    "102203860008",
+    "102203860007",
+    "102203860006",
+    "102203860005",
+    "102203860004",
+    "102203860003",
+    "102203860002"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "102203860013",
+    "102203860012"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-03",
+   "CON-04",
+   "SEC-06",
+   "SEC-07",
+   "SEC-08"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 102203860012, 102203860013) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 4.2,
+  "usage": [
+   {
+    "company": "10220386",
+    "node": "signal/collateral",
+    "model": "claude-opus-5",
+    "input_tokens": 733,
+    "output_tokens": 72
+   }
+  ]
+ }
+}

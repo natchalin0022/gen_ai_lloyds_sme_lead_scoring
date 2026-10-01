@@ -1,0 +1,538 @@
+{
+ "company_number": "07185917",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "07185917",
+  "company_name": "GLOBAL TAILOR HOLDINGS LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2010-03-11",
+  "sic_codes": [
+   "70100"
+  ],
+  "registered_office": "23 Marshall Road, Eastbourne, BN22 9AD, East Sussex",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-03-31",
+  "next_accounts_due": "2026-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 86,
+  "kept": 50,
+  "items": [
+   {
+    "date": "2026-06-18",
+    "category": "capital",
+    "type": "SH01",
+    "description": "capital allotment shares (date: 2026-06-12; capital: [{'currency': 'GBP', 'figure': '154,658.35'}])",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-03-31)",
+    "days_late": -16
+   },
+   {
+    "date": "2025-04-29",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2025-04-18; officer name: Mr. Michael Edward Dobell)",
+    "days_late": null
+   },
+   {
+    "date": "2024-11-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-03-31)",
+    "days_late": -53
+   },
+   {
+    "date": "2024-02-15",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2024-02-10; officer name: Mr. Michael Edward Dobell)",
+    "days_late": null
+   },
+   {
+    "date": "2023-09-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-03-31)",
+    "days_late": -100
+   },
+   {
+    "date": "2023-01-16",
+    "category": "capital",
+    "type": "SH10",
+    "description": "capital variation of rights attached to shares",
+    "days_late": null
+   },
+   {
+    "date": "2023-01-16",
+    "category": "capital",
+    "type": "SH08",
+    "description": "capital name of class of shares",
+    "days_late": null
+   },
+   {
+    "date": "2022-11-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-03-31)",
+    "days_late": -44
+   },
+   {
+    "date": "2022-10-18",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Tim Grimaldi; termination date: 2022-10-05)",
+    "days_late": null
+   },
+   {
+    "date": "2022-09-21",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Richard Alan Harris; termination date: 2022-09-20)",
+    "days_late": null
+   },
+   {
+    "date": "2021-12-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-03-31)",
+    "days_late": -6
+   },
+   {
+    "date": "2021-11-10",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Kenneth Charles Dobell; termination date: 2021-11-04)",
+    "days_late": null
+   },
+   {
+    "date": "2021-03-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-03-31)",
+    "days_late": 86
+   },
+   {
+    "date": "2019-12-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-03-31)",
+    "days_late": -16
+   },
+   {
+    "date": "2018-12-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-03-31)",
+    "days_late": -24
+   },
+   {
+    "date": "2017-12-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2017-03-31)",
+    "days_late": -23
+   },
+   {
+    "date": "2016-12-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-03-31)",
+    "days_late": -21
+   },
+   {
+    "date": "2015-10-20",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-03-31)",
+    "days_late": -69
+   },
+   {
+    "date": "2015-09-08",
+    "category": "capital",
+    "type": "SH06",
+    "description": "capital cancellation shares (date: 2015-08-17; capital: [{'currency': 'GBP', 'figure': '126,812.03'}])",
+    "days_late": null
+   },
+   {
+    "date": "2015-09-08",
+    "category": "capital",
+    "type": "SH03",
+    "description": "capital return purchase own shares",
+    "days_late": null
+   },
+   {
+    "date": "2015-08-17",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company",
+    "days_late": null
+   },
+   {
+    "date": "2015-08-14",
+    "category": "officers",
+    "type": "AP03",
+    "description": "appoint person secretary company with name date (officer name: Mr Richard Alan Harris; appointment date: 2015-07-01)",
+    "days_late": null
+   },
+   {
+    "date": "2015-08-13",
+    "category": "capital",
+    "type": "SH01",
+    "description": "capital allotment shares (date: 2015-07-03; capital: [{'currency': 'GBP', 'figure': '140,000'}])",
+    "days_late": null
+   },
+   {
+    "date": "2015-08-13",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Clink Secretarial Limited; termination date: 2015-08-13)",
+    "days_late": null
+   },
+   {
+    "date": "2014-12-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-03-31)",
+    "days_late": -9
+   },
+   {
+    "date": "2014-07-11",
+    "category": "capital",
+    "type": "SH08",
+    "description": "capital name of class of shares",
+    "days_late": null
+   },
+   {
+    "date": "2013-12-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-03-31)",
+    "days_late": -11
+   },
+   {
+    "date": "2013-03-14",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2013-03-01; officer name: Mr. Michael Edward Dobell)",
+    "days_late": null
+   },
+   {
+    "date": "2013-03-13",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2012-12-01; officer name: Mr Tim Grimaldi)",
+    "days_late": null
+   },
+   {
+    "date": "2012-07-20",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2012-03-31)",
+    "days_late": -161
+   },
+   {
+    "date": "2011-12-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2011-03-31)",
+    "days_late": -13
+   },
+   {
+    "date": "2011-11-04",
+    "category": "officers",
+    "type": "AP04",
+    "description": "appoint corporate secretary company with name (officer name: Clink Secretarial Limited)",
+    "days_late": null
+   },
+   {
+    "date": "2011-11-04",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: John Croft)",
+    "days_late": null
+   },
+   {
+    "date": "2011-11-04",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Harm Tegelaars)",
+    "days_late": null
+   },
+   {
+    "date": "2011-11-04",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Samuel Millar)",
+    "days_late": null
+   },
+   {
+    "date": "2011-09-07",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Michael Stockdale)",
+    "days_late": null
+   },
+   {
+    "date": "2011-04-12",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Mr Kenneth Charles Dobell)",
+    "days_late": null
+   },
+   {
+    "date": "2011-04-08",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Mr Tim Grimaldi)",
+    "days_late": null
+   },
+   {
+    "date": "2011-04-06",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2011-03-01; officer name: Michael Clive Reginald Stockdale)",
+    "days_late": null
+   },
+   {
+    "date": "2011-04-06",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2011-03-01; officer name: Mike Dobell)",
+    "days_late": null
+   },
+   {
+    "date": "2011-04-06",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2011-03-01; officer name: Harm Tegelaars)",
+    "days_late": null
+   },
+   {
+    "date": "2011-04-06",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2011-03-01; officer name: Mr John Michael Croft)",
+    "days_late": null
+   },
+   {
+    "date": "2010-07-16",
+    "category": "capital",
+    "type": "SH02",
+    "description": "capital alter shares subdivision (date: 2010-05-14)",
+    "days_late": null
+   },
+   {
+    "date": "2010-07-16",
+    "category": "capital",
+    "type": "SH01",
+    "description": "capital allotment shares (date: 2010-05-14; capital: [{'currency': 'GBP', 'figure': '140,000.00'}])",
+    "days_late": null
+   },
+   {
+    "date": "2010-07-16",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Harm Tegelaars)",
+    "days_late": null
+   },
+   {
+    "date": "2010-07-16",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Mike Dobell)",
+    "days_late": null
+   },
+   {
+    "date": "2010-07-16",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Michael Clive Reginald Stockdale)",
+    "days_late": null
+   },
+   {
+    "date": "2010-07-16",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Samuel Ivan Millar)",
+    "days_late": null
+   },
+   {
+    "date": "2010-03-11",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 9,
+  "active": 1,
+  "items": [
+   {
+    "name": "DOBELL, Michael Edward, Mr.",
+    "role": "director",
+    "appointed_on": "2010-05-14",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2026-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 15,
+   "latest_accounts": {
+    "ref": "AA filed 2025-12-12",
+    "days_late": -16,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-03-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-12-12",
+    "days_late": -16
+   },
+   "late_3y": [],
+   "months_since_incorporation": 198.7,
+   "last_made_up_to": "2025-03-31",
+   "months_since_made_up": 18.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 9,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-12-12 \u2014 accounts with accounts type total exemption full (made up date: 2025-03-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 GLOBAL TAILOR HOLDINGS LIMITED (07185917)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- Global Tailor Holdings Limited (company number 07185917) is an active private limited company incorporated on 11 March 2010, so it has around 16 and a half years of trading history, and its SIC code is 70100 (activities of head offices). `[profile; computed]`\n- The company has a single active director, out of nine officers ever appointed, and no new appointments in the last 12 months. `[officers]`\n- No charges are registered against the company at any time, so it holds a clean security position and a first-charge facility could be offered subject to the remaining policies. `[SEC-02]`\n- Filing conduct is strong: accounts have been filed ahead of deadline in almost every year, including the latest accounts to 31 March 2025 filed on 12 December 2025, 16 days early. `[AA filed 2025-12-12; AA filed 2024-11-05; AA filed 2023-09-19; AA filed 2022-11-14]`\n- The only blemish was the accounts to 31 March 2020, filed 86 days late on 24 March 2021; every filing since has been early, and nothing is currently overdue, with the next accounts due 31 December 2026. `[AA filed 2021-03-24; profile]`\n- Before any approach can progress, obtain management accounts covering the most recent 12 months; note the latest accounts are made up to 31 March 2025, some 18 months old as at 30 September 2026. `[CON-04; computed; profile]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-12-12 \u2014 accounts with accounts type total exemption full (made up date: 2025-03-31) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2021-03-24",
+  "AA filed 2022-11-14",
+  "AA filed 2023-09-19",
+  "AA filed 2024-11-05",
+  "AA filed 2025-12-12",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [
+  {
+   "text": "The decision is REFER under CON-04 because the most recent accounts were filed on the total exemption full basis, which does not disclose turnover or profit and is insufficient on its own to assess serviceability.",
+   "sources": [
+    "CON-04",
+    "decision"
+   ],
+   "why": "unknown source(s) ['decision']"
+  }
+ ],
+ "_run": {
+  "seconds": 9.5,
+  "usage": [
+   {
+    "company": "07185917",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2753,
+    "output_tokens": 602
+   }
+  ]
+ }
+}

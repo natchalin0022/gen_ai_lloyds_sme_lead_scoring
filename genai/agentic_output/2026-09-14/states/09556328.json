@@ -1,0 +1,477 @@
+{
+ "company_number": "09556328",
+ "as_of": "2026-09-30",
+ "draft_brief": false,
+ "profile": {
+  "company_number": "09556328",
+  "company_name": "REDSTRIKE GROUP LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2015-04-23",
+  "sic_codes": [
+   "93199"
+  ],
+  "registered_office": "1 Worley Court Bolesworth Road, Tattenhall, Chester, CH3 9HW",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-06-30",
+  "next_accounts_due": "2027-03-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 63,
+  "kept": 38,
+  "items": [
+   {
+    "date": "2025-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-06-30)",
+    "days_late": -209
+   },
+   {
+    "date": "2025-07-01",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2025-06-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-06-30)",
+    "days_late": 94
+   },
+   {
+    "date": "2025-06-03",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2024-03-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-06-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2024-03-13",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Geoffrey Robert Baker; termination date: 2024-03-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-08-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-06-30)",
+    "days_late": 133
+   },
+   {
+    "date": "2023-01-18",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2023-01-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-06-30)",
+    "days_late": 295
+   },
+   {
+    "date": "2023-01-17",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2022-06-14",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mrs Nicola Jane Farnan; appointment date: 2022-06-14)",
+    "days_late": null
+   },
+   {
+    "date": "2021-06-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-06-30)",
+    "days_late": 93
+   },
+   {
+    "date": "2020-12-14",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous extended (made up date: 2019-12-31; new date: 2020-06-30)",
+    "days_late": 77
+   },
+   {
+    "date": "2020-09-02",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Roger Benjamin Nagioff; termination date: 2020-08-01)",
+    "days_late": null
+   },
+   {
+    "date": "2020-08-28",
+    "category": "officers",
+    "type": "AP03",
+    "description": "appoint person secretary company with name date (officer name: Mrs Nicola Jane Farnan; appointment date: 2020-08-28)",
+    "days_late": null
+   },
+   {
+    "date": "2020-08-28",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Paul Monahan; termination date: 2020-08-26)",
+    "days_late": null
+   },
+   {
+    "date": "2019-12-17",
+    "category": "accounts",
+    "type": "AAMD",
+    "description": "accounts amended with accounts type micro entity (made up date: 2018-12-31)",
+    "days_late": 80
+   },
+   {
+    "date": "2019-09-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-12-31)",
+    "days_late": -16
+   },
+   {
+    "date": "2018-10-22",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Ahmet Iplikci; termination date: 2018-10-21)",
+    "days_late": null
+   },
+   {
+    "date": "2018-10-16",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2018-10-16; officer name: Mr Paul Michael Monahan)",
+    "days_late": null
+   },
+   {
+    "date": "2018-10-16",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Nicola Jane Farnan; termination date: 2018-10-16)",
+    "days_late": null
+   },
+   {
+    "date": "2018-10-01",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2017-12-31)",
+    "days_late": 3
+   },
+   {
+    "date": "2018-07-23",
+    "category": "officers",
+    "type": "AP03",
+    "description": "appoint person secretary company with name date (officer name: Mrs Nicola Jane Farnan; appointment date: 2018-07-23)",
+    "days_late": null
+   },
+   {
+    "date": "2018-07-11",
+    "category": "capital",
+    "type": "SH02",
+    "description": "capital alter shares subdivision (date: 2018-06-21)",
+    "days_late": null
+   },
+   {
+    "date": "2018-07-11",
+    "category": "capital",
+    "type": "SH08",
+    "description": "capital name of class of shares",
+    "days_late": null
+   },
+   {
+    "date": "2018-06-28",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Geoffrey Robert Baker; appointment date: 2018-05-16)",
+    "days_late": null
+   },
+   {
+    "date": "2018-06-28",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Ahmet Iplikci; appointment date: 2018-05-16)",
+    "days_late": null
+   },
+   {
+    "date": "2018-06-13",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Alan Martin Farnan; termination date: 2018-05-31)",
+    "days_late": null
+   },
+   {
+    "date": "2018-02-10",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2018-02-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2016-12-31)",
+    "days_late": 132
+   },
+   {
+    "date": "2017-12-05",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2017-10-26",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Paul Michael Monahan; appointment date: 2017-10-26)",
+    "days_late": null
+   },
+   {
+    "date": "2017-10-24",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Roger Benjamin Nagioff; appointment date: 2017-10-24)",
+    "days_late": null
+   },
+   {
+    "date": "2017-06-23",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-06-12; officer name: Mr Michael John Farnan)",
+    "days_late": null
+   },
+   {
+    "date": "2017-03-24",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Dale Craig Michael Agar; termination date: 2016-12-31)",
+    "days_late": null
+   },
+   {
+    "date": "2016-09-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-12-31)",
+    "days_late": -116
+   },
+   {
+    "date": "2015-04-23",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company current shortened (made up date: 2016-04-30; new date: 2015-12-31)",
+    "days_late": -646
+   },
+   {
+    "date": "2015-04-23",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 10,
+  "active": 3,
+  "items": [
+   {
+    "name": "FARNAN, Nicola Jane",
+    "role": "secretary",
+    "appointed_on": "2020-08-28",
+    "resigned_on": null
+   },
+   {
+    "name": "FARNAN, Michael John",
+    "role": "director",
+    "appointed_on": "2015-04-23",
+    "resigned_on": null
+   },
+   {
+    "name": "FARNAN, Nicola Jane",
+    "role": "director",
+    "appointed_on": "2022-06-14",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-03-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 13,
+   "latest_accounts": {
+    "ref": "AA filed 2025-08-31",
+    "days_late": -209,
+    "description": "accounts with accounts type micro entity (made up date: 2025-06-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-06-30",
+    "days_late": 94
+   },
+   "late_3y": [
+    "AA filed 2025-06-30",
+    "AA filed 2024-03-31"
+   ],
+   "months_since_incorporation": 137.3,
+   "last_made_up_to": "2025-06-30",
+   "months_since_made_up": 15.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 3,
+   "total_ever": 10,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-06-30 \u2014 94 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-06-30",
+    "AA filed 2024-03-31"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2025-08-31 \u2014 accounts with accounts type micro entity (made up date: 2025-06-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-03"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 REDSTRIKE GROUP LIMITED (09556328)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-01 \u2014 Late filing of annual accounts; CON-03 \u2014 Pattern of late filing  \n**Before an offer:** management accounts covering the most recent 12 months must be obtained before a facility is offered. The condition stands whatever the overall outcome. (CON-04)  \n**Qualifies as a lead:** yes\n\n## Summary\n\n*Screened only: no model summary was requested for this lead. The decision, conditions and clause table below are complete.*\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-01 \u2014 Late filing of annual accounts | REFER | AA filed 2025-06-30 \u2014 94 days late |\n| CON-03 \u2014 Pattern of late filing | REFER | AA filed 2025-06-30; AA filed 2024-03-31 |\n| CON-04 \u2014 Earnings not disclosed | PROCEED WITH CONDITION | AA filed 2025-08-31 \u2014 accounts with accounts type micro entity (made up date: 2025-06-30) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "CON-01",
+  "CON-03",
+  "CON-04",
+  "SEC-02"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 1.0,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "draft_brief": false,
+  "summary_model": null,
+  "usage": []
+ }
+}

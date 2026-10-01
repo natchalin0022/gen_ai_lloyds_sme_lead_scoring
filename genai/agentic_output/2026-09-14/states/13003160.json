@@ -1,0 +1,298 @@
+{
+ "company_number": "13003160",
+ "as_of": "2026-09-30",
+ "draft_brief": false,
+ "profile": {
+  "company_number": "13003160",
+  "company_name": "JASFER LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2020-11-06",
+  "sic_codes": [
+   "47110"
+  ],
+  "registered_office": "38 Saxon Way, Kingsteignton, Newton Abbot, TQ12 3GE",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-11-30",
+  "next_accounts_due": "2027-08-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 15,
+  "kept": 9,
+  "items": [
+   {
+    "date": "2026-08-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-11-30)",
+    "days_late": -10
+   },
+   {
+    "date": "2025-07-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-11-30)",
+    "days_late": -31
+   },
+   {
+    "date": "2024-08-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-11-30)",
+    "days_late": -26
+   },
+   {
+    "date": "2023-12-07",
+    "category": "accounts",
+    "type": "AAMD",
+    "description": "accounts amended with accounts type micro entity (made up date: 2022-11-30)",
+    "days_late": 101
+   },
+   {
+    "date": "2023-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-11-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2022-08-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-11-30)",
+    "days_late": -23
+   },
+   {
+    "date": "2021-08-24",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 130031600002; charge creation date: 2021-08-12)",
+    "days_late": null
+   },
+   {
+    "date": "2021-05-25",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 130031600001; charge creation date: 2021-05-20)",
+    "days_late": null
+   },
+   {
+    "date": "2020-11-06",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 2,
+  "outstanding": 2,
+  "items": [
+   {
+    "charge_code": "130031600002",
+    "created_on": "2021-08-12",
+    "delivered_on": "2021-08-24",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "The property known as or being coloured red on the plan annexed to the legal charge being bradley barton stores, 46 barton drive, newton abbot, devon, TQ12 1PD."
+   },
+   {
+    "charge_code": "130031600001",
+    "created_on": "2021-05-20",
+    "delivered_on": "2021-05-25",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   }
+  ]
+ },
+ "officers": {
+  "total": 1,
+  "active": 1,
+  "items": [
+   {
+    "name": "SENANAYAKE, Shaluki",
+    "role": "director",
+    "appointed_on": "2020-11-06",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-08-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 2,
+   "live": [
+    "130031600002",
+    "130031600001"
+   ],
+   "clean_position": false,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [
+    "130031600002",
+    "130031600001"
+   ],
+   "floating_live": [
+    "130031600002",
+    "130031600001"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "130031600002",
+    "130031600001"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 6,
+   "latest_accounts": {
+    "ref": "AA filed 2026-08-18",
+    "days_late": -10,
+    "description": "accounts with accounts type micro entity (made up date: 2025-11-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AAMD filed 2023-12-07",
+    "days_late": 101
+   },
+   "late_3y": [
+    "AAMD filed 2023-12-07"
+   ],
+   "months_since_incorporation": 70.8,
+   "last_made_up_to": "2025-11-30",
+   "months_since_made_up": 10.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 1,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AAMD filed 2023-12-07 \u2014 101 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2026-08-18 \u2014 accounts with accounts type micro entity (made up date: 2025-11-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "130031600002",
+    "130031600001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "130031600002",
+    "130031600001"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "SEC-07",
+   "SEC-08"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 130031600001, 130031600002) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 1.0,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "draft_brief": false,
+  "summary_model": null,
+  "usage": []
+ }
+}

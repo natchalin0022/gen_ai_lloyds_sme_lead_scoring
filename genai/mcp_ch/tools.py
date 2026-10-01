@@ -118,26 +118,51 @@ def get_filing_history(company_number: str, signal_only: bool = True,
 
 
 # -------------------------------------------------------------- 3. charges ----
+FLAGS = ("contains_fixed_charge", "contains_floating_charge", "contains_negative_pledge")
+
+
+def _flag(c: dict, key: str) -> bool | None:
+    """True / False / None ("not recorded") for one particulars flag.
+
+    The API never sends a flag as false; it leaves the key out (checked over 399,767 cached
+    charges: every present value is True). Charges registered since April 2013 carry a
+    charge_code and were filed on a form with these tick-boxes, so there an absent flag means
+    False. Older charges have no charge_code and no tick-boxes: absent means not recorded.
+    """
+    if (c.get("particulars") or {}).get(key):
+        return True
+    return False if c.get("charge_code") else None
+
+
+def _status(c: dict) -> str | None:
+    """'satisfied' appears on a few charges (17 of 399,767 cached) alongside the usual
+    'fully-satisfied'. The policy clauses test 'fully-satisfied', so the two are merged here."""
+    s = c.get("status")
+    return "fully-satisfied" if s == "satisfied" else s
+
+
+def charge_item(c: dict) -> dict:
+    """One raw API charge -> the trimmed, resolved record the tools return."""
+    lenders = [p["name"] for p in (c.get("persons_entitled") or []) if p.get("name")]
+    part = c.get("particulars") or {}
+    return {
+        "charge_code":     c.get("charge_code"),
+        "created_on":      c.get("created_on"),
+        "delivered_on":    c.get("delivered_on"),
+        "satisfied_on":    c.get("satisfied_on"),
+        "status":          _status(c),                    # outstanding / fully-satisfied / part-satisfied
+        "persons_entitled": lenders,
+        # own / third_party — resolved here, not by the model. None when no lender is named
+        # (201 of 399,767 cached charges): an unknown lender is a gap (EVD-01), not a competitor.
+        "lender_group":    lender_group(lenders) if lenders else None,
+        **{k: _flag(c, k) for k in FLAGS},                # True / False / None — see _flag
+        "particulars":     part.get("description"),      # kept: SEC-07/08 and EVD-04 need it
+    }
+
+
 def get_charges(company_number: str) -> dict:
     """Registered charges (secured lending), each tagged with lender_group in code."""
-    raw = ch.get_paged(f"/company/{ch.norm(company_number)}/charges")
-    items = []
-    for c in raw:
-        lenders = [p.get("name") for p in c.get("persons_entitled", [])]
-        part = c.get("particulars") or {}
-        items.append({
-            "charge_code":     c.get("charge_code"),
-            "created_on":      c.get("created_on"),
-            "delivered_on":    c.get("delivered_on"),
-            "satisfied_on":    c.get("satisfied_on"),
-            "status":          c.get("status"),               # outstanding / fully-satisfied / part-satisfied
-            "persons_entitled": lenders,
-            "lender_group":    lender_group(lenders),         # own / third_party — resolved here, not by the model
-            "contains_fixed_charge":    part.get("contains_fixed_charge"),
-            "contains_floating_charge": part.get("contains_floating_charge"),
-            "contains_negative_pledge": part.get("contains_negative_pledge"),
-            "particulars":     part.get("description"),      # kept: SEC-07/08 and EVD-04 need it
-        })
+    items = [charge_item(c) for c in ch.get_paged(f"/company/{ch.norm(company_number)}/charges")]
     return {"total": len(items),
             "outstanding": sum(i["status"] == "outstanding" for i in items),
             "items": items}

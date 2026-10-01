@@ -43,3 +43,10 @@ ragas>=0.4.3                  # RAG evaluation
 langchain-community<0.4
 ipykernel>=7.3.0              # so .venv shows up as a Jupyter kernel
 grandalf>=0.8                 # graph.get_graph().draw_ascii() in the production notebooks
+
+# --- tests (genai/tests — run: .venv/bin/python -m pytest genai/tests) ---
+pytest>=9.1.1
+hypothesis>=6.168.1           # property tests: generated companies, shrunk to minimal failures
+
+# --- web app (webapp/ — run: .venv/bin/streamlit run webapp/app.py --server.address 127.0.0.1) ---
+streamlit>=1.64.0

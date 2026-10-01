@@ -1,0 +1,860 @@
+{
+ "company_number": "04320630",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "04320630",
+  "company_name": "M & N PROPERTIES (UK) LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2001-11-12",
+  "sic_codes": [
+   "68100"
+  ],
+  "registered_office": "1-2 Rhodium Point Hawkinge Business Park, Spindle Close, Hawkinge, Folkestone, CT18 7TQ, Kent",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-11-30",
+  "next_accounts_due": "2027-08-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 117,
+  "kept": 66,
+  "items": [
+   {
+    "date": "2026-02-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-11-30)",
+    "days_late": -200
+   },
+   {
+    "date": "2025-04-01",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-11-30)",
+    "days_late": -149
+   },
+   {
+    "date": "2024-02-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-11-30)",
+    "days_late": -184
+   },
+   {
+    "date": "2023-06-12",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2023-05-23; officer name: Mr Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2023-06-12",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2023-05-23; officer name: Mrs Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2023-04-11",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2023-04-11; officer name: Mr Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2023-04-11",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2023-04-11; officer name: Mrs Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2023-02-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-11-30)",
+    "days_late": -192
+   },
+   {
+    "date": "2022-04-01",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-11-30)",
+    "days_late": -149
+   },
+   {
+    "date": "2021-02-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-11-30)",
+    "days_late": -183
+   },
+   {
+    "date": "2020-03-13",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-11-30)",
+    "days_late": -168
+   },
+   {
+    "date": "2019-05-29",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 6)",
+    "days_late": null
+   },
+   {
+    "date": "2019-05-29",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 3)",
+    "days_late": null
+   },
+   {
+    "date": "2019-05-29",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 2)",
+    "days_late": null
+   },
+   {
+    "date": "2019-05-29",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 1)",
+    "days_late": null
+   },
+   {
+    "date": "2019-05-29",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 4)",
+    "days_late": null
+   },
+   {
+    "date": "2019-03-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-11-30)",
+    "days_late": -166
+   },
+   {
+    "date": "2019-02-27",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2019-02-25; officer name: Mrs Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2019-02-27",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2019-02-25; officer name: Mr Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2019-01-11",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 5)",
+    "days_late": null
+   },
+   {
+    "date": "2018-11-16",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2018-11-16; officer name: Mr Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2018-11-16",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2018-11-16; officer name: Mrs Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2018-11-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 7)",
+    "days_late": null
+   },
+   {
+    "date": "2018-11-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 8)",
+    "days_late": null
+   },
+   {
+    "date": "2018-09-12",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 9)",
+    "days_late": null
+   },
+   {
+    "date": "2018-02-16",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2017-11-30)",
+    "days_late": -193
+   },
+   {
+    "date": "2017-11-22",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-11-22; officer name: Mr Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2017-11-22",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-11-22; officer name: Mrs Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2017-11-22",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-11-22; officer name: Mr Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2017-11-20",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-11-11; officer name: Mrs Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2017-11-20",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-11-11; officer name: Mr Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2017-11-20",
+    "category": "officers",
+    "type": "CH03",
+    "description": "change person secretary company with change date (change date: 2017-11-11; officer name: Mrs Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2017-03-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-11-30)",
+    "days_late": -171
+   },
+   {
+    "date": "2016-02-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-11-30)",
+    "days_late": -193
+   },
+   {
+    "date": "2015-04-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-11-30)",
+    "days_late": -135
+   },
+   {
+    "date": "2015-01-27",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 043206300010; charge creation date: 2015-01-19)",
+    "days_late": null
+   },
+   {
+    "date": "2014-04-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-11-30)",
+    "days_late": -122
+   },
+   {
+    "date": "2013-05-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-11-30)",
+    "days_late": -106
+   },
+   {
+    "date": "2012-08-21",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Duplicate mortgage certificatecharge no:9",
+    "days_late": null
+   },
+   {
+    "date": "2012-08-16",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 9",
+    "days_late": null
+   },
+   {
+    "date": "2012-04-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2011-11-30)",
+    "days_late": -133
+   },
+   {
+    "date": "2011-11-05",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 8",
+    "days_late": null
+   },
+   {
+    "date": "2011-05-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2010-11-30)",
+    "days_late": -110
+   },
+   {
+    "date": "2010-08-07",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 5",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-07",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 7",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-07",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 4",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-07",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 3",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-07",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 2",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-07",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 1",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-07",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 6",
+    "days_late": null
+   },
+   {
+    "date": "2010-01-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2009-11-30)",
+    "days_late": -212
+   },
+   {
+    "date": "2009-11-12",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2009-11-12; officer name: Matthew John Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2009-11-12",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2009-11-12; officer name: Tiffany Eileen Keller)",
+    "days_late": null
+   },
+   {
+    "date": "2009-04-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2008-11-30)",
+    "days_late": -146
+   },
+   {
+    "date": "2008-03-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2007-11-30)",
+    "days_late": -169
+   },
+   {
+    "date": "2007-04-01",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2006-11-30)",
+    "days_late": -149
+   },
+   {
+    "date": "2006-06-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2005-11-30)",
+    "days_late": -86
+   },
+   {
+    "date": "2005-11-24",
+    "category": "officers",
+    "type": "288c",
+    "description": "Director's particulars changed",
+    "days_late": null
+   },
+   {
+    "date": "2005-03-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2004-11-30)",
+    "days_late": -174
+   },
+   {
+    "date": "2004-03-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2003-11-30)",
+    "days_late": -166
+   }
+  ]
+ },
+ "charges": {
+  "total": 10,
+  "outstanding": 1,
+  "items": [
+   {
+    "charge_code": "043206300010",
+    "created_on": "2015-01-19",
+    "delivered_on": "2015-01-27",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Coutts & Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": null,
+    "created_on": "2012-08-01",
+    "delivered_on": "2012-08-16",
+    "satisfied_on": "2018-09-12",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts and Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "5 larpent avenue london."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2011-10-30",
+    "delivered_on": "2011-11-05",
+    "satisfied_on": "2018-11-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts and Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Ripley embankment london t/no TGL68395."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-08-02",
+    "delivered_on": "2010-08-07",
+    "satisfied_on": "2018-11-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts & Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Flat 4, 115 clarendon drive, london t/no SGL384714."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-08-02",
+    "delivered_on": "2010-08-07",
+    "satisfied_on": "2019-05-29",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts & Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "134 cortis road, putney heath, london t/no TGL164209."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-08-02",
+    "delivered_on": "2010-08-07",
+    "satisfied_on": "2019-01-11",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts & Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "12 downing house, aubyn square, london t/no TGL67120."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-08-02",
+    "delivered_on": "2010-08-07",
+    "satisfied_on": "2019-05-29",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts & Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "27 bramley house, tunworth crescent, london t/no TGL72036."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-08-02",
+    "delivered_on": "2010-08-07",
+    "satisfied_on": "2019-05-29",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts & Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "37 grayswood point, norley vale, london t/no TGL19592."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-08-02",
+    "delivered_on": "2010-08-07",
+    "satisfied_on": "2019-05-29",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts & Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "35 hilsea point, wanborough drive, london t/no SGL485530."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-08-02",
+    "delivered_on": "2010-08-07",
+    "satisfied_on": "2019-05-29",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Coutts and Company"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "34 hilsea point, wanborough drive, london t/no TGL51824."
+   }
+  ]
+ },
+ "officers": {
+  "total": 5,
+  "active": 3,
+  "items": [
+   {
+    "name": "KELLER, Tiffany Eileen",
+    "role": "secretary",
+    "appointed_on": "2001-11-12",
+    "resigned_on": null
+   },
+   {
+    "name": "KELLER, Matthew John",
+    "role": "director",
+    "appointed_on": "2001-11-12",
+    "resigned_on": null
+   },
+   {
+    "name": "KELLER, Tiffany Eileen",
+    "role": "director",
+    "appointed_on": "2001-11-12",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2027-08-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 10,
+   "live": [
+    "043206300010"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "created 2012-08-01 \u00b7 Coutts and Company",
+    "created 2011-10-30 \u00b7 Coutts and Company",
+    "created 2010-08-02 \u00b7 Coutts & Company #6",
+    "created 2010-08-02 \u00b7 Coutts & Company #2",
+    "created 2010-08-02 \u00b7 Coutts & Company",
+    "created 2010-08-02 \u00b7 Coutts & Company #3",
+    "created 2010-08-02 \u00b7 Coutts & Company #5",
+    "created 2010-08-02 \u00b7 Coutts & Company #4",
+    "created 2010-08-02 \u00b7 Coutts and Company"
+   ],
+   "outstanding_third_party": [
+    "043206300010"
+   ],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "coutts & company",
+     "charges": [
+      "created 2010-08-02 \u00b7 Coutts & Company",
+      "created 2010-08-02 \u00b7 Coutts & Company #2",
+      "created 2010-08-02 \u00b7 Coutts & Company #3",
+      "created 2010-08-02 \u00b7 Coutts & Company #4",
+      "created 2010-08-02 \u00b7 Coutts & Company #5",
+      "created 2010-08-02 \u00b7 Coutts & Company #6"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "043206300010"
+   ],
+   "floating_live": [
+    "043206300010"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 23,
+   "latest_accounts": {
+    "ref": "AA filed 2026-02-09",
+    "days_late": -200,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-11-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-04-01",
+    "days_late": -149
+   },
+   "late_3y": [],
+   "months_since_incorporation": 298.6,
+   "last_made_up_to": "2025-11-30",
+   "months_since_made_up": 10.0,
+   "insolvency_filings": [],
+   "window_truncated": true
+  },
+  "officers": {
+   "active": 3,
+   "total_ever": 5,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2026-02-09 \u2014 accounts with accounts type total exemption full (made up date: 2025-11-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-01",
+   "title": "SEC-01 \u2014 Outstanding third-party charge",
+   "outcome": "REFER",
+   "evidence": [
+    "043206300010"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "created 2012-08-01 \u00b7 Coutts and Company",
+    "created 2011-10-30 \u00b7 Coutts and Company",
+    "created 2010-08-02 \u00b7 Coutts & Company #6",
+    "created 2010-08-02 \u00b7 Coutts & Company #2",
+    "created 2010-08-02 \u00b7 Coutts & Company",
+    "created 2010-08-02 \u00b7 Coutts & Company #3",
+    "created 2010-08-02 \u00b7 Coutts & Company #5",
+    "created 2010-08-02 \u00b7 Coutts & Company #4",
+    "created 2010-08-02 \u00b7 Coutts and Company"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "created 2010-08-02 \u00b7 Coutts & Company, created 2010-08-02 \u00b7 Coutts & Company #2, created 2010-08-02 \u00b7 Coutts & Company #3, created 2010-08-02 \u00b7 Coutts & Company #4, created 2010-08-02 \u00b7 Coutts & Company #5, created 2010-08-02 \u00b7 Coutts & Company #6 (coutts & company)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "043206300010"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "043206300010"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "SEC-01",
+   "SEC-06",
+   "SEC-07",
+   "SEC-08"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": null,
+ "evidence_gap": [
+  "CON-01 (REFER) not determinable \u2014 filing window truncated; late accounts earlier in the 3 years may be missing",
+  "CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved"
+ ],
+ "policy_trace": {
+  "CON-01": "not_determinable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_determinable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "applies \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    2 gap(s), none from a failed fetch \u2014 a retry would return the same record"
+ ],
+ "brief": "# RM brief \u2014 M & N PROPERTIES (UK) LTD (04320630)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n## \u26a0 Thin evidence \u2014 RM verification required\n\n- CON-01 (REFER) not determinable \u2014 filing window truncated; late accounts earlier in the 3 years may be missing\n- CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved\n\n**Decision: REFER** \u2014 set by SEC-01 \u2014 Outstanding third-party charge; SEC-06 \u2014 Multiple simultaneous charges to one lender; SEC-07 \u2014 Negative pledge; SEC-08 \u2014 Floating charge over the whole undertaking  \n**Before an offer:** management accounts covering the most recent 12 months must be obtained before a facility is offered. The condition stands whatever the overall outcome. (CON-04)  \n**Qualifies as a lead:** not until the gaps are closed\n\n## Summary\n\n- M & N PROPERTIES (UK) LTD (company number 04320630) is an active private limited company incorporated on 12 November 2001, some 24 years ago, operating under SIC code 68100 (buying and selling of own real estate). It has three active officers, out of five ever appointed, with no new appointments in the last 12 months. `[profile; officers; computed]`\n- One charge remains outstanding: charge 043206300010, created on 19 January 2015 in favour of Coutts & Company, a third-party lender. Under SEC-01 the company cannot be offered a first-charge facility \u2014 any new facility ranks as a second charge unless that charge is redeemed at completion. `[043206300010; SEC-01]`\n- That outstanding charge contains both fixed and floating elements. Under SEC-08 a subsisting floating charge over the whole undertaking materially restricts available security, so refer for an assessment of what unencumbered assets remain. `[043206300010; SEC-08]`\n- The same charge also carries a negative pledge, so under SEC-07 no further charge may be created over the same security without Coutts & Company's written consent, which must be evidenced before any facility is offered. `[043206300010; SEC-07]`\n- Six charges to Coutts & Company were all created on 2 August 2010, which under SEC-06 indicates a structured or tranched facility; full redemption figures for all charges are required before any refinance is quoted. `[created 2010-08-02 \u00b7 Coutts & Company; created 2010-08-02 \u00b7 Coutts & Company #2; created 2010-08-02 \u00b7 Coutts & Company #3; created 2010-08-02 \u00b7 Coutts & Company #4; created 2010-08-02 \u00b7 Coutts & Company #5; created 2010-08-02 \u00b7 Coutts & Company #6; SEC-06]`\n- Filing conduct is exemplary: accounts have been filed every year since 2004, always well ahead of deadline (the latest, for the year to 30 November 2025, was filed on 9 February 2026, some 200 days early), and nothing is currently overdue, with the next accounts not due until 31 August 2027. `[AA filed 2026-02-09; AA filed 2025-04-01; AA filed 2024-02-26; AA filed 2004-03-15; profile]`\n- Accounts are filed on the total-exemption-full basis, which does not disclose turnover or profit, so affordability cannot be judged from the public record. Under CON-04 this is missing information rather than an adverse indicator: obtain management accounts covering the most recent 12 months before an offer is made. `[profile; AA filed 2026-02-09; CON-04]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Earnings not disclosed | PROCEED WITH CONDITION | AA filed 2026-02-09 \u2014 accounts with accounts type total exemption full (made up date: 2025-11-30) |\n| SEC-01 \u2014 Outstanding third-party charge | REFER | 043206300010 |\n| SEC-03 \u2014 Satisfied charges disregarded | PROCEED | created 2012-08-01 \u00b7 Coutts and Company; created 2011-10-30 \u00b7 Coutts and Company; created 2010-08-02 \u00b7 Coutts & Company #6; created 2010-08-02 \u00b7 Coutts & Company #2; created 2010-08-02 \u00b7 Coutts & Company; created 2010-08-02 \u00b7 Coutts & Company #3; created 2010-08-02 \u00b7 Coutts & Company #5; created 2010-08-02 \u00b7 Coutts & Company #4; created 2010-08-02 \u00b7 Coutts and Company |\n| SEC-06 \u2014 Multiple simultaneous charges to one lender | REFER | created 2010-08-02 \u00b7 Coutts & Company, created 2010-08-02 \u00b7 Coutts & Company #2, created 2010-08-02 \u00b7 Coutts & Company #3, created 2010-08-02 \u00b7 Coutts & Company #4, created 2010-08-02 \u00b7 Coutts & Company #5, created 2010-08-02 \u00b7 Coutts & Company #6 (coutts & company) |\n| SEC-07 \u2014 Negative pledge | REFER | 043206300010 |\n| SEC-08 \u2014 Floating charge over the whole undertaking | REFER | 043206300010 |",
+ "citations": [
+  "043206300010",
+  "AA filed 2004-03-15",
+  "AA filed 2024-02-26",
+  "AA filed 2025-04-01",
+  "AA filed 2026-02-09",
+  "CON-04",
+  "SEC-01",
+  "SEC-03",
+  "SEC-06",
+  "SEC-07",
+  "SEC-08",
+  "computed",
+  "created 2010-08-02 \u00b7 Coutts & Company",
+  "created 2010-08-02 \u00b7 Coutts & Company #2",
+  "created 2010-08-02 \u00b7 Coutts & Company #3",
+  "created 2010-08-02 \u00b7 Coutts & Company #4",
+  "created 2010-08-02 \u00b7 Coutts & Company #5",
+  "created 2010-08-02 \u00b7 Coutts & Company #6",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 11.1,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "usage": [
+   {
+    "company": "04320630",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 6292,
+    "output_tokens": 927
+   }
+  ]
+ }
+}

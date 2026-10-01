@@ -25,6 +25,7 @@ All names below are pathlib.Path objects. Build sub-paths with `/`, e.g.
 `CH_DATA / "charges_history.csv"` — never with string `+`.
 """
 
+import os
 from pathlib import Path
 
 
@@ -66,6 +67,14 @@ ENV_FILE  = ROOT / ".env"                      # Companies House API keys
 CH_DIR          = API_DIR / "CompaniesHouse"
 CH_DATA         = CH_DIR / "company_data"
 CHARGE_JSON_DIR = CH_DIR / "company_info_json"          # per-company charge/filing JSON
+
+# LIVE DATA: a client run from the web app (webapp/pipeline.py) sets LLOYDS_LIVE_DATA to a
+# working copy of the company tables, so its pulls never rewrite the tracked snapshot the
+# model was trained on. Unset (every notebook run by hand), nothing below changes.
+LIVE_DATA = Path(os.environ["LLOYDS_LIVE_DATA"]) if os.environ.get("LLOYDS_LIVE_DATA") else None
+if LIVE_DATA:
+    CH_DATA         = LIVE_DATA / "company_data"
+    CHARGE_JSON_DIR = LIVE_DATA / "company_info_json"
 
 # The single company table: one row per company ever pulled, `is_sme` flags the
 # modelling population. Non-SME rows are kept deliberately — they are the

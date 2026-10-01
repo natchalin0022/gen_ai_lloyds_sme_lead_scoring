@@ -1,0 +1,316 @@
+{
+ "company_number": "SC683772",
+ "as_of": "2026-09-30",
+ "draft_brief": false,
+ "profile": {
+  "company_number": "SC683772",
+  "company_name": "ALLAN & HAMILTON PROPERTIES LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2020-12-15",
+  "sic_codes": [
+   "68209"
+  ],
+  "registered_office": "Unit 2/1 Butlerfield Industrial Estate, Bonnyrigg, EH19 3JQ",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-12-31",
+  "next_accounts_due": "2027-09-30",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 14,
+  "kept": 9,
+  "items": [
+   {
+    "date": "2026-09-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-12-31)",
+    "days_late": -7
+   },
+   {
+    "date": "2025-09-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2024-12-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-12-31)",
+    "days_late": 86
+   },
+   {
+    "date": "2023-12-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-12-31)",
+    "days_late": 91
+   },
+   {
+    "date": "2022-12-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-12-31)",
+    "days_late": 78
+   },
+   {
+    "date": "2021-08-03",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: SC6837720002; charge creation date: 2021-07-27)",
+    "days_late": null
+   },
+   {
+    "date": "2021-06-07",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: SC6837720001; charge creation date: 2021-06-01)",
+    "days_late": null
+   },
+   {
+    "date": "2021-04-27",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Keith Douglas Hamilton; appointment date: 2021-04-25)",
+    "days_late": null
+   },
+   {
+    "date": "2020-12-15",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 2,
+  "outstanding": 2,
+  "items": [
+   {
+    "charge_code": "SC6837720002",
+    "created_on": "2021-07-27",
+    "delivered_on": "2021-08-03",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Bank of Scotland PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "The property known as 2/1 butlerfield industrial estate, bonnyrigg, EH19 3JQ, registered in the land register of scotland under title number MID145539."
+   },
+   {
+    "charge_code": "SC6837720001",
+    "created_on": "2021-06-01",
+    "delivered_on": "2021-06-07",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Bank of Scotland PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   }
+  ]
+ },
+ "officers": {
+  "total": 2,
+  "active": 2,
+  "items": [
+   {
+    "name": "ALLAN, Euan Thomas",
+    "role": "director",
+    "appointed_on": "2020-12-15",
+    "resigned_on": null
+   },
+   {
+    "name": "HAMILTON, Keith Douglas",
+    "role": "director",
+    "appointed_on": "2021-04-25",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-09-30",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 2,
+   "live": [
+    "SC6837720002",
+    "SC6837720001"
+   ],
+   "clean_position": false,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [
+    "SC6837720002",
+    "SC6837720001"
+   ],
+   "floating_live": [
+    "SC6837720001"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "SC6837720002",
+    "SC6837720001"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 5,
+   "latest_accounts": {
+    "ref": "AA filed 2026-09-21",
+    "days_late": -7,
+    "description": "accounts with accounts type micro entity (made up date: 2025-12-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2023-12-28",
+    "days_late": 91
+   },
+   "late_3y": [
+    "AA filed 2025-09-30",
+    "AA filed 2024-12-23",
+    "AA filed 2023-12-28"
+   ],
+   "months_since_incorporation": 69.5,
+   "last_made_up_to": "2025-12-31",
+   "months_since_made_up": 9.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2023-12-28 \u2014 91 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-09-30",
+    "AA filed 2024-12-23",
+    "AA filed 2023-12-28"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2026-09-21 \u2014 accounts with accounts type micro entity (made up date: 2025-12-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "SC6837720002",
+    "SC6837720001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "SC6837720001"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-03",
+   "SEC-07",
+   "SEC-08"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: SC6837720001, SC6837720002) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 1.0,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "draft_brief": false,
+  "summary_model": null,
+  "usage": []
+ }
+}

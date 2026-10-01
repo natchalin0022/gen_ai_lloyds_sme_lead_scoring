@@ -53,8 +53,10 @@ def get_filing_history(company_number: str, signal_only: bool = True, max_items:
 def get_charges(company_number: str) -> dict:
     """Registered charges (secured borrowing): date, status (outstanding / fully-satisfied
     / part-satisfied), lender names, and 'lender_group' = 'own' (Lloyds Banking Group
-    entity) or 'third_party', resolved by the server. Includes fixed/floating/negative-
-    pledge flags and the particulars text. 'total' is 0 if none are registered."""
+    entity) or 'third_party', resolved by the server (null if no lender is named). Includes
+    fixed/floating/negative-pledge flags (true / false; null = not recorded, which only
+    happens on charges registered before April 2013) and the particulars text. 'total' is 0
+    if none are registered."""
     return tools.get_charges(company_number)
 
 

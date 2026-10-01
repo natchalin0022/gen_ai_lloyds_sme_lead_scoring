@@ -9,6 +9,7 @@ the clauses that need it become evidence gaps instead of raising a KeyError.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Literal
@@ -23,6 +24,16 @@ from policy_store import load_clauses  # noqa: E402
 
 CLAUSES = load_clauses()
 CLAUSE = {c["clause_id"]: c for c in CLAUSES}
+
+
+def _condition(clause: dict) -> str | None:
+    m = re.search(r"\*Condition:\*\s*(.+?)(?:\n\s*\n|$)", clause["text"], re.S)
+    return " ".join(m.group(1).split()) if m else None
+
+
+# clauses that ATTACH a requirement ("PROCEED WITH CONDITION") rather than set a level of concern
+CONDITION = {c["clause_id"]: _condition(c) for c in CLAUSES if "WITH CONDITION" in c["outcome"].upper()}
+assert all(CONDITION.values()), "a PROCEED WITH CONDITION clause has no *Condition:* line"
 
 ROUTED = {
     "CON-08": "brief",
@@ -186,7 +197,7 @@ async def judge(questions: list[dict]) -> dict[str, dict]:
     if not questions:
         return {}
     payload = [{"id": q["id"], "clause": q["clause_text"], "record": q["record"]} for q in questions]
-    resp = await llm.client().beta.messages.parse(
+    resp = await llm.parse("policy", len(questions), "question(s)",
         model=llm.MODEL,
         max_tokens=16000,
         system=SYSTEM,
@@ -194,7 +205,6 @@ async def judge(questions: list[dict]) -> dict[str, dict]:
         output_format=Judgements,
         **llm.FALLBACK,
     )
-    print(llm.usage_line("policy", resp, len(questions), "question(s)"))
 
     ok = resp.stop_reason != "refusal" and resp.parsed_output is not None
     got = {j.id: j for j in resp.parsed_output.judgements} if ok else {}
@@ -225,10 +235,14 @@ def level(outcome_text: str) -> str | None:
 
 
 def decide(applicable: list[dict], gaps: list[str]) -> tuple[dict, bool | None]:
+    """EVD-07: the most restrictive level wins. A PROCEED WITH CONDITION clause ranks as PROCEED, so it
+    never sets the decision on its own; its condition is listed whatever the decision is."""
     levels = [level(a["outcome"]) for a in applicable if level(a["outcome"])]
     decision = max(levels, key=RANK.get, default="PROCEED")
     outcome = {"decision": decision,
-               "clauses": [a["clause_id"] for a in applicable if level(a["outcome"]) == decision]}
+               "clauses": [a["clause_id"] for a in applicable
+                           if level(a["outcome"]) == decision and a["clause_id"] not in CONDITION],
+               "conditions": [a["clause_id"] for a in applicable if a["clause_id"] in CONDITION]}
     qualifies = False if decision == "DECLINE" else (None if gaps else True)
     return outcome, qualifies
 

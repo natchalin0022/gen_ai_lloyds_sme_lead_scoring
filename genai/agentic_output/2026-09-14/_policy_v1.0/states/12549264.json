@@ -1,0 +1,282 @@
+{
+ "company_number": "12549264",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "12549264",
+  "company_name": "ALL STAR PUZZLES LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2020-04-07",
+  "sic_codes": [
+   "47910",
+   "73110",
+   "74909"
+  ],
+  "registered_office": "16 Stirling Road, Office 2c, London, W3 8DJ",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-04-30",
+  "next_accounts_due": "2027-01-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 22,
+  "kept": 9,
+  "items": [
+   {
+    "date": "2026-05-15",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Massimiliano Quartarone; appointment date: 2026-05-15)",
+    "days_late": null
+   },
+   {
+    "date": "2025-10-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-04-30)",
+    "days_late": -118
+   },
+   {
+    "date": "2025-04-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-04-30)",
+    "days_late": 80
+   },
+   {
+    "date": "2024-01-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-04-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2023-04-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-04-30)",
+    "days_late": 87
+   },
+   {
+    "date": "2022-01-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-04-30)",
+    "days_late": -21
+   },
+   {
+    "date": "2020-09-08",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2020-09-08; officer name: Mr. Nicol\u00f2 Ragazzini)",
+    "days_late": null
+   },
+   {
+    "date": "2020-09-08",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2020-09-08; officer name: Mr. Davide Guidi)",
+    "days_late": null
+   },
+   {
+    "date": "2020-04-07",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 3,
+  "active": 3,
+  "items": [
+   {
+    "name": "GUIDI, Davide, Mr.",
+    "role": "director",
+    "appointed_on": "2020-04-07",
+    "resigned_on": null
+   },
+   {
+    "name": "QUARTARONE, Massimiliano",
+    "role": "director",
+    "appointed_on": "2026-05-15",
+    "resigned_on": null
+   },
+   {
+    "name": "RAGAZZINI, Nicol\u00f2, Mr.",
+    "role": "director",
+    "appointed_on": "2020-04-07",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-01-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 5,
+   "latest_accounts": {
+    "ref": "AA filed 2025-10-02",
+    "days_late": -118,
+    "description": "accounts with accounts type micro entity (made up date: 2025-04-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-04-18",
+    "days_late": 80
+   },
+   "late_3y": [
+    "AA filed 2025-04-18",
+    "AA filed 2024-01-31"
+   ],
+   "months_since_incorporation": 77.8,
+   "last_made_up_to": "2025-04-30",
+   "months_since_made_up": 17.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 3,
+   "total_ever": 3,
+   "appointed_last_12m": [
+    "director appointed 2026-05-15"
+   ]
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-04-18 \u2014 80 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-04-18",
+    "AA filed 2024-01-31"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-10-02 \u2014 accounts with accounts type micro entity (made up date: 2025-04-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-03",
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 ALL STAR PUZZLES LTD (12549264)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-01 \u2014 Late filing of annual accounts; CON-03 \u2014 Pattern of late filing; CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- ALL STAR PUZZLES LTD (company number 12549264) is an active private limited company incorporated on 07 April 2020, roughly 78 months old, trading under SIC codes 47910, 73110 and 74909. It has three active directors, all three officers ever appointed, with one director appointed on 15 May 2026. `[profile; officers; computed]`\n- There are no charges registered against the company at any time, so it holds a clean security position and a first-charge facility could be offered subject to the remaining policies. `[SEC-02]`\n- Filing conduct is the problem: accounts for the year to 30 April 2024 were filed 80 days late on 18 April 2025, which alone triggers a referral for weak administrative control. `[AA filed 2025-04-18; CON-01]`\n- That was not an isolated lapse \u2014 accounts filed on 31 January 2024 were also 3 days late, giving two late filings in the last three years and a pattern of late filing. `[AA filed 2025-04-18; AA filed 2024-01-31; CON-03]`\n- The most recent accounts, filed 02 October 2025 for the period to 30 April 2025, were 118 days early, so the latest filing behaviour has improved and nothing is currently overdue (next accounts due 31 January 2027). `[AA filed 2025-10-02; profile]`\n- All recent accounts are micro-entity, which disclose no turnover or profit, so serviceability cannot be assessed from the public filings. `[AA filed 2025-10-02; CON-04]`\n- Before any decision, obtain management accounts covering the most recent 12 months and be ready to state the 80-day delay in the case; note the last accounts were made up 17 months ago as at 30 September 2026. `[CON-04; CON-01; computed]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-01 \u2014 Late filing of annual accounts | REFER | AA filed 2025-04-18 \u2014 80 days late |\n| CON-03 \u2014 Pattern of late filing | REFER | AA filed 2025-04-18; AA filed 2024-01-31 |\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-10-02 \u2014 accounts with accounts type micro entity (made up date: 2025-04-30) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2024-01-31",
+  "AA filed 2025-04-18",
+  "AA filed 2025-10-02",
+  "CON-01",
+  "CON-03",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 13.8,
+  "usage": [
+   {
+    "company": "12549264",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2340,
+    "output_tokens": 646
+   }
+  ]
+ }
+}

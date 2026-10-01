@@ -1,0 +1,540 @@
+{
+ "company_number": "04426729",
+ "as_of": "2026-09-30",
+ "draft_brief": false,
+ "profile": {
+  "company_number": "04426729",
+  "company_name": "A NEW LIFE ABROAD LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2002-04-29",
+  "sic_codes": [
+   "68100",
+   "68201",
+   "68209",
+   "68320"
+  ],
+  "registered_office": "167-169 Great Portland Street, 5th Floor, London, W1W 5PF",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2026-04-30",
+  "next_accounts_due": "2028-01-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 80,
+  "kept": 49,
+  "items": [
+   {
+    "date": "2026-06-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2026-04-30)",
+    "days_late": -215
+   },
+   {
+    "date": "2025-08-27",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 044267290001; charge creation date: 2025-08-12)",
+    "days_late": null
+   },
+   {
+    "date": "2025-06-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-04-30)",
+    "days_late": -232
+   },
+   {
+    "date": "2024-06-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-04-30)",
+    "days_late": -217
+   },
+   {
+    "date": "2023-05-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-04-30)",
+    "days_late": -242
+   },
+   {
+    "date": "2022-06-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-04-30)",
+    "days_late": -233
+   },
+   {
+    "date": "2021-06-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-04-30)",
+    "days_late": -220
+   },
+   {
+    "date": "2021-05-04",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2021-05-04; officer name: Mr Graham William Copsey)",
+    "days_late": null
+   },
+   {
+    "date": "2020-05-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-04-30)",
+    "days_late": -249
+   },
+   {
+    "date": "2019-08-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-04-30)",
+    "days_late": -157
+   },
+   {
+    "date": "2018-09-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-04-30)",
+    "days_late": -132
+   },
+   {
+    "date": "2017-06-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2017-04-30)",
+    "days_late": -230
+   },
+   {
+    "date": "2016-06-20",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-04-30)",
+    "days_late": -222
+   },
+   {
+    "date": "2015-06-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-04-30)",
+    "days_late": -213
+   },
+   {
+    "date": "2014-07-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-04-30)",
+    "days_late": -189
+   },
+   {
+    "date": "2013-08-13",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-04-30)",
+    "days_late": -168
+   },
+   {
+    "date": "2013-01-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-04-30)",
+    "days_late": -17
+   },
+   {
+    "date": "2012-08-31",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2012-07-31; officer name: Mr Graham William Copsey)",
+    "days_late": null
+   },
+   {
+    "date": "2011-09-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2011-04-30)",
+    "days_late": -129
+   },
+   {
+    "date": "2011-07-15",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name (officer name: Kenneth Shaw)",
+    "days_late": null
+   },
+   {
+    "date": "2010-12-16",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2010-04-30)",
+    "days_late": -43
+   },
+   {
+    "date": "2010-01-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2009-04-30)",
+    "days_late": -9
+   },
+   {
+    "date": "2009-01-14",
+    "category": "officers",
+    "type": "288b",
+    "description": "Appointment terminated director natalia copsey",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-14",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed graham william copsey",
+    "days_late": null
+   },
+   {
+    "date": "2008-10-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2008-04-30)",
+    "days_late": -106
+   },
+   {
+    "date": "2008-05-26",
+    "category": "officers",
+    "type": "288c",
+    "description": "Director's change of particulars / natalia copsey / 01/01/2008",
+    "days_late": null
+   },
+   {
+    "date": "2008-02-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2007-04-30)",
+    "days_late": 28
+   },
+   {
+    "date": "2007-05-08",
+    "category": "officers",
+    "type": "288c",
+    "description": "Director's particulars changed",
+    "days_late": null
+   },
+   {
+    "date": "2006-11-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2006-04-30)",
+    "days_late": -62
+   },
+   {
+    "date": "2006-05-03",
+    "category": "officers",
+    "type": "288c",
+    "description": "Director's particulars changed",
+    "days_late": null
+   },
+   {
+    "date": "2005-11-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2005-04-30)",
+    "days_late": -87
+   },
+   {
+    "date": "2004-10-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2004-04-30)",
+    "days_late": -105
+   },
+   {
+    "date": "2004-10-08",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "2004-10-08",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "2004-03-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2003-04-30)",
+    "days_late": 35
+   },
+   {
+    "date": "2003-01-17",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "2003-01-17",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2003-01-17",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "2003-01-17",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2002-10-01",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "2002-10-01",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "2002-08-30",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "2002-08-27",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "2002-08-27",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2002-06-21",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed;new director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2002-06-21",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2002-05-08",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "2002-05-08",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2002-04-29",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 1,
+  "outstanding": 1,
+  "items": [
+   {
+    "charge_code": "044267290001",
+    "created_on": "2025-08-12",
+    "delivered_on": "2025-08-27",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Aldermore Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": false,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": false,
+    "particulars": "57 cover circle, cove bay, aberdeen, AB12 3DG."
+   }
+  ]
+ },
+ "officers": {
+  "total": 11,
+  "active": 1,
+  "items": [
+   {
+    "name": "COPSEY, Graham William",
+    "role": "director",
+    "appointed_on": "2009-01-12",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2028-01-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 1,
+   "live": [
+    "044267290001"
+   ],
+   "clean_position": false,
+   "satisfied": [],
+   "outstanding_third_party": [
+    "044267290001"
+   ],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 24,
+   "latest_accounts": {
+    "ref": "AA filed 2026-06-27",
+    "days_late": -215,
+    "description": "accounts with accounts type micro entity (made up date: 2026-04-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2026-06-27",
+    "days_late": -215
+   },
+   "late_3y": [],
+   "months_since_incorporation": 293.0,
+   "last_made_up_to": "2026-04-30",
+   "months_since_made_up": 5.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 11,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2026-06-27 \u2014 accounts with accounts type micro entity (made up date: 2026-04-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-01",
+   "title": "SEC-01 \u2014 Outstanding third-party charge",
+   "outcome": "REFER",
+   "evidence": [
+    "044267290001"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "SEC-01"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "applies \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 A NEW LIFE ABROAD LIMITED (04426729)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by SEC-01 \u2014 Outstanding third-party charge  \n**Before an offer:** management accounts covering the most recent 12 months must be obtained before a facility is offered. The condition stands whatever the overall outcome. (CON-04)  \n**Qualifies as a lead:** yes\n\n## Summary\n\n*Screened only: no model summary was requested for this lead. The decision, conditions and clause table below are complete.*\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Earnings not disclosed | PROCEED WITH CONDITION | AA filed 2026-06-27 \u2014 accounts with accounts type micro entity (made up date: 2026-04-30) |\n| SEC-01 \u2014 Outstanding third-party charge | REFER | 044267290001 |",
+ "citations": [
+  "CON-04",
+  "SEC-01"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 0.9,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "draft_brief": false,
+  "summary_model": null,
+  "usage": []
+ }
+}

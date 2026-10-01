@@ -1,0 +1,359 @@
+{
+ "company_number": "07275176",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "07275176",
+  "company_name": "BLUE OCEAN SEAFOODS LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2010-06-07",
+  "sic_codes": [
+   "46380"
+  ],
+  "registered_office": "Unit 4 Paragon Way, Bayton Road Industrial Estate, Coventry, CV7 9QS",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-11-30",
+  "next_accounts_due": "2027-08-29",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 44,
+  "kept": 23,
+  "items": [
+   {
+    "date": "2026-09-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-11-30)",
+    "days_late": 18
+   },
+   {
+    "date": "2026-08-28",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous shortened (made up date: 2025-11-30; new date: 2025-11-29)",
+    "days_late": 0
+   },
+   {
+    "date": "2026-03-04",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Jahangir Shahzad; termination date: 2026-03-04)",
+    "days_late": null
+   },
+   {
+    "date": "2025-08-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-11-30)",
+    "days_late": -1
+   },
+   {
+    "date": "2024-08-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-11-30)",
+    "days_late": 1
+   },
+   {
+    "date": "2023-08-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-11-30)",
+    "days_late": 1
+   },
+   {
+    "date": "2022-08-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-11-30)",
+    "days_late": -2
+   },
+   {
+    "date": "2021-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-11-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2020-11-20",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-11-30)",
+    "days_late": 84
+   },
+   {
+    "date": "2019-08-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-11-30)",
+    "days_late": 2
+   },
+   {
+    "date": "2018-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2017-11-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2018-02-14",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2018-02-01; officer name: Mr Hasham Shazed)",
+    "days_late": null
+   },
+   {
+    "date": "2018-02-14",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2018-02-01; officer name: Mr Zaffer Iqbal)",
+    "days_late": null
+   },
+   {
+    "date": "2017-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-11-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2016-08-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-11-30)",
+    "days_late": 3
+   },
+   {
+    "date": "2015-08-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-11-30)",
+    "days_late": 0
+   },
+   {
+    "date": "2014-08-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-11-30)",
+    "days_late": 1
+   },
+   {
+    "date": "2013-08-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-11-30)",
+    "days_late": 0
+   },
+   {
+    "date": "2012-06-28",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Mr. Jahangir Shahzad)",
+    "days_late": null
+   },
+   {
+    "date": "2012-03-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2011-11-30)",
+    "days_late": -176
+   },
+   {
+    "date": "2012-02-22",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous extended (made up date: 2011-06-30; new date: 2011-11-30)",
+    "days_late": -35
+   },
+   {
+    "date": "2010-06-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Jahangir Shahzad)",
+    "days_late": null
+   },
+   {
+    "date": "2010-06-07",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 4,
+  "active": 2,
+  "items": [
+   {
+    "name": "IQBAL, Zaffer",
+    "role": "director",
+    "appointed_on": "2010-06-07",
+    "resigned_on": null
+   },
+   {
+    "name": "SHAZED, Hasham",
+    "role": "director",
+    "appointed_on": "2010-06-07",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2027-08-29",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 17,
+   "latest_accounts": {
+    "ref": "AA filed 2026-09-15",
+    "days_late": 18,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-11-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2026-09-15",
+    "days_late": 18
+   },
+   "late_3y": [
+    "AA filed 2026-09-15",
+    "AA filed 2024-08-29"
+   ],
+   "months_since_incorporation": 195.8,
+   "last_made_up_to": "2025-11-30",
+   "months_since_made_up": 10.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 4,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-09-15",
+    "AA filed 2024-08-29"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-09-15 \u2014 accounts with accounts type total exemption full (made up date: 2025-11-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-03",
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 BLUE OCEAN SEAFOODS LTD (07275176)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-03 \u2014 Pattern of late filing; CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- Blue Ocean Seafoods Ltd (company number 07275176) is an active private limited company incorporated on 07 June 2010, roughly 16 years of trading history, with SIC code 46380. It has 2 active officers out of 4 ever appointed, and no new appointments in the last 12 months. `[profile; officers; computed]`\n- No charges are registered against the company, so the security position is clean and a first-charge facility could be offered subject to the other policies. `[SEC-02]`\n- Filing conduct is broadly prompt but repeatedly slips just past the deadline: accounts for the year to 30 November 2025 were filed on 15 September 2026, 18 days late, and the 2024 filing was 1 day late. `[AA filed 2026-09-15; AA filed 2024-08-29]`\n- Because two or more accounts filings were late within the last three years, CON-03 treats this as a pattern rather than an isolated lapse and refers the case. `[CON-03; AA filed 2026-09-15; AA filed 2024-08-29]`\n- The latest accounts were filed on the total exemption full basis, which under CON-04 does not disclose turnover or profit; management accounts covering the most recent 12 months must be obtained before any decision. `[CON-04; AA filed 2026-09-15; profile]`\n- The company shortened its accounting reference date to 29 November 2025 via an AA01 filed on 28 August 2026, so check that the reporting period used in any management information lines up with the latest accounts. `[AA01 filed 2026-08-28]`\n- Nothing is currently overdue \u2014 the next accounts are not due until 29 August 2027, and the last accounts were made up to 30 November 2025, about 10 months before the 30 September 2026 review date. `[profile; computed]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-03 \u2014 Pattern of late filing | REFER | AA filed 2026-09-15; AA filed 2024-08-29 |\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2026-09-15 \u2014 accounts with accounts type total exemption full (made up date: 2025-11-30) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2024-08-29",
+  "AA filed 2026-09-15",
+  "AA01 filed 2026-08-28",
+  "CON-03",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 9.4,
+  "usage": [
+   {
+    "company": "07275176",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 3152,
+    "output_tokens": 648
+   }
+  ]
+ }
+}

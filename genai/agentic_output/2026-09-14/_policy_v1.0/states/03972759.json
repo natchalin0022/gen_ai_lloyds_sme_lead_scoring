@@ -1,0 +1,605 @@
+{
+ "company_number": "03972759",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "03972759",
+  "company_name": "ALLBECK DEVELOPMENTS LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2000-04-14",
+  "sic_codes": [
+   "68100"
+  ],
+  "registered_office": "Martlet House E1, Yeoman Gate, Yeoman Way, Worthing, BN13 3QZ, West Sussex",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-04-30",
+  "next_accounts_due": "2027-01-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 89,
+  "kept": 49,
+  "items": [
+   {
+    "date": "2026-01-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-04-30)",
+    "days_late": -2
+   },
+   {
+    "date": "2025-04-10",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2025-04-10; officer name: Mr Peter Leslie Beckham)",
+    "days_late": null
+   },
+   {
+    "date": "2025-01-09",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company current extended (made up date: 2024-10-31; new date: 2025-04-30)",
+    "days_late": -200
+   },
+   {
+    "date": "2024-07-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-10-31)",
+    "days_late": -17
+   },
+   {
+    "date": "2024-04-10",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Forsters Secretaries Limited; termination date: 2024-04-08)",
+    "days_late": null
+   },
+   {
+    "date": "2023-07-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-10-31)",
+    "days_late": -3
+   },
+   {
+    "date": "2023-05-17",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Alex Peter Ronald Beckham; appointment date: 2023-05-10)",
+    "days_late": null
+   },
+   {
+    "date": "2022-07-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-10-31)",
+    "days_late": -17
+   },
+   {
+    "date": "2021-05-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-10-31)",
+    "days_late": -61
+   },
+   {
+    "date": "2019-12-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-10-31)",
+    "days_late": -210
+   },
+   {
+    "date": "2019-04-16",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-10-31)",
+    "days_late": -103
+   },
+   {
+    "date": "2018-07-03",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Leslie Charles Allen-Vercoe; termination date: 2018-07-02)",
+    "days_late": null
+   },
+   {
+    "date": "2018-07-02",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2017-10-31)",
+    "days_late": -26
+   },
+   {
+    "date": "2017-07-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-10-31)",
+    "days_late": -14
+   },
+   {
+    "date": "2017-04-03",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 1)",
+    "days_late": null
+   },
+   {
+    "date": "2017-04-03",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 2)",
+    "days_late": null
+   },
+   {
+    "date": "2016-11-01",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous extended (made up date: 2016-04-30; new date: 2016-10-31)",
+    "days_late": -88
+   },
+   {
+    "date": "2016-02-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-04-30)",
+    "days_late": 12
+   },
+   {
+    "date": "2015-02-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-04-30)",
+    "days_late": 7
+   },
+   {
+    "date": "2014-01-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-04-30)",
+    "days_late": 1
+   },
+   {
+    "date": "2013-01-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2012-04-30)",
+    "days_late": 2
+   },
+   {
+    "date": "2012-04-17",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2011-06-01; officer name: Mr Leslie Charles Allen-Vercoe)",
+    "days_late": null
+   },
+   {
+    "date": "2012-01-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 2011-04-30)",
+    "days_late": -1
+   },
+   {
+    "date": "2011-04-21",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2011-02-01; officer name: Mr Leslie Charles Allen-Vercoe)",
+    "days_late": null
+   },
+   {
+    "date": "2011-02-01",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2010-04-30)",
+    "days_late": 4
+   },
+   {
+    "date": "2010-05-11",
+    "category": "officers",
+    "type": "CH04",
+    "description": "change corporate secretary company with change date (change date: 2010-04-14; officer name: Forsters Secretaries Limited)",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2009-04-30)",
+    "days_late": 8
+   },
+   {
+    "date": "2009-03-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2008-04-30)",
+    "days_late": 35
+   },
+   {
+    "date": "2008-03-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2007-04-30)",
+    "days_late": 36
+   },
+   {
+    "date": "2007-06-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2006-04-30)",
+    "days_late": 150
+   },
+   {
+    "date": "2006-03-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2005-04-30)",
+    "days_late": 34
+   },
+   {
+    "date": "2005-03-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2004-04-30)",
+    "days_late": 34
+   },
+   {
+    "date": "2004-02-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2003-04-30)",
+    "days_late": 9
+   },
+   {
+    "date": "2003-03-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2002-04-30)",
+    "days_late": 34
+   },
+   {
+    "date": "2002-05-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2001-04-30)",
+    "days_late": 116
+   },
+   {
+    "date": "2000-12-12",
+    "category": "capital",
+    "type": "122",
+    "description": "S-div 01/12/00",
+    "days_late": null
+   },
+   {
+    "date": "2000-10-18",
+    "category": "mortgage",
+    "type": "395",
+    "description": "Particulars of mortgage/charge",
+    "days_late": null
+   },
+   {
+    "date": "2000-10-18",
+    "category": "mortgage",
+    "type": "395",
+    "description": "Particulars of mortgage/charge",
+    "days_late": null
+   },
+   {
+    "date": "2000-10-16",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2000-10-16",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2000-10-16",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2000-10-16",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2000-08-22",
+    "category": "capital",
+    "type": "88(2)R",
+    "description": "Ad 25/07/00--------- \u00a3 si 2@1=2 \u00a3 ic 2/4",
+    "days_late": null
+   },
+   {
+    "date": "2000-06-20",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2000-06-13",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2000-06-08",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2000-06-07",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2000-06-07",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2000-04-14",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 2,
+  "outstanding": 0,
+  "items": [
+   {
+    "charge_code": null,
+    "created_on": "2000-10-16",
+    "delivered_on": "2000-10-18",
+    "satisfied_on": "2017-04-03",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Irish Nationwide Building Society"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "F/H property at land lying to the east of old avenue st georges hill weybridge together with all monies and contracts relating thereto proceeds of sale and all rental monies. Floating charge over all moveable plant machinery implements utensils furniture and equipment. Together with all buildings and erections thereon and all fixtures whatsoever now or at any time hereafter affixed or attached to the property or any part thereof other than trade machinery as defined by section 5 of the bills of sale act 1878."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2000-10-16",
+    "delivered_on": "2000-10-18",
+    "satisfied_on": "2017-04-03",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Irish Nationwide Building Society"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "Fixed and floating charges over the undertaking and all property and assets present and future including goodwill bookdebts uncalled capital buildings fixtures fixed plant and machinery."
+   }
+  ]
+ },
+ "officers": {
+  "total": 8,
+  "active": 2,
+  "items": [
+   {
+    "name": "BECKHAM, Alex Peter Ronald",
+    "role": "director",
+    "appointed_on": "2023-05-10",
+    "resigned_on": null
+   },
+   {
+    "name": "BECKHAM, Peter Leslie",
+    "role": "director",
+    "appointed_on": "2000-10-11",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-01-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 2,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [
+    "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026",
+    "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2"
+   ],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "irish nationwide building society",
+     "charges": [
+      "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026",
+      "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2"
+     ]
+    }
+   ],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 26,
+   "latest_accounts": {
+    "ref": "AA filed 2026-01-26",
+    "days_late": -2,
+    "description": "accounts with accounts type micro entity (made up date: 2025-04-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2026-01-26",
+    "days_late": -2
+   },
+   "late_3y": [],
+   "months_since_incorporation": 317.5,
+   "last_made_up_to": "2025-04-30",
+   "months_since_made_up": 17.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 8,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-01-26 \u2014 accounts with accounts type micro entity (made up date: 2025-04-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026",
+    "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026",
+    "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026, created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2 (irish nationwide building society)"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-04",
+   "SEC-06"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 ALLBECK DEVELOPMENTS LIMITED (03972759)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-04 \u2014 Micro-entity accounts; SEC-06 \u2014 Multiple simultaneous charges to one lender  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- Allbeck Developments Limited (company number 03972759) is an active private limited company incorporated on 14 April 2000, operating under SIC code 68100. It files micro-entity accounts, the most recent made up to 30 April 2025, with the next due 31 January 2027 and nothing currently overdue. `[profile]`\n- The board is small and stable: two officers are currently active out of eight ever appointed, with no appointments in the last 12 months. `[officers]`\n- Two charges are registered, both created on 16 October 2000 in favour of Irish Nationwide Building Society, and both are recorded as fully satisfied. Satisfied charges are disregarded for ranking, so on the register the company currently carries no subsisting secured borrowing. `[created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026; created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2; SEC-02; SEC-03]`\n- Because those two charges were created on the same day in favour of the same lender, SEC-06 treats them as a structured or tranched facility and requires full redemption figures for both before any refinance is quoted \u2014 one of the two reasons this case is a REFER. `[SEC-06; created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026; created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2]`\n- CON-04 bites on the latest filing (micro-entity accounts made up to 30 April 2025): these disclose neither turnover nor profit, so management accounts covering the most recent 12 months must be obtained before any lending decision. `[CON-04; AA filed 2026-01-26]`\n- Filing conduct has been good for over a decade \u2014 the last ten accounts filings were all submitted ahead of deadline, including the 2026 filing two days early and the 2021 filing 61 days early. `[AA filed 2026-01-26; AA filed 2024-07-11; AA filed 2023-07-25; AA filed 2022-07-11; AA filed 2021-05-28; AA filed 2019-12-31; AA filed 2019-04-16; AA filed 2018-07-02; AA filed 2017-07-14]`\n- Earlier history was weaker, with accounts filed 150 days late in 2007 and 116 days late in 2002 plus several filings around a month late, but this pattern ended over ten years ago; note also that the accounting reference date has been extended twice, most recently in January 2025 to 30 April. `[AA filed 2007-06-27; AA filed 2002-05-24; AA filed 2006-03-03; AA filed 2005-03-03; AA filed 2003-03-03; AA01 filed 2025-01-09; AA01 filed 2016-11-01]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2026-01-26 \u2014 accounts with accounts type micro entity (made up date: 2025-04-30) |\n| SEC-02 \u2014 Clean security position | PROCEED | created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026; created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2 |\n| SEC-03 \u2014 Satisfied charges disregarded | PROCEED | created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026; created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2 |\n| SEC-06 \u2014 Multiple simultaneous charges to one lender | REFER | created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026, created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2 (irish nationwide building society) |",
+ "citations": [
+  "AA filed 2002-05-24",
+  "AA filed 2003-03-03",
+  "AA filed 2005-03-03",
+  "AA filed 2006-03-03",
+  "AA filed 2007-06-27",
+  "AA filed 2017-07-14",
+  "AA filed 2018-07-02",
+  "AA filed 2019-04-16",
+  "AA filed 2019-12-31",
+  "AA filed 2021-05-28",
+  "AA filed 2022-07-11",
+  "AA filed 2023-07-25",
+  "AA filed 2024-07-11",
+  "AA filed 2026-01-26",
+  "AA01 filed 2016-11-01",
+  "AA01 filed 2025-01-09",
+  "CON-04",
+  "SEC-02",
+  "SEC-03",
+  "SEC-06",
+  "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026",
+  "created 2000-10-16 \u00b7 Irish Nationwide Building S\u2026 #2",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 16.6,
+  "usage": [
+   {
+    "company": "03972759",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 4570,
+    "output_tokens": 1235
+   }
+  ]
+ }
+}

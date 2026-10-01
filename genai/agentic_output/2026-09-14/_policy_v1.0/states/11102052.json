@@ -1,0 +1,353 @@
+{
+ "company_number": "11102052",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "11102052",
+  "company_name": "ASSISTURBIZ LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2017-12-07",
+  "sic_codes": [
+   "69202"
+  ],
+  "registered_office": "167 - 169 Great Portland Street Great Portland Street, London, W1W 5PF",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-12-31",
+  "next_accounts_due": "2027-09-30",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 44,
+  "kept": 24,
+  "items": [
+   {
+    "date": "2026-09-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-12-31)",
+    "days_late": -1
+   },
+   {
+    "date": "2025-12-10",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Gillian Anne Carroll; termination date: 2025-12-10)",
+    "days_late": null
+   },
+   {
+    "date": "2025-12-10",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Graham Peter Carroll; appointment date: 2025-12-10)",
+    "days_late": null
+   },
+   {
+    "date": "2025-09-26",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-12-31)",
+    "days_late": -2
+   },
+   {
+    "date": "2024-09-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-12-31)",
+    "days_late": 1
+   },
+   {
+    "date": "2023-09-20",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-12-31)",
+    "days_late": -8
+   },
+   {
+    "date": "2023-01-26",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Graham Peter Carroll; termination date: 2023-01-17)",
+    "days_late": null
+   },
+   {
+    "date": "2023-01-25",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Miss Gillian Anne Carroll; appointment date: 2023-01-16)",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-08",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-12-31)",
+    "days_late": 70
+   },
+   {
+    "date": "2022-11-29",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2022-06-29",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Graham Peter Carroll; appointment date: 2022-06-29)",
+    "days_late": null
+   },
+   {
+    "date": "2022-06-29",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Ellie Paige Morgan; termination date: 2022-06-29)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-12-31)",
+    "days_late": 100
+   },
+   {
+    "date": "2021-05-06",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2021-04-27",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2021-01-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-12-31)",
+    "days_late": 103
+   },
+   {
+    "date": "2020-09-22",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Graham Peter Carroll; termination date: 2020-09-06)",
+    "days_late": null
+   },
+   {
+    "date": "2020-01-15",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Jennifer Williamson; termination date: 2020-01-05)",
+    "days_late": null
+   },
+   {
+    "date": "2020-01-15",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Miss Ellie Paige Morgan; appointment date: 2020-01-05)",
+    "days_late": null
+   },
+   {
+    "date": "2019-09-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-12-31)",
+    "days_late": -17
+   },
+   {
+    "date": "2019-03-05",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2019-02-26",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2017-12-07",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 6,
+  "active": 1,
+  "items": [
+   {
+    "name": "CARROLL, Graham Peter",
+    "role": "director",
+    "appointed_on": "2025-12-10",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-09-30",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 8,
+   "latest_accounts": {
+    "ref": "AA filed 2026-09-27",
+    "days_late": -1,
+    "description": "accounts with accounts type micro entity (made up date: 2025-12-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2024-09-29",
+    "days_late": 1
+   },
+   "late_3y": [
+    "AA filed 2024-09-29"
+   ],
+   "months_since_incorporation": 105.7,
+   "last_made_up_to": "2025-12-31",
+   "months_since_made_up": 9.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 6,
+   "appointed_last_12m": [
+    "director appointed 2025-12-10"
+   ]
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-09-27 \u2014 accounts with accounts type micro entity (made up date: 2025-12-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 ASSISTURBIZ LTD (11102052)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- ASSISTURBIZ LTD (company number 11102052) is an active private limited company incorporated on 07 December 2017, trading under SIC 69202, and has been going for roughly 8 years and 9 months. `[profile; computed]`\n- No charges are registered at Companies House at any time, so the security position is clean and a first-charge facility could be offered subject to the other policies. `[SEC-02]`\n- Filing conduct has been clean for the last four years: accounts for 2022 through 2025 were all filed on or within a day of the deadline, with the latest micro-entity accounts to 31 December 2025 filed on 27 September 2026, one day early. `[AA filed 2026-09-27; AA filed 2025-09-26; AA filed 2024-09-29; AA filed 2023-09-20]`\n- Earlier conduct was poor, with the 2019, 2020 and 2021 accounts filed 103, 100 and 70 days late respectively; the pattern has clearly corrected since then. `[AA filed 2021-01-09; AA filed 2022-01-06; AA filed 2022-12-07]`\n- Accounts are up to date and not overdue, with the next set due 30 September 2027 and the last made up nine months ago. `[profile; computed]`\n- The company is filed on the micro-entity regime, which discloses neither turnover nor profit, so under CON-04 the case must be referred and management accounts covering the most recent 12 months obtained before any decision. `[CON-04; profile]`\n- There is a single active director out of six ever appointed, with one director appointed on 10 December 2025 \u2014 worth confirming the current control and signing arrangements when you approach. `[officers]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2026-09-27 \u2014 accounts with accounts type micro entity (made up date: 2025-12-31) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2021-01-09",
+  "AA filed 2022-01-06",
+  "AA filed 2022-12-07",
+  "AA filed 2023-09-20",
+  "AA filed 2024-09-29",
+  "AA filed 2025-09-26",
+  "AA filed 2026-09-27",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 10.7,
+  "usage": [
+   {
+    "company": "11102052",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2175,
+    "output_tokens": 765
+   }
+  ]
+ }
+}

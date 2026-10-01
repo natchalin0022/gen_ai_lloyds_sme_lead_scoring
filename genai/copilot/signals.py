@@ -19,6 +19,9 @@ from .refs import charge_refs, filing_ref
 
 LIVE = {"outstanding", "part-satisfied"}          # not yet fully redeemed
 MICRO_OR_EXEMPT = re.compile(r"micro[\s-]?entity|total[\s-]?exemption", re.I)
+# Companies House files the directors' solvency statement for a capital reduction (CAP-SS) under
+# "insolvency" — it declares the company solvent, so it is not evidence for CON-07
+NOT_INSOLVENCY = {"CAP-SS"}
 THREE_YEARS = timedelta(days=round(3 * 365.25))
 
 
@@ -101,7 +104,8 @@ def filing_signals(filings: dict, profile: dict, as_of: date) -> dict:
         "last_made_up_to": profile.get("last_accounts_made_up_to"),
         "months_since_made_up": made_up and _months(made_up, as_of),               # CON-06
         "insolvency_filings": [filing_ref(f) for f in items
-                               if f["category"] in ("liquidation", "insolvency")], # CON-07
+                               if f["category"] in ("liquidation", "insolvency")
+                               and f.get("type") not in NOT_INSOLVENCY],           # CON-07
         "window_truncated": filings["kept"] > len(items),
     }
 
@@ -183,7 +187,7 @@ async def classify_collateral(charges: dict) -> dict:
         return {}
 
     batch = [{"id": f"t{i}", "text": t} for i, t in enumerate(texts, 1)]
-    resp = await llm.client().beta.messages.parse(
+    resp = await llm.parse("signal/collateral", len(batch), "text(s)",
         model=llm.MODEL,
         max_tokens=4096,
         system=SYSTEM,
@@ -192,7 +196,6 @@ async def classify_collateral(charges: dict) -> dict:
         output_config={"effort": "low"},
         **llm.FALLBACK,
     )
-    print(llm.usage_line("signal/collateral", resp, len(batch), "text(s)"))
 
     ok = resp.stop_reason != "refusal" and resp.parsed_output is not None
     got = {lab.id: lab for lab in resp.parsed_output.labels} if ok else {}
@@ -212,5 +215,6 @@ async def classify_collateral(charges: dict) -> dict:
 async def signal(state: dict) -> dict:
     s = deterministic_signals(state)
     c = state.get("charges")
-    s["collateral"] = await classify_collateral(c) if c else {}
+    # collateral feeds only the brief's summary (EVD-04), never a policy verdict — skipped when screening only
+    s["collateral"] = await classify_collateral(c) if c and state.get("draft_brief", True) else {}
     return {"signals": s}

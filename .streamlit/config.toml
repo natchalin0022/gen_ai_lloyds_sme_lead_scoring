@@ -1,0 +1,10 @@
+# RM Lead Copilot (webapp/app.py). Local only: the app holds API keys and spends Anthropic credit.
+[server]
+address = "127.0.0.1"
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#2a78d6"

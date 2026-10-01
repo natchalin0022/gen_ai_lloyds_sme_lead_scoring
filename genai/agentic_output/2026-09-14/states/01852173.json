@@ -1,0 +1,603 @@
+{
+ "company_number": "01852173",
+ "as_of": "2026-09-30",
+ "draft_brief": false,
+ "profile": {
+  "company_number": "01852173",
+  "company_name": "\"KARELEAN COURT\" MANAGEMENT COMPANY LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "1984-10-03",
+  "sic_codes": [
+   "98000"
+  ],
+  "registered_office": "Karelean Court Charlton Mead, Drive, Westbury On Trym, BS10 6LW, Bristol",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2026-03-31",
+  "next_accounts_due": "2027-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 115,
+  "kept": 72,
+  "items": [
+   {
+    "date": "2026-07-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2026-03-31)",
+    "days_late": -173
+   },
+   {
+    "date": "2025-07-16",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-03-31)",
+    "days_late": -165
+   },
+   {
+    "date": "2024-07-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-03-31)",
+    "days_late": -169
+   },
+   {
+    "date": "2023-09-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Lee Robert James; termination date: 2023-09-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-09-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Gillian Margaret James; termination date: 2023-09-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-09-11",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Gillian Margaret James; termination date: 2023-09-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-06-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-03-31)",
+    "days_late": -192
+   },
+   {
+    "date": "2022-10-19",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Carol Lesley Lee; appointment date: 2022-09-01)",
+    "days_late": null
+   },
+   {
+    "date": "2022-05-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-03-31)",
+    "days_late": -217
+   },
+   {
+    "date": "2021-07-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-03-31)",
+    "days_late": -175
+   },
+   {
+    "date": "2021-02-03",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Andrew Houghton; termination date: 2021-01-01)",
+    "days_late": null
+   },
+   {
+    "date": "2020-05-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-03-31)",
+    "days_late": -223
+   },
+   {
+    "date": "2019-07-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-03-31)",
+    "days_late": -170
+   },
+   {
+    "date": "2018-06-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-03-31)",
+    "days_late": -197
+   },
+   {
+    "date": "2017-07-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2017-03-31)",
+    "days_late": -156
+   },
+   {
+    "date": "2016-08-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-03-31)",
+    "days_late": -145
+   },
+   {
+    "date": "2015-08-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-03-31)",
+    "days_late": -131
+   },
+   {
+    "date": "2014-07-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-03-31)",
+    "days_late": -166
+   },
+   {
+    "date": "2013-08-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-03-31)",
+    "days_late": -123
+   },
+   {
+    "date": "2012-07-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-03-31)",
+    "days_late": -151
+   },
+   {
+    "date": "2012-01-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name (officer name: Andrew Houghton)",
+    "days_late": null
+   },
+   {
+    "date": "2011-07-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2011-03-31)",
+    "days_late": -159
+   },
+   {
+    "date": "2010-12-15",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Alexander Goodlet)",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2010-03-31)",
+    "days_late": -133
+   },
+   {
+    "date": "2009-09-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2009-03-31)",
+    "days_late": -109
+   },
+   {
+    "date": "2008-08-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2008-03-31)",
+    "days_late": -142
+   },
+   {
+    "date": "2007-11-08",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "2007-10-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2007-03-31)",
+    "days_late": -85
+   },
+   {
+    "date": "2007-04-23",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "2007-03-21",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2007-03-21",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2006-06-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2006-03-31)",
+    "days_late": -183
+   },
+   {
+    "date": "2006-03-20",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2005-07-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2005-03-31)",
+    "days_late": -174
+   },
+   {
+    "date": "2004-07-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2004-03-31)",
+    "days_late": -154
+   },
+   {
+    "date": "2003-11-18",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2003-11-07",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2003-11-05",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2003-10-15",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2003-09-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2003-03-31)",
+    "days_late": -107
+   },
+   {
+    "date": "2002-10-10",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2002-03-31)",
+    "days_late": -79
+   },
+   {
+    "date": "2001-11-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2001-03-31)",
+    "days_late": -31
+   },
+   {
+    "date": "2000-12-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 2000-03-31)",
+    "days_late": -14
+   },
+   {
+    "date": "2000-09-13",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2000-09-06",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2000-01-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1999-03-31)",
+    "days_late": 20
+   },
+   {
+    "date": "1999-11-05",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "1999-10-22",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "1999-02-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1998-03-31)",
+    "days_late": 43
+   },
+   {
+    "date": "1999-02-02",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "1998-01-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1997-03-31)",
+    "days_late": 22
+   },
+   {
+    "date": "1997-01-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1996-03-31)",
+    "days_late": 31
+   },
+   {
+    "date": "1996-07-18",
+    "category": "officers",
+    "type": "288",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "1996-01-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1995-03-31)",
+    "days_late": 14
+   },
+   {
+    "date": "1995-08-24",
+    "category": "officers",
+    "type": "288",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "1995-02-22",
+    "category": "officers",
+    "type": "288",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "1995-01-04",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1994-03-31)",
+    "days_late": 7
+   },
+   {
+    "date": "1994-10-10",
+    "category": "officers",
+    "type": "288",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "1994-02-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1993-03-31)",
+    "days_late": 42
+   },
+   {
+    "date": "1993-01-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 1992-03-31)",
+    "days_late": 34
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 18,
+  "active": 2,
+  "items": [
+   {
+    "name": "LEE, Carol Lesley",
+    "role": "director",
+    "appointed_on": "2022-09-01",
+    "resigned_on": null
+   },
+   {
+    "name": "SLEE, John",
+    "role": "director",
+    "appointed_on": "1996-07-10",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2027-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 35,
+   "latest_accounts": {
+    "ref": "AA filed 2026-07-08",
+    "days_late": -173,
+    "description": "accounts with accounts type micro entity (made up date: 2026-03-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-07-16",
+    "days_late": -165
+   },
+   "late_3y": [],
+   "months_since_incorporation": 503.8,
+   "last_made_up_to": "2026-03-31",
+   "months_since_made_up": 6.0,
+   "insolvency_filings": [],
+   "window_truncated": true
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 18,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2026-07-08 \u2014 accounts with accounts type micro entity (made up date: 2026-03-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "PROCEED",
+  "clauses": [
+   "SEC-02"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": null,
+ "evidence_gap": [
+  "CON-01 (REFER) not determinable \u2014 filing window truncated; late accounts earlier in the 3 years may be missing",
+  "CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved"
+ ],
+ "policy_trace": {
+  "CON-01": "not_determinable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_determinable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: PROCEED               \u2192 brief    2 gap(s), none from a failed fetch \u2014 a retry would return the same record"
+ ],
+ "brief": "# RM brief \u2014 \"KARELEAN COURT\" MANAGEMENT COMPANY LIMITED (01852173)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n## \u26a0 Thin evidence \u2014 RM verification required\n\n- CON-01 (REFER) not determinable \u2014 filing window truncated; late accounts earlier in the 3 years may be missing\n- CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved\n\n**Decision: PROCEED** \u2014 set by SEC-02 \u2014 Clean security position  \n**Before an offer:** management accounts covering the most recent 12 months must be obtained before a facility is offered. The condition stands whatever the overall outcome. (CON-04)  \n**Qualifies as a lead:** not until the gaps are closed\n\n## Summary\n\n*Screened only: no model summary was requested for this lead. The decision, conditions and clause table below are complete.*\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Earnings not disclosed | PROCEED WITH CONDITION | AA filed 2026-07-08 \u2014 accounts with accounts type micro entity (made up date: 2026-03-31) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "CON-04",
+  "SEC-02"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 1.0,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "draft_brief": false,
+  "summary_model": null,
+  "usage": []
+ }
+}

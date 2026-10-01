@@ -1,0 +1,325 @@
+{
+ "company_number": "08860312",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "08860312",
+  "company_name": "OTE CONSULTANCY LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2014-01-24",
+  "sic_codes": [
+   "70229"
+  ],
+  "registered_office": "17 Hyde Close, Barnet, EN5 5TJ, Hertfordshire",
+  "accounts_type": "micro-entity",
+  "last_accounts_made_up_to": "2025-01-31",
+  "next_accounts_due": "2026-10-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 28,
+  "kept": 16,
+  "items": [
+   {
+    "date": "2025-10-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2025-01-31)",
+    "days_late": 1
+   },
+   {
+    "date": "2024-10-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2024-01-31)",
+    "days_late": 3
+   },
+   {
+    "date": "2023-10-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2023-01-31)",
+    "days_late": 3
+   },
+   {
+    "date": "2022-10-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2022-01-31)",
+    "days_late": 0
+   },
+   {
+    "date": "2021-10-28",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2021-01-31)",
+    "days_late": 0
+   },
+   {
+    "date": "2020-10-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2020-01-31)",
+    "days_late": -4
+   },
+   {
+    "date": "2019-10-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-01-31)",
+    "days_late": 3
+   },
+   {
+    "date": "2018-10-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-01-31)",
+    "days_late": -1
+   },
+   {
+    "date": "2017-10-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type unaudited abridged (made up date: 2017-01-31)",
+    "days_late": -1
+   },
+   {
+    "date": "2016-10-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2016-01-31)",
+    "days_late": 2
+   },
+   {
+    "date": "2016-01-31",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2015-01-31)",
+    "days_late": 95
+   },
+   {
+    "date": "2016-01-02",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2015-12-22",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2015-06-06",
+    "category": "gazette",
+    "type": "DISS40",
+    "description": "gazette filings brought up to date",
+    "days_late": null
+   },
+   {
+    "date": "2015-05-26",
+    "category": "gazette",
+    "type": "GAZ1",
+    "description": "gazette notice compulsory",
+    "days_late": null
+   },
+   {
+    "date": "2014-01-24",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 1,
+  "active": 1,
+  "items": [
+   {
+    "name": "OOMMEN, Fiona Alexandra Margaret",
+    "role": "director",
+    "appointed_on": "2014-01-24",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "micro-entity",
+   "next_accounts_due": "2026-10-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 11,
+   "latest_accounts": {
+    "ref": "AA filed 2025-10-29",
+    "days_late": 1,
+    "description": "accounts with accounts type micro entity (made up date: 2025-01-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2024-10-31",
+    "days_late": 3
+   },
+   "late_3y": [
+    "AA filed 2025-10-29",
+    "AA filed 2024-10-31",
+    "AA filed 2023-10-31"
+   ],
+   "months_since_incorporation": 152.2,
+   "last_made_up_to": "2025-01-31",
+   "months_since_made_up": 19.9,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 1,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-10-29",
+    "AA filed 2024-10-31",
+    "AA filed 2023-10-31"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-10-29 \u2014 accounts with accounts type micro entity (made up date: 2025-01-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-06",
+   "title": "CON-06 \u2014 Stale financial information",
+   "outcome": "REFER",
+   "evidence": [
+    "accounts made up to 2025-01-31 \u2014 19.9 months before as_of"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-03",
+   "CON-04",
+   "CON-06"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "applies \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 OTE CONSULTANCY LIMITED (08860312)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-03 \u2014 Pattern of late filing; CON-04 \u2014 Micro-entity accounts; CON-06 \u2014 Stale financial information  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- OTE Consultancy Limited (company number 08860312) is an active private limited company incorporated on 24 January 2014, operating under SIC code 70229 (other management consultancy activities). It has a single officer, who is the only officer ever appointed, and no new appointments in the last 12 months. `[profile; officers; computed]`\n- There are no charges registered against the company at any time, so the security position is clean and a first-charge facility could be offered subject to the remaining policies. `[SEC-02]`\n- Filing conduct shows a pattern of small delays: accounts were filed late in each of the last three years \u2014 1 day late on 29 October 2025, and 3 days late on both 31 October 2024 and 31 October 2023. Two or more late filings in three years is treated as a pattern rather than an isolated lapse, triggering a referral. `[AA filed 2025-10-29; AA filed 2024-10-31; AA filed 2023-10-31; CON-03]`\n- Earlier history is mixed but broadly improving: the 2015 dormant accounts were filed 95 days late in January 2016, with subsequent filings ranging from 4 days early to 3 days late. `[AA filed 2016-01-31; AA filed 2020-10-24; AA filed 2019-10-31; AA filed 2018-10-27; AA filed 2017-10-27; AA filed 2016-10-30; AA filed 2022-10-28; AA filed 2021-10-28]`\n- The company reports on a micro-entity basis, which does not disclose turnover or profit and is insufficient on its own to assess serviceability; management accounts covering the most recent 12 months must be obtained before any decision. `[profile; AA filed 2025-10-29; CON-04]`\n- The latest accounts are made up to 31 January 2025, some 19.9 months before the assessment date of 30 September 2026, so the financial position on record is no longer current. Next accounts are not due until 31 October 2026 and nothing is currently overdue. `[computed; profile; CON-06]`\n- The case is a REFER on conduct and information grounds rather than security: before progressing an approach, obtain up-to-date management accounts and discuss the repeated late filing with the sole director. `[CON-03; CON-04; CON-06; SEC-02]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-03 \u2014 Pattern of late filing | REFER | AA filed 2025-10-29; AA filed 2024-10-31; AA filed 2023-10-31 |\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-10-29 \u2014 accounts with accounts type micro entity (made up date: 2025-01-31) |\n| CON-06 \u2014 Stale financial information | REFER | accounts made up to 2025-01-31 \u2014 19.9 months before as_of |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2016-01-31",
+  "AA filed 2016-10-30",
+  "AA filed 2017-10-27",
+  "AA filed 2018-10-27",
+  "AA filed 2019-10-31",
+  "AA filed 2020-10-24",
+  "AA filed 2021-10-28",
+  "AA filed 2022-10-28",
+  "AA filed 2023-10-31",
+  "AA filed 2024-10-31",
+  "AA filed 2025-10-29",
+  "CON-03",
+  "CON-04",
+  "CON-06",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 11.2,
+  "usage": [
+   {
+    "company": "08860312",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2822,
+    "output_tokens": 811
+   }
+  ]
+ }
+}

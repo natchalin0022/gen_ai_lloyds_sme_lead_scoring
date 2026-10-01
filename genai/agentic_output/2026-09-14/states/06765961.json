@@ -1,0 +1,605 @@
+{
+ "company_number": "06765961",
+ "as_of": "2026-09-30",
+ "draft_brief": false,
+ "profile": {
+  "company_number": "06765961",
+  "company_name": "ABACUS ENTERPRISES LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2008-12-04",
+  "sic_codes": [
+   "82990"
+  ],
+  "registered_office": "C/O HALLIDAYS LIMITED, Riverside House Kings Reach Bus Park Yew St, Stockport, SK4 2HD, Cheshire",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2026-04-30",
+  "next_accounts_due": "2028-01-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 80,
+  "kept": 61,
+  "items": [
+   {
+    "date": "2026-07-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2026-04-30)",
+    "days_late": -205
+   },
+   {
+    "date": "2026-03-26",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Valerie Susan Wain; termination date: 2026-03-26)",
+    "days_late": null
+   },
+   {
+    "date": "2026-03-26",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Philip James Eagle; appointment date: 2026-03-26)",
+    "days_late": null
+   },
+   {
+    "date": "2025-08-28",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Philip Greg Jones; termination date: 2025-08-27)",
+    "days_late": null
+   },
+   {
+    "date": "2025-08-28",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Lyndsey Hayes; termination date: 2025-08-27)",
+    "days_late": null
+   },
+   {
+    "date": "2025-08-28",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Nigel David Bennett; termination date: 2025-08-27)",
+    "days_late": null
+   },
+   {
+    "date": "2025-08-28",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Philip James Eagle; termination date: 2025-08-27)",
+    "days_late": null
+   },
+   {
+    "date": "2025-08-28",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Anna Elizabeth Bennett; termination date: 2025-08-27)",
+    "days_late": null
+   },
+   {
+    "date": "2025-07-08",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-04-30)",
+    "days_late": -204
+   },
+   {
+    "date": "2024-05-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2024-04-30)",
+    "days_late": -270
+   },
+   {
+    "date": "2023-06-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2023-04-30)",
+    "days_late": -237
+   },
+   {
+    "date": "2022-12-07",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2022-04-30)",
+    "days_late": -52
+   },
+   {
+    "date": "2021-05-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2021-04-30)",
+    "days_late": -252
+   },
+   {
+    "date": "2020-11-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2020-04-30)",
+    "days_late": -64
+   },
+   {
+    "date": "2020-01-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2019-04-30)",
+    "days_late": 1
+   },
+   {
+    "date": "2019-02-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2018-04-30)",
+    "days_late": 22
+   },
+   {
+    "date": "2017-12-06",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Russell Philip Cox; termination date: 2017-12-04)",
+    "days_late": null
+   },
+   {
+    "date": "2017-12-05",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-07-11; officer name: Mr Philip Greg Jones)",
+    "days_late": null
+   },
+   {
+    "date": "2017-06-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2017-04-30)",
+    "days_late": -237
+   },
+   {
+    "date": "2016-03-14",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2016-03-14; officer name: Miss Lyndsey Hayes)",
+    "days_late": null
+   },
+   {
+    "date": "2016-03-10",
+    "category": "accounts",
+    "type": "AAMD",
+    "description": "accounts amended with accounts type dormant (made up date: 2015-12-31)",
+    "days_late": -202
+   },
+   {
+    "date": "2016-03-08",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company current extended (made up date: 2016-12-31; new date: 2017-04-30)",
+    "days_late": -569
+   },
+   {
+    "date": "2016-01-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2015-12-31)",
+    "days_late": -267
+   },
+   {
+    "date": "2015-01-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2014-12-31)",
+    "days_late": -250
+   },
+   {
+    "date": "2014-01-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2013-12-31)",
+    "days_late": -257
+   },
+   {
+    "date": "2014-01-02",
+    "category": "capital",
+    "type": "SH01",
+    "description": "capital allotment shares (date: 2013-11-22; capital: [{'currency': 'GBP', 'figure': '700'}])",
+    "days_late": null
+   },
+   {
+    "date": "2013-12-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Paul Andrew Whitney; appointment date: 2013-11-22)",
+    "days_late": null
+   },
+   {
+    "date": "2013-12-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Ms Anna Elizabeth Bennett; appointment date: 2013-11-22)",
+    "days_late": null
+   },
+   {
+    "date": "2013-12-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Philip Greg Jones; appointment date: 2013-11-22)",
+    "days_late": null
+   },
+   {
+    "date": "2013-12-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mrs Valerie Susan Wain; appointment date: 2013-11-22)",
+    "days_late": null
+   },
+   {
+    "date": "2013-12-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Philip James Eagle; appointment date: 2013-11-22)",
+    "days_late": null
+   },
+   {
+    "date": "2013-12-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Miss Lyndsey Hayes; appointment date: 2013-11-22)",
+    "days_late": null
+   },
+   {
+    "date": "2013-01-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2012-12-31)",
+    "days_late": -248
+   },
+   {
+    "date": "2013-01-14",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Nigel David Bennett; appointment date: 2012-12-31)",
+    "days_late": null
+   },
+   {
+    "date": "2013-01-14",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Alistair Perkin; termination date: 2012-12-31)",
+    "days_late": null
+   },
+   {
+    "date": "2012-09-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2011-12-31)",
+    "days_late": -9
+   },
+   {
+    "date": "2011-09-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2010-12-31)",
+    "days_late": -19
+   },
+   {
+    "date": "2010-08-25",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2009-12-31)",
+    "days_late": -34
+   },
+   {
+    "date": "2010-08-06",
+    "category": "capital",
+    "type": "SH01",
+    "description": "capital allotment shares (date: 2010-05-01; capital: [{'currency': 'GBP', 'figure': '8'}])",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Rosemary Perkin)",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Russell Cox)",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Deborah Cox)",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Jane Bennett)",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Nigel Bennett)",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-11",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name (officer name: Matthew Perkin)",
+    "days_late": null
+   },
+   {
+    "date": "2009-02-06",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed rosemary patricia perkin",
+    "days_late": null
+   },
+   {
+    "date": "2009-02-06",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed matthew perkin",
+    "days_late": null
+   },
+   {
+    "date": "2009-02-06",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed alistair perkin",
+    "days_late": null
+   },
+   {
+    "date": "2009-02-06",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director and secretary appointed russell phjilip cox",
+    "days_late": null
+   },
+   {
+    "date": "2009-02-06",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed deborah jane cox",
+    "days_late": null
+   },
+   {
+    "date": "2009-02-06",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed jane elizabeth bennett",
+    "days_late": null
+   },
+   {
+    "date": "2009-02-06",
+    "category": "officers",
+    "type": "288a",
+    "description": "Director appointed nigel david bennett",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "officers",
+    "type": "288b",
+    "description": "Appointment terminated director lee gilburt",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "officers",
+    "type": "288b",
+    "description": "Appointment terminated secretary ocs corporate secretaries LIMITED",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "capital",
+    "type": "88(2)",
+    "description": "Ad 21/01/09\\gbp si 1@1=1\\gbp ic 7/8\\",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "capital",
+    "type": "88(2)",
+    "description": "Ad 21/01/09\\gbp si 1@1=1\\gbp ic 6/7\\",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "capital",
+    "type": "88(2)",
+    "description": "Ad 21/01/09\\gbp si 1@1=1\\gbp ic 5/6\\",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "capital",
+    "type": "88(2)",
+    "description": "Ad 21/01/09\\gbp si 1@1=1\\gbp ic 4/5\\",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "capital",
+    "type": "88(2)",
+    "description": "Ad 21/01/09\\gbp si 1@1=1\\gbp ic 3/4\\",
+    "days_late": null
+   },
+   {
+    "date": "2009-01-23",
+    "category": "capital",
+    "type": "88(2)",
+    "description": "Ad 21/01/09\\gbp si 2@1=2\\gbp ic 1/3\\",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 18,
+  "active": 2,
+  "items": [
+   {
+    "name": "EAGLE, Philip James",
+    "role": "director",
+    "appointed_on": "2026-03-26",
+    "resigned_on": null
+   },
+   {
+    "name": "WHITNEY, Paul Andrew",
+    "role": "director",
+    "appointed_on": "2013-11-22",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2028-01-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 19,
+   "latest_accounts": {
+    "ref": "AA filed 2026-07-07",
+    "days_late": -205,
+    "description": "accounts with accounts type total exemption full (made up date: 2026-04-30)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-07-08",
+    "days_late": -204
+   },
+   "late_3y": [],
+   "months_since_incorporation": 213.8,
+   "last_made_up_to": "2026-04-30",
+   "months_since_made_up": 5.0,
+   "insolvency_filings": [],
+   "window_truncated": true
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 18,
+   "appointed_last_12m": [
+    "director appointed 2026-03-26"
+   ]
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Earnings not disclosed",
+   "outcome": "PROCEED WITH CONDITION",
+   "evidence": [
+    "AA filed 2026-07-07 \u2014 accounts with accounts type total exemption full (made up date: 2026-04-30)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "PROCEED",
+  "clauses": [
+   "SEC-02"
+  ],
+  "conditions": [
+   "CON-04"
+  ]
+ },
+ "qualifies": null,
+ "evidence_gap": [
+  "CON-01 (REFER) not determinable \u2014 filing window truncated; late accounts earlier in the 3 years may be missing",
+  "CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved"
+ ],
+ "policy_trace": {
+  "CON-01": "not_determinable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_determinable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: PROCEED               \u2192 brief    2 gap(s), none from a failed fetch \u2014 a retry would return the same record"
+ ],
+ "brief": "# RM brief \u2014 ABACUS ENTERPRISES LIMITED (06765961)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n## \u26a0 Thin evidence \u2014 RM verification required\n\n- CON-01 (REFER) not determinable \u2014 filing window truncated; late accounts earlier in the 3 years may be missing\n- CON-03 (REFER) not determinable \u2014 filing window truncated; only part of the 3 years was retrieved\n\n**Decision: PROCEED** \u2014 set by SEC-02 \u2014 Clean security position  \n**Before an offer:** management accounts covering the most recent 12 months must be obtained before a facility is offered. The condition stands whatever the overall outcome. (CON-04)  \n**Qualifies as a lead:** not until the gaps are closed\n\n## Summary\n\n*Screened only: no model summary was requested for this lead. The decision, conditions and clause table below are complete.*\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Earnings not disclosed | PROCEED WITH CONDITION | AA filed 2026-07-07 \u2014 accounts with accounts type total exemption full (made up date: 2026-04-30) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "CON-04",
+  "SEC-02"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 1.1,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "draft_brief": false,
+  "summary_model": null,
+  "usage": []
+ }
+}

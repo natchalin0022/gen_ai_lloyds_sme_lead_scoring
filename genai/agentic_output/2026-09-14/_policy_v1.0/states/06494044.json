@@ -1,0 +1,799 @@
+{
+ "company_number": "06494044",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "06494044",
+  "company_name": "ELM VILLA & MADELEY PRACTICE LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2008-02-05",
+  "sic_codes": [
+   "86230"
+  ],
+  "registered_office": "Chester House Lloyd Drive, Cheshire Oaks Business Park, Ellesmere Port, CH65 9HQ, Cheshire",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-04-29",
+  "next_accounts_due": "2027-01-29",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 86,
+  "kept": 54,
+  "items": [
+   {
+    "date": "2026-04-29",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-04-29)",
+    "days_late": 91
+   },
+   {
+    "date": "2025-07-25",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2025-07-25; officer name: Dr Sohmea Yaqoob)",
+    "days_late": null
+   },
+   {
+    "date": "2025-07-25",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2025-07-25; officer name: Moazzam Ilyas)",
+    "days_late": null
+   },
+   {
+    "date": "2025-06-27",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-04-29)",
+    "days_late": 150
+   },
+   {
+    "date": "2024-04-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-04-29)",
+    "days_late": 93
+   },
+   {
+    "date": "2024-01-31",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous shortened (made up date: 2023-04-30; new date: 2023-04-29)",
+    "days_late": 3
+   },
+   {
+    "date": "2023-12-21",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous extended (made up date: 2023-03-31; new date: 2023-04-30)",
+    "days_late": -7
+   },
+   {
+    "date": "2023-05-10",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Sandip Singh Mroke; termination date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2023-05-10",
+    "category": "officers",
+    "type": "TM02",
+    "description": "termination secretary company with name termination date (officer name: Anju Mroke; termination date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2023-05-10",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Dr Sohmea Yaqoob; appointment date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2023-05-10",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Moazzam Ilyas; appointment date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2023-05-05",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 064940440006; charge creation date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2023-05-05",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 064940440007; charge creation date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2023-05-05",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 064940440008; charge creation date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2023-05-05",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 064940440005; charge creation date: 2023-05-03)",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 064940440004)",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 3)",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 2)",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-14",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 1)",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-03-31)",
+    "days_late": -22
+   },
+   {
+    "date": "2022-10-03",
+    "category": "mortgage",
+    "type": "MR05",
+    "description": "mortgage charge whole cease with charge number (charge number: 3)",
+    "days_late": null
+   },
+   {
+    "date": "2022-10-03",
+    "category": "mortgage",
+    "type": "MR05",
+    "description": "mortgage charge whole cease with charge number (charge number: 2)",
+    "days_late": null
+   },
+   {
+    "date": "2022-10-03",
+    "category": "mortgage",
+    "type": "MR05",
+    "description": "mortgage charge whole cease with charge number (charge number: 064940440004)",
+    "days_late": null
+   },
+   {
+    "date": "2022-10-03",
+    "category": "mortgage",
+    "type": "MR05",
+    "description": "mortgage charge whole cease with charge number (charge number: 1)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-27",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2022-01-27; officer name: Dr Sandip Singh Mroke)",
+    "days_late": null
+   },
+   {
+    "date": "2022-01-27",
+    "category": "officers",
+    "type": "CH03",
+    "description": "change person secretary company with change date (change date: 2022-01-27; officer name: Anju Mroke)",
+    "days_late": null
+   },
+   {
+    "date": "2021-12-15",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-03-31)",
+    "days_late": -13
+   },
+   {
+    "date": "2021-04-15",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2021-04-15; officer name: Dr Sandip Singh Mroke)",
+    "days_late": null
+   },
+   {
+    "date": "2021-03-09",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-03-31)",
+    "days_late": 71
+   },
+   {
+    "date": "2019-12-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2019-03-31)",
+    "days_late": -9
+   },
+   {
+    "date": "2018-12-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2018-03-31)",
+    "days_late": -10
+   },
+   {
+    "date": "2017-12-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2017-03-31)",
+    "days_late": -5
+   },
+   {
+    "date": "2016-12-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-03-31)",
+    "days_late": -5
+   },
+   {
+    "date": "2015-12-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-03-31)",
+    "days_late": -4
+   },
+   {
+    "date": "2014-12-23",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-03-31)",
+    "days_late": -5
+   },
+   {
+    "date": "2014-03-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number (charge number: 064940440004)",
+    "days_late": null
+   },
+   {
+    "date": "2013-11-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2013-03-31)",
+    "days_late": -52
+   },
+   {
+    "date": "2012-12-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2012-03-31)",
+    "days_late": -14
+   },
+   {
+    "date": "2011-12-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2011-03-31)",
+    "days_late": -9
+   },
+   {
+    "date": "2011-01-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2010-03-31)",
+    "days_late": 9
+   },
+   {
+    "date": "2010-11-18",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 3",
+    "days_late": null
+   },
+   {
+    "date": "2010-08-03",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 2",
+    "days_late": null
+   },
+   {
+    "date": "2010-07-14",
+    "category": "mortgage",
+    "type": "MG01",
+    "description": "Particulars of a mortgage or charge / charge no: 1",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-09",
+    "category": "officers",
+    "type": "CH03",
+    "description": "change person secretary company with change date (change date: 2010-02-09; officer name: Anju Mroke)",
+    "days_late": null
+   },
+   {
+    "date": "2010-02-09",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2010-02-09; officer name: Sandip Singh Mroke)",
+    "days_late": null
+   },
+   {
+    "date": "2009-12-12",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type dormant (made up date: 2009-03-31)",
+    "days_late": -16
+   },
+   {
+    "date": "2009-04-01",
+    "category": "officers",
+    "type": "288c",
+    "description": "Director's change of particulars / sandip mroke / 16/03/2009",
+    "days_late": null
+   },
+   {
+    "date": "2009-04-01",
+    "category": "officers",
+    "type": "288c",
+    "description": "Secretary's change of particulars / anju mroke / 16/03/2009",
+    "days_late": null
+   },
+   {
+    "date": "2008-02-15",
+    "category": "officers",
+    "type": "288a",
+    "description": "New secretary appointed",
+    "days_late": null
+   },
+   {
+    "date": "2008-02-15",
+    "category": "officers",
+    "type": "288a",
+    "description": "New director appointed",
+    "days_late": null
+   },
+   {
+    "date": "2008-02-14",
+    "category": "accounts",
+    "type": "225",
+    "description": "Accounting reference date extended from 28/02/09 to 31/03/09",
+    "days_late": null
+   },
+   {
+    "date": "2008-02-05",
+    "category": "officers",
+    "type": "288b",
+    "description": "Secretary resigned",
+    "days_late": null
+   },
+   {
+    "date": "2008-02-05",
+    "category": "officers",
+    "type": "288b",
+    "description": "Director resigned",
+    "days_late": null
+   },
+   {
+    "date": "2008-02-05",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 8,
+  "outstanding": 4,
+  "items": [
+   {
+    "charge_code": "064940440008",
+    "created_on": "2023-05-03",
+    "delivered_on": "2023-05-05",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "The leasehold property known as or being madeley dental practice, 7-8 greyhound court, madeley, crewe, staffordshire, CW3 9EA comprised in title number SF590952 and a renewal lease by reference to an existing lease dated 3 may 2023 between lower mill properties limited (1) and elm villa & madeley practice limited (2)."
+   },
+   {
+    "charge_code": "064940440007",
+    "created_on": "2023-05-03",
+    "delivered_on": "2023-05-05",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": "None."
+   },
+   {
+    "charge_code": "064940440006",
+    "created_on": "2023-05-03",
+    "delivered_on": "2023-05-05",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "The leasehold property known as or being elm villa dental practice, 193 london road, chesterton, newcastle-under-lyme, staffordshire, ST5 7HZ comprised in a lease dated 3 may 2023 between sandip singh mroke and anju mroke and elm villa & madeley practice limited."
+   },
+   {
+    "charge_code": "064940440005",
+    "created_on": "2023-05-03",
+    "delivered_on": "2023-05-05",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": "None."
+   },
+   {
+    "charge_code": "064940440004",
+    "created_on": "2014-03-07",
+    "delivered_on": "2014-03-18",
+    "satisfied_on": "2022-12-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": false,
+    "particulars": "79 victoria street crewe. Notification of addition to or amendment of charge."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-11-17",
+    "delivered_on": "2010-11-18",
+    "satisfied_on": "2022-12-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "10 wolstanton road newcastle under lyme by way of fixed charge any other interest in the property, all rents receivable from any lease granted out of the property and the proceeds of any insurance affecting the property."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-07-27",
+    "delivered_on": "2010-08-03",
+    "satisfied_on": "2022-12-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "10 walstanton road, chesterton, newcastle, staffordshire."
+   },
+   {
+    "charge_code": null,
+    "created_on": "2010-07-13",
+    "delivered_on": "2010-07-14",
+    "satisfied_on": "2022-12-14",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "National Westminster Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": null,
+    "contains_floating_charge": null,
+    "contains_negative_pledge": null,
+    "particulars": "11 elwells close sedgmoor park, bilston west midlands t/no WM427237 and any other interests in the property all rents and proceeds of any insurance."
+   }
+  ]
+ },
+ "officers": {
+  "total": 6,
+  "active": 2,
+  "items": [
+   {
+    "name": "ILYAS, Moazzam Ali, Dr",
+    "role": "director",
+    "appointed_on": "2023-05-03",
+    "resigned_on": null
+   },
+   {
+    "name": "YAQOOB, Sohmea, Dr",
+    "role": "director",
+    "appointed_on": "2023-05-03",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2027-01-29",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 8,
+   "live": [
+    "064940440008",
+    "064940440007",
+    "064940440006",
+    "064940440005"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "064940440004",
+    "created 2010-11-17 \u00b7 National Westminster Bank P\u2026",
+    "created 2010-07-27 \u00b7 National Westminster Bank P\u2026",
+    "created 2010-07-13 \u00b7 National Westminster Bank P\u2026"
+   ],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "lloyds bank plc",
+     "charges": [
+      "064940440005",
+      "064940440006",
+      "064940440007",
+      "064940440008"
+     ]
+    },
+    {
+     "lender": "national westminster bank plc",
+     "charges": [
+      "created 2010-07-13 \u00b7 National Westminster Bank P\u2026",
+      "created 2010-07-27 \u00b7 National Westminster Bank P\u2026"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "064940440008",
+    "064940440007",
+    "064940440006",
+    "064940440005"
+   ],
+   "floating_live": [
+    "064940440008",
+    "064940440006",
+    "064940440005"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "064940440008",
+    "064940440007",
+    "064940440006",
+    "064940440005"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 20,
+   "latest_accounts": {
+    "ref": "AA filed 2026-04-29",
+    "days_late": 91,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-04-29)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-06-27",
+    "days_late": 150
+   },
+   "late_3y": [
+    "AA filed 2026-04-29",
+    "AA filed 2025-06-27",
+    "AA filed 2024-04-30",
+    "AA01 filed 2024-01-31"
+   ],
+   "months_since_incorporation": 223.8,
+   "last_made_up_to": "2025-04-29",
+   "months_since_made_up": 17.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 2,
+   "total_ever": 6,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {
+   "064940440008": {
+    "collateral": "property",
+    "quote": "The leasehold property known as or being madeley dental practice, 7-8 greyhound court, madeley, crewe, staffordshire, CW3 9EA",
+    "verified": true
+   },
+   "064940440007": {
+    "collateral": "not_stated",
+    "quote": "",
+    "verified": true
+   },
+   "064940440005": {
+    "collateral": "not_stated",
+    "quote": "",
+    "verified": true
+   },
+   "064940440006": {
+    "collateral": "property",
+    "quote": "The leasehold property known as or being elm villa dental practice, 193 london road, chesterton, newcastle-under-lyme, staffordshire, ST5 7HZ",
+    "verified": true
+   }
+  }
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-06-27 \u2014 150 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-03",
+   "title": "CON-03 \u2014 Pattern of late filing",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-04-29",
+    "AA filed 2025-06-27",
+    "AA filed 2024-04-30",
+    "AA01 filed 2024-01-31"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2026-04-29 \u2014 accounts with accounts type total exemption full (made up date: 2025-04-29)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "064940440004",
+    "created 2010-11-17 \u00b7 National Westminster Bank P\u2026",
+    "created 2010-07-27 \u00b7 National Westminster Bank P\u2026",
+    "created 2010-07-13 \u00b7 National Westminster Bank P\u2026"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "064940440005, 064940440006, 064940440007, 064940440008 (lloyds bank plc)",
+    "created 2010-07-13 \u00b7 National Westminster Bank P\u2026, created 2010-07-27 \u00b7 National Westminster Bank P\u2026 (national westminster bank plc)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "064940440008",
+    "064940440007",
+    "064940440006",
+    "064940440005"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "064940440008",
+    "064940440006",
+    "064940440005"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-03",
+   "CON-04",
+   "SEC-06",
+   "SEC-07",
+   "SEC-08"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "applies \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "end",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 end      existing Lloyds customer (live group charge: 064940440005, 064940440006, 064940440007, 064940440008) \u2014 not a prospect"
+ ],
+ "_run": {
+  "seconds": 5.9,
+  "usage": [
+   {
+    "company": "06494044",
+    "node": "signal/collateral",
+    "model": "claude-opus-5",
+    "input_tokens": 932,
+    "output_tokens": 180
+   }
+  ]
+ }
+}

@@ -1,0 +1,285 @@
+{
+ "company_number": "SC454848",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "SC454848",
+  "company_name": "NORTH EAST INDUSTRIAL DOOR SERVICES LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2013-07-18",
+  "sic_codes": [
+   "33190"
+  ],
+  "registered_office": "2 Hospital Court, Hospital Road, Ellon, AB41 9AW",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-03-31",
+  "next_accounts_due": "2026-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 29,
+  "kept": 15,
+  "items": [
+   {
+    "date": "2025-11-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-03-31)",
+    "days_late": -47
+   },
+   {
+    "date": "2024-11-06",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2024-03-31)",
+    "days_late": -52
+   },
+   {
+    "date": "2023-12-13",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-03-31)",
+    "days_late": -15
+   },
+   {
+    "date": "2022-12-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-03-31)",
+    "days_late": -9
+   },
+   {
+    "date": "2021-11-30",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-03-31)",
+    "days_late": -28
+   },
+   {
+    "date": "2020-11-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-03-31)",
+    "days_late": -47
+   },
+   {
+    "date": "2019-12-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2019-03-31)",
+    "days_late": -4
+   },
+   {
+    "date": "2018-12-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2018-03-31)",
+    "days_late": -7
+   },
+   {
+    "date": "2017-12-14",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type micro entity (made up date: 2017-03-31)",
+    "days_late": -14
+   },
+   {
+    "date": "2017-06-12",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2017-06-12; officer name: Mr Fraser Haggart)",
+    "days_late": null
+   },
+   {
+    "date": "2016-11-22",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2016-03-31)",
+    "days_late": -36
+   },
+   {
+    "date": "2015-12-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2015-03-31)",
+    "days_late": -7
+   },
+   {
+    "date": "2014-12-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption small (made up date: 2014-03-31)",
+    "days_late": -121
+   },
+   {
+    "date": "2013-11-25",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company current shortened (made up date: 2014-07-31; new date: 2014-03-31)",
+    "days_late": -519
+   },
+   {
+    "date": "2013-07-18",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 1,
+  "active": 1,
+  "items": [
+   {
+    "name": "HAGGART, Fraser",
+    "role": "director",
+    "appointed_on": "2013-07-18",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2026-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 13,
+   "latest_accounts": {
+    "ref": "AA filed 2025-11-11",
+    "days_late": -47,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-03-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2023-12-13",
+    "days_late": -15
+   },
+   "late_3y": [],
+   "months_since_incorporation": 158.4,
+   "last_made_up_to": "2025-03-31",
+   "months_since_made_up": 18.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 1,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-11-11 \u2014 accounts with accounts type total exemption full (made up date: 2025-03-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 NORTH EAST INDUSTRIAL DOOR SERVICES LIMITED (SC454848)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- North East Industrial Door Services Limited (SC454848) is an active private limited company incorporated on 18 July 2013, trading under SIC 33190 (repair and installation of other equipment). `[profile]`\n- The company has a single active officer, who is also the only officer ever appointed, with no new appointments in the last 12 months \u2014 so the business depends on one individual. `[officers]`\n- No charges are registered, so the security position is clean and a first-charge facility can be offered subject to the remaining policies (SEC-02). `[SEC-02]`\n- Filing conduct is consistently good: every accounts filing since incorporation has been submitted ahead of the deadline, including the latest accounts to 31 March 2025 filed 47 days early on 11 November 2025. `[AA filed 2025-11-11; AA filed 2024-11-06; AA filed 2023-12-13; AA filed 2022-12-19; AA filed 2021-11-30; AA filed 2020-11-11]`\n- Nothing is overdue at Companies House; the next accounts are not due until 31 December 2026. `[profile]`\n- The decision is REFER because the most recent accounts are filed under total exemption, which does not disclose turnover or profit and is insufficient on its own to assess serviceability (CON-04). `[CON-04; AA filed 2025-11-11]`\n- Before any decision, obtain management accounts covering the most recent 12 months \u2014 particularly relevant as the filed figures are made up to a date 18 months before the review date of 30 September 2026. `[CON-04; computed]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-11-11 \u2014 accounts with accounts type total exemption full (made up date: 2025-03-31) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2020-11-11",
+  "AA filed 2021-11-30",
+  "AA filed 2022-12-19",
+  "AA filed 2023-12-13",
+  "AA filed 2024-11-06",
+  "AA filed 2025-11-11",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 12.3,
+  "usage": [
+   {
+    "company": "SC454848",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2608,
+    "output_tokens": 944
+   }
+  ]
+ }
+}

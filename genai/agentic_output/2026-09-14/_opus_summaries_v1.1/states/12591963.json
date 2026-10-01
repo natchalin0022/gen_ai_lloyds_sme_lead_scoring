@@ -1,0 +1,500 @@
+{
+ "company_number": "12591963",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "12591963",
+  "company_name": "PURE COLLECTION CASHMERE LIMITED",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2020-05-07",
+  "sic_codes": [
+   "47910"
+  ],
+  "registered_office": "Wool Overs House, Victoria Gardens, Burgess Hill, RH15 9NB, West Sussex",
+  "accounts_type": "small",
+  "last_accounts_made_up_to": "2025-03-29",
+  "next_accounts_due": "2026-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 30,
+  "kept": 19,
+  "items": [
+   {
+    "date": "2026-07-13",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 125919630002)",
+    "days_late": null
+   },
+   {
+    "date": "2026-07-13",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 125919630001)",
+    "days_late": null
+   },
+   {
+    "date": "2026-07-13",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 125919630003)",
+    "days_late": null
+   },
+   {
+    "date": "2026-07-13",
+    "category": "mortgage",
+    "type": "MR04",
+    "description": "mortgage satisfy charge full (charge number: 125919630004)",
+    "days_late": null
+   },
+   {
+    "date": "2025-11-05",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2025-03-29)",
+    "days_late": -53
+   },
+   {
+    "date": "2025-04-17",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 125919630005; charge creation date: 2025-04-15)",
+    "days_late": null
+   },
+   {
+    "date": "2024-12-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type full (made up date: 2024-03-30)",
+    "days_late": -17
+   },
+   {
+    "date": "2023-12-18",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2023-04-01)",
+    "days_late": -14
+   },
+   {
+    "date": "2023-12-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 125919630002; charge creation date: 2023-12-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-12-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 125919630004; charge creation date: 2023-12-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-12-18",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 125919630003; charge creation date: 2023-12-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-12-15",
+    "category": "mortgage",
+    "type": "MR01",
+    "description": "mortgage create with deed with charge number charge creation date (charge number: 125919630001; charge creation date: 2023-12-11)",
+    "days_late": null
+   },
+   {
+    "date": "2023-01-18",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Stephen Peter Kehl; appointment date: 2023-01-05)",
+    "days_late": null
+   },
+   {
+    "date": "2022-12-19",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2022-03-26)",
+    "days_late": -7
+   },
+   {
+    "date": "2021-12-01",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type small (made up date: 2021-03-27)",
+    "days_late": -66
+   },
+   {
+    "date": "2021-11-25",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company previous shortened (made up date: 2021-05-31; new date: 2021-03-31)",
+    "days_late": -95
+   },
+   {
+    "date": "2021-11-08",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Mark Frederick Caroe; appointment date: 2021-10-22)",
+    "days_late": null
+   },
+   {
+    "date": "2021-11-08",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Albert Edward Bernard Wiegman; termination date: 2021-10-22)",
+    "days_late": null
+   },
+   {
+    "date": "2020-05-07",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 5,
+  "outstanding": 1,
+  "items": [
+   {
+    "charge_code": "125919630005",
+    "created_on": "2025-04-15",
+    "delivered_on": "2025-04-17",
+    "satisfied_on": null,
+    "status": "outstanding",
+    "persons_entitled": [
+     "Barclays Bank PLC"
+    ],
+    "lender_group": "third_party",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "125919630004",
+    "created_on": "2023-12-11",
+    "delivered_on": "2023-12-18",
+    "satisfied_on": "2026-07-13",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Lloyds Bank Corporate Markets PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "125919630003",
+    "created_on": "2023-12-11",
+    "delivered_on": "2023-12-18",
+    "satisfied_on": "2026-07-13",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Lloyds Bank Corporate Markets PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "125919630002",
+    "created_on": "2023-12-11",
+    "delivered_on": "2023-12-18",
+    "satisfied_on": "2026-07-13",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": false,
+    "contains_negative_pledge": true,
+    "particulars": null
+   },
+   {
+    "charge_code": "125919630001",
+    "created_on": "2023-12-11",
+    "delivered_on": "2023-12-15",
+    "satisfied_on": "2026-07-13",
+    "status": "fully-satisfied",
+    "persons_entitled": [
+     "Lloyds Bank PLC"
+    ],
+    "lender_group": "own",
+    "contains_fixed_charge": true,
+    "contains_floating_charge": true,
+    "contains_negative_pledge": true,
+    "particulars": null
+   }
+  ]
+ },
+ "officers": {
+  "total": 4,
+  "active": 3,
+  "items": [
+   {
+    "name": "CAROE, Mark Frederick",
+    "role": "director",
+    "appointed_on": "2021-10-22",
+    "resigned_on": null
+   },
+   {
+    "name": "KEHL, Stephen Peter",
+    "role": "director",
+    "appointed_on": "2023-01-05",
+    "resigned_on": null
+   },
+   {
+    "name": "LESTER, Michael David",
+    "role": "director",
+    "appointed_on": "2020-05-07",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "small",
+   "next_accounts_due": "2026-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 5,
+   "live": [
+    "125919630005"
+   ],
+   "clean_position": false,
+   "satisfied": [
+    "125919630004",
+    "125919630003",
+    "125919630002",
+    "125919630001"
+   ],
+   "outstanding_third_party": [
+    "125919630005"
+   ],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [
+    {
+     "lender": "lloyds bank corporate markets plc",
+     "charges": [
+      "125919630003",
+      "125919630004"
+     ]
+    },
+    {
+     "lender": "lloyds bank plc",
+     "charges": [
+      "125919630001",
+      "125919630002"
+     ]
+    }
+   ],
+   "negative_pledge": [
+    "125919630005",
+    "125919630004",
+    "125919630003",
+    "125919630002",
+    "125919630001"
+   ],
+   "floating_live": [
+    "125919630005"
+   ],
+   "flags_not_recorded_live": [],
+   "own_group": [
+    "125919630004",
+    "125919630003",
+    "125919630002",
+    "125919630001"
+   ]
+  },
+  "filings": {
+   "accounts_on_record": 6,
+   "latest_accounts": {
+    "ref": "AA filed 2025-11-05",
+    "days_late": -53,
+    "description": "accounts with accounts type small (made up date: 2025-03-29)"
+   },
+   "latest_micro_or_exempt": false,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2023-12-18",
+    "days_late": -14
+   },
+   "late_3y": [],
+   "months_since_incorporation": 76.8,
+   "last_made_up_to": "2025-03-29",
+   "months_since_made_up": 18.1,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 3,
+   "total_ever": 4,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-06",
+   "title": "CON-06 \u2014 Stale financial information",
+   "outcome": "REFER",
+   "evidence": [
+    "accounts made up to 2025-03-29 \u2014 18.1 months before as_of"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-01",
+   "title": "SEC-01 \u2014 Outstanding third-party charge",
+   "outcome": "REFER",
+   "evidence": [
+    "125919630005"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-03",
+   "title": "SEC-03 \u2014 Satisfied charges disregarded",
+   "outcome": "PROCEED",
+   "evidence": [
+    "125919630004",
+    "125919630003",
+    "125919630002",
+    "125919630001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-06",
+   "title": "SEC-06 \u2014 Multiple simultaneous charges to one lender",
+   "outcome": "REFER",
+   "evidence": [
+    "125919630003, 125919630004 (lloyds bank corporate markets plc)",
+    "125919630001, 125919630002 (lloyds bank plc)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-07",
+   "title": "SEC-07 \u2014 Negative pledge",
+   "outcome": "REFER",
+   "evidence": [
+    "125919630005",
+    "125919630004",
+    "125919630003",
+    "125919630002",
+    "125919630001"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-08",
+   "title": "SEC-08 \u2014 Floating charge over the whole undertaking",
+   "outcome": "REFER",
+   "evidence": [
+    "125919630005"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-06",
+   "SEC-01",
+   "SEC-06",
+   "SEC-07",
+   "SEC-08"
+  ],
+  "conditions": []
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "not_applicable \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "not_applicable \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "applies \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "applies \u00b7 code",
+  "SEC-02": "not_applicable \u00b7 code",
+  "SEC-03": "applies \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "applies \u00b7 code",
+  "SEC-07": "applies \u00b7 code",
+  "SEC-08": "applies \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 PURE COLLECTION CASHMERE LIMITED (12591963)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-06 \u2014 Stale financial information; SEC-01 \u2014 Outstanding third-party charge; SEC-06 \u2014 Multiple simultaneous charges to one lender; SEC-07 \u2014 Negative pledge; SEC-08 \u2014 Floating charge over the whole undertaking  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- Pure Collection Cashmere Limited (company number 12591963) is an active private limited company incorporated on 7 May 2020, trading under SIC code 47910 and reporting on the small-company regime. It has three active officers out of four ever appointed, with no new appointments in the last 12 months. `[profile; officers]`\n- The company has one outstanding charge: charge 125919630005, created 15 April 2025 in favour of Barclays Bank PLC, which contains fixed and floating charge elements and a negative pledge. Four earlier charges created on 11 December 2023 in favour of Lloyds Bank PLC and Lloyds Bank Corporate Markets PLC are all recorded as fully satisfied and are disregarded for ranking, though they evidence prior borrowing capacity. `[125919630005; 125919630004; 125919630003; 125919630002; 125919630001; SEC-03]`\n- Filing conduct is clean: every set of accounts since 2021 was filed ahead of deadline, including the latest small accounts filed 5 November 2025 (53 days early), and nothing is currently overdue with the next accounts due 31 December 2026. `[AA filed 2025-11-05; AA filed 2024-12-11; AA filed 2023-12-18; AA filed 2022-12-19; AA filed 2021-12-01; profile]`\n- Despite the good filing record, the most recent accounts are made up to 29 March 2025 \u2014 18.1 months before assessment \u2014 so the financial position on record is no longer current and up-to-date management figures should be requested. `[CON-06; computed; profile]`\n- Because the Barclays charge is outstanding and sits with a lender outside the group, no first-charge facility can be offered; any new facility ranks as a second charge unless that charge is redeemed at completion. `[SEC-01; 125919630005]`\n- The subsisting floating charge means available security is materially restricted, and the negative pledge across the charges means no further charge can be created over the same security without the existing lender's written consent, which must be evidenced before any offer. `[SEC-08; SEC-07; 125919630005]`\n- The four Lloyds charges created on the same day in December 2023 point to a structured or tranched facility, so full redemption figures for all charges are needed before any refinance is quoted, even though those charges now show as satisfied. `[SEC-06; 125919630004; 125919630003; 125919630002; 125919630001]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-06 \u2014 Stale financial information | REFER | accounts made up to 2025-03-29 \u2014 18.1 months before as_of |\n| SEC-01 \u2014 Outstanding third-party charge | REFER | 125919630005 |\n| SEC-03 \u2014 Satisfied charges disregarded | PROCEED | 125919630004; 125919630003; 125919630002; 125919630001 |\n| SEC-06 \u2014 Multiple simultaneous charges to one lender | REFER | 125919630003, 125919630004 (lloyds bank corporate markets plc); 125919630001, 125919630002 (lloyds bank plc) |\n| SEC-07 \u2014 Negative pledge | REFER | 125919630005; 125919630004; 125919630003; 125919630002; 125919630001 |\n| SEC-08 \u2014 Floating charge over the whole undertaking | REFER | 125919630005 |",
+ "citations": [
+  "125919630001",
+  "125919630002",
+  "125919630003",
+  "125919630004",
+  "125919630005",
+  "AA filed 2021-12-01",
+  "AA filed 2022-12-19",
+  "AA filed 2023-12-18",
+  "AA filed 2024-12-11",
+  "AA filed 2025-11-05",
+  "CON-06",
+  "SEC-01",
+  "SEC-03",
+  "SEC-06",
+  "SEC-07",
+  "SEC-08",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 15.9,
+  "policy": {
+   "CON": "v1.1",
+   "EVD": "v1.0",
+   "SEC": "v1.0"
+  },
+  "usage": [
+   {
+    "company": "12591963",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 3605,
+    "output_tokens": 1208
+   }
+  ]
+ }
+}

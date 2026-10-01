@@ -1,0 +1,275 @@
+{
+ "company_number": "11740011",
+ "as_of": "2026-09-30",
+ "profile": {
+  "company_number": "11740011",
+  "company_name": "ANYWAY AUDIO LTD",
+  "company_status": "active",
+  "type": "ltd",
+  "date_of_creation": "2018-12-24",
+  "sic_codes": [
+   "59113"
+  ],
+  "registered_office": "Anglo House, Worcester Road, Stourport-On-Severn, DY13 9AW",
+  "accounts_type": "total-exemption-full",
+  "last_accounts_made_up_to": "2025-03-31",
+  "next_accounts_due": "2026-12-31",
+  "accounts_overdue": false,
+  "has_charges": false,
+  "has_insolvency_history": false
+ },
+ "filings": {
+  "total": 26,
+  "kept": 12,
+  "items": [
+   {
+    "date": "2025-12-17",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2025-03-31)",
+    "days_late": -11
+   },
+   {
+    "date": "2025-02-03",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type unaudited abridged (made up date: 2024-03-31)",
+    "days_late": 37
+   },
+   {
+    "date": "2024-08-09",
+    "category": "capital",
+    "type": "SH01",
+    "description": "capital allotment shares (date: 2024-08-09; capital: [{'currency': 'GBP', 'figure': '500'}])",
+    "days_late": null
+   },
+   {
+    "date": "2023-12-21",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2023-03-31)",
+    "days_late": -7
+   },
+   {
+    "date": "2023-01-24",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2022-03-31)",
+    "days_late": 27
+   },
+   {
+    "date": "2022-02-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2021-03-31)",
+    "days_late": 45
+   },
+   {
+    "date": "2021-07-29",
+    "category": "officers",
+    "type": "CH01",
+    "description": "change person director company with change date (change date: 2021-04-21; officer name: Mr Richard Hughes)",
+    "days_late": null
+   },
+   {
+    "date": "2020-12-11",
+    "category": "accounts",
+    "type": "AA",
+    "description": "accounts with accounts type total exemption full (made up date: 2020-03-31)",
+    "days_late": -17
+   },
+   {
+    "date": "2019-03-19",
+    "category": "accounts",
+    "type": "AA01",
+    "description": "change account reference date company current extended (made up date: 2019-12-31; new date: 2020-03-31)",
+    "days_late": -559
+   },
+   {
+    "date": "2019-01-22",
+    "category": "officers",
+    "type": "AP01",
+    "description": "appoint person director company with name date (officer name: Mr Richard Hughes; appointment date: 2018-12-24)",
+    "days_late": null
+   },
+   {
+    "date": "2018-12-24",
+    "category": "officers",
+    "type": "TM01",
+    "description": "termination director company with name termination date (officer name: Michael Duke; termination date: 2018-12-24)",
+    "days_late": null
+   },
+   {
+    "date": "2018-12-24",
+    "category": "incorporation",
+    "type": "NEWINC",
+    "description": "incorporation company",
+    "days_late": null
+   }
+  ]
+ },
+ "charges": {
+  "total": 0,
+  "outstanding": 0,
+  "items": []
+ },
+ "officers": {
+  "total": 2,
+  "active": 1,
+  "items": [
+   {
+    "name": "HUGHES, Richard",
+    "role": "director",
+    "appointed_on": "2018-12-24",
+    "resigned_on": null
+   }
+  ]
+ },
+ "research_errors": [],
+ "signals": {
+  "as_of": "2026-09-30",
+  "company": {
+   "status": "active",
+   "accounts_type": "total-exemption-full",
+   "next_accounts_due": "2026-12-31",
+   "accounts_overdue": false,
+   "has_insolvency_history": false
+  },
+  "charges": {
+   "total": 0,
+   "live": [],
+   "clean_position": true,
+   "satisfied": [],
+   "outstanding_third_party": [],
+   "part_satisfied": [],
+   "third_party_last_180d": [],
+   "same_lender_within_30d": [],
+   "negative_pledge": [],
+   "floating_live": [],
+   "flags_not_recorded_live": [],
+   "own_group": []
+  },
+  "filings": {
+   "accounts_on_record": 7,
+   "latest_accounts": {
+    "ref": "AA filed 2025-12-17",
+    "days_late": -11,
+    "description": "accounts with accounts type total exemption full (made up date: 2025-03-31)"
+   },
+   "latest_micro_or_exempt": true,
+   "worst_days_late_3y": {
+    "ref": "AA filed 2025-02-03",
+    "days_late": 37
+   },
+   "late_3y": [
+    "AA filed 2025-02-03"
+   ],
+   "months_since_incorporation": 93.2,
+   "last_made_up_to": "2025-03-31",
+   "months_since_made_up": 18.0,
+   "insolvency_filings": [],
+   "window_truncated": false
+  },
+  "officers": {
+   "active": 1,
+   "total_ever": 2,
+   "appointed_last_12m": []
+  },
+  "missing": [],
+  "collateral": {}
+ },
+ "applicable": [
+  {
+   "clause_id": "CON-01",
+   "title": "CON-01 \u2014 Late filing of annual accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-02-03 \u2014 37 days late"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "CON-04",
+   "title": "CON-04 \u2014 Micro-entity accounts",
+   "outcome": "REFER",
+   "evidence": [
+    "AA filed 2025-12-17 \u2014 accounts with accounts type total exemption full (made up date: 2025-03-31)"
+   ],
+   "decided_by": "code"
+  },
+  {
+   "clause_id": "SEC-02",
+   "title": "SEC-02 \u2014 Clean security position",
+   "outcome": "PROCEED",
+   "evidence": [
+    "no charges registered"
+   ],
+   "decided_by": "code"
+  }
+ ],
+ "outcome": {
+  "decision": "REFER",
+  "clauses": [
+   "CON-01",
+   "CON-04"
+  ]
+ },
+ "qualifies": true,
+ "evidence_gap": [],
+ "policy_trace": {
+  "CON-01": "applies \u00b7 code",
+  "CON-02": "not_applicable \u00b7 code",
+  "CON-03": "not_applicable \u00b7 code",
+  "CON-04": "applies \u00b7 code",
+  "CON-05": "not_applicable \u00b7 code",
+  "CON-06": "not_applicable \u00b7 code",
+  "CON-07": "not_applicable \u00b7 code",
+  "CON-08": "routed \u2192 brief",
+  "EVD-01": "not_applicable \u00b7 code",
+  "EVD-02": "routed \u2192 brief",
+  "EVD-03": "routed \u2192 brief",
+  "EVD-04": "routed \u2192 brief",
+  "EVD-05": "routed \u2192 supervisor",
+  "EVD-06": "routed \u2192 brief",
+  "EVD-07": "routed \u2192 this node (precedence)",
+  "SEC-01": "not_applicable \u00b7 code",
+  "SEC-02": "applies \u00b7 code",
+  "SEC-03": "not_applicable \u00b7 code",
+  "SEC-04": "not_applicable \u00b7 code",
+  "SEC-05": "not_applicable \u00b7 code",
+  "SEC-06": "not_applicable \u00b7 code",
+  "SEC-07": "not_applicable \u00b7 code",
+  "SEC-08": "not_applicable \u00b7 code"
+ },
+ "research_attempts": 0,
+ "route": "brief",
+ "supervisor_log": [
+  "pass 1: REFER                 \u2192 brief    no evidence gap"
+ ],
+ "brief": "# RM brief \u2014 ANYWAY AUDIO LTD (11740011)\n*as of 2026-09-30 \u00b7 research passes: 1*\n\n**Decision: REFER** \u2014 set by CON-01 \u2014 Late filing of annual accounts; CON-04 \u2014 Micro-entity accounts  \n**Qualifies as a lead:** yes\n\n## Summary\n\n- ANYWAY AUDIO LTD (company number 11740011) is an active private limited company incorporated on 24 December 2018, roughly 93 months ago, operating under SIC code 59113. It has one active officer, with two officers ever appointed and no new appointments in the last 12 months. `[profile; officers; computed]`\n- No charges are registered against the company, so its security position is clean and a first-charge facility could be offered subject to the remaining policies. `[SEC-02]`\n- Filing conduct is mixed: the latest accounts to 31 March 2025 were filed on 17 December 2025, 11 days ahead of deadline, but the prior set (to 31 March 2024) was filed 37 days late on 3 February 2025, and earlier sets were 27 and 45 days late. `[AA filed 2025-12-17; AA filed 2025-02-03; AA filed 2023-01-24; AA filed 2022-02-11]`\n- That 37-day delay triggers CON-01, which treats accounts filed more than 30 days after the statutory deadline as a sign of weak administrative control and requires a referral with the delay stated. `[CON-01; AA filed 2025-02-03]`\n- CON-04 also applies because the most recent accounts are total exemption full; such accounts do not disclose turnover or profit, so management accounts covering the most recent 12 months must be obtained before any decision. `[CON-04; AA filed 2025-12-17; profile]`\n- Accounts are not overdue and the next set is due by 31 December 2026, but the latest figures are made up to 31 March 2025 and are already 18 months old as at 30 September 2026. `[profile; computed]`\n- On approach: the clean security position supports a first-charge conversation, but do not commit until management accounts are in hand and the company can explain the repeated late filings. `[SEC-02; CON-04; CON-01]`\n\n## Policy clauses that apply\n\n| clause | outcome | evidence |\n|---|---|---|\n| CON-01 \u2014 Late filing of annual accounts | REFER | AA filed 2025-02-03 \u2014 37 days late |\n| CON-04 \u2014 Micro-entity accounts | REFER | AA filed 2025-12-17 \u2014 accounts with accounts type total exemption full (made up date: 2025-03-31) |\n| SEC-02 \u2014 Clean security position | PROCEED | no charges registered |",
+ "citations": [
+  "AA filed 2022-02-11",
+  "AA filed 2023-01-24",
+  "AA filed 2025-02-03",
+  "AA filed 2025-12-17",
+  "CON-01",
+  "CON-04",
+  "SEC-02",
+  "computed",
+  "officers",
+  "profile"
+ ],
+ "brief_dropped": [],
+ "_run": {
+  "seconds": 9.5,
+  "usage": [
+   {
+    "company": "11740011",
+    "node": "brief",
+    "model": "claude-opus-5",
+    "input_tokens": 2288,
+    "output_tokens": 680
+   }
+  ]
+ }
+}
