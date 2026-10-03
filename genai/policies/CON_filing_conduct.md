@@ -1,6 +1,13 @@
 # CON — Filing Conduct and Information Quality
 
-**Lloyds Bank (Demo) · SME Lending Policy · v1.1 · effective 2026-09-30**
+**Lloyds Bank (Demo) · SME Lending Policy · v1.2 · effective 2026-10-02**
+
+*Changes in v1.2:* CON-06 now applies when the next accounts are overdue, instead of when the
+latest accounts are more than 18 months old. A company filing on time can hold accounts up to
+21 months old (a 12-month period plus the 9-month filing window), so the 18-month test referred
+every on-time company with a 31 March year end from 1 October each year. On the 2026-10-02 lead
+list it was cited in 18 of 27 REFERs, and 5 of the 6 companies it referred on its own were filing
+on time.
 
 *Changes in v1.1:* CON-04 now attaches a condition instead of referring. Screening the
 2026-09-14 lead list showed it applied to 77 of 80 SME prospects, so as a REFER it no
@@ -79,11 +86,15 @@ than 21 months before assessment date.
 ### CON-06 — Stale financial information
 **Outcome: REFER**
 
-Where the most recent accounts are made up to a date more than 18 months before
-assessment, the financial position on record is no longer current.
+Where the deadline for the next accounts has passed and they have not been filed, the
+financial position on record is no longer current: newer accounts should exist and do not.
+The age of the latest accounts does not show this on its own. A company filing on time can
+hold accounts up to 21 months old (a 12-month period plus the 9-month filing window), and
+older after an extended accounting period.
 
-*Applies when:* most recent accounts `made_up_date` more than 18 months before
-assessment date.
+*Applies when:* at least one accounts filing is on record, and the next accounts' due date
+(`next_accounts_due` on the company profile) is before the assessment date. A company with
+no accounts on record is assessed under CON-05.
 
 ---
 

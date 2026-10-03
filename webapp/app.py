@@ -220,8 +220,10 @@ if len(with_brief):
         block = "## At a glance\n\n" + "\n".join(f"{i}. {pt}" for i, pt in enumerate(r.glance, 1)) + "\n\n"
         return r.brief.replace("## Summary", block + "## Summary", 1)
 
-    opts = {f"#{r.rank} · {r.name} · {r.decision}" + (" · model summary" if r.summary else ""): with_glance(r)
-            for r in order.itertuples()}
+    asked_about = pd.Series([q["company"] for q in pipeline.questions(run)], dtype=str).value_counts()
+    opts = {f"#{r.rank} · {r.name} · {r.decision}" + (" · model summary" if r.summary else "")
+            + (f" · {asked_about[r.company_number]} question(s)" if r.company_number in asked_about else ""):
+            with_glance(r) for r in order.itertuples()}
     number = dict(zip(opts, order["company_number"]))
     choice = st.selectbox("Read a brief", list(opts))
     failed_summary = order.set_index(pd.Index(list(opts)))["summary_error"].get(choice, "")
@@ -233,27 +235,45 @@ if len(with_brief):
         st.markdown(re.sub(r"^(#{1,2}) ", lambda m: "#" * (len(m.group(1)) + 2) + " ", opts[choice],
                            flags=re.M))                       # the brief's headings, two levels smaller
 
-    # ---- "Ask about this lead": RAG over the lending policy + this company's record (copilot/ask.py)
-    with st.form(f"ask_{number[choice]}", clear_on_submit=False):
-        question = st.text_input("Ask about this lead", placeholder="Why is this a REFER?  ·  What does the "
-                                 "negative pledge mean for us?  ·  What would it take to PROCEED?")
-        asked = st.form_submit_button("Ask", help=f"Answered by {facts()['writer']} from the policy clauses that "
-                                      "apply here plus those retrieved for your question — about $0.01")
+    # ---- "Ask about this lead": RAG over the lending policy + this company's record (copilot/ask.py).
+    # The conversation is read back from agent/questions.jsonl, so it stays with this company's brief across
+    # switching companies, refreshing the page and restarting the app.
+    st.markdown("##### Ask about this lead")
+    for q in pipeline.questions(run, number[choice]):
+        with st.chat_message("user"):
+            st.write(q["question"])
+            st.caption(q["at"][:16].replace("T", " "))
+        with st.chat_message("assistant"):
+            if q.get("ok"):
+                st.write(q["answer"])
+                st.caption("Sources: " + ", ".join(q["sources"]) + f" · cost ${q.get('cost_usd') or 0:.3f}")
+            elif q.get("status") == "not_in_record":            # an honest "the record doesn't show that"
+                st.info("**Not in this company's record or the policy.** " + q["answer"])
+                st.caption(f"cost ${q.get('cost_usd') or 0:.3f}")
+            else:
+                why = q.get("why_not", "")
+                st.warning("No answer shown: " + ("the Anthropic credit balance was too low."
+                                                  if "credit balance" in why else f"{why}."))
+            if q.get("context"):
+                with st.expander(f"What the answer could use ({len(q['context'])} clauses"
+                                 + (" + this company's record)" if q.get("record") else ")")):
+                    if q.get("record"):
+                        st.markdown("**This company's record:** " + ", ".join(f"`{k}`" for k in q["record"]))
+                    st.dataframe(pd.DataFrame(q["context"]), hide_index=True, width="stretch")
+                    st.caption("Clauses that apply to this company are always included; the rest were "
+                               "retrieved by meaning, one short query per topic.")
+    with st.form(f"ask_{number[choice]}", clear_on_submit=True):
+        question = st.text_input("Your question", label_visibility="collapsed",
+                                 placeholder="Why is this a REFER?  ·  How old is it, and who runs it?  "
+                                             "·  Why is it ranked here?  ·  What does the negative pledge mean for us?")
+        asked = st.form_submit_button("Ask", help=f"Answered by {facts()['writer']} from this company's record "
+                                      "(Companies House profile, directors, filings, charges, the decision, its "
+                                      "lead score) and the policy clauses that apply or are retrieved for your "
+                                      "question — about $0.01")
     if asked and question.strip():
         with st.spinner("Retrieving policy clauses and answering…"):
-            a = pipeline.ask(run, number[choice], question.strip())
-        if "credit balance" in a["why_not"]:
-            a["why_not"] = "the Anthropic credit balance is too low (the retrieval below still ran)"
-        if a["ok"]:
-            st.success(a["answer"])
-            st.caption("Sources: " + ", ".join(a["sources"]) + f" · cost ${a.get('cost_usd', 0):.3f}")
-        else:
-            st.warning(f"No answer shown: {a['why_not']}.")
-        if a.get("context"):
-            with st.expander(f"What the answer was allowed to use ({len(a['context'])} clauses)"):
-                st.dataframe(pd.DataFrame(a["context"]), hide_index=True, width="stretch")
-                st.caption("Clauses that apply to this company are always included; the rest were retrieved "
-                           "by meaning, one short query per topic.")
+            pipeline.ask(run, number[choice], question.strip())       # appended to questions.jsonl
+        st.rerun()                                                    # show it in the conversation above
 
 # ---- the rest
 with st.expander(f"Not scored ({len(run.not_scored)})"):
@@ -265,11 +285,15 @@ attempts = info.get("agent", {}).get("attempts", [])
 cost = sum(a["cost_usd"] or 0 for a in attempts) if attempts else res["cost_usd"].sum()
 calls = sum(a["model_calls"] or 0 for a in attempts) if attempts else None
 st.subheader("Cost and tracing")
+all_questions = pipeline.questions(run)
 k1, k2, k3 = st.columns([1, 1, 2])
 k1.metric("Model cost of this run", f"${cost:.2f}",
           help="Every Claude call this run made, priced at list prices by the model that answered. Calls the API "
                "rejected (e.g. for credit) are not billed, so they cost $0.")
 k2.metric("Model calls", "—" if calls is None else calls)
+if all_questions:
+    k1.caption(f"Plus {len(all_questions)} question(s) asked: "
+               f"${sum(q.get('cost_usd') or 0 for q in all_questions):.3f}")
 with k3:
     traces = [a for a in attempts if a.get("trace_url")]
     if traces:
@@ -288,7 +312,9 @@ d1.download_button("Download the list (CSV)", export.to_csv(index=False),
 buf = io.BytesIO()
 with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
     for r in res[res["brief"] != ""].itertuples():              # the current rendering, as shown on the page
-        z.writestr(f"{r.rank:03d}_{r.company_number}.md", r.brief)
+        qa = pipeline.questions(run, r.company_number)
+        z.writestr(f"{r.rank:03d}_{r.company_number}.md",
+                   r.brief + ("\n\n" + pipeline.questions_markdown(qa) if qa else ""))
 d2.download_button("Download all briefs (ZIP)", buf.getvalue(), file_name=f"{run.dir.name}_briefs.zip",
                    mime="application/zip")
 d3.caption(f"Run folder `{run.dir.relative_to(pipeline.ROOT)}`")

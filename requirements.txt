@@ -36,6 +36,9 @@ langchain-anthropic>=1.7.2    # lets LangChain / LangGraph / ragas call Claude
 langgraph>=1.2.11
 langsmith>=0.12.4             # tracing; swap for langfuse if preferred
 mcp>=1.30                     # pinned <2 by langchain-mcp-adapters; server.py supports both APIs
+langchain-mcp-adapters>=0.3.2 # research node: loads the MCP server's tools into LangGraph
+chromadb>=1.5.9               # policy_store.py: the clause-level vector store
+sentence-transformers>=6.1.0  # policy_store.py: all-MiniLM-L6-v2 embeddings (downloaded on first use)
 ragas>=0.4.3                  # RAG evaluation
 # PINNED BELOW 0.4: ragas 0.4.3 still imports langchain_community.chat_models.vertexai,
 # which langchain-community 0.4 removed. 0.3.x works with langchain-core 1.x. Lift
@@ -50,3 +53,5 @@ hypothesis>=6.168.1           # property tests: generated companies, shrunk to m
 
 # --- web app (webapp/ — run: .venv/bin/streamlit run webapp/app.py --server.address 127.0.0.1) ---
 streamlit>=1.64.0
+nbformat>=5.11.1              # webapp/pipeline.py runs notebooks 1, 2 and 5 headless
+nbclient>=0.11.0

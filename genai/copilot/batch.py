@@ -27,6 +27,7 @@ from pathlib import Path
 from typing import Callable
 
 from langsmith import trace
+from langsmith.utils import tracing_is_enabled
 
 from . import llm
 from .brief import rerender
@@ -52,9 +53,11 @@ FETCH = (ch_tools.get_company_profile, ch_tools.get_filing_history, ch_tools.get
 def prefetch(numbers: list[str], on_progress: Progress | None = None) -> dict:
     """Fetch every record the research node will ask for, one call at a time at the API's pace.
 
-    The research node calls four tools at once in four MCP server processes, each pacing itself
-    independently; across a batch that could exceed Companies House's 600 calls per 5 minutes. Filling
-    the cache first, sequentially, means every MCP call in the batch is answered from disk.
+    Filling the cache first, sequentially and at the API's pace, keeps the slow part out of the graph:
+    every MCP call in the batch is then answered from disk. (It was first needed because each tool call
+    ran in its own server process, each pacing itself independently; with research.open_tools the batch
+    shares one server and one pacer, but a cache miss there would still hold up every company's research,
+    since the server runs one tool at a time.)
     """
     t0, failed = time.time(), {}
     for i, n in enumerate(numbers, 1):
@@ -179,9 +182,9 @@ async def screen_and_summarise(graph, leads: list[tuple[str, int]], out_dir: Pat
                           "summary_failures": sum(bool(s.get("_run", {}).get("summary_error")) for s in states.values()),
                           "cost_usd": cost})
     if info is not None:
-        try:
-            url = root.get_url()
-        except Exception:                                  # tracing off, or LangSmith unreachable
+        try:                    # get_url() builds a link even when tracing is off, to a trace that was never sent
+            url = root.get_url() if tracing_is_enabled() else None
+        except Exception:                                  # LangSmith unreachable
             url = None
         info.update(trace_url=url, cost_usd=cost, model_calls=len(calls))
     return states, top

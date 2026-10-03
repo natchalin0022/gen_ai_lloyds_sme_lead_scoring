@@ -159,10 +159,32 @@ def test_con05_no_accounts_after_21_months(no_model, age_days, applies):
     assert (verdict(r, "CON-05") == "applies") is applies
 
 
-@pytest.mark.parametrize("age_days, applies", [(round(18.1 * 30.44), True), (round(17.9 * 30.44), False)])
-def test_con06_accounts_made_up_more_than_18_months_ago(no_model, age_days, applies):
-    r = policy_of(make_state(profile=profile(last_accounts_made_up_to=days_before(age_days))))
+@pytest.mark.parametrize("due, applies", [(days_before(1), True), (days_before(-1), False), (days_before(0), False)])
+def test_con06_applies_once_the_next_accounts_are_overdue(no_model, due, applies):
+    r = policy_of(make_state(profile=profile(next_accounts_due=due)))
     assert (verdict(r, "CON-06") == "applies") is applies
+    if applies:
+        con06 = next(a for a in r["applicable"] if a["clause_id"] == "CON-06")
+        assert r["outcome"]["decision"] == "REFER" and due in con06["evidence"][0]
+
+
+def test_con06_v12_on_time_accounts_21_months_old_are_not_stale(no_model):
+    """The v1.1 false positive: a 31 March year end, assessed in October — accounts 18+ months old, next ones
+    not due until 31 December. Filing on time, so not stale."""
+    st = make_state(profile=profile(last_accounts_made_up_to=days_before(round(18.1 * 30.44)),
+                                    next_accounts_due=days_before(-90)))
+    assert verdict(policy_of(st), "CON-06") == "not_applicable"
+
+
+def test_con06_leaves_a_company_with_no_accounts_to_con05(no_model):
+    r = policy_of(make_state(profile=profile(date_of_creation=days_before(800), next_accounts_due=days_before(30)),
+                             filings=filings()))
+    assert verdict(r, "CON-06") == "not_applicable" and verdict(r, "CON-05") == "applies"
+
+
+def test_con06_without_a_due_date_is_not_determinable(no_model):
+    r = policy_of(make_state(profile=profile(next_accounts_due=None)))
+    assert verdict(r, "CON-06") == "not_determinable"
 
 
 def insolvency_filing(type_: str, description: str, category: str = "insolvency") -> dict:

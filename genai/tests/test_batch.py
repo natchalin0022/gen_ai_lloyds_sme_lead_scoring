@@ -66,3 +66,11 @@ def test_summaries_go_to_the_top_leads_that_passed_screening(tmp_path):
     leads = [(f"0000000{i}", i) for i in range(1, 6)]
     _, top = asyncio.run(batch.screen_and_summarise(Mixed(fail=False), leads, tmp_path, "2026-09-30", top_n=2))
     assert top == ["00000004", "00000005"]    # skips the DECLINE, the existing customer, INSUFFICIENT EVIDENCE
+
+
+def test_no_trace_link_when_tracing_is_off(tmp_path):
+    """conftest turns tracing off. get_url() would still build a link — to a trace that was never sent —
+    and the web app would show "Open in LangSmith" for it."""
+    info = {}
+    asyncio.run(batch.screen_and_summarise(Graph(fail=False), LEADS, tmp_path, "2026-09-30", 1, info=info))
+    assert info["trace_url"] is None and info["model_calls"] == 0

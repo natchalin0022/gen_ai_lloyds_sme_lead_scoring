@@ -266,6 +266,41 @@ def state(run: Run, company_number: str) -> dict:
     return json.loads((run.dir / "agent" / "states" / f"{company_number}.json").read_text())
 
 
+def questions(run: Run, company_number: str | None = None) -> list[dict]:
+    """Every question asked in this run (or about one company), oldest first — from agent/questions.jsonl."""
+    f = run.dir / "agent" / "questions.jsonl"
+    rows = [json.loads(line) for line in f.read_text().splitlines() if line.strip()] if f.exists() else []
+    return [r for r in rows if company_number is None or r["company"] == company_number]
+
+
+def questions_markdown(entries: list[dict]) -> str:
+    """The Q&A as a section to append under a brief."""
+    out = ["## Questions asked", ""]
+    for q in entries:
+        out += [f"**Q ({q['at'][:16].replace('T', ' ')}):** {q['question']}  ",
+                (f"**A:** {q['answer']}  \n*Sources: {', '.join(q['sources'])}*" if q.get("ok")
+                 else f"*No answer shown: {q.get('why_not', '')}*"), ""]
+    return "\n".join(out)
+
+
+def lead_facts(run: Run, company_number: str) -> dict | None:
+    """How the scoring model (5_score) saw this lead, from leads.csv, in words the Q&A model can cite."""
+    leads = run.leads
+    row = leads[leads["com_num"] == company_number]
+    if row.empty:
+        return None
+    l = row.iloc[0]
+    num = lambda v, d=3: None if pd.isna(v) else round(float(v), d)
+    return {"rank": int(l["rank"]), "of": len(leads), "model_score": num(l["score"]),
+            "why_ranked": l["why"] if isinstance(l.get("why"), str) else "",
+            "sector": l["sector"], "region": l["region"], "accounts_type": l["account_type"],
+            "age_years": num(l.get("age_years"), 1),
+            "charges_from_other_lenders": None if pd.isna(l.get("nonlloyds_charges")) else int(l["nonlloyds_charges"]),
+            "sector_region_news_volume_z": num(l.get("vol_z")),
+            "rank_on_model_score_alone": None if pd.isna(l.get("rank_model_only")) else int(l["rank_model_only"]),
+            "places_moved_by_news_volume": None if pd.isna(l.get("move")) else int(l["move"])}
+
+
 def ask(run: Run, company_number: str, question: str) -> dict:
     """"Ask about this lead" (copilot/ask.py: RAG over the policy + this company's record). Every question
     and answer is logged to agent/questions.jsonl in the run folder, with what it cost."""
@@ -275,7 +310,7 @@ def ask(run: Run, company_number: str, question: str) -> dict:
     llm.VERBOSE = False
     first, token = len(llm.USAGE), llm.CURRENT.set(company_number)
     try:
-        out = asyncio.run(rag_ask(question, state(run, company_number)))
+        out = asyncio.run(rag_ask(question, state(run, company_number), lead_facts(run, company_number)))
     finally:
         llm.CURRENT.reset(token)
     out["cost_usd"] = round(sum(u["cost_usd"] or 0 for u in llm.USAGE[first:]), 4)
@@ -290,7 +325,7 @@ def screen(run: Run, top_n: int = 20, concurrency: int = 4, on_progress: Progres
     """The RM Copilot over this run's scored leads. Returns {company: final state}."""
     from copilot import batch, llm
     from copilot.graph import build
-    from copilot.research import load_tools
+    from copilot.research import open_tools
 
     llm.VERBOSE = False
     leads = run.leads.sort_values("rank")
@@ -304,10 +339,11 @@ def screen(run: Run, top_n: int = 20, concurrency: int = 4, on_progress: Progres
     info = {}
 
     async def go():
-        graph = build(await load_tools(ROOT / "genai"))
-        return await batch.screen_and_summarise(graph, pairs, run.dir / "agent", dt.date.today().isoformat(),
-                                                top_n, concurrency, lead_list=run.dir.name, on_progress=on_progress,
-                                                context=context, info=info)
+        async with open_tools(ROOT / "genai") as tools:          # one MCP server process for the whole batch
+            return await batch.screen_and_summarise(build(tools), pairs, run.dir / "agent",
+                                                    dt.date.today().isoformat(), top_n, concurrency,
+                                                    lead_list=run.dir.name, on_progress=on_progress,
+                                                    context=context, info=info)
     states, top = asyncio.run(go())
     before = run.info.get("agent", {})
     run.update(agent={"seconds": round(time.time() - t0, 1), "summarised": top, "top_n": top_n,

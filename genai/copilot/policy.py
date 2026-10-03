@@ -130,9 +130,16 @@ def con_05(s, recs):
 
 
 def con_06(s, recs):
-    f = s["filings"]
-    m = f["months_since_made_up"]
-    return decided(m is not None and m > 18, [f"accounts made up to {f['last_made_up_to']} — {m} months before as_of"])
+    """v1.2: stale = the next accounts are overdue. (v1.1 used "made up > 18 months ago", which a company filing
+    on time passes every year: a 12-month period plus 9 months to file allows accounts up to 21 months old.)"""
+    f, due = s["filings"], s["company"]["next_accounts_due"]
+    if f["accounts_on_record"] == 0:
+        return decided(False)                                   # no accounts at all is CON-05's case
+    if not due:
+        return unknown("next accounts due date missing from the profile")
+    return decided(due < s["as_of"],                            # ISO dates compare correctly as strings
+                   [f"next accounts were due {due} and are not filed by {s['as_of']}; latest made up to "
+                    f"{f['last_made_up_to']} ({f['months_since_made_up']} months before)"])
 
 
 def con_07(s, recs):

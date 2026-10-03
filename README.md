@@ -6,6 +6,11 @@ A **lead-scoring model** that ranks UK SME companies by how likely they are to n
 lending, so Lloyds relationship managers (RMs) know who to approach first. Scope is
 **lending only**. The output is a ranked list of **non-customers** who look like customers.
 
+On top of the model sits the **RM Copilot** (`genai/`, built solo after the group project): a
+LangGraph agent that takes one company from the lead list, checks its Companies House record
+against a 23-clause lending policy, and writes a brief in which every sentence cites its source.
+See *RM Copilot — the agent layer* below.
+
 Two public data sources, no proprietary bank data:
 
 | pillar | source | role |
@@ -81,6 +86,167 @@ label). Notebook 5 builds the *scoring* table (today, no label) using identical 
 
 ---
 
+## RM Copilot — the agent layer (`genai/`)
+
+The model ranks *who* to call. The copilot answers the RM's next question: *could we lend to
+them, and why?* It takes one company from the lead list, reads its Companies House record,
+checks it against a written 23-clause lending policy, and returns a brief in which every
+sentence cites the record it came from.
+
+```
+leads.csv (5_score)
+      │  one company number
+      ▼
+research      4 Companies House records through an MCP server, fetched concurrently
+      │                     (profile · filing history · charges · officers)
+      ▼
+signal        dates and counts in code; Claude reads collateral from free-text charge particulars
+      ▼
+policy        all 23 clauses checked; code decides what the record settles, Claude reads the rest
+      ▼
+supervisor ─┬→ research   a fetch failed: retry, at most twice (EVD-05)
+            ├→ end        a Lloyds charge is still live: existing customer, no brief
+            └→ brief      decision + clause table written by code, summary written by Claude
+```
+
+Built with **LangGraph** (`copilot/graph.py`), **Claude** through the Anthropic SDK with
+structured outputs (Pydantic), and **LangSmith** tracing at graph, node, tool and model-call
+level, with the token cost of every Claude call attached.
+
+The policy (`policies/*.md`) is **written for this project**, not Lloyds' own credit policy:
+8 security clauses (`SEC-`), 8 filing-conduct clauses (`CON-`), 7 evidence rules (`EVD-`). Each
+has an ID, an outcome and a testable *Applies when* condition, so a brief can cite the exact
+rule behind its decision.
+
+### Code decides, the model explains
+
+The design rule throughout. A model is used only where something must be *read*, and code
+checks its output before anything downstream uses it.
+
+| step | done by | check |
+|---|---|---|
+| the decision (PROCEED / REFER / DECLINE / INSUFFICIENT EVIDENCE) | code: EVD-07 precedence over the clauses that applied | snapshot tests |
+| clause rules on charges and filings | code | unit + property tests |
+| collateral named in a charge's particulars | Claude Opus | its quote must appear in the text, or the collateral never reaches the brief (EVD-04) |
+| a clause with no rule, or one that needs reading | Claude Opus | each verdict must quote the record word for word, or it becomes *not determinable* |
+| the brief's 4–7 sentence summary | Claude Sonnet | each sentence must cite a fact-sheet key; one citing nothing, or an unknown key, is deleted (EVD-02) |
+| answers to *Ask about this lead* | Claude Sonnet + retrieval | an answer citing a source it was not given is not shown |
+
+With `draft_brief=False` the brief is the code-written parts alone, which carry the whole
+decision. A batch uses that to screen every lead, then pays for a summary only on the top
+prospects that passed.
+
+### The MCP server (`mcp_ch/`)
+
+Four read-only tools over stdio: `get_company_profile`, `get_filing_history`, `get_charges`,
+`get_officers`. The server is a thin contract; `tools.py` does the work.
+
+- **Rate limit.** Companies House allows 600 requests per 5 minutes. Calls are paced, and every
+  response (404s included) is disk-cached, so a re-run costs no API calls.
+- **Resolved in code, not inferred by the model.** `lender_group` (Lloyds Banking Group or third
+  party, from the same pattern list that labels the training data — `lender_groups.py`),
+  `days_late` against the statutory deadline, and filing descriptions decoded from Companies
+  House's template codes.
+- **Trimmed.** Only the fields a credit assessment uses reach the model's context. No personal
+  data (date of birth, nationality, address) is returned.
+
+A batch opens **one** server process (`research.open_tools()`). A trace showed that starting a
+process per call was nearly all of research's time, and one process also means one rate-limit
+pacer shared by every company in flight.
+
+### Retrieval (`policy_store.py`, `copilot/ask.py`)
+
+The policy is chunked **one clause per chunk** (split on `### `, 23 chunks) and embedded with
+`all-MiniLM-L6-v2` into ChromaDB. On eight questions with a known answer: recall@1 0.75,
+recall@3 1.00 (`06_rag.ipynb`).
+
+**One blended query retrieves badly.** Describing a whole company in one query averages into a
+vector that sits between clusters: SEC-01, the clause that should obviously fire, fell to about
+5th. One short query per fact cluster (charges / accounts / evidence), unioned, puts it back at
+the top of its facet. `retrieve_facets` does exactly that.
+
+**Retrieval explains; it never decides.** A retriever that can rank the right clause 5th is fine
+for an explanation and wrong for a decision, so `policy.py` checks every clause and does not use
+retrieval. Retrieval powers *Ask about this lead*: the clauses that fired for this company are
+always in the context, retrieved clauses are added, and the answer may cite only what it was given.
+
+### Running it
+
+| entry point | what it does |
+|---|---|
+| `AGENTIC_AI_ASSISTANT.ipynb` | screen the latest lead list, summarise the top prospects |
+| `webapp/app.py` | the same, as a local web page — see below |
+| `production/01–04_*.ipynb` | the step-by-step build, one notebook per node |
+| `00–06_*.ipynb` | the learning path: Claude API → LangChain → LangGraph → RAG |
+| `trace_audit.py` | accounts for every run in a batch's LangSmith trace; checks the batch cost equals the sum of its Claude calls |
+
+Batch runs (`copilot/batch.py`) save every company's final state and brief, and reuse them on a
+re-run, so finished work is never paid for twice. A failed summary (say the API credit runs out)
+never erases a finished screening; it is retried on the next run.
+
+### Web app (`webapp/`)
+
+```bash
+.venv/bin/streamlit run webapp/app.py --server.address 127.0.0.1
+```
+
+Company numbers in, a ranked and policy-screened lead list out. `webapp/pipeline.py` runs
+notebooks 1, 2 and 5 **headless, as they are** (nbclient), then the copilot. There is no second
+copy of the feature code to drift from the training table, so *The one rule to preserve* holds
+by construction. Each executed notebook is saved in the run's `logs/` folder as its audit record.
+
+- **Local only.** The page holds the Companies House and Anthropic keys; keep it on `127.0.0.1`.
+- **Costs money.** About $0.025 per summarised lead (from the September 2026 runs). Up to 300
+  companies per run.
+- **Isolated.** Runs read and write a working copy of the company tables (`client/live_data/`),
+  never the tracked snapshot the model was trained on. One run at a time.
+
+### Tests
+
+```bash
+.venv/bin/python -m pytest genai/tests -q
+RUN_PIPELINE_TESTS=1 .venv/bin/python -m pytest webapp/tests -q
+```
+
+The first runs ~80 tests in about 20 seconds, with no Companies House or Claude calls (the first
+run downloads the embedding model from Hugging Face). The second takes about a minute: it runs
+three notebook kernels.
+
+| file | checks |
+|---|---|
+| `test_rules.py` | every clause at its boundary, and the three data fixes below |
+| `test_properties.py` | Hypothesis: rules that must hold for *every* company, on generated charge lists and filing histories |
+| `test_data_contract.py` | real Companies House charge JSON looks the way the code assumes |
+| `test_snapshots.py` | two saved companies keep producing exactly the same code-decided result |
+| `test_supervisor_brief.py` | one test per routing row; unsourced statements dropped (EVD-02) |
+| `test_ask.py` | the retrieval guarantees above |
+| `test_batch.py` | a failed summary never erases a finished screening |
+| `webapp/tests/test_pipeline.py` | the web app reproduces the notebooks' own lead list exactly |
+
+**Checking the data, not just the code, found the worst bug.** The Companies House API never
+sends a charge flag as `false`; it leaves the key out. Read as "not recorded", that would have
+raised a false evidence gap on every one of the 147,119 post-2013 charges with no floating-charge
+flag. Only pre-2013 charges (no `charge_code`, no tick-boxes on the form) are genuinely
+unrecorded. The other two fixes, each found the same way: `satisfied` merged into
+`fully-satisfied` (17 charges), and a charge with no named lender treated as an evidence gap
+rather than a competitor (201 charges). Counts are over the 399,767 cached charges.
+
+One test is a **strict `xfail`**: SEC-07 (negative pledge) currently counts fully-satisfied
+charges, which is the literal reading of the clause but probably not the intended one. That is a
+policy owner's decision, not a coding one. If the clause changes, the test starts passing and
+`strict=True` makes that visible.
+
+### Limits
+
+- **A screening aid, not a credit decision.** It says which policy clauses a public record
+  triggers. It cannot see financials beyond what is filed, or anything a bank holds privately.
+- **The policy is illustrative.** Plausible SME secured-lending rules, written to be testable;
+  not Lloyds' policy.
+- **Public record only.** Where the record leaves a gap the policy needs filled, the brief opens
+  with *Thin evidence — RM verification required* and lists the gaps (EVD-05) instead of guessing.
+
+---
+
 ## Setup
 
 Python 3.12+ (developed on 3.13). Use a dedicated environment so the notebooks and the
@@ -107,6 +273,16 @@ More keys = proportionally faster; the client paces each one to stay under the r
 ```
 CH_API=your_key_here
 CH_API_2=your_second_key
+```
+
+The RM Copilot and the web app also need a Claude API key. LangSmith tracing is optional;
+without it the copilot runs the same, just untraced.
+
+```
+ANTHROPIC_API_KEY=your_key_here
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=your_key_here
+LANGSMITH_PROJECT=rm-copilot
 ```
 
 GDELT Parts 3–4 additionally need a Google Cloud project with BigQuery billing enabled
@@ -324,6 +500,15 @@ Stated plainly because they matter for interpreting results.
 4_model.ipynb             train, evaluate, ship  → Model/model.joblib
 5_score.ipynb             score a client list    → client/output/<date>/
 paths.py                  every file location — import, never hardcode
+
+genai/                    RM Copilot — see "RM Copilot — the agent layer"
+    copilot/              the graph and its nodes (graph.py builds it)
+    mcp_ch/               Companies House MCP server: 4 read-only tools
+    policies/             the 23-clause lending policy (SEC / CON / EVD)
+    policy_store.py       clause-level retriever (ChromaDB)
+    production/           step-by-step build, one notebook per node
+    tests/                pytest + Hypothesis
+webapp/                   Streamlit front end: app.py (the page), pipeline.py (the work)
 
 API/CompaniesHouse/company_data/
     companies.csv.gz      one row per company ever pulled (is_sme flags the population)

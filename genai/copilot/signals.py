@@ -102,7 +102,7 @@ def filing_signals(filings: dict, profile: dict, as_of: date) -> dict:
         "late_3y": [filing_ref(f) for f in recent if (f["days_late"] or 0) > 0],   # CON-03
         "months_since_incorporation": inc and _months(inc, as_of),                 # CON-05
         "last_made_up_to": profile.get("last_accounts_made_up_to"),
-        "months_since_made_up": made_up and _months(made_up, as_of),               # CON-06
+        "months_since_made_up": made_up and _months(made_up, as_of),               # CON-06's evidence
         "insolvency_filings": [filing_ref(f) for f in items
                                if f["category"] in ("liquidation", "insolvency")
                                and f.get("type") not in NOT_INSOLVENCY],           # CON-07
